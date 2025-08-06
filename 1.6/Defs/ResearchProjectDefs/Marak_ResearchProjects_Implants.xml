@@ -26,7 +26,7 @@
     <ResearchProjectDef>
         <defName>Marak_InitialMechadendriteImplantation</defName>
         <label>Basic Mechadendrite Implantation</label>
-        <description>Research into the possibility of attaching new limbs onto colonists' bodies via rudimentary methods.</description>
+        <description>Develop crude methodologies into attaching new simplistic limbs onto your colonists and grant control via accessing the spinal cord</description>
         <tab>Marak_ME</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>200</baseCost>
@@ -37,6 +37,7 @@
         <hiddenPrerequisites>
             <li>Prosthetics</li>
         </hiddenPrerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>0.1</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
@@ -44,7 +45,7 @@
     <ResearchProjectDef>
         <defName>Marak_AdvancedMechadendriteImplantation</defName>
         <label>Additional Mechadendrite Implants</label>
-        <description>Initial Implantation of new limbs via the spinal cord has seen success, expand upon this via more connections into the spinal cord to provide more fluid control over more mechadendrites.</description>
+        <description>Expand upon initial efforts into adding new limbs by using more advanced connection methods allowing colonists to support and control more small limbs.</description>
         <tab>Marak_ME</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>600</baseCost>
@@ -54,6 +55,10 @@
         <hiddenPrerequisites>
             <li>Prosthetics</li>
         </hiddenPrerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
         <researchViewX>2.25</researchViewX>
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
@@ -68,6 +73,7 @@
         <prerequisites>
             <li>Marak_InitialMechadendriteImplantation</li>
         </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>1.25</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
@@ -83,6 +89,10 @@
             <li>Marak_IndustrialMechadendrites</li>
             <li>Fabrication</li>
         </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
         <researchViewX>2.25</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
