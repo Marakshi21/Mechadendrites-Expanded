@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <ResearchTabDef>
+        <defName>Marak_ME</defName>
+        <label>Mechadendrites Research</label>
+        <generalTitle>Mechadendrites Research</generalTitle>
+        <generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+    </ResearchTabDef>
+    
+    
+    <!-- Dummy Research Project Template -->
+   <!-- <ResearchProjectDef>
+        <defName></defName>
+        <label></label>
+        <description></description>
+        <tab></tab>
+        <techLevel></techLevel>
+        <baseCost></baseCost>
+        <prerequisites></prerequisites>
+        <hiddenPrerequisites></hiddenPrerequisites>
+        <researchViewX></researchViewX>
+        <researchViewY></researchViewY>
+    </ResearchProjectDef> -->
+
+    <ResearchProjectDef>
+        <defName>Marak_InitialMechadendriteImplantation</defName>
+        <label>Basic Mechadendrite Implantation</label>
+        <description>Research into the possibility of attaching new limbs onto colonists' bodies via rudimentary methods.</description>
+        <tab>Marak_ME</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>200</baseCost>
+        <prerequisites>
+            <li>Machining</li>
+            <li>MicroelectronicsBasics</li>
+        </prerequisites>
+        <hiddenPrerequisites>
+            <li>Prosthetics</li>
+        </hiddenPrerequisites>
+        <researchViewX>0.1</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_AdvancedMechadendriteImplantation</defName>
+        <label>Additional Mechadendrite Implants</label>
+        <description>Initial Implantation of new limbs via the spinal cord has seen success, expand upon this via more connections into the spinal cord to provide more fluid control over more mechadendrites.</description>
+        <tab>Marak_ME</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>600</baseCost>
+        <prerequisites>
+            <li>Marak_IndustrialMechadendrites</li>
+        </prerequisites>
+        <hiddenPrerequisites>
+            <li>Prosthetics</li>
+        </hiddenPrerequisites>
+        <researchViewX>2.25</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_IndustrialMechadendrites</defName>
+        <label>Basic Mechadendrites</label>
+        <description>Building upon the research into attaching additional limbs your colonists have devised a type of implant that are being called 'Mechadendrites', a small limb that attaches itself onto the colonist's back and nervous system via the spine using basic connectors</description>
+        <tab>Marak_ME</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>800</baseCost>
+        <prerequisites>
+            <li>Marak_InitialMechadendriteImplantation</li>
+        </prerequisites>
+        <researchViewX>1.25</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_SpacerMechadendrites</defName>
+        <label>Mechadendrites</label>
+        <description>Taking lessons from your first foray into mechadendrites, your colonists have devised a method of creating better mechadendrites using more robust materials and connecting them to your colonists' bodies. This research could be used to specialise future mechadendrites for specific jobs.</description>
+        <tab>Marak_ME</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <prerequisites>
+            <li>Marak_IndustrialMechadendrites</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>2.25</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+    
+    
+</Defs>
