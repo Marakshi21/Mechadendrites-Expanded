@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <!-- Base: Simple Mechadendrites -->
+    <ThingDef Name="BodyPartMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+        <techLevel>Industrial</techLevel>
+        <thingCategories>
+            <li>BodyPartsProsthetic</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.80</drawSize>
+            <color>(154,124,104)</color>
+        </graphicData>
+        <tradeTags>
+            <li>Prosthetic</li>
+        </tradeTags>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Marak_IndustrialMechadendrites</researchPrerequisite>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <displayPriority>450</displayPriority>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Base: Spacer Mechadendrites and beyond -->
+    
+    <ThingDef Name="BodyPartMechadendriteSpacer" ParentName="BodyPartBase" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.80</drawSize>
+            <color>(189,169,118)</color>
+        </graphicData>
+        <tradeTags>
+            <li>Bionic</li>
+        </tradeTags>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Bionics</researchPrerequisite>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>250</displayPriority>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- INDUSTRIAL MECHADENDRITES -->
+
+    <!-- Upper Left Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>ULBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (upper Left)</label> <!-- Find better name -->
+        <labelNoun>an upper left basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Upper Right Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>URBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (upper Right)</label> <!-- Find better name -->
+        <labelNoun>An upper right basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Middle Left Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>MLBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (left)</label> <!-- Find better name -->
+        <labelNoun>A middle left basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Middle Right Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>MRBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (right)</label> <!-- Find better name -->
+        <labelNoun>A middle right basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Lower Left Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>LLBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (lower Left)</label> <!-- Find better name -->
+        <labelNoun>A lower left basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Lower Right Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>LRBasicMechadendrite</defName>
+        <label>Basic Mechadendrite (lower Right)</label> <!-- Find better name -->
+        <labelNoun>A middle right basic mechadendrite</labelNoun>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>BasicMechadendrite</defName>
+        <label>Basic Mechadendrite</label>
+        <description>A small and rudimentary limb attached onto this individual's back boosting manipulation.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallUpperLeftBasicMechadendrite</RecipeDef>
+            <RecipeDef>InstallUpperRightBasicMechadendrite</RecipeDef>
+            <RecipeDef>InstallLeftBasicMechadendrite</RecipeDef>
+            <RecipeDef>InstallRightBasicMechadendrite</RecipeDef>
+            <RecipeDef>InstallLowerLeftBasicMechadendrite</RecipeDef>
+            <RecipeDef>InstallLowerRightBasicMechadendrite</RecipeDef>
+        </descriptionHyperlinks>
+        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+        <costList>
+            <Steel>8</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_IndustrialMechadendrites</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Upper Left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallUpperLeftBasicMechadendrite</defName>
+        <label>install basic mechadendrite (upper left)</label>
+        <description>Install basic mechadendrite (upper left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>ULBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite (upper left).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ULBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>ULSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Upper Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallUpperRightBasicMechadendrite</defName>
+        <label>install basic Mechadendrite (upper right)</label>
+        <description>Install basic mechadendrite (upper right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>URBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite (upper right).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>URBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>URSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Mid-left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLeftBasicMechadendrite</defName>
+        <label>install basic Mechadendrite</label>
+        <description>Install basic mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>MLBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>MLSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_InitialMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Mid-Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallRightBasicMechadendrite</defName>
+        <label>install basic Mechadendrite</label>
+        <description>Install basic mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>MRBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>MRSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_InitialMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Lower Left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLowerLeftBasicMechadendrite</defName>
+        <label>install basic Mechadendrite (Lower Left)</label>
+        <description>Install basic mechadendrite (Lower Left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite (Lower Left).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>LLBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>LLSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Lower Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLowerRightBasicMechadendrite</defName>
+        <label>install basic Mechadendrite (lower right)</label>
+        <description>Install basic mechadendrite (lower right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite (lower right).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BasicMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BasicMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>LRBasicMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>LRSpacerMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Removal Surgeries -->
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveULBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove basic Mechadendrite (upper left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>ULBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (upper left).</jobString>
+        <removesHediff>ULBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveURBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper right)</label>
+        <description>Remove basic Mechadendrite (upper right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>ULBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (upper right).</jobString>
+        <removesHediff>URBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveMLBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove extra archotech arm (left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (left).</jobString>
+        <removesHediff>MLBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveMRBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove extra archotech arm (left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (right).</jobString>
+        <removesHediff>MRBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveLLBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (lower left)</label>
+        <description>Remove basic Mechadendrite (lower left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (lower left).</jobString>
+        <removesHediff>LLBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveLRBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (lower right)</label>
+        <description>Remove basic Mechadendrite (lower right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (lower right).</jobString>
+        <removesHediff>LRBasicMechadendrite</removesHediff>
+    </RecipeDef>
+    
+    
+    <!-- SPACER MECHADENDRITES -->
+
+    <ThingDef ParentName="BodyPartMechadendriteSpacer">
+        <defName>SpacerMechadendrite</defName>
+        <label>Mechadendrite</label>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallUpperLeftSpacerMechadendrite</RecipeDef>
+            <RecipeDef>InstallUpperRightSpacerMechadendrite</RecipeDef>
+            <RecipeDef>InstallLeftSpacerMechadendrite</RecipeDef>
+            <RecipeDef>InstallRightSpacerMechadendrite</RecipeDef>
+            <RecipeDef>InstallLowerLeftSpacerMechadendrite</RecipeDef>
+            <RecipeDef>InstallLowerRightSpacerMechadendrite</RecipeDef>
+        </descriptionHyperlinks>
+        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_SpacerMechadendrites</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Upper Left Spacer Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>ULSpacerMechadendrite</defName>
+        <label>Mechadendrite (upper Left)</label> <!-- Find better name -->
+        <labelNoun>an upper left mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Upper Right Spacer Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>URSpacerMechadendrite</defName>
+        <label>Mechadendrite (upper Right)</label> <!-- Find better name -->
+        <labelNoun>An upper right mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Middle Left Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>MLSpacerMechadendrite</defName>
+        <label>Mechadendrite (left)</label> <!-- Find better name -->
+        <labelNoun>A middle left mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Middle Right Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>MRSpacerMechadendrite</defName>
+        <label>Mechadendrite (right)</label> <!-- Find better name -->
+        <labelNoun>A middle right mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Lower Left Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>LLSpacerMechadendrite</defName>
+        <label>Mechadendrite (lower Left)</label> <!-- Find better name -->
+        <labelNoun>A lower left mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Lower Right Basic Mechadendrite -->
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>LRSpacerMechadendrite</defName>
+        <label>Mechadendrite (lower Right)</label> <!-- Find better name -->
+        <labelNoun>A middle right mechadendrite</labelNoun>
+        <description>An improved iteration upon basic mechadendrites sporting more flexible movement and finer control thanks to a refined connection into the user's spinal cord.</description>
+        <descriptionHyperlinks><ThingDef>BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>BasicMechadendrite</spawnThingOnRemoved>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <duplicationAllowed>false</duplicationAllowed>
+        <tags><li>Mechadendrite</li></tags>
+    </HediffDef>
+
+    <!-- Upper Left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallUpperLeftSpacerMechadendrite</defName>
+        <label>install mechadendrite (upper left)</label>
+        <description>Install mechadendrite (upper left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>ULSpacerMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Mechadendrite (upper left).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ULSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>ULBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Upper Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallUpperRightSpacerMechadendrite</defName>
+        <label>install Mechadendrite (upper right)</label>
+        <description>Install mechadendrite (upper right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>URSpacerMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Mechadendrite (upper right).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>URSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>URBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Mid-left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLeftSpacerMechadendrite</defName>
+        <label>install Mechadendrite (left)</label>
+        <description>Install mechadendrite (left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>MLSpacerMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>MLSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>MLBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_InitialMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Mid-Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallRightSpacerMechadendrite</defName>
+        <label>install Mechadendrite (right)</label>
+        <description>Install mechadendrite (right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>MRSpacerMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>MRSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>MRBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_InitialMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Lower Left Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLowerLeftSpacerMechadendrite</defName>
+        <label>install Mechadendrite (Lower Left)</label>
+        <description>Install mechadendrite (Lower Left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>LLSpacerMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Mechadendrite (Lower Left).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>LLSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>LLBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Lower Right Basic Mechadendrite -->
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallLowerRightSpacerMechadendrite</defName>
+        <label>install Mechadendrite (lower right)</label>
+        <description>Install mechadendrite (lower right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>SpacerMechadendrite</ThingDef>
+            <HediffDef>LRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic Mechadendrite (lower right).</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpacerMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SpacerMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>LRSpacerMechadendrite</addsHediff>
+        <incompatibleWithHediffTags><li>LRBasicMechadendrite</li></incompatibleWithHediffTags>
+        <researchPrerequisite>Marak_AdvancedMechadendriteImplantation</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Removal Spacer Surgeries 
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveULBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove basic Mechadendrite (upper left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>ULBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (upper left).</jobString>
+        <removesHediff>ULBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveURBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper right)</label>
+        <description>Remove basic Mechadendrite (upper right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>ULBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (upper right).</jobString>
+        <removesHediff>URBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveMLBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove extra archotech arm (left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (left).</jobString>
+        <removesHediff>MLBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveMRBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (upper left)</label>
+        <description>Remove extra archotech arm (left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>MRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (right).</jobString>
+        <removesHediff>MRBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveLLBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (lower left)</label>
+        <description>Remove basic Mechadendrite (lower left).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LLBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (lower left).</jobString>
+        <removesHediff>LLBasicMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveLRBasicMechadendrite</defName>
+        <label>remove basic Mechadendrite (lower right)</label>
+        <description>Remove basic Mechadendrite (lower right).</description>
+        <descriptionHyperlinks>
+            <ThingDef>BasicMechadendrite</ThingDef>
+            <HediffDef>LRBasicMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic Mechadendrite (lower right).</jobString>
+        <removesHediff>LRBasicMechadendrite</removesHediff>
+    </RecipeDef> -->
+    
+    <!-- ULTRATECH MECHADENDRITES -->
+    
+    <!-- ARCHOTECH MECHADENDRITES {NEVER} -->
+    
+    
+</Defs>
