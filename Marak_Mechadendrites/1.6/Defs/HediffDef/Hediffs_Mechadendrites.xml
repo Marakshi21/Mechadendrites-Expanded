@@ -237,8 +237,8 @@
     <!-- Upper Left Basic Mechadendrite -->
     <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallUpperLeftBasicMechadendrite</defName>
-        <label>install basic mechadendrite (upper left)</label>
-        <description>Install basic mechadendrite (upper left).</description>
+        <label>install basic Mechadendrite (upper left)</label>
+        <description>Install basic Mechadendrite (upper left).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>ULBasicMechadendrite</HediffDef>
@@ -303,8 +303,8 @@
     <!-- Mid-left Basic Mechadendrite -->
     <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallLeftBasicMechadendrite</defName>
-        <label>install basic Mechadendrite</label>
-        <description>Install basic mechadendrite.</description>
+        <label>install basic Mechadendrite (left)</label>
+        <description>Install basic mechadendrite (left).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>MLBasicMechadendrite</HediffDef>
@@ -336,8 +336,8 @@
     <!-- Mid-Right Basic Mechadendrite -->
     <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallRightBasicMechadendrite</defName>
-        <label>install basic Mechadendrite</label>
-        <description>Install basic mechadendrite.</description>
+        <label>install basic Mechadendrite (right)</label>
+        <description>Install basic mechadendrite (right).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>MRBasicMechadendrite</HediffDef>
@@ -369,13 +369,13 @@
     <!-- Lower Left Basic Mechadendrite -->
     <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallLowerLeftBasicMechadendrite</defName>
-        <label>install basic Mechadendrite (Lower Left)</label>
-        <description>Install basic mechadendrite (Lower Left).</description>
+        <label>install basic Mechadendrite (lower left)</label>
+        <description>Install basic mechadendrite (lower left).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>LLBasicMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing basic Mechadendrite (Lower Left).</jobString>
+        <jobString>Installing basic Mechadendrite (lower left).</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -459,8 +459,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>RemoveMLBasicMechadendrite</defName>
-        <label>remove basic Mechadendrite (upper left)</label>
-        <description>Remove extra archotech arm (left).</description>
+        <label>remove basic Mechadendrite (right)</label>
+        <description>remove basic Mechadendrite (left).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>MLBasicMechadendrite</HediffDef>
@@ -471,8 +471,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>RemoveMRBasicMechadendrite</defName>
-        <label>remove basic Mechadendrite (upper left)</label>
-        <description>Remove extra archotech arm (left).</description>
+        <label>remove basic Mechadendrite (Middle Right)</label>
+        <description>remove basic Mechadendrite (Middle Right).</description>
         <descriptionHyperlinks>
             <ThingDef>BasicMechadendrite</ThingDef>
             <HediffDef>MRBasicMechadendrite</HediffDef>
