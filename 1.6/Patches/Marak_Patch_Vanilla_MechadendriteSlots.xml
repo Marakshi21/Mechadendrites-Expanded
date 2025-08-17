@@ -1,18 +1,99 @@
 <?xml version="1.0" encoding="utf-8" ?>
  <Patch>
-    <!--
-    <Operation Class="PatchOperationAdd"
-    <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
-    <order>Append</order>
-    <value>
-        <li>
-            <def>Mechadendrite_Slot</def>
-            <customLabel>mechadendrite slot</customLabel>
-            <coverage>0.000</coverage>
-            <depth>Outside</depth>
-            <groups>
-                <li>Torso</li>
-            </groups>
-        </li>
-    </value> -->
+    <!-- These add the mechadendrite slots onto humanoid pawns -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 1</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 2</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 3</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 4</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 5</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
+        <order>Append</order>
+        <value>
+            <li>
+                <def>Mechadendrite_Slot</def>
+                <customLabel>mechadendrite slot 6</customLabel>
+                <coverage>0.000</coverage>
+                <depth>Outside</depth>
+                <groups>
+                    <li>Torso</li>
+                </groups>
+            </li>
+        </value>
+    </Operation>
 </Patch> 

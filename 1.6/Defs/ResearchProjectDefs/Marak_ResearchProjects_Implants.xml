@@ -2,100 +2,26 @@
 <Defs>
     
     <ResearchTabDef>
-        <defName>Marak_ME</defName>
+        <defName>Marak_MechadendritesExpanded</defName>
         <label>Mechadendrites Research</label>
         <generalTitle>Mechadendrites Research</generalTitle>
-        <generalDescription>Unlock new technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+        <generalDescription>Develop mechadendrites and how to implant them by researching at a research bench. You can only have one active project at a time.</generalDescription>
     </ResearchTabDef>
     
-    
-    <!-- Dummy Research Project Template -->
-   <!-- <ResearchProjectDef>
-        <defName></defName>
-        <label></label>
-        <description></description>
-        <tab></tab>
-        <techLevel></techLevel>
-        <baseCost></baseCost>
-        <prerequisites></prerequisites>
-        <hiddenPrerequisites></hiddenPrerequisites>
-        <researchViewX></researchViewX>
-        <researchViewY></researchViewY>
-    </ResearchProjectDef> -->
-
     <ResearchProjectDef>
         <defName>Marak_InitialMechadendriteImplantation</defName>
         <label>Basic Mechadendrite Implantation</label>
-        <description>Develop crude methodologies into attaching new simplistic limbs onto your colonists and grant control via accessing the spinal cord</description>
-        <tab>Marak_ME</tab>
+        <description>Develop crude methodologies into attaching new simplistic limbs onto your colonists and grant control via accessing the spinal cord {OLD}</description>
+        <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>200</baseCost>
         <prerequisites>
             <li>Machining</li>
             <li>MicroelectronicsBasics</li>
-        </prerequisites>
-        <hiddenPrerequisites>
             <li>Prosthetics</li>
-        </hiddenPrerequisites>
+        </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>0.1</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>Marak_AdvancedMechadendriteImplantation</defName>
-        <label>Additional Mechadendrite Implants</label>
-        <description>Expand upon initial efforts into adding new limbs by using more advanced connection methods allowing colonists to support and control more small limbs.</description>
-        <tab>Marak_ME</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>600</baseCost>
-        <prerequisites>
-            <li>Marak_IndustrialMechadendrites</li>
-        </prerequisites>
-        <hiddenPrerequisites>
-            <li>Prosthetics</li>
-        </hiddenPrerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <researchViewX>2.25</researchViewX>
-        <researchViewY>2</researchViewY>
-    </ResearchProjectDef>
-    
-    <ResearchProjectDef>
-        <defName>Marak_IndustrialMechadendrites</defName>
-        <label>Basic Mechadendrites</label>
-        <description>Building upon the research into attaching additional limbs your colonists have devised a type of implant that are being called 'Mechadendrites', a small limb that attaches itself onto the colonist's back and nervous system via the spine using basic connectors</description>
-        <tab>Marak_ME</tab>
-        <techLevel>Industrial</techLevel>
-        <baseCost>800</baseCost>
-        <prerequisites>
-            <li>Marak_InitialMechadendriteImplantation</li>
-        </prerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>1.25</researchViewX>
-        <researchViewY>2.5</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>Marak_SpacerMechadendrites</defName>
-        <label>Mechadendrites</label>
-        <description>Taking lessons from your first foray into mechadendrites, your colonists have devised a method of creating better mechadendrites using more robust materials and connecting them to your colonists' bodies. This research could be used to specialise future mechadendrites for specific jobs.</description>
-        <tab>Marak_ME</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1500</baseCost>
-        <prerequisites>
-            <li>Marak_IndustrialMechadendrites</li>
-            <li>Fabrication</li>
-        </prerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <researchViewX>2.25</researchViewX>
-        <researchViewY>3</researchViewY>
-    </ResearchProjectDef>
-    
-    
 </Defs>
