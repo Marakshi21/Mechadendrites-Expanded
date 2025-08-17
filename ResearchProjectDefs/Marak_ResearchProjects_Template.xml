@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Dummy Research Project Template -->
+    <!-- <ResearchProjectDef>
+         <defName>Marak_[REPLACE_ME_DEFINITION]</defName>
+         <label>Marak_[REPLACE_ME_LABEL]</label>
+         <description>[REPLACE_ME_DESCRIPTION]</description>
+         <tab>Marak_ME</tab>
+         <techLevel>[TECH]</techLevel>
+         <baseCost>[COST]</baseCost>
+         <prerequisites>[PREREQ]</prerequisites>
+         <hiddenPrerequisites></hiddenPrerequisites>
+         <researchViewX>{X}</researchViewX>
+         <researchViewY>{Y}</researchViewY>
+     </ResearchProjectDef> -->
+</Defs>
