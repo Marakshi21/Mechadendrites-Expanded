@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <!-- Hediff Implant Def Template -->
+   <!-- <HediffDef ParentName="ImplantHediffBase">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <label></label>
+    <labelNoun></labelNoun>
+    <description></description>
+    <descriptionHyperLinks><ThingDef></ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved></spawnThingOnRemoved>
+    <stages><li></li></stages>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+    <comps></comps>
+    <duplicationAllowed></duplicationAllowed>
+    <tags></tags>    
+    </HediffDef> -->
+    
+    
+    <!-- ThingDef Template -->
+    <!-- <ThingDef ParentName="BodyPartBionicBase">
+        <label></label>
+        <description></description>
+        <descriptionHyperLinks><RecipeDef></RecipeDef></descriptionHyperLinks>
+        <costList></costList>
+        <recipeMaker></recipeMaker>
+        <thingSetMakerTags><li></li></thingSetMakerTags>
+    </ThingDef> -->
+    
+    <!-- RecipeDef Add Template -->
+    <!-- <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName></defName>
+        <label></label>
+        <description></description>
+        <descriptionHyperLinks>
+            <ThingDef></ThingDef>
+            <HediffDef></HediffDef>
+        </descriptionHyperLinks>
+        <jobString></jobString>
+        <ingredients>
+            <li>
+            <filter>
+                <thingDefs></thingDefs>
+            </filter>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDef></thingDef>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts></appliedOnFixedBodyParts>
+        <addsHediff></addsHediff>
+    </RecipeDef> -->
+    
+    <!-- RecipeDef Remove Template -->
+    <!-- <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName></defName>
+        <label></label>
+        <description></description>
+        <descriptionHyperLinks>
+            <ThingDef></ThingDef>
+            <HediffDef></HediffDef>
+        </descriptionHyperLinks>
+        <jobString></jobString>
+        <removesHediff></removesHediff>
+    </RecipeDef> -->
+</Defs>
