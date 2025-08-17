@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-    <!-- Hediff Implant Def Template
-    <HediffDef ParentName="ImplantHediffBase">
+    <!-- Hediff Implant Def Template -->
+   <!-- <HediffDef ParentName="ImplantHediffBase">
     <hediffClass>Hediff_Implant</hediffClass>
     <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
     <label></label>
@@ -18,19 +18,19 @@
     <comps></comps>
     <duplicationAllowed></duplicationAllowed>
     <tags></tags>    
-    </HediffDef>
-    -->
+    </HediffDef> -->
     
-    <!-- ThingDef Template 
-    <ThingDef ParentName="BodyPartBionicBase">
+    
+    <!-- ThingDef Template -->
+    <!-- <ThingDef ParentName="BodyPartBionicBase">
         <label></label>
         <description></description>
         <descriptionHyperLinks><RecipeDef></RecipeDef></descriptionHyperLinks>
         <costList></costList>
         <recipeMaker></recipeMaker>
         <thingSetMakerTags><li></li></thingSetMakerTags>
-    </ThingDef>
-    -->
+    </ThingDef> -->
+    
     <!-- RecipeDef Add Template -->
     <!-- <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName></defName>
@@ -67,7 +67,4 @@
         <jobString></jobString>
         <removesHediff></removesHediff>
     </RecipeDef> -->
-    
-    
-    
 </Defs>
