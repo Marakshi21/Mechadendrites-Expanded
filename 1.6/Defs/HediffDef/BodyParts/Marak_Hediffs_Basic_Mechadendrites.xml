@@ -33,7 +33,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-            <!-- <researchPrerequisite>Marak_IndustrialMechadendrites</researchPrerequisite> -->
+            <researchPrerequisite>Marak_BasicMechadendrites</researchPrerequisite>
         </recipeMaker>
     </ThingDef>
 
@@ -42,6 +42,10 @@
             <Medicine>6</Medicine>
         </skillRequirements>
     </RecipeDef>
+
+   <!-- <HediffDef Name="AddedBodyPartMechadendrite" ParentName="AddedBodyPartBase" Abstract="True">
+        <defaultLabelColor>(255, 102, 0)</defaultLabelColor>
+    </HediffDef> -->
     
     <!-- Basic Mechadendrite -->
     
@@ -49,7 +53,7 @@
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
         <labelNoun>a basic mechadendrite</labelNoun>
-        <description>[REPLACE_ME]</description>
+        <description>An installed basic mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_BasicMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_BasicMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -70,7 +74,7 @@
     <ThingDef ParentName="BodyPartMechadendriteMakeableBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A rudimentary mechadendrite that is attached onto a person's torso and crudely wired into the muscles and spinal cord to allow for some semblance of control. While capable of basic movement, its rigid design makes it difficult to wield effectively limiting its usefulness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>10</Steel>
@@ -112,6 +116,7 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_BasicMechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">

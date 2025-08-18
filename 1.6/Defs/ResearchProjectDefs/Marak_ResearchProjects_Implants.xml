@@ -1,27 +1,64 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     
+    <!-- Research Tab -->
     <ResearchTabDef>
         <defName>Marak_MechadendritesExpanded</defName>
         <label>Mechadendrites Research</label>
         <generalTitle>Mechadendrites Research</generalTitle>
         <generalDescription>Develop mechadendrites and how to implant them by researching at a research bench. You can only have one active project at a time.</generalDescription>
     </ResearchTabDef>
-    
+
+    <!-- Research required to both start Mechadendrites Expanded and implant more basic mechadendrites -->
     <ResearchProjectDef>
-        <defName>Marak_InitialMechadendriteImplantation</defName>
-        <label>Basic Mechadendrite Implantation</label>
-        <description>Develop crude methodologies into attaching new simplistic limbs onto your colonists and grant control via accessing the spinal cord {OLD}</description>
+        <defName>Marak_Mechadendrite_Gateway</defName>
+        <label>Spinal Cord Attachement</label>
+        <description>Develop and refine methods for attaching new tendril-like limbs onto a person's back and grant control over them via attaching to the spinal cord</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>200</baseCost>
+        <baseCost>350</baseCost>
         <prerequisites>
             <li>Machining</li>
             <li>MicroelectronicsBasics</li>
             <li>Prosthetics</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>0.1</researchViewX>
+        <researchViewX>0.2</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
+
+    <!-- Allow the creation of Basic Mechadendrites -->
+    <ResearchProjectDef>
+        <defName>Marak_BasicMechadendrites</defName>
+        <label>Basic Mechadendrite machining</label>
+        <description>Innovating upon the groundwork of attaching new body parts onto your colonists, create the basics of "Mechadendrites". Small, simplistic tendril-like limbs wired into peoples' spinal cords to grant neurological control over them. These initial designs are rudimentary and lead into rigid tendrils that cannot flow smoothly limiting potential.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>750</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_Mechadendrite_Gateway</li>
+        </prerequisites>
+        <researchViewX>1.25</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Allow the creation of Refined Mechadendrites -->
+    <ResearchProjectDef>
+        <defName>Marak_RefinedMechadendrites</defName>
+        <label>Refined Mechadendrite replacements</label>
+        <description>First iterations of Mechadendrites showed promise but are too rigid for most use. Expand upon your initial designs by using more flexible materials in the construction of newer refined mechadendrites acting as small iterative improvements on baseic mechadendrites and the expansion into specialised mechadendrites.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>1250</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_BasicMechadendrites</li>
+        </prerequisites>
+        <researchViewX>2.15</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+
+
 </Defs>
