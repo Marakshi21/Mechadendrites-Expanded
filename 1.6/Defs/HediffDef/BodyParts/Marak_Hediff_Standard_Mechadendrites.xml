@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.80</drawSize>
+            <color>(189,169,118)</color>
+        </graphicData>
+        <tradeTags>
+            <li>Bionic</li>
+        </tradeTags>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>36000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Marak_StandardMechadendrites</researchPrerequisite>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>300</displayPriority>
+        </recipeMaker>
+    </ThingDef>
+
+    <RecipeDef Name="SurgeryInstallBodyPartStandardMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+    </RecipeDef>
+    
+
+    <!-- Standard Mechadendrite -->
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_StandardMechadendrite</defName>
+        <label>standard mechadendrite</label>
+        <labelNoun>a standard mechadendrite</labelNoun>
+        <description>An installed standard mechadendrite.</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+        <defName>Marak_StandardMechadendrite</defName>
+        <label>standard mechadendrite</label>
+        <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexibile akin to a cat's tail and versatile to the tenth degree.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>5</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Steel>10</Steel>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>4</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+        <defName>Marak_InstallStandardMechadendrite</defName>
+        <label>install standard mechadendrite</label>
+        <description>Install a standard mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_StandardMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_StandardMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_StandardMechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveStandardMechadendrite</defName>
+        <label>remove refined Mechadendrite</label>
+        <description>Remove refined Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Standard Mechadendrite</jobString>
+        <removesHediff>Marak_StandardMechadendrite</removesHediff>
+    </RecipeDef>
+    
+</Defs>
