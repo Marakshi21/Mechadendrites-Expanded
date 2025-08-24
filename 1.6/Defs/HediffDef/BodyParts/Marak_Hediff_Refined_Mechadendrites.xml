@@ -251,8 +251,86 @@
         <removesHediff>Marak_RefinedCombatMechadendrite</removesHediff>
     </RecipeDef>
 
-    
-    
+    <!-- Drill Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_RefinedDrillMechadendrite</defName>
+        <label>refined drill mechadendrite</label>
+        <labelNoun>a refined drill mechadendrite</labelNoun>
+        <description>An installed refined drill mechadendrite.</description>
+        <descriptionHyperlinks><ThingDef>Marak_RefinedDrillMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_RefinedDrillMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MiningSpeed>.05</MiningSpeed>
+                    <MiningYield>.01</MiningYield>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartRefinedCombatMechadendriteMakeableBase">
+        <defName>Marak_RefinedDrillMechadendrite</defName>
+        <label>refined drill mechadendrite</label>
+        <description>A mechadendrite based on the refined melee mechadendrite attached with a mining head on its end instead of a blade to assist in mining operations. The mining mechadendrite also helps gather slightly more ore by prying in deep.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedDrillMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <Mass>8</Mass>
+        </statBases>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+        <defName>Marak_InstallRefinedDrillMechadendrite</defName>
+        <label>install refined drill mechadendrite</label>
+        <description>Install a refined drill mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedDrillMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedDrillMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a refined drill mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_RefinedDrillMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_RefinedDrillMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_RefinedDrillMechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveRefinedDrillMechadendrite</defName>
+        <label>remove refined drill Mechadendrite</label>
+        <description>Remove refined drill Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedDrillMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedDrillMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Refined drill Mechadendrite</jobString>
+        <removesHediff>Marak_RefinedDrillMechadendrite</removesHediff>
+    </RecipeDef>
     
     <!-- Multitool Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
@@ -337,6 +415,89 @@
         </descriptionHyperlinks>
         <jobString>Removing Refined Multitool Mechadendrite</jobString>
         <removesHediff>Marak_RefinedMultitoolMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <!-- Flashlight Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_RefinedOpticalMechadendrite</defName>
+        <label>refined flashlight mechadendrite</label>
+        <labelNoun>a refined flashlight mechadendrite</labelNoun>
+        <description>An installed refined flashlight mechadendrite.</description>
+        <descriptionHyperlinks><ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_RefinedOpticalMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartRefinedMultitoolMechadendriteMakeableBase">
+        <defName>Marak_RefinedOpticalMechadendrite</defName>
+        <label>refined flashlight mechadendrite</label>
+        <description>A mechadendrite with a flashlight attached onto the end of it aiding visibility.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <Mass>8</Mass>
+        </statBases>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+        <defName>Marak_InstallRefinedOpticalMechadendrite</defName>
+        <label>install refined flashlight mechadendrite</label>
+        <description>Install a refined flashlight mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedOpticalMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a refined flashlight mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_RefinedOpticalMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_RefinedOpticalMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_RefinedOpticalMechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveRefinedOpticalMechadendrite</defName>
+        <label>remove refined flashlight mechadendrite</label>
+        <description>Remove Refined flashlight Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedOpticalMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Refined flashlight Mechadendrite</jobString>
+        <removesHediff>Marak_RefinedOpticalMechadendrite</removesHediff>
     </RecipeDef>
     
 </Defs>
