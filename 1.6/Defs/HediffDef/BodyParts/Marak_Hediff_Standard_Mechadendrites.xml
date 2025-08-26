@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Base for Standard Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories>
@@ -51,7 +52,7 @@
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
         <labelNoun>a standard mechadendrite</labelNoun>
-        <description>An installed standard mechadendrite.</description>
+        <description>An installed standard mechadendrite. Mini-servos combined with the biogel nerve-link grant the wielder excellent control and usability.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -72,16 +73,22 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexibile akin to a cat's tail and versatile to the tenth degree.</description>
+        <!-- <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexibile akin to a cat's tail and versatile to the tenth degree.</description> 
+        <description>Engineered with advanced materials, a standard-class mechadendrite represents the pinnacle of mechadendrite engineering to date. Combining servos and bio-gel application, a standard-class mechadendrite can be controlled as well as any other limb providing untold flexibility and usability.</description> 
+        <description>A standard-tier mechadendrite. Engineered with mini-servos and advanced materials, a standard mechadendrite outclasses all of its predecessors. Its mini-servos and plasteel shell gives it immense flexibility while the application of a biogel nerve-link grants the wielder a great extent of control.</description>
+        <description>A standard-tier mechadendrite. Combining mini-servos and biogel nerve-link:</description>
+        <description>Machined with plasteel and embued with mini-servos, a standard mechadendrite can outclass any</description> 
+        <description>A standard-tier mechadendrite. The mixture of mini-servos and advanced fabrication techniques give great flexibility, while a split biogel nerve-link wires it into the wielder's spine granting exquisite control.</description> -->
+        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement combining with a flexible shell grant exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it as one of the greatest mechadendrites to date.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>5</Plasteel>
+            <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <Steel>10</Steel>
+            <Steel>5</Steel>
         </costList>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
-            <Mass>4</Mass>
+            <Mass>2.5</Mass>
         </statBases>
     </ThingDef>
 
@@ -124,7 +131,7 @@
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing Standard Mechadendrite</jobString>
+        <jobString>Removing standard mechadendrite.</jobString>
         <removesHediff>Marak_StandardMechadendrite</removesHediff>
     </RecipeDef>
     
