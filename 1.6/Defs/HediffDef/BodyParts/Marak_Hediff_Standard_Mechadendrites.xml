@@ -73,14 +73,14 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <!-- <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexibile akin to a cat's tail and versatile to the tenth degree.</description> 
+        <!-- <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexible akin to a cat's tail and versatile to the tenth degree.</description> 
         <description>Engineered with advanced materials, a standard-class mechadendrite represents the pinnacle of mechadendrite engineering to date. Combining servos and bio-gel application, a standard-class mechadendrite can be controlled as well as any other limb providing untold flexibility and usability.</description> 
         <description>A standard-tier mechadendrite. Engineered with mini-servos and advanced materials, a standard mechadendrite outclasses all of its predecessors. Its mini-servos and plasteel shell gives it immense flexibility while the application of a biogel nerve-link grants the wielder a great extent of control.</description>
         <description>A standard-tier mechadendrite. Combining mini-servos and biogel nerve-link:</description>
-        <description>Machined with plasteel and embued with mini-servos, a standard mechadendrite can outclass any</description> 
+        <description>Machined with plasteel and imbued with mini-servos, a standard mechadendrite can outclass any</description> 
         <description>A standard-tier mechadendrite. The mixture of mini-servos and advanced fabrication techniques give great flexibility, while a split biogel nerve-link wires it into the wielder's spine granting exquisite control.</description> -->
         <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement combining with a flexible shell grant exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it as one of the greatest mechadendrites to date.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
@@ -125,8 +125,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardMechadendrite</defName>
-        <label>remove refined Mechadendrite</label>
-        <description>Remove refined Mechadendrite.</description>
+        <label>remove standard Mechadendrite</label>
+        <description>Remove standard Mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
