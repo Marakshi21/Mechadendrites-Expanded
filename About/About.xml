@@ -3,7 +3,7 @@
     <name>Mechadendrites Expanded</name>
     <packageId>Marak.Mechandendrites.Expanded</packageId>
     <author>Marakshi21</author>
-    <description>This is the description of this mod.</description>
+    <description>A mod that adds in a new form of implants called "mechadendrites" that are installed in their own slots separate from any other part of a pawn's body. Providing seemingly small bonuses, you can install upto 6 mechadendrites on one pawn being able to stack them together for bonuses that can match with bionics. All while not having to worry about if they're worth using compared to other bionics since they use their own slots to be installed in.</description>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
