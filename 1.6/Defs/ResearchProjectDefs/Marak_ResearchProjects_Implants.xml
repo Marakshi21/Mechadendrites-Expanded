@@ -68,7 +68,8 @@
       <ResearchProjectDef>
           <defName>Marak_RefinedMultitoolMechadendrite</defName>
           <label>Multitool Mechadendrites</label>
-          <description>Build on refined mechadendrite templates by adding an array of tools to assist in generalised fields of work.</description>
+          <!-- <description>Build on refined mechadendrite templates by adding an array of tools to assist in generalised fields of work.</description> -->
+          <description>Expand upon the refined mechadendrite template by adding an array of tools used to help in menial fields of work by sacrificing general usability.</description>
           <tab>Marak_MechadendritesExpanded</tab>
           <techLevel>Industrial</techLevel>
           <baseCost>750</baseCost>
@@ -84,8 +85,9 @@
     <!-- Combat Mechadendrite -->
        <ResearchProjectDef>
            <defName>Marak_RefinedCombatMechadendrite</defName>
-           <label>Melee Mechadendrites</label>
-           <description>Design a mechadendrite with a sharp blade attached onto its tip to aid in combat.</description>
+           <label>Bladed Mechadendrites</label>
+           <!-- <description>Design a mechadendrite with a sharp blade attached onto its tip to aid in combat.</description> -->
+           <description>Design a set of mechadendrites to assist in melee combat or mining by attaching sharp blades on the tip of them.</description>
            <tab>Marak_MechadendritesExpanded</tab>
            <techLevel>Industrial</techLevel>
            <baseCost>750</baseCost>
@@ -102,7 +104,10 @@
      <ResearchProjectDef>
          <defName>Marak_StandardMechadendrites</defName>
          <label>Standard Mechadendrite Templates</label>
-         <description>Continuing to build upon research into mechadendrites, maximizing flexibility using materials like plasteel, and combining knowledge gained from bionics, you can now engineer standard-class mechadendrites surpassing any previous attempts and allowing for a whole new class of mechadendrite implantations.</description>
+         <!-- <description>Continuing to build upon research into mechadendrites, maximizing flexibility using materials like plasteel, and combining knowledge gained from bionics, you can now engineer standard-class mechadendrites surpassing any previous attempts and allowing for a whole new class of mechadendrite implantations.</description> 
+         <description>Combining both advancements in development of mechadendrites, better materials, and fabrication technology. Design standard-class mechadendrites that surpass any previous mechadendrite with a highly flexible tendril and tiny servos to give fine control.</description> 
+         <description>Combine better materials, fabrication technology, and mechadendrite research to design standard-tier mechadendrites. Embedded with mini-servos and utilising biogel nerve-link application, these new mechadendrites prove far more flexible and controllable compared to anything before.</description> -->
+         <description>Design standard mechadendrite templates via the usage of mini-servos and advanced materials. Applying both mini-servo tech and biogel application, standard mechadendrites surpass anything before them ushering in a new era for mechadendrite engineering.</description>
          <tab>Marak_MechadendritesExpanded</tab>
          <techLevel>Spacer</techLevel>
          <baseCost>1800</baseCost>
