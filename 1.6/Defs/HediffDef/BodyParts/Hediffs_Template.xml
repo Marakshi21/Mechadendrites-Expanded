@@ -3,7 +3,7 @@
 <Defs>
     <!-- Base Template for all Mechadendrite Recipes and ThingDefs -->
     <!-- 
-    <ThingDef Name="BodyPart[TIER]{TYPE-OPTIONAL}MakeableBase" ParentName="BodyPart[TIER]Base" Abstract="True">
+    <ThingDef Name="BodyPart[TIER]{TYPE-OPTIONAL}MechadendriteMakeableBase" ParentName="BodyPart[TIER]Base" Abstract="True">
      <recipeMaker>
          <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
          <workSkill>Crafting</workSkill>
@@ -45,7 +45,7 @@
         </statBases>
     </ThingDef>
     -->
-    <!-- Base Template for Mechadendrite Hediffs -->
+    <!-- Base Templates for Mechadendrite Hediffs and Mechadendrite Items -->
     <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
@@ -73,9 +73,7 @@
             </li>
         </stages>
     </HediffDef>
-    -->
-    <!-- Base Template for all Mechadendrite Items -->
-    <!--
+    
     <ThingDef ParentName="BodyPart[TIER]{TYPE-OPTIONAL}MechadendriteBase">
         <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
         <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>

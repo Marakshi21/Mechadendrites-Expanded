@@ -12,7 +12,7 @@
     <!-- Research required to both start Mechadendrites Expanded and implant more basic mechadendrites -->
     <ResearchProjectDef>
         <defName>Marak_Mechadendrite_Gateway</defName>
-        <label>Spinal Cord Attachement</label>
+        <label>Spinal Cord Attachment</label>
         <description>Develop methods for attaching new tendril-like limbs called mechadendrites onto a person's back, granting control over them via attaching to the spinal cord.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
@@ -49,8 +49,8 @@
     <ResearchProjectDef>
         <defName>Marak_RefinedMechadendrites</defName>
         <label>Refined Mechadendrite replacements</label>
-        <!-- <description>First iterations of Mechadendrites showed promise but are too rigid for most use. Expand upon your initial designs by using more flexible materials in the construction of newer refined mechadendrites acting as small iterative improvements on baseic mechadendrites and the expansion into specialised mechadendrites.</description> -->
-        <description>Refining upon basic mechadendrites has led into developments into the fundemental structures of mechadendrites allowing for more flexible movement. These improvements have allowed for the possibility of specialising mechadendrites to assist in specific fields.</description>
+        <!-- <description>First iterations of Mechadendrites showed promise but are too rigid for most use. Expand upon your initial designs by using more flexible materials in the construction of newer refined mechadendrites acting as small iterative improvements on basic mechadendrites and the expansion into specialised mechadendrites.</description> -->
+        <description>Refining upon basic mechadendrites has led into developments into the fundamental structures of mechadendrites allowing for more flexible movement. These improvements have allowed for the possibility of specialising mechadendrites to assist in specific fields.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>1250</baseCost>
@@ -104,7 +104,7 @@
      <ResearchProjectDef>
          <defName>Marak_StandardMechadendrites</defName>
          <label>Standard Mechadendrite Templates</label>
-         <!-- <description>Continuing to build upon research into mechadendrites, maximizing flexibility using materials like plasteel, and combining knowledge gained from bionics, you can now engineer standard-class mechadendrites surpassing any previous attempts and allowing for a whole new class of mechadendrite implantations.</description> 
+         <!-- <description>Continuing to build upon research into mechadendrites, maximizing flexibility using materials like plasteel, and combining knowledge gained from bionics, you can now engineer standard-class mechadendrites surpassing any previous attempts and allowing for a whole new class of mechadendrite implementations.</description> 
          <description>Combining both advancements in development of mechadendrites, better materials, and fabrication technology. Design standard-class mechadendrites that surpass any previous mechadendrite with a highly flexible tendril and tiny servos to give fine control.</description> 
          <description>Combine better materials, fabrication technology, and mechadendrite research to design standard-tier mechadendrites. Embedded with mini-servos and utilising biogel nerve-link application, these new mechadendrites prove far more flexible and controllable compared to anything before.</description> -->
          <description>Design standard mechadendrite templates via the usage of mini-servos and advanced materials. Applying both mini-servo tech and biogel application, standard mechadendrites surpass anything before them ushering in a new era for mechadendrite engineering.</description>
@@ -122,7 +122,47 @@
          </prerequisites>
          <researchViewX>3</researchViewX>
          <researchViewY>2.5</researchViewY>
-     </ResearchProjectDef> 
+     </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_StandardOpticalMechadendrites</defName>
+        <label>Optical Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedMultitoolMechadendrite</li>
+            <li>ColoredLights</li>
+        </prerequisites>
+        <researchViewX>4.2</researchViewX>
+        <researchViewY>3.2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_StandardMultitoolMechadendrites</defName>
+        <label>Standard Multitool Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1200</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedMultitoolMechadendrite</li>
+        </prerequisites>
+        <researchViewX>4.2</researchViewX>
+        <researchViewY>4.0</researchViewY>
+    </ResearchProjectDef>
+
 
 
 </Defs>
