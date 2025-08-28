@@ -45,6 +45,7 @@
         </skillRequirements>
     </RecipeDef>
 
+    <!-- Specialized mechadendrites -->
     <ThingDef Name="BodyPartStandardOpticalMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -71,7 +72,7 @@
             <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>12</Crafting>
+                <Crafting>10</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
             <recipeUsers>
@@ -81,6 +82,7 @@
         </recipeMaker>
     </ThingDef>
 
+    <!--
     <ThingDef Name="BodyPartStandardDrillMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -107,7 +109,7 @@
             <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>12</Crafting>
+                <Crafting>10</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
             <recipeUsers>
@@ -116,6 +118,7 @@
             <displayPriority>200</displayPriority>
         </recipeMaker>
     </ThingDef>
+    -->
 
     <!-- Standard Mechadendrite -->
 
