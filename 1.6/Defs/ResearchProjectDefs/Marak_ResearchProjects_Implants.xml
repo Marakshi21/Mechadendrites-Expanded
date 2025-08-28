@@ -126,8 +126,8 @@
 
     <ResearchProjectDef>
         <defName>Marak_StandardOpticalMechadendrites</defName>
-        <label>Optical Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <label>Auxiliary visual sensors</label>
+        <description>Design a type of mechadendrite that can act as an auxiliary visual sensor, otherwise known as an Optical Mechadendrite. By taking advantage of the technology that goes into bionic eyes and merging it with mechadendrite technology, an optical mechadendrite can see in visual spectrums that humans normally cannot while transmitting visual data to its user without overloading the brain.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -146,8 +146,8 @@
 
     <ResearchProjectDef>
         <defName>Marak_StandardMultitoolMechadendrites</defName>
-        <label>Standard Multitool Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <label>Engineering Mechadendrites</label>
+        <description>Improving upon the refined multitool mechadendrite that came before, the standard engineer mechadendrite takes advantage of the advancements into advanced electronics by adding hot swappable slots for tools and finer control making it invaluable for engineers wherever they may be.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1200</baseCost>
@@ -163,6 +163,41 @@
         <researchViewY>4.0</researchViewY>
     </ResearchProjectDef>
 
+    <!-- Standard Drill & Melee Mechadendrites -->
+    <!--
+    <ResearchProjectDef>
+        <defName>Marak_StandardDrillMechadendrite</defName>
+        <label>Drilling Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>750</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedCombatMechadendrites</li>
+            <li>Marak_StandardMechadendrites</li>
+            <li>DeepDrilling</li>
+        </prerequisites>
+        <researchViewX>4.2</researchViewX>
+        <researchViewY>1.5</researchViewY>
+    </ResearchProjectDef>
 
+    <ResearchProjectDef>
+        <defName>Marak_StandardMeleeMechadendrite</defName>
+        <label>Infestus Mechadendrites {TEMP}</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>750</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedCombatMechadendrites</li>
+            <li>Marak_StandardMechadendrites</li>
+            <li>DeepDrilling</li>
+        </prerequisites>
+        <researchViewX>4.2</researchViewX>
+        <researchViewY>1.5</researchViewY>
+    </ResearchProjectDef>
+    -->
 
 </Defs>

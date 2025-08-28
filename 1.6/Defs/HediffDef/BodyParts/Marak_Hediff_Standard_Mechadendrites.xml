@@ -53,7 +53,7 @@
             <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>12</Crafting>
+                <Crafting>10</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
             <recipeUsers>
@@ -78,6 +78,42 @@
                 <li>FabricationBench</li>
             </recipeUsers>
             <displayPriority>300</displayPriority>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="BodyPartStandardDrillMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>200</displayPriority>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="BodyPartStandardMeleeMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>200</displayPriority>
         </recipeMaker>
     </ThingDef>
 
@@ -176,9 +212,10 @@
         <defName>Marak_StandardOpticalMechadendrite</defName>
         <label>standard optical mechadendrite</label>
         <labelNoun>a standard optical mechadendrite</labelNoun>
-        <description>An installed standard optical mechadendrite. Capable of acting as an additional eye and able to see in spectrums the human eye cannot normally see, it's able to provide visual data without overwhelming the user aiding sight.</description>
+        <description>An installed standard optical mechadendrite. Home to various visual sensors to aid in sight, it can see in spectrums normal fleshy eyes cannot while transmitting visual data to its wielder to improve sight.</description> 
+        <!-- <description>Capable of acting as an additional eye and able to see in spectrums the human eye cannot normally see, it's able to provide visual data without overwhelming the user aiding sight.</description> -->
         <descriptionHyperlinks><ThingDef>Marak_StandardOpticalMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_StandardOpticalMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -187,7 +224,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.05</offset>
+                        <offset>0.04</offset>
                     </li>
                 </capMods>
             </li>
@@ -197,12 +234,13 @@
     <ThingDef ParentName="BodyPartStandardOpticalMechadendriteMakeableBase">
         <defName>Marak_StandardOpticalMechadendrite</defName>
         <label>standard optical mechadendrite</label>
-        <description>A standard mechadendrite that acts as an additional pair of eyes for the user. Building upon the designs of the refined flashlight mechadendrite, the standard optical mechadendrite is able to transmit visual data back to the wielder's brain like it were another eye along with seeing various spectrums of light boosting its effectiveness.</description>
+        <!-- <description>A standard mechadendrite that acts as an additional pair of eyes for the user. Building upon the designs of the refined flashlight mechadendrite, the standard optical mechadendrite is able to transmit visual data back to the wielder's brain like it were another eye along with seeing various spectrums of light boosting its effectiveness.</description> -->
+        <description>A standard optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentIndustrial>1</ComponentIndustrial>
             <Steel>10</Steel>
         </costList>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
@@ -258,11 +296,12 @@
 
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard multitool mechadendrite</label>
-        <labelNoun>a standard multitool mechadendrite</labelNoun>
-        <description>An installed standard multitool mechadendrite. Combining the original designs of the refined multitool with the advancements of standard mechadendrites, the standard multitool is equipped with more tools and advanced precision to surpass its predecessor.</description>
+        <label>standard engineer mechadendrite</label>
+        <labelNoun>a standard engineer mechadendrite</labelNoun>
+        <!-- <description>An installed standard multitool mechadendrite. Combining the original designs of the refined multitool with the advancements of standard mechadendrites, the standard multitool is equipped with more tools and advanced precision to surpass its predecessor.</description> -->
+        <description>An installed standard engineer mechadendrite. Designed to be the perfect companion for an engineer, it's equipped with more advanced tools than its predecessor along with ways to hot-swap tools if needed making it versatile and flexible.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_StandardMultitoolMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -272,10 +311,10 @@
                     <GeneralLaborSpeed>.08</GeneralLaborSpeed>
                     <SmoothingSpeed>.08</SmoothingSpeed>
                     <ConstructionSpeed>.08</ConstructionSpeed>
-                    <ConstructSuccessChance>.015</ConstructSuccessChance>
+                    <ConstructSuccessChance>.02</ConstructSuccessChance>
                     <SmeltingSpeed>.08</SmeltingSpeed>
                     <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.025</ButcheryMechanoidEfficiency>
+                    <ButcheryMechanoidEfficiency>.06</ButcheryMechanoidEfficiency>
                 </statOffsets>
             </li>
         </stages>
@@ -284,7 +323,8 @@
     <ThingDef ParentName="BodyPartStandardMultitoolMechadendriteMakeableBase">
         <defName>Marak_StandardMultitoolMechadendrite</defName>
         <label>standard multitool mechadendrite</label>
-        <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description>
+        <!-- <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description> -->
+        <description>The standard engineer mechadendrite improves upon the principle of the refined multitool mechadendrite by improving the tools hosted within. Mixed with an array of advanced hot-swappable tools and finer control, it is the perfect companion to any engineer who finds themselves surrounded by machinery day in and out. As a bonus, some of the tools help out in construction work as well.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
@@ -344,11 +384,11 @@
     <!-- Drill Mechadendrite -->
     <!--
     <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardOpticalMechadendrite</defName>
-        <label>standard optical mechadendrite</label>
-        <labelNoun>a standard optical mechadendrite</labelNoun>
-        <description>An installed standard optical mechadendrite. Capable of acting as an additional eye and able to see in spectrums the human eye cannot normally see, it's able to provide visual data without overwhelming the user aiding sight.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardOpticalMechadendrite</ThingDef></descriptionHyperlinks>
+        <defName>Marak_StandardDrillMechadendrite</defName>
+        <label>standard drill mechadendrite</label>
+        <labelNoun>a standard drill mechadendrite</labelNoun>
+        <description>An installed standard drill mechadendrite.</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardDrillMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
