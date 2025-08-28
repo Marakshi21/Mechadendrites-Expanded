@@ -144,12 +144,6 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <!-- <description>Constructed with advanced materials, a standard mechadendrite is the application of the technology used in other bionics combined with the knowledge used to create lesser mechadendrites. It's smooth and flexible akin to a cat's tail and versatile to the tenth degree.</description> 
-        <description>Engineered with advanced materials, a standard-class mechadendrite represents the pinnacle of mechadendrite engineering to date. Combining servos and bio-gel application, a standard-class mechadendrite can be controlled as well as any other limb providing untold flexibility and usability.</description> 
-        <description>A standard-tier mechadendrite. Engineered with mini-servos and advanced materials, a standard mechadendrite outclasses all of its predecessors. Its mini-servos and plasteel shell gives it immense flexibility while the application of a biogel nerve-link grants the wielder a great extent of control.</description>
-        <description>A standard-tier mechadendrite. Combining mini-servos and biogel nerve-link:</description>
-        <description>Machined with plasteel and imbued with mini-servos, a standard mechadendrite can outclass any</description> 
-        <description>A standard-tier mechadendrite. The mixture of mini-servos and advanced fabrication techniques give great flexibility, while a split biogel nerve-link wires it into the wielder's spine granting exquisite control.</description> -->
         <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement combining with a flexible shell grant exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it as one of the greatest mechadendrites to date.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -322,7 +316,7 @@
 
     <ThingDef ParentName="BodyPartStandardMultitoolMechadendriteMakeableBase">
         <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard multitool mechadendrite</label>
+        <label>standard engineer mechadendrite</label>
         <!-- <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description> -->
         <description>The standard engineer mechadendrite improves upon the principle of the refined multitool mechadendrite by improving the tools hosted within. Mixed with an array of advanced hot-swappable tools and finer control, it is the perfect companion to any engineer who finds themselves surrounded by machinery day in and out. As a bonus, some of the tools help out in construction work as well.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
@@ -340,13 +334,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
         <defName>Marak_InstallStandardMultitoolMechadendrite</defName>
-        <label>install standard multitool mechadendrite</label>
-        <description>Install a standard multitool mechadendrite.</description>
+        <label>install standard engineer mechadendrite</label>
+        <description>Install a standard engineer mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard multitool mechadendrite.</jobString>
+        <jobString>Installing a standard engineer mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -371,8 +365,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardMultitoolMechadendrite</defName>
-        <label>remove standard multitool Mechadendrite</label>
-        <description>Remove a standard multitool Mechadendrite.</description>
+        <label>remove standard engineer Mechadendrite</label>
+        <description>Remove a standard engineer Mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>

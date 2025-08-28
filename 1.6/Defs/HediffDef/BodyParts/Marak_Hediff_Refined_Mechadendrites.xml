@@ -76,10 +76,7 @@
             <Medicine>8</Medicine>
         </skillRequirements>
     </RecipeDef>
-
-    <!-- <HediffDef Name="AddedBodyPartMechadendrite" ParentName="AddedBodyPartBase" Abstract="True">
-         <defaultLabelColor>(255, 102, 0)</defaultLabelColor>
-     </HediffDef> -->
+    
 
     <!-- Refined Mechadendrite -->
 
@@ -108,8 +105,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
-        <!-- <description>A refined version of a basic mechadendrite built with better methods and embedded with flexible materials to allow for more flexible movement.</description> 
-        <description>A refined mechadendrite capable of more flexible movement and better control thanks to improvements into the manufacturing of mechadendrites.</description> -->
         <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -266,7 +261,6 @@
             <li>
                 <statOffsets>
                     <MiningSpeed>.04</MiningSpeed>
-                    <!-- <MiningYield>.01</MiningYield> -->
                  </statOffsets>
              </li>
          </stages>
@@ -275,7 +269,6 @@
      <ThingDef ParentName="BodyPartRefinedCombatMechadendriteMakeableBase">
          <defName>Marak_RefinedDrillMechadendrite</defName>
          <label>refined excavator mechadendrite</label>
-         <!-- <description>A mechadendrite based on the refined melee mechadendrite attached with a mining head on its end instead of a blade to assist in mining operations. The mining mechadendrite also helps gather slightly more ore by prying in deep.</description> -->
         <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -352,7 +345,6 @@
                     <ConstructionSpeed>.04</ConstructionSpeed>
                     <SmeltingSpeed>.04</SmeltingSpeed>
                     <ButcheryMechanoidSpeed>.04</ButcheryMechanoidSpeed>
-                   <!-- <ButcheryMechanoidEfficiency>.025</ButcheryMechanoidEfficiency> -->
                 </statOffsets>
             </li>
         </stages>
@@ -361,7 +353,6 @@
     <ThingDef ParentName="BodyPartRefinedMultitoolMechadendriteMakeableBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
-        <!-- <description>A refined mechadendrite that has a variety of swappable tools on its tip allowing the user to swap the tool used for the right job. The multi-tool mechadendrite takes advantage of a refined mechadendrite's rigidness to safely store a variety of tools within and swap them out as needed.</description> -->
         <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -445,8 +436,6 @@
     <ThingDef ParentName="BodyPartRefinedMultitoolMechadendriteMakeableBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
-        <!-- <description>A mechadendrite with a flashlight attached onto the end of it aiding visibility.</description> 
-        <description>A refined mechadendrite that has a flashlight built into its tip. Designed to aid visibility for cheap, the flashlight on the end is limited in luminescence giving a small boost to visibility.</description> -->
         <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
