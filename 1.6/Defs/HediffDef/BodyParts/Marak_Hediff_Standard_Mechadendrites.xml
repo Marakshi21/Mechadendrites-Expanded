@@ -217,16 +217,15 @@
         <removesHediff>Marak_StandardOpticalMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- Multitool Mechadendrite -->
+    <!-- Artisan and Engineering Mechadendrites -->
 
     <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard engineer mechadendrite</label>
-        <labelNoun>a standard engineer mechadendrite</labelNoun>
-        <!-- <description>An installed standard multitool mechadendrite. Combining the original designs of the refined multitool with the advancements of standard mechadendrites, the standard multitool is equipped with more tools and advanced precision to surpass its predecessor.</description> -->
-        <description>An installed standard engineer mechadendrite. Designed to be the perfect companion for an engineer, it's equipped with more advanced tools than its predecessor along with ways to hot-swap tools if needed making it versatile and flexible.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMultitoolMechadendrite</spawnThingOnRemoved>
+        <defName>Marak_StandardArtisanMechadendrite</defName>
+        <label>standard artisan mechadendrite</label>
+        <labelNoun>a standard artisan mechadendrite</labelNoun>
+        <description>An installed standard artisan mechadendrite.</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -235,22 +234,18 @@
                 <statOffsets>
                     <GeneralLaborSpeed>.08</GeneralLaborSpeed>
                     <SmoothingSpeed>.08</SmoothingSpeed>
-                    <ConstructionSpeed>.08</ConstructionSpeed>
-                    <ConstructSuccessChance>.02</ConstructSuccessChance>
                     <SmeltingSpeed>.08</SmeltingSpeed>
-                    <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.06</ButcheryMechanoidEfficiency>
+                    <DrugCookingSpeed>.08</DrugCookingSpeed>
                 </statOffsets>
             </li>
         </stages>
     </HediffDef>
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard engineer mechadendrite</label>
-        <!-- <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description> -->
-        <description>The standard engineer mechadendrite improves upon the principle of the refined multitool mechadendrite by improving the tools hosted within. Mixed with an array of advanced hot-swappable tools and finer control, it is the perfect companion to any engineer who finds themselves surrounded by machinery day in and out. As a bonus, some of the tools help out in construction work as well.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
+        <defName>Marak_StandardArtisanMechadendrite</defName>
+        <label>standard artisan mechadendrite</label>
+        <description>A split off from the refined mulittool mechadendrite, the standard artisan mechadendrite specialises in more artisan/menial fields of work assisting the user in these fields. It also helps in the creation of artistic works through the use of small lasers used to help in sculpting.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
@@ -267,19 +262,19 @@
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
-        <defName>Marak_InstallStandardMultitoolMechadendrite</defName>
-        <label>install standard engineer mechadendrite</label>
-        <description>Install a standard engineer mechadendrite.</description>
+        <defName>Marak_InstallStandardArtisanMechadendrite</defName>
+        <label>install standard artisan mechadendrite</label>
+        <description>Install a standard artisan mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>
+            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard engineer mechadendrite.</jobString>
+        <jobString>Installing a standard artisan mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Marak_StandardMultitoolMechadendrite</li>
+                        <li>Marak_StandardArtisanMechadendrite</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -287,150 +282,66 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Marak_StandardMultitoolMechadendrite</li>
+                <li>Marak_StandardArtisanMechadendrite</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardMultitoolMechadendrite</addsHediff>
+        <addsHediff>Marak_StandardArtisanMechadendrite</addsHediff>
         <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardMultitoolMechadendrite</defName>
-        <label>remove standard engineer Mechadendrite</label>
-        <description>Remove a standard engineer Mechadendrite.</description>
+        <defName>Marak_RemoveStandardArtisanMechadendrite</defName>
+        <label>remove standard artisan Mechadendrite</label>
+        <description>Remove a standard artisan Mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>
+            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard multitool mechadendrite.</jobString>
-        <removesHediff>Marak_StandardMultitoolMechadendrite</removesHediff>
+        <jobString>Removing standard artisan mechadendrite.</jobString>
+        <removesHediff>Marak_StandardArtisanMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- Drill Mechadendrite -->
-    <!--
+    <!-- Engineer -->
     <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardDrillMechadendrite</defName>
-        <label>standard drill mechadendrite</label>
-        <labelNoun>a standard drill mechadendrite</labelNoun>
-        <description>An installed standard drill mechadendrite.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardDrillMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <capMods>
-                    <li>
-                        <capacity>Sight</capacity>
-                        <offset>0.05</offset>
-                    </li>
-                </capMods>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardOpticalMechadendriteMakeableBase">
-        <defName>Marak_StandardOpticalMechadendrite</defName>
-        <label>standard optical mechadendrite</label>
-        <description>A standard mechadendrite that acts as an additional pair of eyes for the user. Building upon the designs of the refined flashlight mechadendrite, the standard optical mechadendrite is able to transmit visual data back to the wielder's brain like it were another eye along with seeing various spectrums of light boosting its effectiveness.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Plasteel>15</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>10</Steel>
-        </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
-        <statBases>
-            <Mass>3</Mass>
-        </statBases>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
-        <defName>Marak_InstallStandardOpticalMechadendrite</defName>
-        <label>install standard optical mechadendrite</label>
-        <description>Install a standard optical mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardOpticalMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardOpticalMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard optical mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardOpticalMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardOpticalMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardOpticalMechadendrite</addsHediff>
-        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardOpticalMechadendrite</defName>
-        <label>remove standard optical Mechadendrite</label>
-        <description>Remove a standard optical Mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardOpticalMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardOpticalMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard optical mechadendrite.</jobString>
-        <removesHediff>Marak_StandardOpticalMechadendrite</removesHediff>
-    </RecipeDef>
-    -->
-    <!-- Melee Mechadendrite -->
-    <!--
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard multitool mechadendrite</label>
-        <labelNoun>a standard multitool mechadendrite</labelNoun>
-        <description>An installed standard multitool mechadendrite. Combining the original designs of the refined multitool with the advancements of standard mechadendrites, the standard multitool is equipped with more tools and advanced precision to surpass its predecessor.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <defName>Marak_StandardEngineeringMechadendrite</defName>
+        <label>standard engineer mechadendrite</label>
+        <labelNoun>a standard engineer mechadendrite</labelNoun>
+        <description>An installed standard engineer mechadendrite. Designed to be the perfect companion for an engineer, it's equipped with more advanced tools than its predecessor along with ways to hot-swap tools if needed making it versatile and flexible.</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardEngineeringMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
         <stages>
             <li>
                 <statOffsets>
-                    <GeneralLaborSpeed>.08</GeneralLaborSpeed>
-                    <SmoothingSpeed>.08</SmoothingSpeed>
                     <ConstructionSpeed>.08</ConstructionSpeed>
-                    <ConstructSuccessChance>.015</ConstructSuccessChance>
-                    <SmeltingSpeed>.08</SmeltingSpeed>
                     <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.025</ButcheryMechanoidEfficiency>
+                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency> 
+                    <ConstructSuccessChance>.025</ConstructSuccessChance>
+                    <FixBrokenDownBuildingSuccessChance>0.025</FixBrokenDownBuildingSuccessChance>
                 </statOffsets>
             </li>
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartStandardMultitoolMechadendriteMakeableBase">
-        <defName>Marak_StandardMultitoolMechadendrite</defName>
-        <label>standard multitool mechadendrite</label>
-        <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+        <defName>Marak_StandardEngineeringMechadendrite</defName>
+        <label>standard engineer mechadendrite</label>
+        <description>The standard engineer mechadendrite improves upon the principle of the refined multitool mechadendrite by improving the tools hosted within. Mixed with an array of advanced hot-swappable tools and finer control, it is the perfect companion to any engineer who finds themselves surrounded by machinery day in and out. As a bonus, some of the tools help out in construction work as well.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>1</ComponentIndustrial>
             <Steel>10</Steel>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3.5</Mass>
@@ -438,19 +349,19 @@
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
-        <defName>Marak_InstallStandardMultitoolMechadendrite</defName>
-        <label>install standard multitool mechadendrite</label>
-        <description>Install a standard multitool mechadendrite.</description>
+        <defName>Marak_InstallStandardEngineeringMechadendrite</defName>
+        <label>install standard engineer mechadendrite</label>
+        <description>Install a standard engineer mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>
+            <ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardEngineeringMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard multitool mechadendrite.</jobString>
+        <jobString>Installing a standard engineer mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Marak_StandardMultitoolMechadendrite</li>
+                        <li>Marak_StandardEngineeringMechadendrite</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -458,26 +369,25 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Marak_StandardMultitoolMechadendrite</li>
+                <li>Marak_StandardEngineeringMechadendrite</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardMultitoolMechadendrite</addsHediff>
+        <addsHediff>Marak_StandardEngineeringMechadendrite</addsHediff>
         <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardMultitoolMechadendrite</defName>
-        <label>remove standard multitool Mechadendrite</label>
-        <description>Remove a standard multitool Mechadendrite.</description>
+        <defName>Marak_RemoveStandardEngineeringMechadendrite</defName>
+        <label>remove standard engineer Mechadendrite</label>
+        <description>Remove a standard engineer Mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_StandardMultitoolMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardMultitoolMechadendrite</HediffDef>
+            <ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardEngineeringMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard multitool mechadendrite.</jobString>
-        <removesHediff>Marak_StandardMultitoolMechadendrite</removesHediff>
+        <jobString>Removing standard engineer mechadendrite.</jobString>
+        <removesHediff>Marak_StandardEngineeringMechadendrite</removesHediff>
     </RecipeDef>
-    -->
 </Defs>

@@ -136,8 +136,7 @@
     <ResearchProjectDef>
         <defName>Marak_StandardMultitoolMechadendrites</defName> <!-- Unlocks both Engineering and Artisan Mechadendrites -->
         <label>Standardized Tooling Mechadendrites</label>
-        <!-- <description>Improving upon the refined multitool mechadendrite that came before, the standard engineer mechadendrite takes advantage of the advancements into advanced electronics by adding hot swappable slots for tools and finer control making it invaluable for engineers wherever they may be.</description> -->
-        <description>REPLACE_ME</description> 
+        <description>Imrpoving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in either fields of engineering or fields of artisan work.</description> 
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>900</baseCost>

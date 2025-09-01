@@ -236,12 +236,12 @@
 
     <!-- Drill Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_RefinedDrillMechadendrite</defName>
+        <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
         <labelNoun>a refined excavator mechadendrite</labelNoun>
         <description>An installed refined excavator mechadendrite. Based on the bladed mechadendrite, the excavator mechadendrite can use its bladed head to pry in deep and excavate materials.</description>
-        <descriptionHyperlinks><ThingDef>Marak_RefinedDrillMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_RefinedDrillMechadendrite</spawnThingOnRemoved>
+        <descriptionHyperlinks><ThingDef>Marak_RefinedExcavatorMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_RefinedExcavatorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -255,10 +255,10 @@
      </HediffDef>
  
      <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
-         <defName>Marak_RefinedDrillMechadendrite</defName>
+         <defName>Marak_RefinedExcavatorMechadendrite</defName>
          <label>refined excavator mechadendrite</label>
         <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedDrillMechadendrite</RecipeDef></descriptionHyperlinks>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
@@ -275,19 +275,19 @@
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
-        <defName>Marak_InstallRefinedDrillMechadendrite</defName>
+        <defName>Marak_InstallRefinedExcavatorMechadendrite</defName>
         <label>install refined Excavator mechadendrite</label>
         <description>Install a refined excavator mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_RefinedDrillMechadendrite</ThingDef>
-            <HediffDef>Marak_RefinedDrillMechadendrite</HediffDef>
+            <ThingDef>Marak_RefinedExcavatorMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedExcavatorMechadendrite</HediffDef>
         </descriptionHyperlinks>
         <jobString>Installing refined excavator mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Marak_RefinedDrillMechadendrite</li>
+                        <li>Marak_RefinedExcavatorMechadendrite</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -295,26 +295,26 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Marak_RefinedDrillMechadendrite</li>
+                <li>Marak_RefinedExcavatorMechadendrite</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>Marak_RefinedDrillMechadendrite</addsHediff>
+        <addsHediff>Marak_RefinedExcavatorMechadendrite</addsHediff>
         <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveRefinedDrillMechadendrite</defName>
+        <defName>Marak_RemoveRefinedExcavatorMechadendrite</defName>
         <label>remove refined excavator mechadendrite</label>
         <description>Remove a refined excavator mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Marak_RefinedDrillMechadendrite</ThingDef>
-            <HediffDef>Marak_RefinedDrillMechadendrite</HediffDef>
+            <ThingDef>Marak_RefinedExcavatorMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedExcavatorMechadendrite</HediffDef>
         </descriptionHyperlinks>
         <jobString>Removing refined excavator mechadendrite.</jobString>
-        <removesHediff>Marak_RefinedDrillMechadendrite</removesHediff>
+        <removesHediff>Marak_RefinedExcavatorMechadendrite</removesHediff>
     </RecipeDef>
     
     <!-- Multitool Mechadendrite -->
