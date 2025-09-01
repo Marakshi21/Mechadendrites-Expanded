@@ -223,7 +223,7 @@
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
         <labelNoun>a standard artisan mechadendrite</labelNoun>
-        <description>An installed standard artisan mechadendrite.</description>
+        <description>An installed standard artisan mechadendrite. Embedded with advanced tools, it's able to aid its user in many menial + artistic fields of work.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -244,7 +244,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
-        <description>A split off from the refined mulittool mechadendrite, the standard artisan mechadendrite specialises in more artisan/menial fields of work assisting the user in these fields. It also helps in the creation of artistic works through the use of small lasers used to help in sculpting.</description>
+        <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and meniel fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
@@ -309,7 +309,7 @@
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
         <labelNoun>a standard engineer mechadendrite</labelNoun>
-        <description>An installed standard engineer mechadendrite. Designed to be the perfect companion for an engineer, it's equipped with more advanced tools than its predecessor along with ways to hot-swap tools if needed making it versatile and flexible.</description>
+        <description>An installed engineer mechadendrite. Its use of specialized tooling and connection to the wielder helps it aid in ways that could only be previously imagined.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardEngineeringMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -331,7 +331,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
-        <description>The standard engineer mechadendrite improves upon the principle of the refined multitool mechadendrite by improving the tools hosted within. Mixed with an array of advanced hot-swappable tools and finer control, it is the perfect companion to any engineer who finds themselves surrounded by machinery day in and out. As a bonus, some of the tools help out in construction work as well.</description>
+        <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multi-tasking.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
