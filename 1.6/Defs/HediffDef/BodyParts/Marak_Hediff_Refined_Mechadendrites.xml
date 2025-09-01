@@ -37,40 +37,6 @@
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef Name="BodyPartRefinedCombatMechadendriteMakeableBase" ParentName="BodyPartBasicMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-            <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="BodyPartRefinedMultitoolMechadendriteMakeableBase" ParentName="BodyPartBasicMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-            <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
-        </recipeMaker>
-    </ThingDef>
-
     <RecipeDef Name="SurgeryInstallBodyPartRefinedMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
         <skillRequirements>
             <Medicine>8</Medicine>
@@ -175,7 +141,7 @@
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
-        <stages>
+        <!-- <stages>
             <li>
                 <statOffsets>
                     <MeleeArmorPenetration>.0125</MeleeArmorPenetration>
@@ -183,10 +149,28 @@
                     <MeleeDamageFactor>0.0125</MeleeDamageFactor>
                 </statOffsets>
             </li>
-        </stages>
+        </stages> -->
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>blade</label>
+                        <capacities>
+                            <li>Stab</li>
+                        </capacities>
+                        <power>6</power>
+                        <armorPenetration>0.25</armorPenetration> <!-- Pierce deep but do little damage -->
+                        <cooldownTime>2.0</cooldownTime>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                        <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+                    </li>
+                </tools>
+            </li>
+        </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartRefinedCombatMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined bladed mechadendrite</label>
         <description>A mechadendrite ordained with a sharp blade at its tip. Its semi-flexible construction allows it to swing around madly aiming to strike targets based on the wielder's intuition of who is foe and friend.</description>
@@ -195,12 +179,16 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
         </statBases>
         <techHediffsTags>
-            <li>Simple</li>
+            <li>AdvancedWeapon</li>
         </techHediffsTags>
+        <violentTechHediff>true</violentTechHediff>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
@@ -266,7 +254,7 @@
          </stages>
      </HediffDef>
  
-     <ThingDef ParentName="BodyPartRefinedCombatMechadendriteMakeableBase">
+     <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
          <defName>Marak_RefinedDrillMechadendrite</defName>
          <label>refined excavator mechadendrite</label>
         <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
@@ -275,6 +263,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
+        </recipeMaker> 
         <statBases>
             <Mass>1.5</Mass>
         </statBases>
@@ -350,7 +341,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartRefinedMultitoolMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
         <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
@@ -359,6 +350,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
         </statBases>
@@ -433,7 +427,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartRefinedMultitoolMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartRefinedMechadendriteMakeableBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
         <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
@@ -442,6 +436,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
         </statBases>

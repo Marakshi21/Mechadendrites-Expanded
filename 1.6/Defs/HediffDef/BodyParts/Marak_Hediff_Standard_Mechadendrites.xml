@@ -45,81 +45,6 @@
         </skillRequirements>
     </RecipeDef>
 
-    <!-- Specialized mechadendrites -->
-    <ThingDef Name="BodyPartStandardOpticalMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-            <displayPriority>300</displayPriority>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="BodyPartStandardMultitoolMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-            <displayPriority>300</displayPriority>
-        </recipeMaker>
-    </ThingDef>
-
-    <!--
-    <ThingDef Name="BodyPartStandardDrillMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-            <displayPriority>200</displayPriority>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="BodyPartStandardMeleeMechadendriteMakeableBase" ParentName="BodyPartStandardMechadendriteBase" Abstract="True">
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-            <displayPriority>200</displayPriority>
-        </recipeMaker>
-    </ThingDef>
-    -->
-
     <!-- Standard Mechadendrite -->
 
     <HediffDef ParentName="AddedBodyPartBase">
@@ -228,7 +153,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartStandardOpticalMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardOpticalMechadendrite</defName>
         <label>standard optical mechadendrite</label>
         <!-- <description>A standard mechadendrite that acts as an additional pair of eyes for the user. Building upon the designs of the refined flashlight mechadendrite, the standard optical mechadendrite is able to transmit visual data back to the wielder's brain like it were another eye along with seeing various spectrums of light boosting its effectiveness.</description> -->
@@ -240,6 +165,9 @@
             <ComponentIndustrial>1</ComponentIndustrial>
             <Steel>10</Steel>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
@@ -317,7 +245,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartStandardMultitoolMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMultitoolMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
         <!-- <description>By mixing the original designs of the refined multitool mechadendrite with the advancements of standard mechadendrites, the standard multitool seeks to improve upon its predecessor in every way possible. Equipped with more tools and finer control, it not only speeds up work but helps make it more efficient as well.</description> -->
@@ -329,6 +257,9 @@
             <ComponentIndustrial>1</ComponentIndustrial>
             <Steel>10</Steel>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3.5</Mass>
