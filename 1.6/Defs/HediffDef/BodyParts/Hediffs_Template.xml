@@ -74,14 +74,15 @@
         </stages>
     </HediffDef>
     
-    <ThingDef ParentName="BodyPart[TIER]{TYPE-OPTIONAL}MechadendriteBase">
+    <ThingDef ParentName="BodyPartMechadendriteBase">
         <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
         <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
         <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             #VALUE#
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags> ^OPTIONAL^
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             #VALUE#
         </statBases>
@@ -89,7 +90,7 @@
     -->
     <!-- Recipe Def Templates for adding and removing mechadendrites -->
     <!--
-    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]{TYPE-OPTIONAL}MechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
         <defName>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
         <label>install [TIER]{TYPE-OPTIONAL} mechadendrite</label>
         <description>Install a [TIER]{TYPE-OPTIONAL} mechadendrite.</description>
@@ -121,7 +122,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardMechadendrite</defName>
+        <defName>Marak_Remove[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
         <label>remove [TIER]{TYPE-OPTIONAL} Mechadendrite</label>
         <description>Remove [TIER]{TYPE-OPTIONAL} Mechadendrite.</description>
         <descriptionHyperlinks>

@@ -19,10 +19,8 @@
         <baseCost>350</baseCost>
         <prerequisites>
             <li>Machining</li>
-            <li>MicroelectronicsBasics</li>
             <li>Prosthetics</li>
         </prerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>0.2</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
@@ -34,8 +32,7 @@
         <description>Building upon initial research into new tendril-like limbs has yielded the creation of a basic mechadendrite. Rigid and firm, their potential is there albeit limited.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>750</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <baseCost>600</baseCost>
         <prerequisites>
             <li>Marak_Mechadendrite_Gateway</li>
         </prerequisites>
@@ -50,7 +47,7 @@
         <description>Refining upon basic mechadendrites has led into developments into the fundamental structures of mechadendrites allowing for more flexible movement. These improvements have allowed for the possibility of specialising mechadendrites to assist in specific fields.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>1250</baseCost>
+        <baseCost>1000</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_BasicMechadendrites</li>
@@ -68,7 +65,7 @@
           <description>Expand upon the refined mechadendrite template by adding an array of tools used to help in menial fields of work by sacrificing general usability.</description>
           <tab>Marak_MechadendritesExpanded</tab>
           <techLevel>Industrial</techLevel>
-          <baseCost>750</baseCost>
+          <baseCost>800</baseCost>
           <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
           <prerequisites>
               <li>Marak_RefinedMechadendrites</li>
@@ -85,7 +82,7 @@
            <description>Design a set of mechadendrites to assist in melee combat or mining by attaching sharp blades on the tip of them.</description>
            <tab>Marak_MechadendritesExpanded</tab>
            <techLevel>Industrial</techLevel>
-           <baseCost>750</baseCost>
+           <baseCost>800</baseCost>
            <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
            <prerequisites>
                <li>Marak_RefinedMechadendrites</li>
@@ -102,7 +99,7 @@
          <description>Design standard mechadendrite templates via the usage of mini-servos and advanced materials. Applying both mini-servo tech and biogel application, standard mechadendrites surpass anything before them ushering in a new era for mechadendrite engineering.</description>
          <tab>Marak_MechadendritesExpanded</tab>
          <techLevel>Spacer</techLevel>
-         <baseCost>1800</baseCost>
+         <baseCost>1600</baseCost>
          <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
          <requiredResearchFacilities>
              <li>MultiAnalyzer</li>
@@ -122,7 +119,7 @@
         <description>Design a type of mechadendrite that can act as an auxiliary visual sensor, otherwise known as an Optical Mechadendrite. By taking advantage of the technology that goes into bionic eyes and merging it with mechadendrite technology, an optical mechadendrite can see in visual spectrums that humans normally cannot while transmitting visual data to its user without overloading the brain.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>1500</baseCost>
+        <baseCost>1250</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -137,12 +134,12 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>Marak_StandardMultitoolMechadendrites</defName>
-        <label>Engineering Mechadendrites</label>
-        <description>Improving upon the refined multitool mechadendrite that came before, the standard engineer mechadendrite takes advantage of the advancements into advanced electronics by adding hot swappable slots for tools and finer control making it invaluable for engineers wherever they may be.</description>
+        <defName>Marak_StandardMultitoolMechadendrites</defName> <!-- Unlocks both Engineering and Artisan Mechadendrites -->
+        <label>Standardized Tooling Mechadendrites</label>
+        <description>Imrpoving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in either fields of engineering or fields of artisa</description> 
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>1200</baseCost>
+        <baseCost>900</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -156,40 +153,39 @@
     </ResearchProjectDef>
 
     <!-- Standard Drill & Melee Mechadendrites -->
-    <!--
+    
     <ResearchProjectDef>
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>Drilling Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Iterating upon the refined excavator mechadendrite, the standard drill mechadendrite combines advancements in drilling with mechadendrite technology to attach a small yet impactful drill onto the end of a mechadendrite.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>750</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
-            <li>Marak_RefinedCombatMechadendrites</li>
+            <li>Marak_RefinedCombatMechadendrite</li>
             <li>Marak_StandardMechadendrites</li>
             <li>DeepDrilling</li>
         </prerequisites>
         <researchViewX>4.2</researchViewX>
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>
-
+    
     <ResearchProjectDef>
         <defName>Marak_StandardMeleeMechadendrite</defName>
-        <label>Infestus Mechadendrites {TEMP}</label>
+        <label>Melee Mechadendrites</label>
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>750</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
-            <li>Marak_RefinedCombatMechadendrites</li>
+            <li>Marak_RefinedCombatMechadendrite</li>
             <li>Marak_StandardMechadendrites</li>
-            <li>DeepDrilling</li>
+            <li>AdvancedFabrication</li>
         </prerequisites>
         <researchViewX>4.2</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
-    -->
 
 </Defs>
