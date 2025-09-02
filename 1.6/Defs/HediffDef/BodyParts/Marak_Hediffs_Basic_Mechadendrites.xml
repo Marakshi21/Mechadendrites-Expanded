@@ -42,10 +42,6 @@
             <Medicine>6</Medicine>
         </skillRequirements>
     </RecipeDef>
-
-   <!-- <HediffDef Name="AddedBodyPartMechadendrite" ParentName="AddedBodyPartBase" Abstract="True">
-        <defaultLabelColor>(255, 102, 0)</defaultLabelColor>
-    </HediffDef> -->
     
     <!-- Basic Mechadendrite -->
     
@@ -64,7 +60,7 @@
                 <capMods>
                     <li>
                         <capacity>Manipulation</capacity>
-                        <offset>0.02</offset>
+                        <offset>0.015</offset>
                     </li>
                 </capMods>
             </li>
@@ -74,15 +70,14 @@
     <ThingDef ParentName="BodyPartMechadendriteMakeableBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
-        <!-- <description>A rudimentary mechadendrite that is attached onto a person's torso and crudely wired into the muscles and spinal cord to allow for some semblance of control. While capable of basic movement, its rigid design makes it difficult to wield effectively limiting its usefulness.</description> -->
         <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>10</Steel>
+            <Steel>8</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
-            <Mass>1</Mass>
+            <Mass>2</Mass>
         </statBases>
         <techHediffsTags>
             <li>Simple</li>
