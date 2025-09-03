@@ -174,7 +174,7 @@
     <ResearchProjectDef>
         <defName>Marak_StandardMeleeMechadendrite</defName>
         <label>Melee Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Devise a suite of standard-tier melee mechadendrites each tuned with a specific purpose in mind.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>750</baseCost>
