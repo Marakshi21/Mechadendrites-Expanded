@@ -221,7 +221,7 @@
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
         <labelNoun>a standard artisan mechadendrite</labelNoun>
-        <description>An installed standard artisan mechadendrite. Embedded with advanced tools, it's able to aid its user in many menial + artistic fields of work.</description>
+        <description>An installed standard artisan mechadendrite. Embedded with advanced tools, it's able to aid its user in many artisan fields of work.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -233,7 +233,6 @@
                     <GeneralLaborSpeed>.08</GeneralLaborSpeed>
                     <SmoothingSpeed>.08</SmoothingSpeed>
                     <SmeltingSpeed>.08</SmeltingSpeed>
-                    <DrugCookingSpeed>.08</DrugCookingSpeed>
                 </statOffsets>
             </li>
         </stages>
