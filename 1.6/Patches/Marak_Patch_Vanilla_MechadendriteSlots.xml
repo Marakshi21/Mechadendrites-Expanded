@@ -8,10 +8,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>first mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>
@@ -24,10 +24,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>second mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>
@@ -40,10 +40,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>third mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>
@@ -56,10 +56,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>fourth mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>
@@ -72,10 +72,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>fifth mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>
@@ -88,10 +88,10 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>sixth mechadendrite</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.025</coverage>
                 <depth>Outside</depth>
                 <groups>
-                    <li>Torso</li>
+                    <li>Marak_Mechadendrites</li>
                 </groups>
             </li>
         </value>

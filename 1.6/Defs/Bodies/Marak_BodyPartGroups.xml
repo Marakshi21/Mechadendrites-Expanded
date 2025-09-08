@@ -3,11 +3,10 @@
  
 
 <Defs>
-    <!--
     <BodyPartGroupDef>
         <defName>Marak_Mechadendrites</defName>
         <label>mechadendrites</label>
         <listOrder>80</listOrder>
-    </BodyPartGroupDef> -->
+    </BodyPartGroupDef>
 </Defs>
 
