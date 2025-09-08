@@ -8,7 +8,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>first mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -24,7 +24,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>second mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -40,7 +40,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>third mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -56,7 +56,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>fourth mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -72,7 +72,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>fifth mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -88,7 +88,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>sixth mechadendrite</customLabel>
-                <coverage>0.025</coverage>
+                <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
