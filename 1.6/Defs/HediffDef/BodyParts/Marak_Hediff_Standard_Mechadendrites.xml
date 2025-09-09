@@ -316,10 +316,9 @@
             <li>
                 <statOffsets>
                     <ConstructionSpeed>.08</ConstructionSpeed>
-                    <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency> 
                     <ConstructSuccessChance>.025</ConstructSuccessChance>
-                    <FixBrokenDownBuildingSuccessChance>0.025</FixBrokenDownBuildingSuccessChance>
+                    <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
+                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                 </statOffsets>
             </li>
         </stages>
