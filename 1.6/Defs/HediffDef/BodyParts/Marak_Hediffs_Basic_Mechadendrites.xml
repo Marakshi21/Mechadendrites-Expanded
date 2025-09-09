@@ -13,7 +13,7 @@
             <color>(154,124,104)</color>
         </graphicData>
         <statBases>
-            <WorkToMake>24000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
         </statBases>
         <recipeMaker>
             <displayPriority>600</displayPriority>
@@ -73,8 +73,8 @@
         <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>8</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>15</Steel>
+            <!-- <ComponentIndustrial>1</ComponentIndustrial> -->
         </costList>
         <statBases>
             <Mass>2</Mass>
