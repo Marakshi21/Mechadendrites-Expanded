@@ -13,14 +13,14 @@
             <color>(154,124,104)</color>
         </graphicData>
         <statBases>
-            <WorkToMake>28000</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
         </statBases>
         <recipeMaker>
             <displayPriority>600</displayPriority>
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef Name="BodyPartRefinedMechadendriteMakeableBase" ParentName="BodyPartBasicMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartRefinedMechadendriteMakeableBase" ParentName="BodyPartRefinedMechadendriteBase" Abstract="True">
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <workSkill>Crafting</workSkill>
