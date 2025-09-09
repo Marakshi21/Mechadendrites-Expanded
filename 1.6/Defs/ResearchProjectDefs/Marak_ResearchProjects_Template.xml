@@ -7,16 +7,14 @@
         <label>REPLACEME</label>
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>@LEVEL@</techLevel>
-        <baseCost>#VALUE#</baseCost>
+        <techLevel>[LEVEL]</techLevel>
+        <baseCost>[VALUE]</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        ^OPTIONAL-START^
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        ^OPTIONAL-END^
         <prerequisites>
-            <li>PREREQ</li>
+            <li>[PREREQ]</li>
         </prerequisites>
         <researchViewX>*COORDINATE*</researchViewX>
         <researchViewY>*COORDINATE*</researchViewY>

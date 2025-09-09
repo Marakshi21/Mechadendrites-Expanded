@@ -188,4 +188,43 @@
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 
+    <!-- Medical and Plant? Mechadendrites
+    <ResearchProjectDef> 
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
+        <label>REPLACEME</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>[LEVEL]</techLevel>
+        <baseCost>[VALUE]</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>[PREREQ]</li>
+        </prerequisites>
+        <researchViewX>*COORDINATE*</researchViewX>
+        <researchViewY>*COORDINATE*</researchViewY>
+    </ResearchProjectDef>
+    
+
+    <ResearchProjectDef>
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
+        <label>REPLACEME</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>[LEVEL]</techLevel>
+        <baseCost>[VALUE]</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>[PREREQ]</li>
+        </prerequisites>
+        <researchViewX>*COORDINATE*</researchViewX>
+        <researchViewY>*COORDINATE*</researchViewY>
+    </ResearchProjectDef>
+    -->
+
 </Defs>

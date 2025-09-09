@@ -62,7 +62,7 @@
                 <capMods>
                     <li>
                         <capacity>Manipulation</capacity>
-                        <offset>0.04</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -145,7 +145,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.05</offset>
+                        <offset>0.06</offset>
                     </li>
                 </capMods>
             </li>
@@ -679,7 +679,6 @@
                         <label>blade</label>
                         <capacities>
                             <li>Stab</li>
-                            <li>Cut</li>
                         </capacities>
                         <power>25</power>
                         <armorPenetration>0.5</armorPenetration>
@@ -760,5 +759,263 @@
         <jobString>Removing standard heavy-duty bladed mechadendrite.</jobString>
         <removesHediff>Marak_StandardHeavyMeleeMechadendrite</removesHediff>
     </RecipeDef>
+    
+    <!-- Medical Mechadendrites -->
+
+    <!-- Nurse Mechadendrite -->
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <labelNoun>a [TIER]{TYPE-OPTIONAL} mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    !STATS GO HERE!
+                </statOffsets>
+            </li>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>$CAPABILITY$</capacity>
+                        <Offset>!STATS GO HERE!</Offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            [VALUE]
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            [VALUE]
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+        <defName>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>install [TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>Install a [TIER]{TYPE-OPTIONAL} mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_Remove[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>remove [TIER]{TYPE-OPTIONAL} Mechadendrite</label>
+        <description>Remove [TIER]{TYPE-OPTIONAL} Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing [TIER]{TYPE-OPTIONAL} mechadendrite.</jobString>
+        <removesHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</removesHediff>
+    </RecipeDef> -->
+
+    <!-- Doctor Mechadendrite -->
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <labelNoun>a [TIER]{TYPE-OPTIONAL} mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    !STATS GO HERE!
+                </statOffsets>
+            </li>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>$CAPABILITY$</capacity>
+                        <Offset>!STATS GO HERE!</Offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            [VALUE]
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            [VALUE]
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+        <defName>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>install [TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>Install a [TIER]{TYPE-OPTIONAL} mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_Remove[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>remove [TIER]{TYPE-OPTIONAL} Mechadendrite</label>
+        <description>Remove [TIER]{TYPE-OPTIONAL} Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing [TIER]{TYPE-OPTIONAL} mechadendrite.</jobString>
+        <removesHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</removesHediff>
+    </RecipeDef> -->
+    
+    <!-- Cleaning Mechadendrite -->
+
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <labelNoun>a [TIER]{TYPE-OPTIONAL} mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    !STATS GO HERE!
+                </statOffsets>
+            </li>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>$CAPABILITY$</capacity>
+                        <Offset>!STATS GO HERE!</Offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>[TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            [VALUE]
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            [VALUE]
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+        <defName>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>install [TIER]{TYPE-OPTIONAL} mechadendrite</label>
+        <description>Install a [TIER]{TYPE-OPTIONAL} mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</addsHediff>
+        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_Remove[TIER]{TYPE-OPTIONAL}Mechadendrite</defName>
+        <label>remove [TIER]{TYPE-OPTIONAL} Mechadendrite</label>
+        <description>Remove [TIER]{TYPE-OPTIONAL} Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</ThingDef>
+            <HediffDef>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing [TIER]{TYPE-OPTIONAL} mechadendrite.</jobString>
+        <removesHediff>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrite</removesHediff>
+    </RecipeDef> -->
     
 </Defs>
