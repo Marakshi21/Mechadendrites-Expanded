@@ -74,7 +74,7 @@
         <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>10</Steel>
+            <Steel>15</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
@@ -179,6 +179,7 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
         </recipeMaker>
@@ -350,6 +351,7 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
         </recipeMaker>
@@ -420,7 +422,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.02</offset>
+                        <offset>0.025</offset>
                     </li>
                 </capMods>
             </li>
@@ -433,7 +435,7 @@
         <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>25</Steel>
+            <Steel>30</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>

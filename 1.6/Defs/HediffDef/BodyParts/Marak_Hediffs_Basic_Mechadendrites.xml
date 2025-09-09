@@ -73,7 +73,7 @@
         <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>15</Steel>
+            <Steel>12</Steel>
             <!-- <ComponentIndustrial>1</ComponentIndustrial> -->
         </costList>
         <statBases>
