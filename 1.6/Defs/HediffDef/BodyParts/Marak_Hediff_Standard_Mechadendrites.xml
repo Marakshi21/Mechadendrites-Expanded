@@ -767,7 +767,7 @@
         <defName>Marak_StandardNurseMechadendrite</defName>
         <label>standard nurse mechadendrite</label>
         <labelNoun>a standard nurse mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>A standard nurse mechadendrite. Embedded with medical tools and semi-autonomous behaviour, this mechadendrite acts its finest when given to nurses and doctors.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardNurseMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -783,10 +783,10 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardNurseMechadendrite</defName>
         <label>standard nurse mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A standard mechadendrite tuned to assist in the tending of those who are injured. Embedded with medicinal tools and mini-servos for vast movement, this mechadendrite can help someone tend to those who are injured quicker and with better quality than without. Thanks to its connection into the individual's spine, the standard nurse mechadendrite can detect and tend wounds semi-autonomously allowing the tender to multi-task efficiently speeding up tending.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardNurseMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>30</Plasteel>
@@ -799,7 +799,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
         <defName>Marak_InstallStandardNurseMechadendrite</defName>
         <label>install standard nurse mechadendrite</label>
         <description>Install a standard nurse mechadendrite.</description>
@@ -863,7 +863,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -879,7 +879,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
         <defName>Marak_InstallStandardDoctorMechadendrite</defName>
         <label>install standard doctor mechadendrite</label>
         <description>Install a standard doctor mechadendrite.</description>
@@ -943,7 +943,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCleanerMechadendrite</defName>
         <label>standard cleaner mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -958,7 +958,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
         <defName>Marak_InstallStandardCleanerMechadendrite</defName>
         <label>install standard cleaner mechadendrite</label>
         <description>Install a standard cleaner mechadendrite.</description>
