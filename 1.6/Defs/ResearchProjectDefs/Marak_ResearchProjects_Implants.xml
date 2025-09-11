@@ -31,6 +31,8 @@
         <baseCost>400</baseCost>
         <prerequisites>
             <li>Marak_Mechadendrite_Gateway</li>
+            <li>Machining</li>
+            <li>Prosthetics</li>
         </prerequisites>
         <researchViewX>1.25</researchViewX>
         <researchViewY>2.5</researchViewY>
@@ -132,7 +134,7 @@
     <ResearchProjectDef>
         <defName>Marak_StandardMultitoolMechadendrites</defName> <!-- Unlocks both Engineering and Artisan Mechadendrites -->
         <label>Standardized Tooling Mechadendrites</label>
-        <description>Imrpoving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in either fields of engineering or fields of artisa</description> 
+        <description>Improving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in fields of engineering or artisan work.</description> 
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1250</baseCost>
