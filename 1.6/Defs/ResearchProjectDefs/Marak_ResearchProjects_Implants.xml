@@ -188,23 +188,25 @@
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Medical and Plant? Mechadendrites
-    <ResearchProjectDef> 
-        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
-        <label>REPLACEME</label>
-        <description>REPLACE_ME</description>
+    <!-- Medical and Plant? Mechadendrites -->
+    <!-- <ResearchProjectDef> 
+        <defName>Marak_StandardMedicalMechadendrites</defName>
+        <label>Medicinal Mechadendrites</label>
+        <description>Design a suite of medicinal related mechadendrites to assist medical staff in their duties.</description>
         <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>[LEVEL]</techLevel>
-        <baseCost>[VALUE]</baseCost>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
         <prerequisites>
-            <li>[PREREQ]</li>
+            <li>Marak_StandardMechadendrites</li>
+            <li>PenoxycylineProduction</li>
+            <li>MedicineProduction</li>
         </prerequisites>
-        <researchViewX>*COORDINATE*</researchViewX>
-        <researchViewY>*COORDINATE*</researchViewY>
+        <researchViewX>4.75</researchViewX>
+        <researchViewY>6</researchViewY>
     </ResearchProjectDef>
     
 
@@ -224,7 +226,7 @@
         </prerequisites>
         <researchViewX>*COORDINATE*</researchViewX>
         <researchViewY>*COORDINATE*</researchViewY>
-    </ResearchProjectDef>
-    -->
+    </ResearchProjectDef> -->
+    
 
 </Defs>
