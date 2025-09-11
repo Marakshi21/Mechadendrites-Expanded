@@ -20,7 +20,7 @@
             <li>Advanced</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>27000</WorkToMake>
+            <WorkToMake>21000</WorkToMake>
         </statBases>
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -145,7 +145,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.06</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -159,8 +159,7 @@
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
@@ -243,10 +242,9 @@
         <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and menial fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>20</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>5</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
@@ -315,7 +313,7 @@
             <li>
                 <statOffsets>
                     <ConstructionSpeed>.075</ConstructionSpeed>
-                    <ConstructSuccessChance>.05</ConstructSuccessChance>
+                    <ConstructSuccessChance>.075</ConstructSuccessChance>
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                 </statOffsets>
@@ -329,7 +327,7 @@
         <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multitasking.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>20</Plasteel>
+            <Plasteel>25</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
@@ -400,8 +398,8 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>.075</MiningSpeed>
-                    <DeepDrillingSpeed>.05</DeepDrillingSpeed>
+                    <MiningSpeed>0.15</MiningSpeed>
+                    <DeepDrillingSpeed>0.10</DeepDrillingSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -413,9 +411,9 @@
         <description>Created by putting a small drill on its tip, the drill can be controlled consciously by its user or used subconsciously to improve mining efforts. A tough plasteel exterior gives it much needed protection while performing mining operations with reinforced shielding within protects its delicate circuitry.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>25</Plasteel>
+            <Plasteel>30</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
@@ -491,7 +489,7 @@
                             <li>Cut</li>
                         </capacities>
                         <power>12</power>
-                        <armorPenetration>0.05</armorPenetration>
+                        <armorPenetration>0.075</armorPenetration>
                         <cooldownTime>1.5</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
@@ -507,9 +505,13 @@
         <label>standard serrated mechadendrite</label>
         <description>A standard mechadendrite with a long serrated blade on its tip engineered to slice deep and do lots of damage. Its speciality lies in the cutting of flesh, similar to that of a scyther's blade. Able to differentiate friend from foe based on intuition, it can move around and slice efficiently but struggles to pierce through armour.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardSerratedMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
-            <Plasteel>30</Plasteel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Plasteel>40</Plasteel>
+            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
@@ -517,6 +519,10 @@
         <statBases>
             <Mass>3</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -605,10 +611,12 @@
         <label>standard harasser mechadendrite</label>
         <description>Imbued with advanced circuitry and threat detection, a standard harasser mechadendrite is designed with one goal in mind: overwhelm the enemy and prevent them from hitting. To accomplish its goal, this mechadendrite is capable of highly autonomous movement and can strike fast, but cannot pierce deep nor cause extensive damage.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHarasserMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>20</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <Steel>15</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
@@ -616,6 +624,10 @@
         <statBases>
             <Mass>3</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -704,9 +716,12 @@
         <label>standard heavy-duty bladed mechadendrite</label>
         <description>A heavy-duty mechadendrite equipped with a long, dense, and powerful blade. Difficult to carry and slow to use, this mechadendrite is designed with the sole idea of using it to crush an enemy with its blade and pierce the toughest of armours. Its high weight combined with limited movement means day-to-day movement is tougher with this mechadendrite. It is recommended to have augments to help move when using such a heavy mechadendrite.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHeavyMeleeMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
-            <Plasteel>40</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
+            <Plasteel>50</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
@@ -715,6 +730,10 @@
         <statBases>
             <Mass>5</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -786,7 +805,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardNurseMechadendrite</defName>
         <label>standard nurse mechadendrite</label>
-        <description>A standard mechadendrite tuned to assist in the tending of those who are injured. Embedded with medicinal tools and mini-servos for vast movement, this mechadendrite can help someone tend to those who are injured quicker and with better quality than without. Thanks to its connection into the individual's spine, the standard nurse mechadendrite can detect and tend wounds semi-autonomously allowing the tender to multi-task efficiently speeding up tending.</description>
+        <description>A standard mechadendrite tuned to assist in the tending of those who are injured. Embedded with medicinal tools and mini-servos for vast movement, this mechadendrite can help someone tend to those who are injured quicker and with better quality than without. Thanks to its connection into the individual's spine, the standard nurse mechadendrite can detect and tend wounds semi-autonomously allowing the tender to multitask efficiently speeding up tending.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardNurseMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>30</Plasteel>
