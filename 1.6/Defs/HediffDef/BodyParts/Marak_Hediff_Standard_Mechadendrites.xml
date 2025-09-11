@@ -72,7 +72,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement combining with a flexible shell grant exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it as one of the greatest mechadendrites to date.</description>
+        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
