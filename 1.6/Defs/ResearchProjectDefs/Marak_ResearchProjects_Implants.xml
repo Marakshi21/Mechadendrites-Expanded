@@ -16,11 +16,7 @@
         <description>Develop methods for attaching new tendril-like limbs called mechadendrites onto a person's back, granting control over them via attaching to the spinal cord.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>250</baseCost>
-        <prerequisites>
-            <li>Machining</li>
-            <li>Prosthetics</li>
-        </prerequisites>
+        <baseCost>200</baseCost>
         <researchViewX>0.2</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
