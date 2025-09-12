@@ -74,7 +74,7 @@
         <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>15</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
@@ -167,8 +167,8 @@
         <description>A mechadendrite ordained with a sharp blade at its tip. Its semi-flexible construction allows it to swing around madly aiming to strike targets based on the wielder's intuition of who is foe and friend.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCombatMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>35</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
+            <Steel>20</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
@@ -255,8 +255,8 @@
         <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>15</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
@@ -342,8 +342,8 @@
         <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <recipeMaker>
@@ -429,7 +429,7 @@
         <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>25</Steel>
+            <Steel>20</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
