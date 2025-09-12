@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
     <!-- Base for Standard Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
@@ -75,7 +75,7 @@
         <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>5</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <Steel>5</Steel>
         </costList>
@@ -158,8 +158,9 @@
         <description>A standard optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>10</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
+            <Steel>5</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
@@ -242,7 +243,7 @@
         <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and menial fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>5</Steel>
@@ -314,7 +315,7 @@
             <li>
                 <statOffsets>
                     <ConstructionSpeed>.075</ConstructionSpeed>
-                    <ConstructSuccessChance>.075</ConstructSuccessChance>
+                    <ConstructSuccessChance>.05</ConstructSuccessChance>
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                 </statOffsets>
@@ -401,7 +402,7 @@
             <li>
                 <statOffsets>
                     <MiningSpeed>0.10</MiningSpeed>
-                    <DeepDrillingSpeed>0.10</DeepDrillingSpeed>
+                    <DeepDrillingSpeed>0.5</DeepDrillingSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -415,7 +416,7 @@
         <costList>
             <Plasteel>15</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>10</Steel>
         </costList>
         <recipeMaker>
@@ -512,9 +513,9 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <costList>
-            <Plasteel>30</Plasteel>
+            <Plasteel>20</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
@@ -725,7 +726,7 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <costList>
-            <Plasteel>40</Plasteel>
+            <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>10</Steel>

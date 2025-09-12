@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    <!-- Refined Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
     <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -242,8 +242,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>.075</MiningSpeed>
-                    <DeepDrillingSpeed>0.025</DeepDrillingSpeed>
+                    <MiningSpeed>.06</MiningSpeed>
                  </statOffsets>
              </li>
          </stages>
@@ -256,7 +255,7 @@
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>15</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
