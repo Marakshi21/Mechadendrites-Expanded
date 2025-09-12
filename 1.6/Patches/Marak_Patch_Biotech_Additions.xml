@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/HediffDef[defName="Marak_StandardEngineeringMechadendrite"]/stages/li/statOffsets</xpath>
+            <value>
+                <MechRepairSpeed>0.05</MechRepairSpeed>
+                <SubcoreEncodingSpeed>0.05</SubcoreEncodingSpeed>
+            </value>
+        </match>
+    </Operation>
+</Patch>

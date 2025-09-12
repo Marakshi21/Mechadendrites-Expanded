@@ -17,7 +17,7 @@
          <recipeUsers>
              <li>(MACHINING/FABRICATION)</li>
          </recipeUsers>
-         <displayPriority>#VALUE#</displayPriority>
+         <displayPriority>[VALUE]</displayPriority>
      </recipeMaker>
     </ThingDef>
 
@@ -41,7 +41,7 @@
         </techHediffsTags>
         ^OPTIONAL_END^
         <statBases>
-            <WorkToMake>#VALUE#</WorkToMake>
+            <WorkToMake>[VALUE]</WorkToMake>
         </statBases>
     </ThingDef>
     -->
@@ -80,11 +80,11 @@
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_Install[TIER]{TYPE-OPTIONAL}Mechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            #VALUE#
+            [VALUE]
         </costList>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
-            #VALUE#
+            [VALUE]
         </statBases>
     </ThingDef>
     -->

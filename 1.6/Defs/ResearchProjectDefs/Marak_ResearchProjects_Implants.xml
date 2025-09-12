@@ -16,11 +16,7 @@
         <description>Develop methods for attaching new tendril-like limbs called mechadendrites onto a person's back, granting control over them via attaching to the spinal cord.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>250</baseCost>
-        <prerequisites>
-            <li>Machining</li>
-            <li>Prosthetics</li>
-        </prerequisites>
+        <baseCost>200</baseCost>
         <researchViewX>0.2</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
@@ -35,6 +31,8 @@
         <baseCost>400</baseCost>
         <prerequisites>
             <li>Marak_Mechadendrite_Gateway</li>
+            <li>Machining</li>
+            <li>Prosthetics</li>
         </prerequisites>
         <researchViewX>1.25</researchViewX>
         <researchViewY>2.5</researchViewY>
@@ -136,7 +134,7 @@
     <ResearchProjectDef>
         <defName>Marak_StandardMultitoolMechadendrites</defName> <!-- Unlocks both Engineering and Artisan Mechadendrites -->
         <label>Standardized Tooling Mechadendrites</label>
-        <description>Imrpoving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in either fields of engineering or fields of artisa</description> 
+        <description>Improving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in fields of engineering or artisan work.</description> 
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1250</baseCost>
@@ -187,5 +185,46 @@
         <researchViewX>4.2</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
+
+    <!-- Medical and Plant? Mechadendrites -->
+    <!-- <ResearchProjectDef> 
+        <defName>Marak_StandardMedicalMechadendrites</defName>
+        <label>Medicinal Mechadendrites</label>
+        <description>Design a suite of medicinal related mechadendrites to assist medical staff in their duties.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>PenoxycylineProduction</li>
+            <li>MedicineProduction</li>
+        </prerequisites>
+        <researchViewX>4.75</researchViewX>
+        <researchViewY>6</researchViewY>
+    </ResearchProjectDef>
+    
+
+    <ResearchProjectDef>
+        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
+        <label>REPLACEME</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>[LEVEL]</techLevel>
+        <baseCost>[VALUE]</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>[PREREQ]</li>
+        </prerequisites>
+        <researchViewX>*COORDINATE*</researchViewX>
+        <researchViewY>*COORDINATE*</researchViewY>
+    </ResearchProjectDef> -->
+    
 
 </Defs>

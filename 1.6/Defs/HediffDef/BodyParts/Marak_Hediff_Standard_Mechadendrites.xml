@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
     <!-- Base for Standard Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
@@ -20,7 +20,7 @@
             <li>Advanced</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>36000</WorkToMake>
+            <WorkToMake>21000</WorkToMake>
         </statBases>
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -62,7 +62,7 @@
                 <capMods>
                     <li>
                         <capacity>Manipulation</capacity>
-                        <offset>0.04</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -72,10 +72,10 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement combining with a flexible shell grant exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it as one of the greatest mechadendrites to date.</description>
+        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>5</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <Steel>5</Steel>
         </costList>
@@ -145,7 +145,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.04</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -158,10 +158,9 @@
         <description>A standard optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Steel>10</Steel>
+            <Plasteel>10</Plasteel>
+            <ComponentSpacer>2</ComponentSpacer>
+            <Steel>5</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
@@ -230,9 +229,9 @@
         <stages>
             <li>
                 <statOffsets>
-                    <GeneralLaborSpeed>.08</GeneralLaborSpeed>
-                    <SmoothingSpeed>.08</SmoothingSpeed>
-                    <SmeltingSpeed>.08</SmeltingSpeed>
+                    <GeneralLaborSpeed>.075</GeneralLaborSpeed>
+                    <SmoothingSpeed>.075</SmoothingSpeed>
+                    <SmeltingSpeed>.075</SmeltingSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -246,8 +245,8 @@
         <costList>
             <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Steel>10</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>5</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
@@ -315,11 +314,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ConstructionSpeed>.08</ConstructionSpeed>
-                    <ButcheryMechanoidSpeed>.08</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency> 
-                    <ConstructSuccessChance>.025</ConstructSuccessChance>
-                    <FixBrokenDownBuildingSuccessChance>0.025</FixBrokenDownBuildingSuccessChance>
+                    <ConstructionSpeed>.075</ConstructionSpeed>
+                    <ConstructSuccessChance>.05</ConstructSuccessChance>
+                    <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
+                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                 </statOffsets>
             </li>
         </stages>
@@ -333,8 +331,8 @@
         <costList>
             <Plasteel>10</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Steel>10</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>5</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
@@ -403,8 +401,8 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>.08</MiningSpeed>
-                    <DeepDrillingSpeed>.06</DeepDrillingSpeed>
+                    <MiningSpeed>0.10</MiningSpeed>
+                    <DeepDrillingSpeed>0.5</DeepDrillingSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -417,9 +415,9 @@
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Steel>5</Steel>
+            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>10</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
@@ -495,7 +493,7 @@
                             <li>Cut</li>
                         </capacities>
                         <power>12</power>
-                        <armorPenetration>0.05</armorPenetration>
+                        <armorPenetration>0.075</armorPenetration>
                         <cooldownTime>1.5</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
@@ -511,6 +509,9 @@
         <label>standard serrated mechadendrite</label>
         <description>A standard mechadendrite with a long serrated blade on its tip engineered to slice deep and do lots of damage. Its speciality lies in the cutting of flesh, similar to that of a scyther's blade. Able to differentiate friend from foe based on intuition, it can move around and slice efficiently but struggles to pierce through armour.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardSerratedMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
@@ -522,6 +523,10 @@
         <statBases>
             <Mass>3</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -610,11 +615,13 @@
         <label>standard harasser mechadendrite</label>
         <description>Imbued with advanced circuitry and threat detection, a standard harasser mechadendrite is designed with one goal in mind: overwhelm the enemy and prevent them from hitting. To accomplish its goal, this mechadendrite is capable of highly autonomous movement and can strike fast, but cannot pierce deep nor cause extensive damage.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHarasserMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>15</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <Steel>20</Steel>
+            <Steel>10</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
@@ -622,6 +629,10 @@
         <statBases>
             <Mass>3</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -668,6 +679,7 @@
     </RecipeDef>
     
    <!-- Heavy Melee Mechadendrite: Highest Damage, Highest AP, Highest cooldown, Highest cost -->
+    <!-- Might move into separate Tier to reflect debuffs and higher cost -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardHeavyMeleeMechadendrite</defName>
         <label>standard heavy-duty bladed mechadendrite</label>
@@ -685,7 +697,6 @@
                         <label>blade</label>
                         <capacities>
                             <li>Stab</li>
-                            <li>Cut</li>
                         </capacities>
                         <power>25</power>
                         <armorPenetration>0.5</armorPenetration>
@@ -711,11 +722,14 @@
         <label>standard heavy-duty bladed mechadendrite</label>
         <description>A heavy-duty mechadendrite equipped with a long, dense, and powerful blade. Difficult to carry and slow to use, this mechadendrite is designed with the sole idea of using it to crush an enemy with its blade and pierce the toughest of armours. Its high weight combined with limited movement means day-to-day movement is tougher with this mechadendrite. It is recommended to have augments to help move when using such a heavy mechadendrite.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHeavyMeleeMechadendrite</RecipeDef></descriptionHyperlinks>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>30</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>15</Steel>
+            <Steel>10</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
@@ -723,6 +737,10 @@
         <statBases>
             <Mass>5</Mass>
         </statBases>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>AdvancedWeapon</li>
+        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
@@ -767,5 +785,4 @@
         <jobString>Removing standard heavy-duty bladed mechadendrite.</jobString>
         <removesHediff>Marak_StandardHeavyMeleeMechadendrite</removesHediff>
     </RecipeDef>
-    
 </Defs>
