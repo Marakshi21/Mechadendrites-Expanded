@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    <!-- Refined Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
     <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -13,14 +13,14 @@
             <color>(154,124,104)</color>
         </graphicData>
         <statBases>
-            <WorkToMake>28000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
         </statBases>
         <recipeMaker>
             <displayPriority>600</displayPriority>
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef Name="BodyPartRefinedMechadendriteMakeableBase" ParentName="BodyPartBasicMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartRefinedMechadendriteMakeableBase" ParentName="BodyPartRefinedMechadendriteBase" Abstract="True">
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <workSkill>Crafting</workSkill>
@@ -74,7 +74,7 @@
         <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>12</Steel>
+            <Steel>25</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
@@ -141,15 +141,6 @@
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
-        <!-- <stages>
-            <li>
-                <statOffsets>
-                    <MeleeArmorPenetration>.0125</MeleeArmorPenetration>
-                    <MeleeCooldownFactor>-.015</MeleeCooldownFactor>
-                    <MeleeDamageFactor>0.0125</MeleeDamageFactor>
-                </statOffsets>
-            </li>
-        </stages> -->
         <comps>
             <li Class="HediffCompProperties_VerbGiver">
                 <tools>
@@ -179,6 +170,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
         </recipeMaker>
@@ -248,7 +242,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>.04</MiningSpeed>
+                    <MiningSpeed>.05</MiningSpeed>
                  </statOffsets>
              </li>
          </stages>
@@ -331,11 +325,11 @@
         <stages>
             <li>
                 <statOffsets>
-                    <GeneralLaborSpeed>.04</GeneralLaborSpeed>
-                    <SmoothingSpeed>.04</SmoothingSpeed>
-                    <ConstructionSpeed>.04</ConstructionSpeed>
-                    <SmeltingSpeed>.04</SmeltingSpeed>
-                    <ButcheryMechanoidSpeed>.04</ButcheryMechanoidSpeed>
+                    <GeneralLaborSpeed>.05</GeneralLaborSpeed>
+                    <SmoothingSpeed>.05</SmoothingSpeed>
+                    <ConstructionSpeed>.05</ConstructionSpeed>
+                    <SmeltingSpeed>.05</SmeltingSpeed>
+                    <ButcheryMechanoidSpeed>.05</ButcheryMechanoidSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -350,6 +344,7 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
         </recipeMaker>
@@ -420,7 +415,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.02</offset>
+                        <offset>0.025</offset>
                     </li>
                 </capMods>
             </li>

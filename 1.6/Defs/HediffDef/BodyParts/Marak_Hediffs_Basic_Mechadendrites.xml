@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    <!-- Basic Tier: Entry into all other mechadendrites, quite useless, requires only steel to make -->
     <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -13,10 +13,10 @@
             <color>(154,124,104)</color>
         </graphicData>
         <statBases>
-            <WorkToMake>24000</WorkToMake>
+            <WorkToMake>9000</WorkToMake>
         </statBases>
         <recipeMaker>
-            <displayPriority>600</displayPriority>
+            <displayPriority>450</displayPriority>
         </recipeMaker>
     </ThingDef>
 
@@ -73,8 +73,7 @@
         <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>8</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>20</Steel>
         </costList>
         <statBases>
             <Mass>2</Mass>
