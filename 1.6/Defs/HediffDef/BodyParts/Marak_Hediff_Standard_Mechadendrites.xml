@@ -318,6 +318,8 @@
                     <ConstructSuccessChance>.025</ConstructSuccessChance>
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
+                    <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</MechRepairSpeed>
+                    <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</SubcoreEncodingSpeed>
                 </statOffsets>
             </li>
         </stages>
