@@ -20,7 +20,7 @@
             <li>Advanced</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>21000</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
         </statBases>
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -35,7 +35,7 @@
             <recipeUsers>
                 <li>FabricationBench</li>
             </recipeUsers>
-            <displayPriority>300</displayPriority>
+            <displayPriority>500</displayPriority>
         </recipeMaker>
     </ThingDef>
 
@@ -158,9 +158,9 @@
         <description>A standard optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>8</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <Steel>5</Steel>
+            <Steel>6</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardOpticalMechadendrites</researchPrerequisite>
@@ -243,17 +243,17 @@
         <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and menial fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>8</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>5</Steel>
+            <Steel>6</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
-            <Mass>3.5</Mass>
+            <Mass>3</Mass>
         </statBases>
     </ThingDef>
 
@@ -315,9 +315,11 @@
             <li>
                 <statOffsets>
                     <ConstructionSpeed>.075</ConstructionSpeed>
-                    <ConstructSuccessChance>.05</ConstructSuccessChance>
+                    <ConstructSuccessChance>.025</ConstructSuccessChance>
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
+                    <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</MechRepairSpeed>
+                    <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</SubcoreEncodingSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -329,17 +331,17 @@
         <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multitasking.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>8</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>5</Steel>
+            <Steel>6</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
-            <Mass>3.5</Mass>
+            <Mass>3</Mass>
         </statBases>
     </ThingDef>
 
@@ -414,17 +416,17 @@
         <description>Created by putting a small drill on its tip, the drill can be controlled consciously by its user or used subconsciously to improve mining efforts. A tough plasteel exterior gives it much needed protection while performing mining operations with reinforced shielding within protects its delicate circuitry.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>8</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>10</Steel>
+            <Steel>12</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
-            <Mass>2.5</Mass>
+            <Mass>6</Mass>
         </statBases>
     </ThingDef>
 
@@ -513,15 +515,16 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <costList>
-            <Plasteel>20</Plasteel>
+            <Plasteel>12</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>12</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
         </recipeMaker>
         <statBases>
-            <Mass>3</Mass>
+            <Mass>2.5</Mass>
         </statBases>
         <techHediffsTags>
             <li>Advanced</li>
@@ -619,15 +622,15 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>12</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <Steel>10</Steel>
+            <Steel>12</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
         </recipeMaker>
         <statBases>
-            <Mass>3</Mass>
+            <Mass>2.5</Mass>
         </statBases>
         <techHediffsTags>
             <li>Advanced</li>
@@ -726,16 +729,15 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <costList>
-            <Plasteel>30</Plasteel>
-            <ComponentSpacer>4</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>10</Steel>
+            <Plasteel>36</Plasteel>
+            <ComponentSpacer>3</ComponentSpacer>
+            <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
         </recipeMaker>
         <statBases>
-            <Mass>5</Mass>
+            <Mass>15</Mass>
         </statBases>
         <techHediffsTags>
             <li>Advanced</li>
