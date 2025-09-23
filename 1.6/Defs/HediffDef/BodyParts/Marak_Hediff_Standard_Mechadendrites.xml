@@ -29,7 +29,7 @@
             <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>10</Crafting>
+                <Crafting>8</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_StandardMechadendrites</researchPrerequisite>
             <recipeUsers>
@@ -41,7 +41,7 @@
 
     <RecipeDef Name="SurgeryInstallBodyPartStandardMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
         <skillRequirements>
-            <Medicine>10</Medicine>
+            <Medicine>8</Medicine>
         </skillRequirements>
     </RecipeDef>
 
