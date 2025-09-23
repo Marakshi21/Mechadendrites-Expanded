@@ -3,19 +3,20 @@
     <!-- Base outline for all Mechadendrites -->
     <ThingDef Name="BodyPartMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
     <graphicData>
-        <textPath>Things/Item/Health/HealthItem</textPath>
+        <texPath>Things/Item/Health/HealthItem</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>0.8</drawSize>
     </graphicData>
     <statBases>
         <WorkToMake>6000</WorkToMake>
+        <Mass>2.5</Mass>
     </statBases>
     <recipeMaker>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
-        <displayPriority>400</displayPriority>
+        <displayPriority>300</displayPriority>
     </recipeMaker>
     </ThingDef>
 

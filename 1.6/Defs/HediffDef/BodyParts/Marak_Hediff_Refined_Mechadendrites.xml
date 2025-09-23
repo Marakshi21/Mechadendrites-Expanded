@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Refined Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
-    <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+    <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.80</drawSize>
             <color>(154,124,104)</color>
         </graphicData>
         <techHediffsTags>
@@ -19,10 +16,6 @@
             <WorkToMake>15000</WorkToMake>
         </statBases>
         <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -31,7 +24,6 @@
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
-            <displayPriority>600</displayPriority>
         </recipeMaker>
     </ThingDef>
     

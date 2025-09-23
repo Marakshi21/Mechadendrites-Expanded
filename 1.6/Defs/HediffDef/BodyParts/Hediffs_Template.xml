@@ -10,9 +10,6 @@
             <li>BodyParts[PROSTHETIC/BIONIC]</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.80</drawSize>
             <color>(154,124,104)</color> [PROSTHETIC]
             <color>(189,169,118)</color> [BIONIC]
         </graphicData>
@@ -26,11 +23,7 @@
             <WorkToMake>[Number * 60]</WorkToMake>
         </statBases>
         <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedHealthItem[PROSTHETIC/BIONIC]</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>[SKILL]</Crafting>
             </skillRequirements>
@@ -38,7 +31,6 @@
             <recipeUsers>
                 <li>[MACHINING/FABRICATION]</li>
             </recipeUsers>
-            <displayPriority>[PRIORITY]</displayPriority>
         </recipeMaker>
     </ThingDef> -->
 
