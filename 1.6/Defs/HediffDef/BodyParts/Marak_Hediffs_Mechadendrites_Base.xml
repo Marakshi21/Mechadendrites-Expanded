@@ -16,7 +16,7 @@
         <workSkill>Crafting</workSkill>
         <effectWorking>Smith</effectWorking>
         <soundWorking>Recipe_Smith</soundWorking>
-        <displayPriority>300</displayPriority>
+        <displayPriority>600</displayPriority>
     </recipeMaker>
     </ThingDef>
 

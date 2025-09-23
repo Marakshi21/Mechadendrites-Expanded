@@ -8,9 +8,6 @@
             <li>BodyPartsBionic</li>
         </thingCategories>
         <graphicData>
-            <!-- <texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.80</drawSize> -->
             <color>(189,169,118)</color>
         </graphicData>
         <tradeTags>
@@ -23,10 +20,6 @@
             <WorkToMake>18000</WorkToMake>
         </statBases>
         <recipeMaker>
-           <!-- <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking> -->
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -35,7 +28,7 @@
             <recipeUsers>
                 <li>FabricationBench</li>
             </recipeUsers>
-            <displayPriority>750</displayPriority>
+            <displayPriority>300</displayPriority>
         </recipeMaker>
     </ThingDef>
 
@@ -307,7 +300,7 @@
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                     <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</MechRepairSpeed>
-                    <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</SubcoreEncodingSpeed>
+                    <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</SubcoreEncodingSpeed> <!-- Move onto Cognition Mechadendrite -->
                 </statOffsets>
             </li>
         </stages>
