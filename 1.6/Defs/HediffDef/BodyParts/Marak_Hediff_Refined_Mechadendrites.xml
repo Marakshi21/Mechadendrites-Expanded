@@ -462,4 +462,159 @@
         <jobString>Removing refined flashlight mechadendrite.</jobString>
         <removesHediff>Marak_RefinedOpticalMechadendrite</removesHediff>
     </RecipeDef>
+
+    <!-- Plant Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_RefinedPlantsMechadendrite</defName>
+        <label>refined plant mechadendrite</label>
+        <labelNoun>a refined plant mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <PlantWorkSpeed>.05</PlantWorkSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.05</PruningSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_RefinedPlantsMechadendrite</defName>
+        <label>refined plant (Find thematic name) mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>3</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallRefinedPlantsMechadendrite</defName>
+        <label>install refined plant mechadendrite</label>
+        <description>Install a refined plant mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_RefinedPlantsMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_RefinedPlantsMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_RefinedPlantsMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveRefinedPlantsMechadendrite</defName>
+        <label>remove refined plant Mechadendrite</label>
+        <description>Remove refined plant Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing refined plant mechadendrite.</jobString>
+        <removesHediff>Marak_RefinedPlantsMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <!-- Cleaning Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_RefinedCleaningMechadendrite</defName>
+        <label>refined sweeper mechadendrite</label>
+        <labelNoun>a refined sweeper mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <CleaningSpeed>0.1</CleaningSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_RefinedCleaningMechadendrite</defName>
+        <label>refined sweeper mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>2.5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallRefinedCleaningMechadendrite</defName>
+        <label>install refined sweeper mechadendrite</label>
+        <description>Install a refined sweeper mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedCleaningMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_RefinedCleaningMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_RefinedCleaningMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_RefinedCleaningMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveRefinedCleaningMechadendrite</defName>
+        <label>remove refined sweeper Mechadendrite</label>
+        <description>Remove refined sweeper Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef>
+            <HediffDef>Marak_RefinedCleaningMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing refined sweeper mechadendrite.</jobString>
+        <removesHediff>Marak_RefinedCleaningMechadendrite</removesHediff>
+    </RecipeDef>
 </Defs>
