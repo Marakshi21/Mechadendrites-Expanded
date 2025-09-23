@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    
     <!-- Research Tab -->
     <ResearchTabDef>
         <defName>Marak_MechadendritesExpanded</defName>
         <label>Mechadendrites Research</label>
         <generalTitle>Mechadendrites Research</generalTitle>
-        <generalDescription>Develop mechadendrites and how to implant them by researching at a research bench. You can only have one active project at a time.</generalDescription>
     </ResearchTabDef>
 
     <!-- Allow the creation of Basic Mechadendrites -->
     <ResearchProjectDef>
         <defName>Marak_BasicMechadendrites</defName>
         <label>Basic Mechadendrite Prototypes</label>
-        <!-- <description>Building upon initial research into new tendril-like limbs has yielded the creation of a basic mechadendrite. Rigid and firm, their potential is there albeit limited.</description> 
-        <description>Create the basics of a new type of tendril-like implants called Mechaendrites. Rigid and firm, these basic early-day prototypes are but a glimpse into the potential of these new implants.</description> 
-        <description>Design a new class of small, tendril-like implants and create basic prototypes as a proof of concept.</description> 
-        <description>Establish the foundation for a new class of versatile tendril-like implants called mechadendrites. These basic prototypes prove to be rigid, firm, and difficult to use limiting potential. But granting invaluable insight into possible refinements for newer models.</description> -->
         <description>Establish the foundation for a new class of versatile tendril-like implants called mechadendrites, and create basic proof of concepts to show off their potential. Rigid and firm, these basic constructs are limited but grant invaluable insight into future refinements.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
@@ -46,7 +40,6 @@
     </ResearchProjectDef>
 
     <!-- Specialised Refined Mechadendrites -->
-    
     <!-- Multitool mechadendrite -->
       <ResearchProjectDef>
           <defName>Marak_RefinedMultitoolMechadendrite</defName>
@@ -142,7 +135,6 @@
     </ResearchProjectDef>
 
     <!-- Standard Drill & Melee Mechadendrites -->
-    
     <ResearchProjectDef>
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>Drilling Mechadendrites</label>

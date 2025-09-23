@@ -35,7 +35,7 @@
             <recipeUsers>
                 <li>FabricationBench</li>
             </recipeUsers>
-            <displayPriority>500</displayPriority>
+            <displayPriority>750</displayPriority>
         </recipeMaker>
     </ThingDef>
 

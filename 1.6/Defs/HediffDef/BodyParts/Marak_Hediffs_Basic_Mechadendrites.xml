@@ -25,13 +25,13 @@
             <soundWorking>Recipe_Smith</soundWorking>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>6</Crafting>
+                <Crafting>5</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_BasicMechadendrites</researchPrerequisite>
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
-            <displayPriority>500</displayPriority>
+            <displayPriority>300</displayPriority>
         </recipeMaker>
     </ThingDef>
 
