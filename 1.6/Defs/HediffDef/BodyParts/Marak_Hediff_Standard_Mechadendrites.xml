@@ -39,14 +39,7 @@
         </recipeMaker>
     </ThingDef>
 
-    <RecipeDef Name="SurgeryInstallBodyPartStandardMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
-        <skillRequirements>
-            <Medicine>8</Medicine>
-        </skillRequirements>
-    </RecipeDef>
-
     <!-- Standard Mechadendrite -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
@@ -85,7 +78,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardMechadendrite</defName>
         <label>install standard mechadendrite</label>
         <description>Install a standard mechadendrite.</description>
@@ -128,7 +121,6 @@
     </RecipeDef>
     
     <!-- Optical Mechadendrite -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardOpticalMechadendrite</defName>
         <label>standard optical mechadendrite</label>
@@ -170,7 +162,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardOpticalMechadendrite</defName>
         <label>install standard optical mechadendrite</label>
         <description>Install a standard optical mechadendrite.</description>
@@ -213,7 +205,6 @@
     </RecipeDef>
     
     <!-- Artisan and Engineering Mechadendrites -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
@@ -255,7 +246,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardArtisanMechadendrite</defName>
         <label>install standard artisan mechadendrite</label>
         <description>Install a standard artisan mechadendrite.</description>
@@ -342,7 +333,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardEngineeringMechadendrite</defName>
         <label>install standard engineer mechadendrite</label>
         <description>Install a standard engineer mechadendrite.</description>
@@ -385,7 +376,6 @@
     </RecipeDef>
     
     <!-- Drill Mechadendrite -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
@@ -426,7 +416,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardDrillMechadendrite</defName>
         <label>install standard drill mechadendrite</label>
         <description>Install a standard drill mechadendrite.</description>
@@ -469,7 +459,6 @@
     </RecipeDef>
     
     <!-- Melee Mechadendrite Suite: Heavy Melee, Harasser, Serrated -->
-
     <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardSerratedMechadendrite</defName>
@@ -527,7 +516,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardSerratedMechadendrite</defName>
         <label>install standard serrated mechadendrite</label>
         <description>Install a standard serrated mechadendrite.</description>
@@ -632,7 +621,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardHarasserMechadendrite</defName>
         <label>install standard harasser mechadendrite</label>
         <description>Install a standard harasser mechadendrite.</description>
@@ -738,7 +727,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartStandardMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardHeavyMeleeMechadendrite</defName>
         <label>install standard heavy-duty bladed mechadendrite</label>
         <description>Install a standard heavy-duty bladed mechadendrite.</description>

@@ -34,12 +34,6 @@
             <displayPriority>600</displayPriority>
         </recipeMaker>
     </ThingDef>
-
-    <RecipeDef Name="SurgeryInstallBodyPartRefinedMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
-        <skillRequirements>
-            <Medicine>8</Medicine>
-        </skillRequirements>
-    </RecipeDef>
     
 
     <!-- Refined Mechadendrite -->
@@ -82,7 +76,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedMechadendrite</defName>
         <label>install refined mechadendrite</label>
         <description>Install a refined mechadendrite.</description>
@@ -181,7 +175,7 @@
         <violentTechHediff>true</violentTechHediff>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedCombatMechadendrite</defName>
         <label>install refined bladed mechadendrite</label>
         <description>Install a refined bladed mechadendrite.</description>
@@ -263,7 +257,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedExcavatorMechadendrite</defName>
         <label>install refined Excavator mechadendrite</label>
         <description>Install a refined excavator mechadendrite.</description>
@@ -350,7 +344,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedMultitoolMechadendrite</defName>
         <label>install refined multitool mechadendrite</label>
         <description>Install a refined multitool mechadendrite.</description>
@@ -435,7 +429,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartRefinedMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedOpticalMechadendrite</defName>
         <label>install refined flashlight mechadendrite</label>
         <description>Install a refined flashlight mechadendrite.</description>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Base outline for all Mechadendrites -->
+    <ThingDef Name="BodyPartMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+    <graphicData>
+        <textPath>Things/Item/Health/HealthItem</textPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.8</drawSize>
+    </graphicData>
+    <statBases>
+        <WorkToMake>6000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <displayPriority>400</displayPriority>
+    </recipeMaker>
+    </ThingDef>
+
+    <!-- Base Surgery for all Mechadendrites -->
+    <RecipeDef Name="SurgeryInstallBodyPartMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+        <skillRequirements>
+            <Medicine>8</Medicine>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

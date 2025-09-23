@@ -2,49 +2,46 @@
 
 <Defs>
     <!-- Base Template for all Mechadendrite Recipes and ThingDefs -->
-    <!-- 
-    <ThingDef Name="BodyPart[TIER][TYPE-OPTIONAL]MechadendriteMakeableBase" ParentName="BodyPart[TIER]Base" Abstract="True">
-     <recipeMaker>
-         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-         <workSkill>Crafting</workSkill>
-         <effectWorking>Smith</effectWorking>
-         <soundWorking>Recipe_Smith</soundWorking>
-         <unfinishedThingDef>UnfinishedHealthItem(RIMWORLD_TIER)</unfinishedThingDef>
-         <skillRequirements>
-             <Crafting>[SKILL]</Crafting>
-         </skillRequirements>
-         <researchPrerequisite>Marak_[TIER][TYPE-OPTIONAL]Mechadendrites</researchPrerequisite>
-         <recipeUsers>
-             <li>[MACHINING/FABRICATION]</li>
-         </recipeUsers>
-         <displayPriority>[VALUE]</displayPriority>
-     </recipeMaker>
-    </ThingDef>
 
-    <ThingDef Name="BodyPart[TIER]Base" ParentName="BodyPartBase" Abstract="True">
-        <techLevel>@LEVEL@</techLevel>
+    <!--
+    <ThingDef Name="BodyPart[TIER]MechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+        <techLevel>[TECH LEVEL]</techLevel>
         <thingCategories>
-            <li>BodyParts(RIMWORLD_TIER)</li>
+            <li>BodyParts[PROSTHETIC/BIONIC]</li>
         </thingCategories>
         <graphicData>
-            <textPath>Things/Item/Health/HealthItem</textPath>
+            <texPath>Things/Item/Health/HealthItem</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.80</drawSize>
-            <color>(154,124,104) OR (189,169,118)</color>
+            <color>(154,124,104)</color> [PROSTHETIC]
+            <color>(189,169,118)</color> [BIONIC]
         </graphicData>
-        ^OPTIONAL_START^
         <tradeTags>
             <li>Bionic</li>
         </tradeTags>
         <techHediffsTags>
-            <li>Advanced</li>
+            <li>[Simple/Advanced]</li>
         </techHediffsTags>
-        ^OPTIONAL_END^
         <statBases>
-            <WorkToMake>[VALUE]</WorkToMake>
+            <WorkToMake>[Number * 60]</WorkToMake>
         </statBases>
-    </ThingDef>
-    -->
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>[SKILL]</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>[PREREQUISITE]</researchPrerequisite>
+            <recipeUsers>
+                <li>[MACHINING/FABRICATION]</li>
+            </recipeUsers>
+            <displayPriority>[PRIORITY]</displayPriority>
+        </recipeMaker>
+    </ThingDef> -->
+
     <!-- Base Templates for Mechadendrite Hediffs and Mechadendrite Items -->
     <!--
     <HediffDef ParentName="AddedBodyPartBase">
@@ -90,7 +87,7 @@
     -->
     <!-- Recipe Def Templates for adding and removing mechadendrites -->
     <!--
-    <RecipeDef ParentName="SurgeryInstallBodyPart[TIER]MechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_Install[TIER][TYPE-OPTIONAL]Mechadendrite</defName>
         <label>install [TIER][TYPE-OPTIONAL] mechadendrite</label>
         <description>Install a [TIER][TYPE-OPTIONAL] mechadendrite.</description>

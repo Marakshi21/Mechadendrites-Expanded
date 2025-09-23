@@ -34,12 +34,6 @@
             <displayPriority>300</displayPriority>
         </recipeMaker>
     </ThingDef>
-
-    <RecipeDef Name="SurgeryInstallBodyPartBasicMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
-        <skillRequirements>
-            <Medicine>6</Medicine>
-        </skillRequirements>
-    </RecipeDef> 
     
     <!-- Basic Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
@@ -77,7 +71,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartBasicMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallBasicMechadendrite</defName>
         <label>install basic mechadendrite</label>
         <description>Install a basic mechadendrite.</description>
