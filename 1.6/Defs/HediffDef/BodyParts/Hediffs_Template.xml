@@ -87,7 +87,7 @@
             <ThingDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</ThingDef>
             <HediffDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard mechadendrite.</jobString>
+        <jobString>Installing a [TIER] [TYPE-OPTIONAL] mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>

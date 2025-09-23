@@ -470,7 +470,7 @@
         <labelNoun>a refined plant mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_RefinedPlantsMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -486,7 +486,7 @@
     
     <ThingDef ParentName="BodyPartMechadendriteBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
-        <label>refined plant (Find thematic name) mechadendrite</label>
+        <label>refined plant (Find thematic name) mechadendrite</label> <!-- Agrarian or Agriculture -->
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -507,7 +507,7 @@
             <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard mechadendrite.</jobString>
+        <jobString>Installing a refined plant mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -548,7 +548,7 @@
         <labelNoun>a refined sweeper mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_RefinedCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -584,7 +584,7 @@
             <ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedCleaningMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard mechadendrite.</jobString>
+        <jobString>Installing a refined sweeper mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
