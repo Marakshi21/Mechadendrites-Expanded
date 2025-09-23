@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Basic Tier: Entry into all other mechadendrites, quite useless, requires only steel to make -->
-    <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+        <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
@@ -12,28 +12,26 @@
             <drawSize>0.80</drawSize>
             <color>(154,124,104)</color>
         </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
         <statBases>
-            <WorkToMake>9000</WorkToMake>
+            <WorkToMake>7500</WorkToMake>
         </statBases>
-        <recipeMaker>
-            <displayPriority>450</displayPriority>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="BodyPartMechadendriteMakeableBase" ParentName="BodyPartBasicMechadendriteBase" Abstract="True">
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
+            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <researchPrerequisite>Marak_BasicMechadendrites</researchPrerequisite>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <displayPriority>500</displayPriority>
         </recipeMaker>
     </ThingDef>
 
@@ -41,15 +39,14 @@
         <skillRequirements>
             <Medicine>6</Medicine>
         </skillRequirements>
-    </RecipeDef>
+    </RecipeDef> 
     
     <!-- Basic Mechadendrite -->
-    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
         <labelNoun>a basic mechadendrite</labelNoun>
-        <description>An installed basic mechadendrite. Its rigid tendril-like form limits movements while the wielder's control is limited thanks to being wired into the spine.</description>
+        <description>An installed basic mechadendrite. Its rigid tendril-like form and primitive connection into the user's spine limits both movements and control.</description>
         <descriptionHyperlinks><ThingDef>Marak_BasicMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_BasicMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -67,7 +64,7 @@
         </stages> 
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteMakeableBase">
+    <ThingDef ParentName="BodyPartBasicMechadendriteBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
         <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
@@ -76,11 +73,8 @@
             <Steel>20</Steel>
         </costList>
         <statBases>
-            <Mass>2</Mass>
+            <Mass>3</Mass>
         </statBases>
-        <techHediffsTags>
-            <li>Simple</li>
-        </techHediffsTags>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartBasicMechadendriteBase">
@@ -111,7 +105,6 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_BasicMechadendrite</addsHediff>
-        <researchPrerequisite>Marak_Mechadendrite_Gateway</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -125,5 +118,4 @@
         <jobString>Removing basic mechadendrite.</jobString>
         <removesHediff>Marak_BasicMechadendrite</removesHediff>
     </RecipeDef>
-    
 </Defs>
