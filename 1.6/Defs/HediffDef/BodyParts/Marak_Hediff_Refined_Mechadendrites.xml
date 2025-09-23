@@ -10,7 +10,7 @@
             <texPath>Things/Item/Health/HealthItem</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.80</drawSize>
-            <color>(189,169,118)</color>
+            <color>(154,124,104)</color>
         </graphicData>
         <techHediffsTags>
             <li>Simple</li>
@@ -23,7 +23,7 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
