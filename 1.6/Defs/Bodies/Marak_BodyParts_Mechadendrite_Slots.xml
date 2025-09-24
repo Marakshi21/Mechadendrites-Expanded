@@ -5,11 +5,10 @@
     <BodyPartDef>
          <defName>Mechadendrite_Slot</defName>
          <label>mechadendrite slot</label>
-         <hitPoints>20</hitPoints>
+         <hitPoints>10</hitPoints>
          <skinCovered>false</skinCovered>
          <canScarify>false</canScarify>
          <canBeVacuumBurnt>false</canBeVacuumBurnt>
          <canSuggestAmputation>false</canSuggestAmputation>
      </BodyPartDef>
-     
  </Defs> 
