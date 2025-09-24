@@ -4,7 +4,7 @@
     <!-- Base Template for all Mechadendrite Recipes and ThingDefs -->
 
     <!--
-    <ThingDef Name="BodyPart[TIER]MechadendriteBase" ParentName="BodyPartBase" Abstract="True">
+    <ThingDef Name="BodyPart[TIER]MechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>[TECH LEVEL]</techLevel>
         <thingCategories>
             <li>BodyParts[PROSTHETIC/BIONIC]</li>
