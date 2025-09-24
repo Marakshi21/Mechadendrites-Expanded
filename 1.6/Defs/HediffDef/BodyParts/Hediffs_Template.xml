@@ -42,7 +42,7 @@
         <labelNoun>a [TIER] [TYPE-OPTIONAL] mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_[TIER][TYPE]Mechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
