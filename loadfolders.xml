@@ -2,5 +2,7 @@
     <v1.6>
         <li>/</li>
         <li>1.6</li>
+        <li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/Mods/MVCF</li>
+        <!-- <li IfModActive="VanillaExpanded.VFEProduction">1.6/Mods/</li> -->
     </v1.6>
 </loadFolders>
