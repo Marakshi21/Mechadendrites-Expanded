@@ -11,15 +11,4 @@
          <canBeVacuumBurnt>false</canBeVacuumBurnt>
          <canSuggestAmputation>false</canSuggestAmputation>
      </BodyPartDef>
-
-    <BodyPartDef>
-        <defName>Mechadendrite_Combat_Slot</defName>
-        <label>mechadendrite combat slot</label>
-        <hitPoints>10</hitPoints>
-        <skinCovered>false</skinCovered>
-        <canScarify>false</canScarify>
-        <canBeVacuumBurnt>false</canBeVacuumBurnt>
-        <canSuggestAmputation>false</canSuggestAmputation>
-    </BodyPartDef>
-     
  </Defs> 
