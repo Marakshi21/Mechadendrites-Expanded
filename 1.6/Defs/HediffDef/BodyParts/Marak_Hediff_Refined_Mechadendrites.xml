@@ -531,8 +531,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveRefinedPlantsMechadendrite</defName>
-        <label>remove refined plant Mechadendrite</label>
-        <description>Remove refined plant Mechadendrite.</description>
+        <label>remove refined plant mechadendrite</label>
+        <description>Remove refined plant mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
@@ -607,8 +607,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveRefinedCleaningMechadendrite</defName>
-        <label>remove refined sweeper Mechadendrite</label>
-        <description>Remove refined sweeper Mechadendrite.</description>
+        <label>remove refined sweeper mechadendrite</label>
+        <description>Remove refined sweeper mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedCleaningMechadendrite</HediffDef>
