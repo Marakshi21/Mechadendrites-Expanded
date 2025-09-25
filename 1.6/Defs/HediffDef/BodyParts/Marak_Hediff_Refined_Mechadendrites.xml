@@ -279,11 +279,11 @@
         <removesHediff>Marak_RefinedExcavatorMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- Plant Mechadendrite -->
+    <!-- fieldMechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
-        <label>refined plant mechadendrite</label>
-        <labelNoun>a refined plant mechadendrite</labelNoun>
+        <label>refined field mechadendrite</label>
+        <labelNoun>a refined field mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedPlantsMechadendrite</spawnThingOnRemoved>
@@ -302,7 +302,7 @@
 
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
-        <label>refined plant (Find thematic name) mechadendrite</label> <!-- Agrarian or Agriculture -->
+        <label>refined field mechadendrite</label> <!-- Agrarian or Agriculture -->
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -317,13 +317,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedPlantsMechadendrite</defName>
-        <label>install refined plant mechadendrite</label>
-        <description>Install a refined plant mechadendrite.</description>
+        <label>install refined field mechadendrite</label>
+        <description>Install a refined field mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a refined plant mechadendrite.</jobString>
+        <jobString>Installing a refined field mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -347,13 +347,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveRefinedPlantsMechadendrite</defName>
-        <label>remove refined plant mechadendrite</label>
-        <description>Remove refined plant mechadendrite.</description>
+        <label>remove refined field mechadendrite</label>
+        <description>Remove refined field mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedPlantsMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing refined plant mechadendrite.</jobString>
+        <jobString>Removing refined field mechadendrite.</jobString>
         <removesHediff>Marak_RefinedPlantsMechadendrite</removesHediff>
     </RecipeDef>
     
