@@ -112,13 +112,14 @@
         <jobString>Removing standard mechadendrite.</jobString>
         <removesHediff>Marak_StandardMechadendrite</removesHediff>
     </RecipeDef>
-    
+
+    <!-- SENSOR GROUP -->
     <!-- Optical Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardOpticalMechadendrite</defName>
         <label>standard optical mechadendrite</label>
         <labelNoun>a standard optical mechadendrite</labelNoun>
-        <description>An installed standard optical mechadendrite. Home to various visual sensors to aid in sight, it can see in spectrums normal fleshy eyes cannot while transmitting visual data to its wielder to improve sight.</description> 
+        <description>An installed standard optical mechadendrite. Home to various visual sensors to aid in sight, it can see in spectrums normal fleshy eyes cannot while transmitting visual data to its wielder to improve sight.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardOpticalMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardOpticalMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -196,92 +197,12 @@
         <jobString>Removing standard optical mechadendrite.</jobString>
         <removesHediff>Marak_StandardOpticalMechadendrite</removesHediff>
     </RecipeDef>
-    
-    <!-- Artisan and Engineering Mechadendrites -->
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardArtisanMechadendrite</defName>
-        <label>standard artisan mechadendrite</label>
-        <labelNoun>a standard artisan mechadendrite</labelNoun>
-        <description>An installed standard artisan mechadendrite. Embedded with advanced tools, it's able to aid its user in many artisan fields of work.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <GeneralLaborSpeed>.075</GeneralLaborSpeed>
-                    <SmoothingSpeed>.075</SmoothingSpeed>
-                    <SmeltingSpeed>.075</SmeltingSpeed>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
 
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardArtisanMechadendrite</defName>
-        <label>standard artisan mechadendrite</label>
-        <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and menial fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>6</Steel>
-        </costList>
-        <recipeMaker>
-            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
-        </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
-        <statBases>
-            <Mass>3</Mass>
-        </statBases>
-    </ThingDef>
+    <!-- Acoustic? Mechadendrite -->
+    <!-- Temperature? Mechadendrite -->
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardArtisanMechadendrite</defName>
-        <label>install standard artisan mechadendrite</label>
-        <description>Install a standard artisan mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard artisan mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardArtisanMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardArtisanMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardArtisanMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardArtisanMechadendrite</defName>
-        <label>remove standard artisan mechadendrite</label>
-        <description>Remove a standard artisan mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard artisan mechadendrite.</jobString>
-        <removesHediff>Marak_StandardArtisanMechadendrite</removesHediff>
-    </RecipeDef>
-
-    <!-- Engineer -->
+    <!-- SKILLED LABOUR GROUP -->
+    <!-- Engineer Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
@@ -367,7 +288,7 @@
         <jobString>Removing standard engineer mechadendrite.</jobString>
         <removesHediff>Marak_StandardEngineeringMechadendrite</removesHediff>
     </RecipeDef>
-    
+
     <!-- Drill Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
@@ -451,9 +372,272 @@
         <removesHediff>Marak_StandardDrillMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- Melee Mechadendrite Suite: Heavy Melee, Harasser, Serrated -->
-    <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->
+    <!-- FLORA AND FAUNA SUBGROUP -->
+    <!-- Plant Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_StandardPlantsMechadendrite</defName>
+        <label>standard plant mechadendrite</label>
+        <labelNoun>a standard plant mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <PlantWorkSpeed>.1</PlantWorkSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.1</PruningSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+        <defName>Marak_StandardPlantsMechadendrite</defName>
+        <label>standard agrarian mechadendrite</label> <!-- Agrarian or Agriculture -->
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>8</Plasteel>
+            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>12</Steel>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>3</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallStandardPlantsMechadendrite</defName>
+        <label>install standard agrarian mechadendrite</label>
+        <description>Install a standard agrarian mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard agrarian mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_StandardPlantsMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_StandardPlantsMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_StandardPlantsMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveStandardPlantsMechadendrite</defName>
+        <label>remove standard agrarian mechadendrite</label>
+        <description>Remove standard agrarian mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing standard agrarian mechadendrite.</jobString>
+        <removesHediff>Marak_StandardPlantsMechadendrite</removesHediff>
+    </RecipeDef>
+    
+    <!-- Rancher Mechadendrite -->
+    
+    <!-- MEDICAL SUBGROUP -->
+    <!-- Doctor Mechadendrite -->
+    <!-- Surgeon Mechadendrite -->
+
+    <!-- COOKING SUBGROUP -->
+    <!-- Chef Mechadendrite -->
+    <!-- Drug Mechadendrite -->
+
+    <!-- INTELLECTUAL SUBGROUP -->
+    <!-- Data Analysis Mechadendrite -->
+    <!-- Cracking Mechadendrite -->
+    
+    <!-- GENERAL LABOUR GROUP -->
+    <!-- Artisan Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_StandardArtisanMechadendrite</defName>
+        <label>standard artisan mechadendrite</label>
+        <labelNoun>a standard artisan mechadendrite</labelNoun>
+        <description>An installed standard artisan mechadendrite. Embedded with advanced tools, it's able to aid its user in many artisan fields of work.</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <GeneralLaborSpeed>.075</GeneralLaborSpeed>
+                    <SmoothingSpeed>.075</SmoothingSpeed>
+                    <SmeltingSpeed>.075</SmeltingSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+        <defName>Marak_StandardArtisanMechadendrite</defName>
+        <label>standard artisan mechadendrite</label>
+        <description>Based on the refined multitool mechadendrite, the standard artisan mechadendrite has been optimized to assist in artistic and menial fields of work. Embedded with advanced tools, the artisan mechadendrite is a master at both menial and artistic works.</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>8</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>6</Steel>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
+        </recipeMaker>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>3</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallStandardArtisanMechadendrite</defName>
+        <label>install standard artisan mechadendrite</label>
+        <description>Install a standard artisan mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard artisan mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_StandardArtisanMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_StandardArtisanMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_StandardArtisanMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveStandardArtisanMechadendrite</defName>
+        <label>remove standard artisan mechadendrite</label>
+        <description>Remove a standard artisan mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing standard artisan mechadendrite.</jobString>
+        <removesHediff>Marak_StandardArtisanMechadendrite</removesHediff>
+    </RecipeDef>
+
+    <!-- Cleaning Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_StandardCleaningMechadendrite</defName>
+        <label>standard sweeper mechadendrite</label>
+        <labelNoun>a standard sweeper mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <CleaningSpeed>0.25</CleaningSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+        <defName>Marak_StandardCleaningMechadendrite</defName>
+        <label>standard sweeper mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <Mass>2.5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallStandardCleaningMechadendrite</defName>
+        <label>install standard sweeper mechadendrite</label>
+        <description>Install a standard sweeper mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard sweeper mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_StandardCleaningMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_StandardCleaningMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_StandardCleaningMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveStandardCleaningMechadendrite</defName>
+        <label>remove standard sweeper Mechadendrite</label>
+        <description>Remove standard sweeper Mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
+            <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing standard sweeper mechadendrite.</jobString>
+        <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
+    </RecipeDef>
+    
+    <!-- OPPRESSIVE GROUP? -->
+    <!-- Slaver? Mechadendrite -->
+    <!-- Social? Mechadendrite -->
+    
+    <!-- WEAPONS GROUP -->
+    <!-- Ranged Assistants? Mechadendrite -->
+    <!-- Melee Assistants? Mechadendrite -->
+    
+    <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardSerratedMechadendrite</defName>
         <label>standard serrated mechadendrite</label>
         <labelNoun>a standard serrated mechadendrite</labelNoun>
@@ -549,10 +733,10 @@
         </descriptionHyperlinks>
         <jobString>Removing standard serrated mechadendrite.</jobString>
         <removesHediff>Marak_StandardSerratedMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- Standard Harasser Mechadendrite: Low damage, quick attack, minor dodge increase -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardHarasserMechadendrite</defName>
         <label>standard harasser mechadendrite</label>
         <labelNoun>a standard harasser mechadendrite</labelNoun>
@@ -654,10 +838,10 @@
         </descriptionHyperlinks>
         <jobString>Removing standard harasser mechadendrite.</jobString>
         <removesHediff>Marak_StandardHarasserMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
    <!-- Heavy Melee Mechadendrite: Highest Damage, Highest AP, Highest cooldown, Highest cost -->
-    <!-- Might move into separate Tier to reflect debuffs and higher cost -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardHeavyMeleeMechadendrite</defName>
         <label>standard heavy-duty bladed mechadendrite</label>
@@ -760,182 +944,5 @@
         </descriptionHyperlinks>
         <jobString>Removing standard heavy-duty bladed mechadendrite.</jobString>
         <removesHediff>Marak_StandardHeavyMeleeMechadendrite</removesHediff>
-    </RecipeDef>
-
-    <!-- Plant Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard plant mechadendrite</label>
-        <labelNoun>a standard plant mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <PlantWorkSpeed>.1</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.1</PruningSpeed>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard agrarian mechadendrite</label> <!-- Agrarian or Agriculture -->
-        <description>REPLACE_ME</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>12</Steel>
-        </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
-        <statBases>
-            <Mass>3</Mass>
-        </statBases>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardPlantsMechadendrite</defName>
-        <label>install standard agrarian mechadendrite</label>
-        <description>Install a standard agrarian mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard agrarian mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardPlantsMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardPlantsMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardPlantsMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardPlantsMechadendrite</defName>
-        <label>remove standard agrarian mechadendrite</label>
-        <description>Remove standard agrarian mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard agrarian mechadendrite.</jobString>
-        <removesHediff>Marak_StandardPlantsMechadendrite</removesHediff>
-    </RecipeDef>
-
-    <!-- Cleaning Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardCleaningMechadendrite</defName>
-        <label>standard sweeper mechadendrite</label>
-        <labelNoun>a standard sweeper mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <CleaningSpeed>0.25</CleaningSpeed>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardCleaningMechadendrite</defName>
-        <label>standard sweeper mechadendrite</label>
-        <description>REPLACE_ME</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Steel>25</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <statBases>
-            <Mass>2.5</Mass>
-        </statBases>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardCleaningMechadendrite</defName>
-        <label>install standard sweeper mechadendrite</label>
-        <description>Install a standard sweeper mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard sweeper mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardCleaningMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardCleaningMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardCleaningMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardCleaningMechadendrite</defName>
-        <label>remove standard sweeper Mechadendrite</label>
-        <description>Remove standard sweeper Mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard sweeper mechadendrite.</jobString>
-        <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
-    </RecipeDef>
-    
-    <!-- MEDICAL GROUP -->
-    <!-- Doctor Mechadendrite -->
-    <!-- Surgeon Mechadendrite -->
-    <!-- WEAPONS GROUP -->
-    <!-- Ranged Assistants? Mechadendrite -->
-    <!-- Melee Assistants? Mechadendrite -->
-    <!-- Cooking Mechadendrite -->
-    <!-- Drug Mechadendrite -->
-    <!-- INTELLECTUAL GROUP -->
-    <!-- Research Mechadendrite -->
-    <!-- Hacking Mechadendrite -->
-    <!-- Animal Mechadendrite -->
-    <!-- OPPRESSIVE GROUP -->
-    <!-- Slaver? Mechadendrite -->
-    <!-- Social? Mechadendrite -->
-    <!-- SENSOR GROUP -->
-    <!-- Acoustic? Mechadendrite -->
-    <!-- Temperature? Mechadendrite -->
-    <!-- HARD LABOUR GROUP -->
-    <!-- GENERAL LABOUR GROUP -->
+    </RecipeDef> -->
 </Defs>

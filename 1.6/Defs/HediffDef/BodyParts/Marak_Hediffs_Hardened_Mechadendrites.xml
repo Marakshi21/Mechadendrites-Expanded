@@ -30,7 +30,8 @@
         </recipeMaker>
     </ThingDef>
 
-    <!-- INTELLECTUAL GROUP -->
+    <!-- SKILLED LABOUR GROUP -->
+    <!-- INTELLECTUAL SUBGROUP -->
     <!-- Cognition Mechadendrite -->
     <!-- Research Mechadendrite -->
     <!-- Hacking Mechadendrite -->
@@ -39,11 +40,12 @@
     <!-- Optical Mechadendrite -->
     <!-- Acoustic Mechadendrite -->
     <!-- Smell Mechadendrite -->
-    <!-- Touch Mechadendrite -->
+    <!-- Touch Mechadendrite? -->
     <!-- Temperature Mechadendrite -->
     
     <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite -->
+    <!-- Social Mechadendrite -->
     
     <!-- WEAPONS GROUP -->
     <!-- Ranged Assistant Mechadendrite -->
