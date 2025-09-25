@@ -29,4 +29,25 @@
             <displayPriority>300</displayPriority>
         </recipeMaker>
     </ThingDef>
+
+    <!-- INTELLECTUAL GROUP -->
+    <!-- Cognition Mechadendrite -->
+    <!-- Research Mechadendrite -->
+    <!-- Hacking Mechadendrite -->
+    
+    <!-- SENSOR GROUP -->
+    <!-- Optical Mechadendrite -->
+    <!-- Acoustic Mechadendrite -->
+    <!-- Smell Mechadendrite -->
+    <!-- Touch Mechadendrite -->
+    <!-- Temperature Mechadendrite -->
+    
+    <!-- OPPRESSIVE GROUP -->
+    <!-- Slaver Mechadendrite -->
+    
+    <!-- WEAPONS GROUP -->
+    <!-- Ranged Assistant Mechadendrite -->
+    <!-- Melee Assistant Mechadendrite -->
+    <!-- Ranged Mechadendrite -->
+    <!-- Melee Mechadendrite -->
 </Defs>

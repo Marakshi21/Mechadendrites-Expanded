@@ -616,4 +616,8 @@
         <jobString>Removing refined sweeper mechadendrite.</jobString>
         <removesHediff>Marak_RefinedCleaningMechadendrite</removesHediff>
     </RecipeDef>
+    
+    <!-- SENSOR GROUP -->
+    <!-- HARD LABOUR GROUP -->
+    <!-- GENERAL LABOUR GROUP -->
 </Defs>

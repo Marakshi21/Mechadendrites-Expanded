@@ -917,4 +917,25 @@
         <jobString>Removing standard sweeper mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
+    
+    <!-- MEDICAL GROUP -->
+    <!-- Doctor Mechadendrite -->
+    <!-- Surgeon Mechadendrite -->
+    <!-- WEAPONS GROUP -->
+    <!-- Ranged Assistants? Mechadendrite -->
+    <!-- Melee Assistants? Mechadendrite -->
+    <!-- Cooking Mechadendrite -->
+    <!-- Drug Mechadendrite -->
+    <!-- INTELLECTUAL GROUP -->
+    <!-- Research Mechadendrite -->
+    <!-- Hacking Mechadendrite -->
+    <!-- Animal Mechadendrite -->
+    <!-- OPPRESSIVE GROUP -->
+    <!-- Slaver? Mechadendrite -->
+    <!-- Social? Mechadendrite -->
+    <!-- SENSOR GROUP -->
+    <!-- Acoustic? Mechadendrite -->
+    <!-- Temperature? Mechadendrite -->
+    <!-- HARD LABOUR GROUP -->
+    <!-- GENERAL LABOUR GROUP -->
 </Defs>
