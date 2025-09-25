@@ -6,7 +6,7 @@
             <li>BodyPartsBionic</li>
         </thingCategories>
         <graphicData>
-            <color>(189,169,118)</color>
+            <color>(152,152,152)</color>
         </graphicData>
         <tradeTags>
             <li>Bionic</li>
@@ -15,7 +15,7 @@
             <li>Advanced</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>27000</WorkToMake>
+            <WorkToMake>24000</WorkToMake>
         </statBases>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
