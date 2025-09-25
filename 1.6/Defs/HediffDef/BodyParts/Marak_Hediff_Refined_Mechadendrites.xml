@@ -523,7 +523,7 @@
 
     <!-- WEAPONS GROUP -->
     <!-- Melee/Combat Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined bladed mechadendrite</label>
         <labelNoun>a refined bladed mechadendrite</labelNoun>
@@ -542,7 +542,7 @@
                             <li>Stab</li>
                         </capacities>
                         <power>6</power>
-                        <armorPenetration>0.25</armorPenetration> <!-- Pierce deep but do little damage -->
+                        <armorPenetration>0.25</armorPenetration>
                         <cooldownTime>2.0</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
@@ -617,5 +617,5 @@
         </descriptionHyperlinks>
         <jobString>Removing refined bladed mechadendrite.</jobString>
         <removesHediff>Marak_RefinedCombatMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
 </Defs>
