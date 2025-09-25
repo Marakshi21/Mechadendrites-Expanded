@@ -484,7 +484,7 @@
         </stages>
     </HediffDef>
     
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined plant (Find thematic name) mechadendrite</label> <!-- Agrarian or Agriculture -->
         <description>REPLACE_ME</description>
@@ -561,7 +561,7 @@
         </stages>
     </HediffDef>
     
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedCleaningMechadendrite</defName>
         <label>refined sweeper mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -570,7 +570,6 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>2.5</Mass>
         </statBases>

@@ -111,8 +111,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_Remove[TIER][TYPE-OPTIONAL]Mechadendrite</defName>
-        <label>remove [TIER] [TYPE-OPTIONAL] Mechadendrite</label>
-        <description>Remove [TIER] [TYPE-OPTIONAL] Mechadendrite.</description>
+        <label>remove [TIER] [TYPE-OPTIONAL] mechadendrite</label>
+        <description>Remove [TIER] [TYPE-OPTIONAL] mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</ThingDef>
             <HediffDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</HediffDef>
