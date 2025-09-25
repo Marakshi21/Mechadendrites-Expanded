@@ -388,7 +388,7 @@
             <li>
                 <statOffsets>
                     <PlantWorkSpeed>.1</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.1</PruningSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.05</PruningSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -396,7 +396,7 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard agrarian mechadendrite</label> <!-- Agrarian or Agriculture -->
+        <label>standard agrarian mechadendrite</label>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>

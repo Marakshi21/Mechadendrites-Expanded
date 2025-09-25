@@ -279,7 +279,7 @@
         <removesHediff>Marak_RefinedExcavatorMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- fieldMechadendrite -->
+    <!-- Field Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
@@ -294,7 +294,7 @@
             <li>
                 <statOffsets>
                     <PlantWorkSpeed>.05</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.05</PruningSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.025</PruningSpeed>
                 </statOffsets>
             </li>
         </stages>
