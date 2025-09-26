@@ -376,8 +376,8 @@
     <!-- Plant Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard plant mechadendrite</label>
-        <labelNoun>a standard plant mechadendrite</labelNoun>
+        <label>standard agrarian mechadendrite</label>
+        <labelNoun>a standard agrarian mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
@@ -388,6 +388,7 @@
             <li>
                 <statOffsets>
                     <PlantWorkSpeed>.1</PlantWorkSpeed>
+                    <PlantHarvestYield>0.05</PlantHarvestYield>
                     <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.05</PruningSpeed>
                 </statOffsets>
             </li>
