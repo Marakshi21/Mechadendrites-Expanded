@@ -34,50 +34,50 @@
     </ThingDef>
 
     <!-- SENSOR GROUP -->
-    <!-- Optical Mechadendrite -->
+    <!-- Optical Mechadendrite --> <!-- Further Improve sight at cost of mood -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Acoustic Mechadendrite -->
+    <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Smell Mechadendrite -->
+    <!-- Smell Mechadendrite --> <!-- May not have -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Touch Mechadendrite? -->
+    <!-- Touch Mechadendrite? --> <!-- May not have -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Temperature Mechadendrite -->
+    <!-- Temperature Mechadendrite --> <!-- Improve comfortable temperatures while lowering blood filtration to represent additives -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- SKILLED LABOUR GROUP -->
     
     <!-- INTELLECTUAL SUBGROUP -->
-    <!-- Cognition Mechadendrite -->
+    <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Research Mechadendrite -->
+    <!-- Research Mechadendrite --> <!-- Increase research speed and subcore encoding at cost of hunger rate -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Hacking Mechadendrite -->
+    <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth (Possibly no downsides to act as a direct upgrade from its cracker brother) -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- OPPRESSIVE GROUP -->
-    <!-- Slaver Mechadendrite -->
+    <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Social Mechadendrite -->
+    <!-- Social Mechadendrite --> <!-- Quest only? -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- WEAPONS GROUP -->
-    <!-- Ranged Assistant Mechadendrite -->
+    <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Melee Assistant Mechadendrite -->
+    <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Ranged Mechadendrite -->
+    <!-- Ranged Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Melee Mechadendrite -->
+    <!-- Melee Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate or greatly lower move speed -->
     <!-- DESCRIPTION NEEDED -->
 </Defs>
