@@ -34,7 +34,8 @@
         </recipeMaker>
     </ThingDef> -->
 
-    <!-- Base Templates for Mechadendrite Hediffs and Mechadendrite Items -->
+    <!-- Base Templates for Mechadendrite Hediffs, Mechadendrite ThingDefs, and Mechadendrite recipes -->
+    
     <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</defName>
@@ -42,7 +43,7 @@
         <labelNoun>a [TIER] [TYPE-OPTIONAL] mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_[TIER][TYPE]Mechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -76,9 +77,7 @@
             <Mass>[VALUE]</Mass>
         </statBases>
     </ThingDef>
-    -->
-    <!-- Recipe Def Templates for adding and removing mechadendrites -->
-    <!--
+
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_Install[TIER][TYPE-OPTIONAL]Mechadendrite</defName>
         <label>install [TIER] [TYPE-OPTIONAL] mechadendrite</label>
