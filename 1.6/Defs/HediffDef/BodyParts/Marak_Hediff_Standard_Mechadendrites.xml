@@ -472,9 +472,9 @@
         <stages>
             <li>
                 <statOffsets>
-                    <AnimalGatherSpeed>0.75</AnimalGatherSpeed>
-                    <AnimalGatherYield>0.25</AnimalGatherYield>
-                    <TrainAnimalChance>0.25</TrainAnimalChance>
+                    <AnimalGatherSpeed>0.075</AnimalGatherSpeed>
+                    <AnimalGatherYield>0.025</AnimalGatherYield>
+                    <TrainAnimalChance>0.025</TrainAnimalChance>
                 </statOffsets>
             </li>
         </stages>
