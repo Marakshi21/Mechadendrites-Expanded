@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Refined Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
+    <!-- CATALOGUE FOR QUICK SEARCH: SENSOR, SKILLED, GENERAL, WEAPONS -->
+    <!-- Base for Refined Mechadendrites -->
     <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -280,6 +282,7 @@
     </RecipeDef>
 
     <!-- Field Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
@@ -446,6 +449,7 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCleaningMechadendrite</defName>
         <label>refined sweeper mechadendrite</label>
@@ -522,7 +526,7 @@
     </RecipeDef>
 
     <!-- WEAPONS GROUP -->
-    <!-- Melee/Combat Mechadendrite -->
+    <!-- Melee Mechadendrite -->
     <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined bladed mechadendrite</label>

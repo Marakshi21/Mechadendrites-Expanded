@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
+    <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, GENERAL, OPPRESSIVE, FLORA/FAUNA, COOKING, INTELLECTUAL, MEDICAL -->
     <!-- Base for Standard Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Spacer</techLevel>
@@ -199,6 +200,7 @@
     </RecipeDef>
 
     <!-- Acoustic? Mechadendrite -->
+    
     <!-- Temperature? Mechadendrite -->
 
     <!-- SKILLED LABOUR GROUP -->
@@ -373,7 +375,8 @@
     </RecipeDef>
     
     <!-- FLORA AND FAUNA SUBGROUP -->
-    <!-- Plant Mechadendrite -->
+    <!-- Agrarian Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>standard agrarian mechadendrite</label>
@@ -458,15 +461,20 @@
     
     <!-- MEDICAL SUBGROUP -->
     <!-- Doctor Mechadendrite -->
+    
     <!-- Surgeon Mechadendrite -->
 
     <!-- COOKING SUBGROUP -->
     <!-- Chef Mechadendrite -->
-    <!-- Drug Mechadendrite -->
+    
+    <!-- Butchers' Mechadendrite -->
 
     <!-- INTELLECTUAL SUBGROUP -->
     <!-- Data Analysis Mechadendrite -->
+    
     <!-- Cracking Mechadendrite -->
+    
+    <!-- Drug Mechadendrite -->
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Artisan Mechadendrite -->
@@ -554,6 +562,7 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard sweeper mechadendrite</label>
@@ -631,10 +640,12 @@
     
     <!-- OPPRESSIVE GROUP? -->
     <!-- Slaver? Mechadendrite -->
+    
     <!-- Social? Mechadendrite -->
     
     <!-- WEAPONS GROUP -->
     <!-- Ranged Assistants? Mechadendrite -->
+    
     <!-- Melee Assistants? Mechadendrite -->
     
     <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->

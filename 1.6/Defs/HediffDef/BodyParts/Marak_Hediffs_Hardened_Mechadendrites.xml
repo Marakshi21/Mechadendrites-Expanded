@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Standard Tier: Recipes are generally Adv. components and plasteel only -->
+    <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, OPPRESSIVE, INTELLECTUAL -->
     <!-- Base for Hardened Mechadendrites -->
     <ThingDef Name="BodyPartHardenedMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Ultra</techLevel>
@@ -32,18 +33,18 @@
         </recipeMaker>
     </ThingDef>
 
-    <!-- SKILLED LABOUR GROUP -->
-    <!-- INTELLECTUAL SUBGROUP -->
-    <!-- Cognition Mechadendrite -->
-    <!-- Research Mechadendrite -->
-    <!-- Hacking Mechadendrite -->
-    
     <!-- SENSOR GROUP -->
     <!-- Optical Mechadendrite -->
     <!-- Acoustic Mechadendrite -->
     <!-- Smell Mechadendrite -->
     <!-- Touch Mechadendrite? -->
     <!-- Temperature Mechadendrite -->
+    
+    <!-- SKILLED LABOUR GROUP -->
+    <!-- INTELLECTUAL SUBGROUP -->
+    <!-- Cognition Mechadendrite -->
+    <!-- Research Mechadendrite -->
+    <!-- Hacking Mechadendrite -->
     
     <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite -->
