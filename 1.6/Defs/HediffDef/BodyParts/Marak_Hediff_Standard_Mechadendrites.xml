@@ -465,7 +465,7 @@
         <labelNoun>a standard rancher mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardRancherMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_[TIER][TYPE]Mechadendrite</spawnThingOnRemoved>
+        <spawnThingOnRemoved>Marak_StandardRancherMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
