@@ -37,7 +37,7 @@
     <!-- Optical Mechadendrite --> <!-- Further Improve sight at cost of mood -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight -->
+    <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight/sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Smell Mechadendrite --> <!-- May not have -->
@@ -52,10 +52,10 @@
     <!-- SKILLED LABOUR GROUP -->
     
     <!-- INTELLECTUAL SUBGROUP -->
-    <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate -->
+    <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Research Mechadendrite --> <!-- Increase research speed and subcore encoding at cost of hunger rate -->
+    <!-- Research Mechadendrite --> <!-- Increase research speed and subcore encoding at cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth (Possibly no downsides to act as a direct upgrade from its cracker brother) -->

@@ -409,7 +409,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <statBases>
             <Mass>3</Mass>
         </statBases>
@@ -491,7 +493,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -573,6 +577,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
@@ -654,6 +661,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
@@ -737,6 +747,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>4</Mass>
@@ -818,6 +831,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
@@ -901,6 +917,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
@@ -982,6 +1001,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -1146,6 +1168,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <statBases>
             <Mass>2.5</Mass>
         </statBases>

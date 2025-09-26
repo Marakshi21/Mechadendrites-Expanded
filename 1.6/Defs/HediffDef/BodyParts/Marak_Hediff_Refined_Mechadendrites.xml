@@ -312,6 +312,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <!-- <recipeMaker>
+             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+        </recipeMaker> -->
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
@@ -478,6 +481,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
+        <!-- <recipeMaker>
+              <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
+         </recipeMaker> -->
         <statBases>
             <Mass>2.5</Mass>
         </statBases>
