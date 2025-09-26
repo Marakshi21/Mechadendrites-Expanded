@@ -4,7 +4,7 @@
     <!--
     <ResearchProjectDef>
         <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
-        <label>REPLACEME</label>
+        <label>REPLACE_ME</label>
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>[LEVEL]</techLevel>
