@@ -40,7 +40,7 @@
     <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight/sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Smell Mechadendrite --> <!-- May not have -->
+    <!-- Smell Mechadendrite --> <!-- May not have/Animal or cooking related? -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Touch Mechadendrite? --> <!-- May not have -->
@@ -54,12 +54,251 @@
     <!-- INTELLECTUAL SUBGROUP -->
     <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_HardenedCogitatorMechadendrite</defName>
+        <label>hardened cognition mechadendrite</label>
+        <labelNoun>a hardened cognition mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_HardenedCogitatorMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_HardenedCogitatorMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</SubcoreEncodingSpeed>
+                    <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.10</PilotingAbility>
+                </statOffsets>
+                <hungerRateFactorOffset>0.05</hungerRateFactorOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.025</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_HardenedCogitatorMechadendrite</defName>
+        <label>hardened cognition mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedCogitatorMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallHardenedCogitatorMechadendrite</defName>
+        <label>install hardened cognition mechadendrite</label>
+        <description>Install a hardened cognition mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedCogitatorMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedCogitatorMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a hardened cognition mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_HardenedCogitatorMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_HardenedCogitatorMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_HardenedCogitatorMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveHardenedCogitatorMechadendrite</defName>
+        <label>remove hardened cognition mechadendrite</label>
+        <description>Remove hardened cognition mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedCogitatorMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedCogitatorMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing hardened cognition mechadendrite.</jobString>
+        <removesHediff>Marak_HardenedCogitatorMechadendrite</removesHediff>
+    </RecipeDef>
     
-    <!-- Research Mechadendrite --> <!-- Increase research speed and subcore encoding at cost of hunger rate and/or sleep fall rate -->
+    <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, subcore encoding, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_HardenedResearchMechadendrite</defName>
+        <label>hardened data analysis mechadendrite</label>
+        <labelNoun>a hardened data analysis mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_HardenedResearchMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_HardenedResearchMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.15</ResearchSpeed>
+                    <ReadingSpeed>0.15</ReadingSpeed>
+                </statOffsets>
+                <hungerRateFactorOffset>0.125</hungerRateFactorOffset>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_HardenedResearchMechadendrite</defName>
+        <label>hardened data analysis mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedResearchMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallHardenedResearchMechadendrite</defName>
+        <label>install hardened data analysis mechadendrite</label>
+        <description>Install a hardened data analysis mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedResearchMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedResearchMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a hardened data analysis mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_HardenedResearchMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_HardenedResearchMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_HardenedResearchMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveHardenedResearchMechadendrite</defName>
+        <label>remove hardened data analysis mechadendrite</label>
+        <description>Remove hardened data analysis mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedResearchMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedResearchMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing hardened data analysis mechadendrite.</jobString>
+        <removesHediff>Marak_HardenedResearchMechadendrite</removesHediff>
+    </RecipeDef>
     
     <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth (Possibly no downsides to act as a direct upgrade from its cracker brother) -->
     <!-- DESCRIPTION NEEDED -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_HardenedHackingMechadendrite</defName>
+        <label>hardened hacking mechadendrite</label>
+        <labelNoun>a hardened hacking mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_HardenedHackingMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_HardenedHackingMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <HackingSpeed>0.25</HackingSpeed>
+                    <HackingStealth>10</HackingStealth>
+                    <RestFallRateFactor>0.1</RestFallRateFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartMechadendriteBase">
+        <defName>Marak_HardenedHackingMechadendrite</defName>
+        <label>hardened hacking mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedHackingMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <statBases>
+            <Mass>5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallHardenedHackingMechadendrite</defName>
+        <label>install hardened hacking mechadendrite</label>
+        <description>Install a hardened hacking mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedHackingMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedHackingMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a hardened hacking mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_HardenedHackingMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_HardenedHackingMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_HardenedHackingMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveHardenedHackingMechadendrite</defName>
+        <label>remove hardened hacking mechadendrite</label>
+        <description>Remove hardened hacking mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedHackingMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedHackingMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing hardened hacking mechadendrite.</jobString>
+        <removesHediff>Marak_HardenedHackingMechadendrite</removesHediff>
+    </RecipeDef>
     
     <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
