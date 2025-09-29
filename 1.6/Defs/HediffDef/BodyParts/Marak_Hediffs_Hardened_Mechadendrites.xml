@@ -121,13 +121,16 @@
         <jobString>Removing hardened optical mechadendrite.</jobString>
         <removesHediff>Marak_HardenedOpticalMechadendrite</removesHediff>
     </RecipeDef>
-    
+
+    <!-- POSTPONED -->
     <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight/sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
+    <!-- POSTPONED -->
     <!-- Smell Mechadendrite --> <!-- May not have/Animal or cooking related? -->
     <!-- DESCRIPTION NEEDED -->
-    
+
+    <!-- POSTPONED -->
     <!-- Touch Mechadendrite? --> <!-- May not have -->
     <!-- DESCRIPTION NEEDED -->
     
@@ -468,6 +471,7 @@
         <removesHediff>Marak_HardenedHackingMechadendrite</removesHediff>
     </RecipeDef>
 
+    <!-- POSTPONED -->
     <!-- Genetics Mechadendrite-->
     <!-- DESCRIPTION NEEDED -->
     
@@ -478,10 +482,12 @@
     <!-- Mech-Cogitator Mechadendrite --> <!-- Mech gestation speed and bandwidth at cost of movement? -->
     <!-- DESCRIPTION NEEDED -->
 
+    <!-- POSTPONED -->
     <!-- Mech-Lord Mechadendrite --> <!-- Improve fighting capacity of mechanoids in some manner -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- OPPRESSIVE GROUP -->
+    <!-- POSTPONED -->
     <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
     <!-- DESCRIPTION NEEDED -->
     
@@ -489,15 +495,19 @@
     <!-- DESCRIPTION NEEDED -->
     
     <!-- WEAPONS GROUP -->
+    <!-- POSTPONED INDEFINITELY-->
     <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
-    
+
+    <!-- POSTPONED INDEFINITELY -->
     <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
-    
+
+    <!-- POSTPONED INDEFINITELY -->
     <!-- Ranged Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
-    
+
+    <!-- POSTPONED -->
     <!-- Melee Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate or greatly lower move speed -->
     <!-- DESCRIPTION NEEDED -->
 </Defs>
