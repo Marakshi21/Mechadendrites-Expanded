@@ -474,24 +474,24 @@
     <!-- POSTPONED -->
     <!-- Genetics Mechadendrite-->
     <!-- DESCRIPTION NEEDED -->
-    
+
+    <!-- POSTPONED -->
     <!-- MECHANITOR GROUP -->
     <!-- Mech-Engineer Mechadendrite --> <!-- Boost Mech repair speed and Mechanoid shredding speed/efficiency at cost of general manipulation? -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Mech-Cogitator Mechadendrite --> <!-- Mech gestation speed and bandwidth at cost of movement? -->
     <!-- DESCRIPTION NEEDED -->
-
-    <!-- POSTPONED -->
+    
     <!-- Mech-Lord Mechadendrite --> <!-- Improve fighting capacity of mechanoids in some manner -->
     <!-- DESCRIPTION NEEDED -->
-    
-    <!-- OPPRESSIVE GROUP -->
+
     <!-- POSTPONED -->
+    <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
     <!-- DESCRIPTION NEEDED -->
     
-    <!-- Social Mechadendrite --> <!-- Quest only? -->
+    <!-- Social Mechadendrite --> <!-- Quest only? Hybrid of acoustic and data analysis/cognition mechadendrite? -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- WEAPONS GROUP -->
@@ -507,7 +507,7 @@
     <!-- Ranged Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
     <!-- DESCRIPTION NEEDED -->
 
-    <!-- POSTPONED -->
+    <!-- POSTPONED INDEFINITELY -->
     <!-- Melee Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate or greatly lower move speed -->
     <!-- DESCRIPTION NEEDED -->
 </Defs>
