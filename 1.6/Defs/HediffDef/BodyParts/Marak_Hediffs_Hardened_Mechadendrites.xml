@@ -49,7 +49,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MentalBreakThreshold>0.025</MentalBreakThreshold>
+                    <MentalBreakThreshold>0.02</MentalBreakThreshold>
                 </statOffsets>
                 <capMods>
                     <li>
