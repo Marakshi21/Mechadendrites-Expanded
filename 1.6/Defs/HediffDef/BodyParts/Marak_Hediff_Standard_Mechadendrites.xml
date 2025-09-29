@@ -34,6 +34,7 @@
     </ThingDef>
 
     <!-- Standard Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
@@ -116,6 +117,7 @@
     
     <!-- SKILLED LABOUR GROUP -->
     <!-- Engineer Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
@@ -202,6 +204,7 @@
     </RecipeDef>
 
     <!-- Drill Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
@@ -963,6 +966,7 @@
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Artisan Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
@@ -1136,13 +1140,11 @@
     <!-- DESCRIPTION NEEDED -->
     
     <!-- WEAPONS GROUP -->
-    <!-- Ranged Assistants? Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
-    
     <!-- Melee Assistants? Mechadendrite -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->
+    <!-- DESCRIPTION NEEDED -->
     <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardSerratedMechadendrite</defName>
         <label>standard serrated mechadendrite</label>

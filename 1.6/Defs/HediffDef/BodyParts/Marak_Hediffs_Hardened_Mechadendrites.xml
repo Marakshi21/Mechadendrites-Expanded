@@ -225,7 +225,6 @@
     <!-- INTELLECTUAL SUBGROUP -->
     <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedCogitatorMechadendrite</defName>
         <label>hardened cognition mechadendrite</label>
@@ -312,7 +311,6 @@
     
     <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, subcore encoding, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>

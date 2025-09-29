@@ -31,6 +31,7 @@
     
 
     <!-- Refined Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
@@ -114,6 +115,7 @@
 
     <!-- SENSOR GROUP -->
     <!-- Flashlight Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
@@ -200,6 +202,7 @@
     
     <!-- SKILLED LABOUR GROUP -->
     <!-- Excavator Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
@@ -365,6 +368,7 @@
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Multitool Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
@@ -533,6 +537,7 @@
 
     <!-- WEAPONS GROUP -->
     <!-- Melee Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined bladed mechadendrite</label>
