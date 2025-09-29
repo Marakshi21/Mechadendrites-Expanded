@@ -95,7 +95,7 @@
          <researchViewY>2.5</researchViewY>
      </ResearchProjectDef>
 
-    <ResearchProjectDef>
+    <!-- <ResearchProjectDef>
         <defName>Marak_StandardOpticalMechadendrites</defName>
         <label>Auxiliary visual sensors</label>
         <description>Design a type of mechadendrite that can act as an auxiliary visual sensor, otherwise known as an Optical Mechadendrite. By taking advantage of the technology that goes into bionic eyes and merging it with mechadendrite technology, an optical mechadendrite can see in visual spectrums that humans normally cannot while transmitting visual data to its user without overloading the brain.</description>
@@ -113,7 +113,7 @@
         </prerequisites>
         <researchViewX>4.2</researchViewX>
         <researchViewY>3.2</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 
     <!-- <ResearchProjectDef>
         <defName>Marak_StandardMultitoolMechadendrites</defName>
