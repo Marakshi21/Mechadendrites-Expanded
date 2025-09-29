@@ -300,6 +300,13 @@
         <removesHediff>Marak_HardenedHackingMechadendrite</removesHediff>
     </RecipeDef>
     
+    <!-- MECHANITOR GROUP -->
+    <!-- Mech-Engineer --> <!-- Boost Mech repair speed and Mechanoid shredding speed/efficiency at cost of general manipulation? -->
+    
+    <!-- Mech-Cogitator --> <!-- Mech gestation speed and bandwidth at cost of movement? -->
+
+    <!-- Mech-Lord --> <!-- Improve fighting capacity of mechanoids in some manner -->
+    
     <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
     <!-- DESCRIPTION NEEDED -->
