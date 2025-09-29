@@ -147,9 +147,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <recipeMaker>
+        <!-- <recipeMaker>
             <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
-        </recipeMaker>
+        </recipeMaker> -->
         <statBases>
             <Mass>1.5</Mass>
         </statBases>
@@ -231,9 +231,9 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <recipeMaker>
+        <!-- <recipeMaker>
             <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
-        </recipeMaker>
+        </recipeMaker> -->
         <statBases>
             <Mass>1.5</Mass>
         </statBases>
@@ -402,9 +402,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
-        <recipeMaker>
+       <!-- <recipeMaker>
             <researchPrerequisite>Marak_RefinedMultitoolMechadendrite</researchPrerequisite>
-        </recipeMaker>
+        </recipeMaker> -->
         <statBases>
             <Mass>1.5</Mass>
         </statBases>

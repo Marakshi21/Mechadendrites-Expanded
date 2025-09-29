@@ -41,7 +41,7 @@
 
     <!-- Specialised Refined Mechadendrites -->
     <!-- Multitool mechadendrite -->
-      <ResearchProjectDef>
+    <!-- <ResearchProjectDef>
           <defName>Marak_RefinedMultitoolMechadendrite</defName>
           <label>Multitool Mechadendrites</label>
           <description>Expand upon the refined mechadendrite template by adding an array of tools used to help in menial fields of work by sacrificing general usability.</description>
@@ -55,10 +55,10 @@
           </prerequisites>
           <researchViewX>1.85</researchViewX>
           <researchViewY>3.6</researchViewY>
-      </ResearchProjectDef>
+      </ResearchProjectDef> -->
   
     <!-- Combat Mechadendrite -->
-       <ResearchProjectDef>
+        <!-- <ResearchProjectDef>
            <defName>Marak_RefinedCombatMechadendrite</defName>
            <label>Bladed Mechadendrites</label>
            <description>Design a set of mechadendrites to assist in melee combat or mining by attaching sharp blades on the tip of them.</description>
@@ -72,7 +72,7 @@
            </prerequisites>
            <researchViewX>1.85</researchViewX>
            <researchViewY>1.5</researchViewY>
-       </ResearchProjectDef> 
+       </ResearchProjectDef> -->
    
     <!-- Standard Mechadendrites -->
      <ResearchProjectDef>
@@ -115,8 +115,8 @@
         <researchViewY>3.2</researchViewY>
     </ResearchProjectDef>
 
-    <ResearchProjectDef>
-        <defName>Marak_StandardMultitoolMechadendrites</defName> <!-- Unlocks both Engineering and Artisan Mechadendrites -->
+    <!-- <ResearchProjectDef>
+        <defName>Marak_StandardMultitoolMechadendrites</defName>
         <label>Standardized Tooling Mechadendrites</label>
         <description>Improving upon the refined multitool mechadendrites, create two new classes of mechadendrites based on the multitool specialising in fields of engineering or artisan work.</description> 
         <tab>Marak_MechadendritesExpanded</tab>
@@ -132,10 +132,10 @@
         </prerequisites>
         <researchViewX>4.2</researchViewX>
         <researchViewY>4.0</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 
     <!-- Standard Drill & Melee Mechadendrites -->
-    <ResearchProjectDef>
+    <!-- <ResearchProjectDef>
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>Drilling Mechadendrites</label>
         <description>Iterating upon the refined excavator mechadendrite, the standard drill mechadendrite combines advancements in drilling with mechadendrite technology to attach a small yet impactful drill onto the end of a mechadendrite.</description>
@@ -167,5 +167,5 @@
         </prerequisites>
         <researchViewX>4.2</researchViewX>
         <researchViewY>2.5</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 </Defs>
