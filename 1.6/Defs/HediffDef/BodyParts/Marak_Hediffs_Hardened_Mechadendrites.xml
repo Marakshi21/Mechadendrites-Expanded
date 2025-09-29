@@ -299,13 +299,19 @@
         <jobString>Removing hardened hacking mechadendrite.</jobString>
         <removesHediff>Marak_HardenedHackingMechadendrite</removesHediff>
     </RecipeDef>
+
+    <!-- Genetics Mechadendrite-->
+    <!-- DESCRIPTION NEEDED -->
     
     <!-- MECHANITOR GROUP -->
-    <!-- Mech-Engineer --> <!-- Boost Mech repair speed and Mechanoid shredding speed/efficiency at cost of general manipulation? -->
+    <!-- Mech-Engineer Mechadendrite --> <!-- Boost Mech repair speed and Mechanoid shredding speed/efficiency at cost of general manipulation? -->
+    <!-- DESCRIPTION NEEDED -->
     
-    <!-- Mech-Cogitator --> <!-- Mech gestation speed and bandwidth at cost of movement? -->
+    <!-- Mech-Cogitator Mechadendrite --> <!-- Mech gestation speed and bandwidth at cost of movement? -->
+    <!-- DESCRIPTION NEEDED -->
 
-    <!-- Mech-Lord --> <!-- Improve fighting capacity of mechanoids in some manner -->
+    <!-- Mech-Lord Mechadendrite --> <!-- Improve fighting capacity of mechanoids in some manner -->
+    <!-- DESCRIPTION NEEDED -->
     
     <!-- OPPRESSIVE GROUP -->
     <!-- Slaver Mechadendrite --> <!-- Slave suppression/terror at cost of global work speed -->
