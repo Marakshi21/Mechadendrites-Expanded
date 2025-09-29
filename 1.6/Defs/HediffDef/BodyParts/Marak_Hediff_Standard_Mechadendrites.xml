@@ -199,10 +199,6 @@
         <removesHediff>Marak_StandardOpticalMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- Acoustic? Mechadendrite -->
-    
-    <!-- Temperature? Mechadendrite -->
-
     <!-- SKILLED LABOUR GROUP -->
     <!-- Engineer Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
