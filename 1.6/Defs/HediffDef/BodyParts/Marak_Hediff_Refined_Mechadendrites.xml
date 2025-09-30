@@ -295,7 +295,9 @@
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
         <labelNoun>a refined field mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <!-- <description>This mechadendrite uses a scythe-like blade welded onto its tip to assist in various farming activities. Should a blade not be suitable, one can remove its bladed tip and replace with a different tool to get the job done.</description> 
+        <description>A mechadendrite with a blade attached to its tip specifically made to assist in the sowing and harvesting of plants.</description> -->
+        <description>A refined field mechadendrite. The blade on its tip helps in plant work while the refined chassis makes it fluid in movement allowing it to slice through crops with ease.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedPlantsMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -313,8 +315,8 @@
 
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
-        <label>refined field mechadendrite</label> <!-- Agrarian or Agriculture -->
-        <description>REPLACE_ME</description>
+        <label>refined field mechadendrite</label>
+        <description>Ordained with a blade on its tip, this mechadendrite has been machined with the purpose of plant work in mind. Not only does its bladed tip assist in the cutting of plants, it can also be used to help dig a hole in a pinch.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
@@ -323,7 +325,6 @@
         <!-- <recipeMaker>
              <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
         </recipeMaker> -->
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
         </statBases>
@@ -391,7 +392,6 @@
                     <SmoothingSpeed>.05</SmoothingSpeed>
                     <ConstructionSpeed>.05</ConstructionSpeed>
                     <SmeltingSpeed>.05</SmeltingSpeed>
-                    <ButcheryMechanoidSpeed>.05</ButcheryMechanoidSpeed>
                 </statOffsets>
             </li>
         </stages>
