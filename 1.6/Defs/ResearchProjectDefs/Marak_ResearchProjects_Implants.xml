@@ -19,8 +19,8 @@
             <li>Machining</li>
             <li>Prosthetics</li>
         </prerequisites>
-        <researchViewX>0.5</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewX>0.25</researchViewX>
+        <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
 
     <!-- Refined Mechadendrites -->
@@ -36,8 +36,8 @@
         <prerequisites>
             <li>Marak_BasicMechadendrites</li>
         </prerequisites>
-        <researchViewX>2.15</researchViewX>
-        <researchViewY>2.5</researchViewY>
+        <researchViewX>1.5</researchViewX>
+        <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
     
     <!-- Standard Mechadendrites -->
@@ -58,10 +58,27 @@
              <li>Bionics</li>
              <li>Fabrication</li>
          </prerequisites>
-         <researchViewX>3</researchViewX>
-         <researchViewY>2.5</researchViewY>
+         <researchViewX>4.5</researchViewX>
+         <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
     <!-- DESCRIPTION NEEDED -->
+    <ResearchProjectDef>
+        <defName>Marak_HardenedMechadendrites</defName>
+        <label>REPLACE_ME</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Ultra</techLevel>
+        <baseCost>2500</baseCost> <!-- TEMPORARY -->
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li> <!-- TEMPORARY -->
+        </prerequisites>
+        <researchViewX>500</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
 </Defs>

@@ -25,7 +25,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <!-- <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> -->
+            <researchPrerequisite>Marak_HardenedMechadendrites</researchPrerequisite>
             <recipeUsers>
                 <li>FabricationBench</li>
             </recipeUsers>
@@ -163,7 +163,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened regulation mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -252,7 +252,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedCogitatorMechadendrite</defName>
         <label>hardened cognition mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -332,7 +332,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -412,7 +412,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedHackingMechadendrite</defName>
         <label>hardened hacking mechadendrite</label>
         <description>REPLACE_ME</description>

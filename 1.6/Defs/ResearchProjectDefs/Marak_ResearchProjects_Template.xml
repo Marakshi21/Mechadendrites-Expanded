@@ -3,7 +3,7 @@
     <!-- Dummy Research Project Template -->
     <!--
     <ResearchProjectDef>
-        <defName>Marak_[TIER]{TYPE-OPTIONAL}Mechadendrites</defName>
+        <defName>Marak_[TIER][TYPE-OPTIONAL]Mechadendrites</defName>
         <label>REPLACE_ME</label>
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
@@ -16,8 +16,8 @@
         <prerequisites>
             <li>[PREREQ]</li>
         </prerequisites>
-        <researchViewX>*COORDINATE*</researchViewX>
-        <researchViewY>*COORDINATE*</researchViewY>
+        <researchViewX>[COORDINATE]</researchViewX>
+        <researchViewY>[COORDINATE]</researchViewY>
     </ResearchProjectDef>
     -->
 </Defs>
