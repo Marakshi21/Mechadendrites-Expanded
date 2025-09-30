@@ -230,10 +230,13 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
-        <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
+        <!-- <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
+        <description>A refined mechadendrite with a sharp and angled blade attached on its head similar to a pickaxe. Designed with mining in mind, this mechadendrite can bury deep into the ground and using a more rigid than usual chassis forcefully displace rocks by exerting force on them.</description>
+        <description>With a blade similar to a pickaxe on its tip and a strengthened chassis, this mechadendrite can slam itself deep into rocks and displace them. All while the strengthened chassis helps keep it together and not break off easily during intense excavating operations.</description> -->
+        <description>Rock and stone. This mechadendrite sports a modified pickaxe head and reinforced chassis to make it suitable for excavation operations. Able to strike deep and hard, it is an invaluable tool for any would-be miners.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>25</Steel>
+            <Steel>35</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <!-- <recipeMaker>
