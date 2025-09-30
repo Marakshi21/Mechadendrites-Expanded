@@ -29,7 +29,6 @@
     </ThingDef>
     
     <!-- Basic Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>

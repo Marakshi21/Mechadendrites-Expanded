@@ -31,12 +31,11 @@
     
 
     <!-- Refined Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
         <labelNoun>a refined mechadendrite</labelNoun>
-        <description>An installed refined mechadendrite. The addition of servos and advanced machining allows it to have more flexible movement compared to its basic brethren.</description>
+        <description>An installed refined mechadendrite. Refined machining techniques and a flexible chassis allow for fluid movement while better connections grant stronger control.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -57,7 +56,10 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
-        <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description>
+        <!-- <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description> 
+        <description>A refined iteration of the basic mechadendrite. Machined using better methods and refinements upon the fundamentals of its predecessor, its able to move around with more fluidity and purpose than its precursor.</description>
+        <description>The refined mechadendrite has been machined using refined methods compared to its predecessor aiding in more fluid movement and less rigidity in its chassis. It's also capable of stronger grips helping it lift heavier items without overexerting itself.</description> -->
+        <description>A refinement upon the basic mechadendrite, this mechadendrite uses improved methods of machining leading to more fluid movements thanks to a flexible chassis. Its control is improved as well thanks to refined connections into muscles and the spinal cord allowing some minor control using impulses alone.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
@@ -120,7 +122,7 @@
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
         <labelNoun>a refined flashlight mechadendrite</labelNoun>
-        <description>An installed refined flashlight mechadendrite.</description>
+        <description>An installed refined flashlight mechadendrite. With a flashlight bolted on its end, it can illuminate previously dark areas assisting vision. (Does not actually nullify darkness but boosts sight instead atm).</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedOpticalMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -141,7 +143,10 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
-        <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
+        <!-- <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
+        <description>A refined mechadendrite chassis with a flashlight bolted onto the end of it. Although its design may initially suggest the flashlight was hastily bolted on, it is actually built into the chassis keeping it compact.</description>
+        <description>A refined chassis with a flashlight apparatus built into the end of it. Despite its appearance, this mechadendrite uses a custom-made flashlight to support a compact and long-living design at the cost of brightness.</description> -->
+        <description>A refined mechadendrite chassis that has a flashlight bolted into it. Despite its janky appearance, the flashlight was custom-made with the intent of being compact and long-living by sacrificing some brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
