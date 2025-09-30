@@ -379,7 +379,7 @@
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
         <labelNoun>a refined multitool mechadendrite</labelNoun>
-        <description>An installed refined multitool mechadendrite.</description>
+        <description>An installed refined multitool mechadendrite. Embedded with a variety of specially-made tools and a hotswap tip, this mechadendrite does its best when used for unskilled fields of labour.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMultitoolMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedMultitoolMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -389,9 +389,9 @@
             <li>
                 <statOffsets>
                     <GeneralLaborSpeed>.05</GeneralLaborSpeed>
-                    <SmoothingSpeed>.05</SmoothingSpeed>
-                    <ConstructionSpeed>.05</ConstructionSpeed>
                     <SmeltingSpeed>.05</SmeltingSpeed>
+                    <SmoothingSpeed>.05</SmoothingSpeed>
+                    <ConstructionSpeed>.035</ConstructionSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -400,7 +400,12 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
-        <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
+        <!-- <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
+        <description>With a variety of tools attached across its chassis and a hot-swappable tip, the refined multitool mechadendrite aims to be a jack-of-all-trades when it comes to more menial tasks and construction related work.</description>
+        <description>The embodiment of the phrase jack-of-all-trades, the refined multitool has an array of miniaturized tools stored across its tendril-like chassis along with a hot-swappable tip to allow the easy swapping of tools.</description>
+        <description>Designed to be a generalist mechadendrite, the refined multitool mechadendrite stores an array of miniaturized tools along its wider than average chassis. Combined with a hot-swappable tip, it allows it to easily adapt to the type of job being done so long as it has a tool for said job.</description>
+        <description>Machined with a vision of being</description> -->
+        <description>Crafted with a variety of tools embedded across its chassis, this mechadendrite aims to help out in many more unskilled fields of labour. With a hot-swappable tip, tools can be swapped in and out as required by its wielder albeit manually.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
