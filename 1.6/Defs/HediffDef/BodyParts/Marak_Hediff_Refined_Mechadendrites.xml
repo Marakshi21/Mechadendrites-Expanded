@@ -466,12 +466,11 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCleaningMechadendrite</defName>
         <label>refined sweeper mechadendrite</label>
         <labelNoun>a refined sweeper mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>A refined sweeper mechadendrite. With an angled broom attached on its tip, the sweeper helps sweep up any messes that may exist.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -489,11 +488,11 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedCleaningMechadendrite</defName>
         <label>refined sweeper mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A peculiar mechadendrite that attaches a broom onto its edge at an angle with the sole intent of helping clean spaces up. Cheaper than most mechadendrites, this one seeks to help bring about a cleaner environment.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <!-- <recipeMaker>
               <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
