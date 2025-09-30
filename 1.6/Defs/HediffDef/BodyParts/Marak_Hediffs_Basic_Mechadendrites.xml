@@ -55,7 +55,8 @@
     <ThingDef ParentName="BodyPartBasicMechadendriteBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
-        <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description>
+        <!-- <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description> -->
+        <description>A basic mechadendrite forged from crude methods. Its rigid tendril-like form and restrictive movements limits it to grabbing onto things with a three-pronged claw. Though the wielder has some control thanks to being wired into nearby muscles and the spinal cord, it is limited to primitive movements only.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>20</Steel>
