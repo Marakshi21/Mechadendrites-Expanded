@@ -44,6 +44,38 @@
         <researchViewX>1.5</researchViewX>
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
+
+    <!-- Striker, Excavator, Field -->
+    <ResearchProjectDef>
+        <defName>Marak_RefinedBladedMechadendrites</defName>
+        <label>Bladed Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>2.5</researchViewX>
+        <researchViewY>1.75</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Multitool, Sweeper, Flashlight -->
+    <ResearchProjectDef>
+        <defName>Marak_RefinedToolsMechadendrites</defName>
+        <label>Refined Tooling Patterns</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>2.5</researchViewX>
+        <researchViewY>2.75</researchViewY>
+    </ResearchProjectDef>
     
     <!-- Standard Mechadendrites -->
     <!-- DESCRIPTION NEEDED -->
