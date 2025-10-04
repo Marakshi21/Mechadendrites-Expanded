@@ -56,9 +56,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
-        <!-- <description>A refined iteration of the basic mechadendrite. Thanks to better engineering and addition of servos, this mechadendrite can move around more flexibly compared to its predecessor.</description> 
-        <description>A refined iteration of the basic mechadendrite. Machined using better methods and refinements upon the fundamentals of its predecessor, its able to move around with more fluidity and purpose than its precursor.</description>
-        <description>The refined mechadendrite has been machined using refined methods compared to its predecessor aiding in more fluid movement and less rigidity in its chassis. It's also capable of stronger grips helping it lift heavier items without overexerting itself.</description> -->
         <description>A refinement upon the basic mechadendrite, this mechadendrite uses improved methods of machining leading to more fluid movements thanks to a flexible chassis. Its control is improved as well thanks to refined connections into muscles and the spinal cord allowing some minor control using impulses alone.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -142,9 +139,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
-        <!-- <description>A refined mechadendrite with a flashlight built in to aid visibility. Its small and compact design limits the burden on the user at the cost of brightness.</description>
-        <description>A refined mechadendrite chassis with a flashlight bolted onto the end of it. Although its design may initially suggest the flashlight was hastily bolted on, it is actually built into the chassis keeping it compact.</description>
-        <description>A refined chassis with a flashlight apparatus built into the end of it. Despite its appearance, this mechadendrite uses a custom-made flashlight to support a compact and long-living design at the cost of brightness.</description> -->
         <description>A refined mechadendrite chassis that has a flashlight bolted into it. Despite its janky appearance, the flashlight was custom-made with the intent of being compact and long-living by sacrificing some brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -206,7 +200,6 @@
     
     <!-- SKILLED LABOUR GROUP -->
     <!-- Excavator Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
@@ -229,9 +222,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
-        <!-- <description>A refined mechadendrite that utilizes a sharp blade for a head similar to the one found on the bladed mechadendrite designed for use in excavating operations instead of combat. Due to its bladed nature, it has limited applications in excavating.</description>
-        <description>A refined mechadendrite with a sharp and angled blade attached on its head similar to a pickaxe. Designed with mining in mind, this mechadendrite can bury deep into the ground and using a more rigid than usual chassis forcefully displace rocks by exerting force on them.</description>
-        <description>With a blade similar to a pickaxe on its tip and a strengthened chassis, this mechadendrite can slam itself deep into rocks and displace them. All while the strengthened chassis helps keep it together and not break off easily during intense excavating operations.</description> -->
         <description>Rock and stone. This mechadendrite sports a modified pickaxe head and reinforced chassis to make it suitable for excavation operations. Able to strike deep and hard, it is an invaluable tool for any would-be miners.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -296,8 +286,6 @@
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
         <labelNoun>a refined field mechadendrite</labelNoun>
-        <!-- <description>This mechadendrite uses a scythe-like blade welded onto its tip to assist in various farming activities. Should a blade not be suitable, one can remove its bladed tip and replace with a different tool to get the job done.</description> 
-        <description>A mechadendrite with a blade attached to its tip specifically made to assist in the sowing and harvesting of plants.</description> -->
         <description>A refined field mechadendrite. The blade on its tip helps in plant work while the refined chassis makes it fluid in movement allowing it to slice through crops with ease.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedPlantsMechadendrite</spawnThingOnRemoved>
@@ -400,11 +388,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
-        <!-- <description>A refined mechadendrite with an array of tools scattered across the tendril-like form. Designed for use in menial work, it sacrifices generalisation in favour of boosting more menial types of work.</description>
-        <description>With a variety of tools attached across its chassis and a hot-swappable tip, the refined multitool mechadendrite aims to be a jack-of-all-trades when it comes to more menial tasks and construction related work.</description>
-        <description>The embodiment of the phrase jack-of-all-trades, the refined multitool has an array of miniaturized tools stored across its tendril-like chassis along with a hot-swappable tip to allow the easy swapping of tools.</description>
-        <description>Designed to be a generalist mechadendrite, the refined multitool mechadendrite stores an array of miniaturized tools along its wider than average chassis. Combined with a hot-swappable tip, it allows it to easily adapt to the type of job being done so long as it has a tool for said job.</description>
-        <description>Machined with a vision of being</description> -->
         <description>Crafted with a variety of tools embedded across its chassis, this mechadendrite aims to help out in many more unskilled fields of labour. With a hot-swappable tip, tools can be swapped in and out as required by its wielder albeit manually.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>

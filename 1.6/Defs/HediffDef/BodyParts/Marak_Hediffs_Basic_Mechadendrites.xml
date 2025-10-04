@@ -54,10 +54,6 @@
     <ThingDef ParentName="BodyPartBasicMechadendriteBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
-        <!-- <description>A basic mechadendrite made from crude methods. Its rigid tendril-like form limits its movements lending its use mostly in grabbing and holding onto items. The wielder has some control thanks to being wired into both their muscles and spinal cord, albeit limited.</description> 
-        <description>A basic mechadendrite forged from crude methods. Its rigid tendril-like form and restrictive movements limits it to grabbing onto things with a three-pronged claw. Though the wielder has some control thanks to being wired into nearby muscles and the spinal cord, it is limited to primitive movements only.</description> 
-        <description>A basic mechadendrite machined from crude methodology. Its rigid tendril-like form restricts movement limiting it to grabbing and holding onto items with a three-pronged claw. Control of the mechadendrite is further limited due weak connections into the spinal cord and muscles requiring manual intervention more often than not.</description> 
-        <description>A basic mechadendrite machined from crude methods. The crude machining techniques used in its creation limits its movements while its rigid tendril-like form restricts usability beyond simple grabbing and holding operations. While its connection to the wielder relies on primitive wiring into the spine and muscles requiring intense focus from its user to operate efficiently.</description> -->
         <description>A basic mechadendrite crafted from crude methods. Its rigid form restricts movements leading to most of its utility to grabbing and holding various items without having to exert excess energy. The wielder has some innate control thanks to primitive wiring into the surrounding muscles and spinal cord, but manual intervention can be required.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
