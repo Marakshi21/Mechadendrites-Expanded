@@ -54,7 +54,7 @@
         <description>Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>800</baseCost>
+        <baseCost>600</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -70,7 +70,7 @@
         <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
-        <baseCost>800</baseCost>
+        <baseCost>600</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -97,7 +97,7 @@
              <li>Bionics</li>
              <li>Fabrication</li>
          </prerequisites>
-         <researchViewX>4.5</researchViewX>
+         <researchViewX>3.5</researchViewX>
          <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
     
