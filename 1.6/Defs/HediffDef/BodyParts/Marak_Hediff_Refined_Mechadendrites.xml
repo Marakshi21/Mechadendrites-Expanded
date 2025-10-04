@@ -546,7 +546,6 @@
 
     <!-- WEAPONS GROUP -->
     <!-- Melee/Striker Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined striker mechadendrite</label>
@@ -580,8 +579,6 @@
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined striker mechadendrite</label>
-        <!-- <description>A mechadendrite ordained with a sharp blade at its tip. Its semi-flexible construction allows it to swing around madly aiming to strike targets based on the wielder's intuition of who is foe and friend.</description> 
-        <description>Engineered with a sharp blade at its end, the refined striker mechadendrite is more reminiscent of the basic mechadendrite than most. A firm chassis gives the mechadendrite durability while a heavy blade gives it the ability to unleash a powerful strike when it hits. Due to limited connection, though, it can take a long time to charge up and strike and should only be used as a last resort.</description> -->
         <description>Designed with similar principles to its bladed brethren, the striker mechadendrite forsakes its worker-based heritage to focus on melee combat. Able to strike hard, but slow, it can punch deep through flesh while struggling with armoured foes.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCombatMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
