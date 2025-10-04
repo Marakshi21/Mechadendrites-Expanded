@@ -49,6 +49,7 @@
     <ResearchProjectDef>
         <defName>Marak_RefinedBladedMechadendrites</defName>
         <label>Bladed Mechadendrites</label>
+        <!-- <description>Through rigorous testing and slapping sharp blades onto the heads of refined mechadendrite chassis, specialized tools focused on field work, mining excavations, or even combat can be created.</description> -->
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
@@ -65,7 +66,7 @@
     <ResearchProjectDef>
         <defName>Marak_RefinedToolsMechadendrites</defName>
         <label>Refined Tooling Patterns</label>
-        <description>REPLACE_ME</description>
+        <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>800</baseCost>
