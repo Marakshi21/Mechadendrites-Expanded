@@ -117,7 +117,6 @@
 
     <!-- SENSOR GROUP -->
     <!-- Flashlight Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
@@ -212,7 +211,7 @@
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
         <labelNoun>a refined excavator mechadendrite</labelNoun>
-        <description>An installed refined excavator mechadendrite. Based on the bladed mechadendrite, the excavator mechadendrite can use its bladed head to pry in deep and excavate materials.</description>
+        <description>An installed refined excavator mechadendrite. With a sharp blade mimicking a pickaxe head, it can strike deep and hard providing valuable for dislodging stubborn rock formations.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedExcavatorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedExcavatorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -293,7 +292,6 @@
     </RecipeDef>
 
     <!-- Field Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
@@ -377,7 +375,6 @@
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Multitool Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
@@ -550,11 +547,11 @@
     <!-- WEAPONS GROUP -->
     <!-- Melee/Striker Mechadendrite -->
     <!-- DESCRIPTION NEEDED -->
-    <!-- <HediffDef ParentName="AddedBodyPartBase">
+    <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
-        <label>refined bladed mechadendrite</label>
-        <labelNoun>a refined bladed mechadendrite</labelNoun>
-        <description>An installed refined bladed mechadendrite. Its bladed tip gives it the ability to pierce while the mechadendrite itself strikes targets based on the wielder's intuition</description>
+        <label>refined striker mechadendrite</label>
+        <labelNoun>a refined striker mechadendrite</labelNoun>
+        <description>An installed refined striker mechadendrite. Its sharp blade allows it to strike through flesh with ease while armour can prove tricky.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedCombatMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedCombatMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -568,9 +565,9 @@
                         <capacities>
                             <li>Stab</li>
                         </capacities>
-                        <power>6</power>
-                        <armorPenetration>0.25</armorPenetration>
-                        <cooldownTime>2.0</cooldownTime>
+                        <power>12</power>
+                        <armorPenetration>0.15</armorPenetration>
+                        <cooldownTime>2.5</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
                         <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
@@ -582,8 +579,10 @@
 
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
-        <label>refined bladed mechadendrite</label>
-        <description>A mechadendrite ordained with a sharp blade at its tip. Its semi-flexible construction allows it to swing around madly aiming to strike targets based on the wielder's intuition of who is foe and friend.</description>
+        <label>refined striker mechadendrite</label>
+        <!-- <description>A mechadendrite ordained with a sharp blade at its tip. Its semi-flexible construction allows it to swing around madly aiming to strike targets based on the wielder's intuition of who is foe and friend.</description> 
+        <description>Engineered with a sharp blade at its end, the refined striker mechadendrite is more reminiscent of the basic mechadendrite than most. A firm chassis gives the mechadendrite durability while a heavy blade gives it the ability to unleash a powerful strike when it hits. Due to limited connection, though, it can take a long time to charge up and strike and should only be used as a last resort.</description> -->
+        <description>Designed with similar principles to its bladed brethren, the striker mechadendrite forsakes its worker-based heritage to focus on melee combat. Able to strike hard, but slow, it can punch deep through flesh while struggling with armoured foes.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCombatMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>25</Steel>
@@ -593,7 +592,7 @@
             <li>RewardStandardLowFreq</li>
         </thingSetMakerTags>
         <recipeMaker>
-            <researchPrerequisite>Marak_RefinedCombatMechadendrite</researchPrerequisite>
+            <researchPrerequisite>Marak_RefinedBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -606,13 +605,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedCombatMechadendrite</defName>
-        <label>install refined bladed mechadendrite</label>
-        <description>Install a refined bladed mechadendrite.</description>
+        <label>install refined striker mechadendrite</label>
+        <description>Install a refined striker mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedCombatMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedCombatMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing refined bladed mechadendrite.</jobString>
+        <jobString>Installing refined striker mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -636,13 +635,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveRefinedCombatMechadendrite</defName>
-        <label>remove refined bladed mechadendrite</label>
-        <description>Remove a refined bladed Mechadendrite.</description>
+        <label>remove refined striker mechadendrite</label>
+        <description>Remove a refined striker Mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedCombatMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedCombatMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing refined bladed mechadendrite.</jobString>
+        <jobString>Removing refined striker mechadendrite.</jobString>
         <removesHediff>Marak_RefinedCombatMechadendrite</removesHediff>
-    </RecipeDef> -->
+    </RecipeDef>
 </Defs>
