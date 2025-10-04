@@ -548,7 +548,7 @@
     </RecipeDef>
 
     <!-- WEAPONS GROUP -->
-    <!-- Melee Mechadendrite -->
+    <!-- Melee/Striker Mechadendrite -->
     <!-- DESCRIPTION NEEDED -->
     <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>

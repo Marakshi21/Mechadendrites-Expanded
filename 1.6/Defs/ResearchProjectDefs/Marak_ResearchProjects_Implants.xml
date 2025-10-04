@@ -24,11 +24,16 @@
     </ResearchProjectDef>
 
     <!-- Refined Mechadendrites -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_RefinedMechadendrites</defName>
-        <label>Refined Mechadendrite replacements</label>
-        <description>Refining upon basic mechadendrites has led into developments into the fundamental structures of mechadendrites allowing for more flexible movement. These improvements have allowed for the possibility of specialising mechadendrites to assist in specific fields.</description>
+        <label>Refined Mechadendrite Machining</label>
+        <!-- <description>Refining upon basic mechadendrites has led into developments into the fundamental structures of mechadendrites allowing for more flexible movement. These improvements have allowed for the possibility of specialising mechadendrites to assist in specific fields.</description> 
+        <description>Insights into better machining techniques allows the development of a refined chassis capable of more fluid movement and better control by sensing a user's impulse.</description> 
+        <description>By establishing better machining techniques and refining the initial groundwork created by the basic mechadendrite, these refined variants offer more fluid and natural movement via a better chassis. They can also sense the user's impulses to give more, and smoother, control.</description> 
+        <description>Building upon the foundations created by the basic mechadendrite has lead to the refinement of many flaws with the original design. This new refined iteration promotes smoother and more fluid movement through a variety of changes in both machining and structure, while connections have been refined allowing for more smooth control.</description> 
+        <description>Insights granted by the basic mechadendrite prototypes has yielded significant refinements in the original designs. With a smoother and more fluid sense of movement via improvements in both structure design and machining techniques, and a refined connection to the user, these new designs surpass its predecessor in every way.</description> 
+        <description>With new knowledge gained into better machining techniques and various refinements to be made, create a refined-tier of mechadendrites. Smoother, more fluid, and better designed, these new mechadendrites provide significant improvements over their predecessor while opening up the pathway into specializing them with additional research.</description> -->
+        <description>Refinements into the basic mechadendrite prototypes have yielded various improvements into the original designs. Smoother, better control, and stronger, these new chassis open the potential for significant specialization with additional research.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>800</baseCost>
