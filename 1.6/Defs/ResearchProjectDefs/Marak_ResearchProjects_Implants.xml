@@ -96,7 +96,7 @@
          <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
 
-    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Agrarian? -->
+    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Drill -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Patterns</label>

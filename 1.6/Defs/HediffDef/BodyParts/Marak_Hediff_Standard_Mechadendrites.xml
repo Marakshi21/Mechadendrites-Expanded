@@ -59,10 +59,6 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <!-- <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
-        <description>Fabricated with modern techniques compared to older generations, the plasteel-steel chassis and application of both old and new technologies helps create a strong and agile mechadendrite. Using similar nerve-link technology to those found in other bionics, this mechadendrite is tied directly into its wielder granting unparalleled control.</description> 
-        <description>Engineered with modern tools, a standard mechadendrite represents a great stride in mechadendrite engineering. A plasteel-steel chassis provides ample protection and agility. While advanced components embedded within provide a nerve-link technology granting direct control like it were any other limb.</description> 
-        <description>Designed and engineered with lessons taken from older generations, the unique plasteel-steel blend used to fabricate the chassis provides ample protection and agility. While various components and mini-servos within aid movement and grant a direct link allowing fine control as though it were any other limb.</description> -->
         <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the standard mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -146,11 +142,6 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
-        <!-- <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multitasking.</description>
-        <description>One part of the subdivision of the multitool mechadendrite</description>
-        <description>Taking inspiration from the refined multitool, the standard engineer mechadendrite focuses itself on engineering tasks that its predecessor either struggled to perform or could not afford to do. Using similar hot-swap technology and improvements in fundamental design, this mechadendrite proves valuable for engineers across the rim.</description>
-        <description>Born from the refined multitool mechadendrite and its too broad nature, the standard engineer mechadendrite focuses on mechanical engineering tasks. Able to outperform the older multitool in all fields related to mechanical engineering due to both better designs and a focused task, the engineer mechadendrite is valued by many engineers across the rim.</description>
-        <description>Born from the refined multitool mechadendrite, the standard engineer mechadendrite focuses itself to mechanical engineering tasks exclusively. By focusing inwards and taking advantage of improvements from the standard mechadendrite, the engineer mechadendrite outperforms</description> -->
         <description>Building upon the refined multitool mechadendrite, the standard engineer mechadendrite aids in many mechanical engineering tasks forsaking other tasks to streamline its design. With better tools and improvements in the fundamentals, it proves invaluable for engineers across the rim.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -243,9 +234,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
-        <!-- <recipeMaker>
-            <researchPrerequisite>Marak_StandardDrillMechadendrite</researchPrerequisite>
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
