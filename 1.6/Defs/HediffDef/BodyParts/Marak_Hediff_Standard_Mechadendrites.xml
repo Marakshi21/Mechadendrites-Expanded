@@ -120,7 +120,6 @@
     
     <!-- SKILLED LABOUR GROUP -->
     <!-- Engineer Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
@@ -974,7 +973,6 @@
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Artisan Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
@@ -1059,12 +1057,11 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
-        <label>standard sweeper mechadendrite</label>
-        <labelNoun>a standard sweeper mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <label>standard vacuum mechadendrite</label>
+        <labelNoun>a standard vacuum mechadendrite</labelNoun>
+        <description>a standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -1081,8 +1078,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
-        <label>standard sweeper mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <label>standard vacuum mechadendrite</label>
+        <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -1090,9 +1087,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
+        <recipeMaker>
+             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite> 
+        </recipeMaker>
         <statBases>
             <Mass>2.5</Mass>
         </statBases>
@@ -1100,13 +1097,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardCleaningMechadendrite</defName>
-        <label>install standard sweeper mechadendrite</label>
-        <description>Install a standard sweeper mechadendrite.</description>
+        <label>install standard vacuum mechadendrite</label>
+        <description>Install a standard vacuum mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard sweeper mechadendrite.</jobString>
+        <jobString>Installing a standard vacuum mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -1130,13 +1127,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardCleaningMechadendrite</defName>
-        <label>remove standard sweeper Mechadendrite</label>
-        <description>Remove standard sweeper Mechadendrite.</description>
+        <label>remove standard vacuum Mechadendrite</label>
+        <description>Remove standard vacuum Mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard sweeper mechadendrite.</jobString>
+        <jobString>Removing standard vacuum mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
     
