@@ -96,7 +96,7 @@
          <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
 
-    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Agrarian -->
+    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Agrarian? -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Patterns</label>
@@ -112,8 +112,8 @@
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
         </prerequisites>
-        <researchViewX>3.7</researchViewX>
-        <researchViewY>2.45</researchViewY>
+        <researchViewX>4.5</researchViewX>
+        <researchViewY>3</researchViewY>
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
