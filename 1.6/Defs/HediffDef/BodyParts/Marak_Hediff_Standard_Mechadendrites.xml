@@ -38,7 +38,7 @@
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
         <labelNoun>a standard mechadendrite</labelNoun>
-        <description>An installed standard mechadendrite. Mini-servos combined with the biogel nerve-link grant the wielder excellent control and usability.</description>
+        <description>An installed standard mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
