@@ -72,11 +72,14 @@
     </ResearchProjectDef>
     
     <!-- Standard Mechadendrites -->
-    <!-- DESCRIPTION NEEDED -->
      <ResearchProjectDef>
          <defName>Marak_StandardMechadendrites</defName>
-         <label>Standard Mechadendrite Templates</label>
-         <description>Design standard mechadendrite templates via the usage of mini-servos and advanced materials. Applying both mini-servo tech and biogel application, standard mechadendrites surpass anything before them ushering in a new era for mechadendrite engineering.</description>
+         <label>Standard Mechadendrites</label>
+         <!-- <description>Design standard mechadendrite templates via the usage of mini-servos and advanced materials. Applying both mini-servo tech and biogel application, standard mechadendrites surpass anything before them ushering in a new era for mechadendrite engineering.</description>
+         <description>Through the application of fabrication technologies and advanced materials, design standard-tier mechadendrite chassis.</description>
+         <description>Innovate upon mechadendrite engineering by mixing in fabrication technologies and better materials creating standard tier mechadendrites. Stronger, more agile, and lighter, these new mechadendrites take everything good from older models and cranks them up to 11.</description> 
+         <description>Design standard tier mechadendrites.</description> -->
+         <description>Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
          <tab>Marak_MechadendritesExpanded</tab>
          <techLevel>Spacer</techLevel>
          <baseCost>1500</baseCost>

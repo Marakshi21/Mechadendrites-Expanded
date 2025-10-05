@@ -34,7 +34,6 @@
     </ThingDef>
 
     <!-- Standard Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
@@ -60,7 +59,11 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard mechadendrite</label>
-        <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
+        <!-- <description>A standard mechadendrite fabricated using modern techniques. The addition of mini-servos gives it impeccable movement while a flexible shell grants it exceptional flexibility. A biogel nerve-link wired into the wielder's spine allows for exquisite control and usability marking it the top of its class.</description>
+        <description>Fabricated with modern techniques compared to older generations, the plasteel-steel chassis and application of both old and new technologies helps create a strong and agile mechadendrite. Using similar nerve-link technology to those found in other bionics, this mechadendrite is tied directly into its wielder granting unparalleled control.</description> 
+        <description>Engineered with modern tools, a standard mechadendrite represents a great stride in mechadendrite engineering. A plasteel-steel chassis provides ample protection and agility. While advanced components embedded within provide a nerve-link technology granting direct control like it were any other limb.</description> 
+        <description>Designed and engineered with lessons taken from older generations, the unique plasteel-steel blend used to fabricate the chassis provides ample protection and agility. While various components and mini-servos within aid movement and grant a direct link allowing fine control as though it were any other limb.</description> -->
+        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the standard mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>5</Plasteel>
