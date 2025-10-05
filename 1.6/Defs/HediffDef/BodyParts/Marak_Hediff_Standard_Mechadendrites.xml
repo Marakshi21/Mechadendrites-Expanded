@@ -125,7 +125,7 @@
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
         <labelNoun>a standard engineer mechadendrite</labelNoun>
-        <description>An installed engineer mechadendrite. Its use of specialized tooling and connection to the wielder helps it aid in ways that could only be previously imagined.</description>
+        <description>An installed engineer mechadendrite. Improvements to fundamental designs compared to its precursor heighten its utility in mechanical engineering-related tasks.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardEngineeringMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -147,7 +147,12 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardEngineeringMechadendrite</defName>
         <label>standard engineer mechadendrite</label>
-        <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multitasking.</description>
+        <!-- <description>Splitting itself off from the multitool mechadendrite, the standard engineer mechadendrite seeks to aid its wielder in fields relating to engineering work and mechanoids. Sacrificing tools previously used for more menial work, the engineer mechadendrite hosts a suite of tools designed in aiding the speed and efficiency an engineer can work at. By connecting into the user's spine, it can act semi-autonomously allowing for crude true multitasking.</description>
+        <description>One part of the subdivision of the multitool mechadendrite</description>
+        <description>Taking inspiration from the refined multitool, the standard engineer mechadendrite focuses itself on engineering tasks that its predecessor either struggled to perform or could not afford to do. Using similar hot-swap technology and improvements in fundamental design, this mechadendrite proves valuable for engineers across the rim.</description>
+        <description>Born from the refined multitool mechadendrite and its too broad nature, the standard engineer mechadendrite focuses on mechanical engineering tasks. Able to outperform the older multitool in all fields related to mechanical engineering due to both better designs and a focused task, the engineer mechadendrite is valued by many engineers across the rim.</description>
+        <description>Born from the refined multitool mechadendrite, the standard engineer mechadendrite focuses itself to mechanical engineering tasks exclusively. By focusing inwards and taking advantage of improvements from the standard mechadendrite, the engineer mechadendrite outperforms</description> -->
+        <description>Building upon the refined multitool mechadendrite, the standard engineer mechadendrite aids in many mechanical engineering tasks forsaking other tasks to streamline its design. With better tools and improvements in the fundamentals, it proves invaluable for engineers across the rim.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -155,9 +160,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-            <researchPrerequisite>Marak_StandardMultitoolMechadendrites</researchPrerequisite>
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>

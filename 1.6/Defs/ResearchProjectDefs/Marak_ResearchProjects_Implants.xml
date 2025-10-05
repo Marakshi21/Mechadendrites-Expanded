@@ -95,6 +95,26 @@
          <researchViewX>3.5</researchViewX>
          <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
+
+    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Agrarian -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardToolingMechadendrites</defName>
+        <label>Standardized Tooling Patterns</label>
+        <description>By taking advantage of the opportunities granted with new standard tier mechadendrite chassis and lessons from older refined iterations. Draft up templates for new standard-tier variants of older refined tooling mechadendrite patterns and subdivide some for greater efficiency</description>
+        <description>Apply lessons gained from refined-tier tooling mechadendrites to create standard tier improvements upon each of them. Including the subdivision of the fabled multitool into two separate mechadendrites for greater efficiency.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+        </prerequisites>
+        <researchViewX>3.7</researchViewX>
+        <researchViewY>2.45</researchViewY>
+    </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
     <!-- DESCRIPTION NEEDED -->
