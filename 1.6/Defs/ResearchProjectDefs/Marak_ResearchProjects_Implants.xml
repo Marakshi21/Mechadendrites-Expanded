@@ -117,23 +117,24 @@
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Drill, -->
+    <!-- Drill -->
     <ResearchProjectDef>
-        <defName>Marak_[TIER][TYPE-OPTIONAL]Mechadendrites</defName>
-        <label>REPLACE_ME</label>
-        <description>REPLACE_ME</description>
+        <defName>Marak_StandardDrillerMechadendrites</defName>
+        <label>Drilling Mechadendrites</label>
+        <description>Slap a drill onto the end of a standard mechadendrite chassis to create a tool that can chew through most mining jobs given to it.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>[VALUE]</baseCost>
+        <baseCost>500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
         <prerequisites>
-            <li>[PREREQ]</li>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
         </prerequisites>
-        <researchViewX>[COORDINATE]</researchViewX>
-        <researchViewY>[COORDINATE]</researchViewY>
+        <researchViewX>4.5</researchViewX>
+        <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->

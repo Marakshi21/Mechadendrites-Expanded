@@ -201,7 +201,6 @@
     </RecipeDef>
 
     <!-- Drill Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
@@ -225,18 +224,18 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
-        <description>Created by putting a small drill on its tip, the drill can be controlled consciously by its user or used subconsciously to improve mining efforts. A tough plasteel exterior gives it much needed protection while performing mining operations with reinforced shielding within protects its delicate circuitry.</description>
+        <description>Created by slapping a specialised drill onto its end, the standard drill mechadendrite can make short work of any collection of rocks it encounters. Designed with a reinforced plasteel shell and a steel drill head, it's able to burrow deep and drill away exposing valuable minerals to be gathered up by the miner using it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>8</Plasteel>
+            <Plasteel>12</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>12</Steel>
+            <Steel>8</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_StandardDrillerMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
         </statBases>
