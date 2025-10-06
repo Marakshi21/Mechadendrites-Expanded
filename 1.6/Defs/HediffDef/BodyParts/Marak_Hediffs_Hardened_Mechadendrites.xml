@@ -67,9 +67,8 @@
         <description>A hardened optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-            <Steel>6</Steel>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
         </costList>
         <!-- <recipeMaker>
             <researchPrerequisite>Marak_HardenedOpticalMechadendrites</researchPrerequisite>
