@@ -107,17 +107,17 @@
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
             <li>Marak_RefinedBladedMechadendrites</li>
+            <li>DeepDrilling</li>
         </prerequisites>
         <researchViewX>5.00</researchViewX>
         <researchViewY>0.80</researchViewY>
     </ResearchProjectDef>
 
     <!-- Agriculture: Rancher, Agrarian -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardFloraFaunaMechadendrites</defName>
         <label>Agriculture Mechadendrites</label>
-        <description>Devise a class of mechadendrites designed with the purpose of assisting in matters relating to living off the land; Farming and Ranching.</description>
+        <description>Devise a class of mechadendrites designed with the purpose of assisting in the fields of plant work and ranching.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -134,11 +134,10 @@
     </ResearchProjectDef>
 
     <!-- Medicinal Mechadendrites: Doctor and Surgeon -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardMedicalMechadendrites</defName>
         <label>Medicinal Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Modify existing Refined Striker Mechadendrite templates to create medicinal versions suited for either general medical work or operational work.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -176,11 +175,10 @@
     </ResearchProjectDef>
 
     <!-- Cracker Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardHackingMechadendrites</defName>
         <label>Network cracking mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Devise a mechadendrite capable of assisting hackers crack into a network by brute-forcing entries. Effective, but can often lead to pre-mature lock-outs.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -201,7 +199,7 @@
     <ResearchProjectDef>
         <defName>Marak_StandardCulinaryMechadendrites</defName>
         <label>Culinary Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Create a class of mechadendrites designed to assist with chefs and butchers alike improve workflow and efficiency.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -218,20 +216,27 @@
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
-    <!-- DESCRIPTION NEEDED -->
+    <!-- TEMPORARY DESCRIPTION: MAY POSTPONE -->
     <ResearchProjectDef>
         <defName>Marak_HardenedMechadendrites</defName>
         <label>Ultratech Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>This is it. The pinnacle of mechadendrite engineering. Innovating upon all other previous mechadendrite designs has lead to the advent of a new tier of mechadendrites that go beyond standard. Hardened Mechadendrites. By pushing the very bounds of mechadendrite engineering to its limits, and making sacrifices, create powerful mechadendrites capable of feats never before seen with mechadendrites. All at a cost to the individual implanted.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Ultra</techLevel>
-        <baseCost>2500</baseCost> <!-- TEMPORARY -->
+        <baseCost>4000</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
         <prerequisites>
-            <li>Marak_StandardMechadendrites</li> <!-- TEMPORARY -->
+            <li>Marak_StandardMechadendrites</li>
+            <li>AdvancedFabrication</li>
+            <li>Marak_StandardHackingMechadendrites</li>
+            <li>Marak_StandardDrillerMechadendrites</li>
+            <li>Marak_StandardCulinaryMechadendrites</li>
+            <li>Marak_StandardToolingMechadendrites</li>
+            <li>Marak_StandardMedicalMechadendrites</li>
+            <li>Marak_StandardFloraFaunaMechadendrites</li>
         </prerequisites>
         <researchViewX>7.5</researchViewX>
         <researchViewY>2.25</researchViewY>

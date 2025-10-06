@@ -139,8 +139,8 @@
 
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
-        <label>hardened regulation mechadendrite</label>
-        <labelNoun>a hardened regulation mechadendrite</labelNoun>
+        <label>hardened thermoregulator mechadendrite</label>
+        <labelNoun>a hardened thermoregulator mechadendrite</labelNoun>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedTemperatureMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedTemperatureMechadendrite</spawnThingOnRemoved>
@@ -165,7 +165,7 @@
 
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
-        <label>hardened regulation mechadendrite</label>
+        <label>hardened thermoregulator mechadendrite</label>
         <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedTemperatureMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -180,13 +180,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallHardenedTemperatureMechadendrite</defName>
-        <label>install hardened regulation mechadendrite</label>
-        <description>Install a hardened regulation mechadendrite.</description>
+        <label>install hardened thermoregulator mechadendrite</label>
+        <description>Install a hardened thermoregulator mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_HardenedTemperatureMechadendrite</ThingDef>
             <HediffDef>Marak_HardenedTemperatureMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a hardened regulation mechadendrite.</jobString>
+        <jobString>Installing a hardened thermoregulator mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -210,13 +210,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveHardenedTemperatureMechadendrite</defName>
-        <label>remove hardened regulation mechadendrite</label>
-        <description>Remove hardened regulation mechadendrite.</description>
+        <label>remove hardened thermoregulator mechadendrite</label>
+        <description>Remove hardened thermoregulator mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_HardenedTemperatureMechadendrite</ThingDef>
             <HediffDef>Marak_HardenedTemperatureMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing hardened regulation mechadendrite.</jobString>
+        <jobString>Removing hardened thermoregulator mechadendrite.</jobString>
         <removesHediff>Marak_HardenedTemperatureMechadendrite</removesHediff>
     </RecipeDef>
     

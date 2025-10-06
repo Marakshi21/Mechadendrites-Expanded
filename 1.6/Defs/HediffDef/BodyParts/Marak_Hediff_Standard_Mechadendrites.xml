@@ -224,7 +224,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
-        <description>Created by slapping a specialised drill onto its end, the standard drill mechadendrite can make short work of any collection of rocks it encounters. Designed with a reinforced plasteel shell and a steel drill head, it's able to burrow deep and drill away exposing valuable minerals to be gathered up by the miner using it.</description>
+        <description>Created by slapping a specialised drill onto its end, the standard drill mechadendrite can make short work of any collection of rocks it encounters. Designed with a reinforced plasteel shell and a steel drill head, it's able to burrow deep and drill away exposing valuable minerals to be gathered by the miner using it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>12</Plasteel>
@@ -285,12 +285,11 @@
     
     <!-- FLORA AND FAUNA SUBGROUP -->
     <!-- Agrarian Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>standard agrarian mechadendrite</label>
         <labelNoun>a standard agrarian mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed standard agrarian mechadendrite. Better tools and a direct neural-link help the agrarian mechadendrite both work faster and semi-autonomously.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -310,7 +309,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>standard agrarian mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Designed with the ideal of assisting in field work, the agrarian mechadendrite moves faster and works faster compared to its predecessor while a direct neural link grants it the ability to perform tasks on its own improving the efficiency of any farmers using it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -369,12 +368,11 @@
     </RecipeDef>
     
     <!-- Rancher Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardRancherMechadendrite</defName>
         <label>standard rancher mechadendrite</label>
         <labelNoun>a standard rancher mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed rancher mechadendrite. Embedded sound modules and carefully designed prongs assist in both the taming and harvesting of products from animals.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardRancherMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardRancherMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -394,7 +392,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardRancherMechadendrite</defName>
         <label>standard rancher mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A peculiar mechadendrite that ends up being shorter than many of its brethren, sacrificing length for embedded sound modules to play soothing sounds depending on the animal to calm them down. While specialised prongs at the end assist in the harvesting of products from animals, be it milk, wool, eggs or other exotic products.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardRancherMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
