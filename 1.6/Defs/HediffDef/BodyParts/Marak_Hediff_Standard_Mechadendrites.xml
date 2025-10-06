@@ -452,12 +452,11 @@
     
     <!-- MEDICAL SUBGROUP -->
     <!-- Doctor Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
         <labelNoun>a standard doctor mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed standard doctor mechadendrite. Equipped with various medicinal tools including disinfectants and a coagulating agent, it can help doctors quickly and responsibly tend patients.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -476,7 +475,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Equipped with a variety of medical tools and compounds designed to aim with tending a patient quickly and with quality, this mechadendrite can release a coagulating compound and disinfectants while small blades help remove debris that may prevent sutures from being made.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDoctorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -536,12 +535,11 @@
     </RecipeDef>
     
     <!-- Surgeon Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardOperatorMechadendrite</defName>
         <label>standard surgeon mechadendrite</label>
         <labelNoun>a standard surgeon mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed standard surgeon mechadendrite. With a sharp, but small, blade and ability to cauterize at the same time, it is an effective tool for surgeons across the rim.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardOperatorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardOperatorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -560,7 +558,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardOperatorMechadendrite</defName>
         <label>standard surgeon mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Based on the Refined Striker Mechadendrite, the Standard Surgeon Mechadendrite uses a blade similar to the striker but smaller and more precise. Able to slice cleanly and cauterize at the same time, it can assist in various medical procedures making them go by faster and more safely.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOperatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -634,7 +632,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <CookSpeed>1</CookSpeed>
+                    <CookSpeed>2</CookSpeed>
                     <DrugCookingSpeed>0.075</DrugCookingSpeed>
                     <FoodPoisonChance>-0.025</FoodPoisonChance>
                 </statOffsets>
@@ -791,12 +789,11 @@
     <!-- INTELLECTUAL SUBGROUP -->
     
     <!-- Cracking Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardHackingMechadendrite</defName>
         <label>standard cracking mechadendrite</label>
         <labelNoun>a standard cracking mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed cracker mechadendrite. Capable of brute-forcing attacks, it speeds up hacking operations while making it more obvious leading to more frequent lock-outs.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardHackingMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardHackingMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -815,13 +812,13 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardHackingMechadendrite</defName>
         <label>standard cracking mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A special mechadendrite designed with limited computing power, it can assist any would-be hacker in cracking open various networks via brute-force attacks. Attempting to expose the architecture, and weaknesses, of a network it employs primitive brute-force methods. Fast, but exposing, it often leads to premature lock-outs if not handled with care.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHackingMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>12</Steel>
+            <Plasteel>16</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>4</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardHackingMechadendrites</researchPrerequisite>
@@ -1038,213 +1035,5 @@
         <jobString>Removing standard vacuum mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
-    
     <!-- WEAPONS GROUP -->
-    <!-- Melee Assistants? Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
-    
-    <!-- Serrated Mechadendrite: Crowd control, can slice hard and semi-quick, weak AP -->
-    <!-- DESCRIPTION NEEDED -->
-    <!-- <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardSerratedMechadendrite</defName>
-        <label>standard serrated mechadendrite</label>
-        <labelNoun>a standard serrated mechadendrite</labelNoun>
-        <description>A standard serrated mechadendrite. Ordained with a serrated blade and wired directly into a user's spine, it is capable of fast movement and deep cuts while lacking in the ability to penetrate armour.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardSerratedMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardSerratedMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <comps>
-            <li Class="HediffCompProperties_VerbGiver">
-                <tools>
-                    <li>
-                        <label>blade</label>
-                        <capacities>
-                            <li>Cut</li>
-                        </capacities>
-                        <power>12</power>
-                        <armorPenetration>0.075</armorPenetration>
-                        <cooldownTime>1.5</cooldownTime>
-                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-                        <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
-                        <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
-                    </li>
-                </tools>
-            </li>
-        </comps>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardSerratedMechadendrite</defName>
-        <label>standard serrated mechadendrite</label>
-        <description>A standard mechadendrite with a long serrated blade on its tip engineered to slice deep and do lots of damage. Its speciality lies in the cutting of flesh, similar to that of a scyther's blade. Able to differentiate friend from foe based on intuition, it can move around and slice efficiently but struggles to pierce through armour.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardSerratedMechadendrite</RecipeDef></descriptionHyperlinks>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-        </thingSetMakerTags>
-        <costList>
-            <Plasteel>12</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>12</Steel>
-        </costList>
-        <recipeMaker>
-            <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
-            <Mass>2.5</Mass>
-        </statBases>
-        <techHediffsTags>
-            <li>Advanced</li>
-            <li>AdvancedWeapon</li>
-        </techHediffsTags>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardSerratedMechadendrite</defName>
-        <label>install standard serrated mechadendrite</label>
-        <description>Install a standard serrated mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardSerratedMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardSerratedMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard serrated mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardSerratedMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardSerratedMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardSerratedMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardSerratedMechadendrite</defName>
-        <label>remove standard serrated Mechadendrite</label>
-        <description>Remove standard serrated Mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardSerratedMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardSerratedMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard serrated mechadendrite.</jobString>
-        <removesHediff>Marak_StandardSerratedMechadendrite</removesHediff>
-    </RecipeDef> -->
-    
-    <!-- Standard Harasser Mechadendrite: Low damage, quick attack, minor dodge increase -->
-    <!-- <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardHarasserMechadendrite</defName>
-        <label>standard harasser mechadendrite</label>
-        <labelNoun>a standard harasser mechadendrite</labelNoun>
-        <description>A standard harasser mechadendrite. Implanted with advanced threat detection and an autonomous link, this mechadendrite seeks to harass its wielder's foe to overwhelm them and prevent strikes.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardHarasserMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardHarasserMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <comps>
-            <li Class="HediffCompProperties_VerbGiver">
-                <tools>
-                    <li>
-                        <label>blade</label>
-                        <capacities>
-                            <li>Stab</li>
-                        </capacities>
-                        <power>1</power>
-                        <armorPenetration>0.05</armorPenetration>
-                        <cooldownTime>1.5</cooldownTime>
-                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-                        <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
-                        <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
-                    </li>
-                </tools>
-            </li>
-        </comps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <MeleeDodgeChance>0.5</MeleeDodgeChance>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardHarasserMechadendrite</defName>
-        <label>standard harasser mechadendrite</label>
-        <description>Imbued with advanced circuitry and threat detection, a standard harasser mechadendrite is designed with one goal in mind: overwhelm the enemy and prevent them from hitting. To accomplish its goal, this mechadendrite is capable of highly autonomous movement and can strike fast, but cannot pierce deep nor cause extensive damage.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardHarasserMechadendrite</RecipeDef></descriptionHyperlinks>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-        </thingSetMakerTags>
-        <costList>
-            <Plasteel>12</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-            <Steel>12</Steel>
-        </costList>
-        <recipeMaker>
-            <researchPrerequisite>Marak_StandardMeleeMechadendrite</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
-            <Mass>2.5</Mass>
-        </statBases>
-        <techHediffsTags>
-            <li>Advanced</li>
-            <li>AdvancedWeapon</li>
-        </techHediffsTags>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardHarasserMechadendrite</defName>
-        <label>install standard harasser mechadendrite</label>
-        <description>Install a standard harasser mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardHarasserMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardHarasserMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardHarasserMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardHarasserMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardHarasserMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardHarasserMechadendrite</defName>
-        <label>remove standard harasser mechadendrite</label>
-        <description>Remove standard harasser mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardHarasserMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardHarasserMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard harasser mechadendrite.</jobString>
-        <removesHediff>Marak_StandardHarasserMechadendrite</removesHediff>
-    </RecipeDef> -->
 </Defs>
