@@ -230,13 +230,12 @@
             <li>
                 <statOffsets>
                     <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</SubcoreEncodingSpeed>
-                    <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.10</PilotingAbility>
                 </statOffsets>
-                <hungerRateFactorOffset>0.05</hungerRateFactorOffset>
+                <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
                 <capMods>
                     <li>
                         <capacity>Consciousness</capacity>
-                        <offset>0.025</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -252,7 +251,6 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>2</Mass>
         </statBases>
@@ -300,7 +298,7 @@
         <removesHediff>Marak_HardenedCogitatorMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, subcore encoding, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
+    <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
@@ -317,6 +315,7 @@
                 <statOffsets>
                     <ResearchSpeed>0.15</ResearchSpeed>
                     <ReadingSpeed>0.15</ReadingSpeed>
+                    <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
                 </statOffsets>
                 <hungerRateFactorOffset>0.125</hungerRateFactorOffset>
             </li>
@@ -380,7 +379,7 @@
         <removesHediff>Marak_HardenedResearchMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth (Possibly no downsides to act as a direct upgrade from its cracker brother) -->
+    <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth at cost of increase rest need -->
     <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedHackingMechadendrite</defName>
