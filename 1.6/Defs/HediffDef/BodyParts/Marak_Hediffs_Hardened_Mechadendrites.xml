@@ -70,9 +70,9 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
-        <!-- <recipeMaker>
-            <researchPrerequisite>Marak_HardenedOpticalMechadendrites</researchPrerequisite>
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_AuxiliarySensesMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
@@ -163,6 +163,9 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_AuxiliarySensesMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
@@ -251,6 +254,9 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_CognitionMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>2</Mass>
         </statBases>
@@ -331,6 +337,9 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_IntellectualMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
@@ -411,7 +420,9 @@
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <recipeMaker>
+            <researchPrerequisite>Marak_IntellectualMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>5</Mass>
         </statBases>

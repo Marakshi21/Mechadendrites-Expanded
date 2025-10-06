@@ -220,7 +220,8 @@
     <ResearchProjectDef>
         <defName>Marak_HardenedMechadendrites</defName>
         <label>Ultratech Mechadendrites</label>
-        <description>This is it. The pinnacle of mechadendrite engineering. Innovating upon all other previous mechadendrite designs has lead to the advent of a new tier of mechadendrites that go beyond standard. Hardened Mechadendrites. By pushing the very bounds of mechadendrite engineering to its limits, and making sacrifices, create powerful mechadendrites capable of feats never before seen with mechadendrites. All at a cost to the individual implanted.</description>
+        <!-- <description>This is it. The pinnacle of mechadendrite engineering. Innovating upon all other previous mechadendrite designs has lead to the advent of a new tier of mechadendrites that go beyond standard. Hardened Mechadendrites. By pushing the very bounds of mechadendrite engineering to its limits, and making sacrifices, create powerful mechadendrites capable of feats never before seen with mechadendrites. All at a cost to the individual implanted.</description> -->
+        <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Ultra</techLevel>
         <baseCost>4000</baseCost>
@@ -240,5 +241,65 @@
         </prerequisites>
         <researchViewX>7.5</researchViewX>
         <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Sensor/Thermoregulator Mechadendrites -->
+    <!-- DESCRIPTION NEEDED -->
+    <ResearchProjectDef>
+        <defName>Marak_AuxiliarySensesMechadendrites</defName>
+        <label>Auxiliary Sensor Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Ultra</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_HardenedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>12</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Cognitive Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
+    <ResearchProjectDef>
+        <defName>Marak_CognitionMechadendrites</defName>
+        <label>Auxiliary cognition units</label>
+        <description>REPLACE_ME</description> <!-- Borders the line of a mechadendrite and not mechadendrite -->
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Ultra</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_HardenedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>15</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Data Analysis/Hacking Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
+    <ResearchProjectDef>
+        <defName>Marak_IntellectualMechadendrites</defName>
+        <label>INTELLECTUAL_MECHADENDRITES</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Ultra</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_HardenedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>15</researchViewX>
+        <researchViewY>4</researchViewY>
     </ResearchProjectDef>
 </Defs>
