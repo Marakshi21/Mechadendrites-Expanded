@@ -618,12 +618,11 @@
 
     <!-- COOKING SUBGROUP -->
     <!-- Chef Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCookingMechadendrite</defName>
         <label>standard chef mechadendrite</label>
         <labelNoun>a standard chef mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed chef mechadendrite. Equipped with a variety of tools specialized in cooking, it helps chefs get work done and aids in more nefarious sectors too.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardCookingMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCookingMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -643,7 +642,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCookingMechadendrite</defName>
         <label>standard chef mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A strangely made mechadendrite, the standard chef mechadendrite is designed with one goal in mind: Cooking. To achieve this, it has a variety of tools including measuring tools and temperature gauges that can be swapped at will to speed up cooking and lower odds of food poisoning. Consequently, some of its tools assist in cooking drugs as well.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCookingMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -703,12 +702,11 @@
     </RecipeDef>
     
     <!-- Butchers' Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardButcherMechadendrite</defName>
         <label>standard butchers' mechadendrite</label>
         <labelNoun>a standard butchers' mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed butchers' mechadendrite. Equipped with a sharp, strong blade and cleaning agent, it helps butcher apart animals while cleaning them too preserving more meat from their corpse.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardButcherMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardButcherMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -727,7 +725,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardButcherMechadendrite</defName>
         <label>standard butchers' mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Installed with a sharp and powerful blade on its tip and pumps that push out water to clean as it goes, the standard butchers' mechadendrite helps make short work of animal corpses while preserving their meat for later consumption.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardButcherMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -1035,5 +1033,4 @@
         <jobString>Removing standard vacuum mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
-    <!-- WEAPONS GROUP -->
 </Defs>
