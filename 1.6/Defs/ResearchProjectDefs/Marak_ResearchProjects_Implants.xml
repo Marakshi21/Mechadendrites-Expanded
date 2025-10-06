@@ -133,8 +133,8 @@
             <li>Marak_StandardMechadendrites</li>
             <li>Marak_RefinedBladedMechadendrites</li>
         </prerequisites>
-        <researchViewX>4.5</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <researchViewX>4.75</researchViewX>
+        <researchViewY>0.75</researchViewY>
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
