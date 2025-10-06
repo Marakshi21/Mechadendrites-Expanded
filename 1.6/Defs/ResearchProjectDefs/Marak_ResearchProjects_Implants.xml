@@ -136,6 +136,84 @@
         <researchViewX>4.75</researchViewX>
         <researchViewY>0.75</researchViewY>
     </ResearchProjectDef>
+
+    <!-- Homesteading: Rancher, Agrarian -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardFloraFaunaMechadendrites</defName>
+        <label>Agriculture Mechadendrites</label>
+        <description>Devise a class of mechadendrites designed with the purpose of assisting in matters relating to living off the land; Farming and Ranching.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Medicinal Mechadendrites: Doctor and Surgeon -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardMedicalMechadendrites</defName>
+        <label>Medicinal Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>[COORDINATE]</researchViewX>
+        <researchViewY>[COORDINATE]</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Cracker Mechadendrite -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardHackingMechadendrites</defName>
+        <label>Illusive network cracking mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+        </prerequisites>
+        <researchViewX>[COORDINATE]</researchViewX>
+        <researchViewY>[COORDINATE]</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Culinary Mechadendrites: Chef, Butchers' -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardCulinaryMechadendrites</defName>
+        <label>Culinary Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+        </prerequisites>
+        <researchViewX>[COORDINATE]</researchViewX>
+        <researchViewY>[COORDINATE]</researchViewY>
+    </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->
     <!-- DESCRIPTION NEEDED -->
