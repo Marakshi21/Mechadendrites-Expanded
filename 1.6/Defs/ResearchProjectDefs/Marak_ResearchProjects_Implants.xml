@@ -137,7 +137,8 @@
         <researchViewY>0.75</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Homesteading: Rancher, Agrarian -->
+    <!-- Agriculture: Rancher, Agrarian -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardFloraFaunaMechadendrites</defName>
         <label>Agriculture Mechadendrites</label>
@@ -158,6 +159,7 @@
     </ResearchProjectDef>
 
     <!-- Medicinal Mechadendrites: Doctor and Surgeon -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardMedicalMechadendrites</defName>
         <label>Medicinal Mechadendrites</label>
@@ -173,11 +175,12 @@
             <li>Marak_StandardMechadendrites</li>
             <li>Marak_RefinedBladedMechadendrites</li>
         </prerequisites>
-        <researchViewX>[COORDINATE]</researchViewX>
-        <researchViewY>[COORDINATE]</researchViewY>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>1.94</researchViewY>
     </ResearchProjectDef>
 
     <!-- Cracker Mechadendrite -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardHackingMechadendrites</defName>
         <label>Illusive network cracking mechadendrite</label>
@@ -192,11 +195,12 @@
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
         </prerequisites>
-        <researchViewX>[COORDINATE]</researchViewX>
-        <researchViewY>[COORDINATE]</researchViewY>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
     <!-- Culinary Mechadendrites: Chef, Butchers' -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardCulinaryMechadendrites</defName>
         <label>Culinary Mechadendrites</label>
@@ -211,8 +215,8 @@
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
         </prerequisites>
-        <researchViewX>[COORDINATE]</researchViewX>
-        <researchViewY>[COORDINATE]</researchViewY>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>10</researchViewY>
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->

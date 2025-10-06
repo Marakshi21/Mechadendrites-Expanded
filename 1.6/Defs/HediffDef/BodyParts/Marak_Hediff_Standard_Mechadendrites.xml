@@ -318,9 +318,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
+        <recipeMaker>
+             <researchPrerequisite>Marak_StandardFloraFaunaMechadendrites</researchPrerequisite> 
+        </recipeMaker>
         <statBases>
             <Mass>3</Mass>
         </statBases>
@@ -402,9 +402,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardFloraFaunaMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -486,10 +486,10 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardMedicalMechadendrites</researchPrerequisite>
+        </recipeMaker>
+        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -570,10 +570,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardMedicalMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -656,9 +655,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardCulinaryMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>4</Mass>
@@ -740,9 +739,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>6</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardCulinaryMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
@@ -826,10 +825,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
-        <!-- <recipeMaker>
-             <researchPrerequisite>[PREREQUISITE]</researchPrerequisite> 
-        </recipeMaker> -->
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+        <recipeMaker>
+            <researchPrerequisite>Marak_StandardHackingMechadendrites</researchPrerequisite>
+        </recipeMaker>
         <statBases>
             <Mass>5</Mass>
         </statBases>
