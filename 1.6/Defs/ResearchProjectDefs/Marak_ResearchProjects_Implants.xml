@@ -96,7 +96,7 @@
          <researchViewY>2.25</researchViewY>
      </ResearchProjectDef>
 
-    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum, Drill -->
+    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Patterns</label>
@@ -111,9 +111,29 @@
         </requiredResearchFacilities>
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedToolsMechadendrites</li>
         </prerequisites>
         <researchViewX>4.5</researchViewX>
         <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Drill, -->
+    <ResearchProjectDef>
+        <defName>Marak_[TIER][TYPE-OPTIONAL]Mechadendrites</defName>
+        <label>REPLACE_ME</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>[VALUE]</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>[PREREQ]</li>
+        </prerequisites>
+        <researchViewX>[COORDINATE]</researchViewX>
+        <researchViewY>[COORDINATE]</researchViewY>
     </ResearchProjectDef>
     
     <!-- Hardened Mechadendrites -->

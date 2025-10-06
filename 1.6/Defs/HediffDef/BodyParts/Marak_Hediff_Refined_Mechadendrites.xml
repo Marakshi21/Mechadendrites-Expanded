@@ -118,7 +118,7 @@
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
         <labelNoun>a refined flashlight mechadendrite</labelNoun>
-        <description>An installed refined flashlight mechadendrite. With a flashlight bolted on its end, it can illuminate previously dark areas assisting vision. (Does not actually nullify darkness but boosts sight instead atm).</description>
+        <description>An installed refined flashlight mechadendrite. With a flashlight bolted on its end, it can illuminate previously dark areas assisting vision. (Does not actually nullify darkness instead boosting sight atm).</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedOpticalMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
