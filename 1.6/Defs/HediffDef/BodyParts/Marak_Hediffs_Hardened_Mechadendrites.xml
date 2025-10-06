@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Hardened Tier: Recipes are generally Adv. components and plasteel only -->
-    <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, OPPRESSIVE, INTELLECTUAL -->
+    <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, OPPRESSIVE, INTELLECTUAL, GENETICS, MECHANITOR, WEAPONS -->
     <!-- Base for Hardened Mechadendrites -->
     <ThingDef Name="BodyPartHardenedMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Ultra</techLevel>
@@ -23,7 +23,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>8</Crafting>
+                <Crafting>10</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_HardenedMechadendrites</researchPrerequisite>
             <recipeUsers>
@@ -422,7 +422,7 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_IntellectualMechadendrites</researchPrerequisite>
-        </recipeMaker>
+        </recipeMaker>  
         <statBases>
             <Mass>5</Mass>
         </statBases>
