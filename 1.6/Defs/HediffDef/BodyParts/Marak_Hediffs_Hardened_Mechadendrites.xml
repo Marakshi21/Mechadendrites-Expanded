@@ -71,9 +71,8 @@
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_AuxiliarySensesMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_AuxiliarySensorMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
         </statBases>
@@ -163,9 +162,8 @@
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_AuxiliarySensesMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_AuxiliarySensorMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -339,7 +337,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_IntellectualMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -493,13 +490,184 @@
     <!-- DESCRIPTION NEEDED -->
     
     <!-- WEAPONS GROUP -->
-    <!-- POSTPONED INDEFINITELY-->
-    <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
+    <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
     <!-- DESCRIPTION NEEDED -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_HardenedRAssistantMechadendrite</defName>
+        <label>hardened range-assistant mechadendrite</label>
+        <labelNoun>a hardened range-assistant mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_HardenedRAssistantMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_HardenedRAssistantMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.1</AimingDelayFactor>
+                    <MortarMissRadiusFactor>-0.1</MortarMissRadiusFactor>
+                    <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+                </statOffsets>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
 
-    <!-- POSTPONED INDEFINITELY -->
-    <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
+        <defName>Marak_HardenedRAssistantMechadendrite</defName>
+        <label>hardened range-assistant mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedRAssistantMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>25</Plasteel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_WeaponsAssistantsMechadendrites</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <Mass>5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallHardenedRAssistantMechadendrite</defName>
+        <label>install hardened range-assistant mechadendrite</label>
+        <description>Install a hardened range-assistant mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedRAssistantMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedRAssistantMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a hardened range-assistant mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_HardenedRAssistantMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_HardenedRAssistantMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_HardenedRAssistantMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveHardenedRAssistantMechadendrite</defName>
+        <label>remove hardened range-assistant mechadendrite</label>
+        <description>Remove hardened range-assistant mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedRAssistantMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedRAssistantMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing hardened range-assistant mechadendrite.</jobString>
+        <removesHediff>Marak_HardenedRAssistantMechadendrite</removesHediff>
+    </RecipeDef>
+    
+    <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
     <!-- DESCRIPTION NEEDED -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Marak_HardenedMAssistantMechadendrite</defName>
+        <label>hardened melee-assistant mechadendrite</label>
+        <labelNoun>a hardened melee-assistant mechadendrite</labelNoun>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><ThingDef>Marak_HardenedMAssistantMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Marak_HardenedMAssistantMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MeleeCooldownFactor>-0.025</MeleeCooldownFactor>
+                    <MeleeHitChance>2.5</MeleeHitChance>
+                    <MeleeDodgeChance>2.5</MeleeDodgeChance>
+                    <MeleeDamageFactor>0.1</MeleeDamageFactor>
+                </statOffsets>
+            
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
+        <defName>Marak_HardenedMAssistantMechadendrite</defName>
+        <label>hardened melee-assistant mechadendrite</label>
+        <description>REPLACE_ME</description>
+        <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedMAssistantMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Plasteel>25</Plasteel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Marak_WeaponsAssistantsMechadendrites</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <Mass>5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+        <defName>Marak_InstallHardenedMAssistantMechadendrite</defName>
+        <label>install hardened melee-assistant mechadendrite</label>
+        <description>Install a hardened melee-assistant mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedMAssistantMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedMAssistantMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a hardened melee-assistant mechadendrite.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Marak_HardenedMAssistantMechadendrite</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Marak_HardenedMAssistantMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Marak_HardenedMAssistantMechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Marak_RemoveHardenedMAssistantMechadendrite</defName>
+        <label>remove hardened melee-assistant mechadendrite</label>
+        <description>Remove hardened melee-assistant mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Marak_HardenedMAssistantMechadendrite</ThingDef>
+            <HediffDef>Marak_HardenedMAssistantMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing hardened melee-assistant mechadendrite.</jobString>
+        <removesHediff>Marak_HardenedMAssistantMechadendrite</removesHediff>
+    </RecipeDef>
 
     <!-- POSTPONED INDEFINITELY -->
     <!-- Ranged Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->

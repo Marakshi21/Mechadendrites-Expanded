@@ -57,7 +57,7 @@
                 <capMods>
                     <li>
                         <capacity>[CAPABILITY]</capacity>
-                        <Offset>[STATS_GO_HERE]</Offset>
+                        <offset>[STATS_GO_HERE]</offset>
                     </li>
                 </capMods>
             </li>
@@ -143,7 +143,7 @@
                 <capMods>
                     <li>
                         <capacity>[CAPABILITY]</capacity>
-                        <Offset>[STATS_GO_HERE]</Offset>
+                        <offset>[STATS_GO_HERE]</offset>
                     </li>
                 </capMods>
             </li>

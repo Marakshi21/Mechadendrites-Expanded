@@ -245,7 +245,7 @@
     <!-- Sensor/Thermoregulator Mechadendrites -->
     <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
-        <defName>Marak_AuxiliarySensesMechadendrites</defName>
+        <defName>Marak_AuxiliarySensorMechadendrites</defName>
         <label>Auxiliary Sensor Mechadendrites</label>
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
@@ -300,5 +300,25 @@
         </prerequisites>
         <researchViewX>15</researchViewX>
         <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- WEAPON ASSISTANT MECHADENDRITES; HYBRID OF COGNITION AND OPTICAL -->
+    <ResearchProjectDef>
+        <defName>Marak_WeaponsAssistantsMechadendrites</defName>
+        <label>Weapon assistant mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Ultra</techLevel>
+        <baseCost>2000</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_CognitionMechadendrites</li>
+            <li>Marak_AuxiliarySensorMechadendrites</li>
+        </prerequisites>
+        <researchViewX>15</researchViewX>
+        <researchViewY>6</researchViewY>
     </ResearchProjectDef>
 </Defs>
