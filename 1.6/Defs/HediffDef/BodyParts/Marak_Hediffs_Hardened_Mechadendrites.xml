@@ -35,7 +35,6 @@
     
     <!-- SENSOR GROUP -->
     <!-- Optical Mechadendrite --> <!-- Further Improve sight at cost of mood or mental break threshold -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedOpticalMechadendrite</defName>
         <label>hardened optical mechadendrite</label>
@@ -64,7 +63,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedOpticalMechadendrite</defName>
         <label>hardened optical mechadendrite</label>
-        <description>A hardened optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but not much else.</description>
+        <description>A hardened optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but the strain put on the wielder's processing can lead to more mental breakdowns from being overwhelmed.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
@@ -130,7 +129,7 @@
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened thermoregulator mechadendrite</label>
         <labelNoun>a hardened thermoregulator mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed hardened thermoregulator mechadendrite. Capable of pumping additives into the bloodstream, it can help dissipate or retain heat, but weakens blood filtration.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedTemperatureMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedTemperatureMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -155,7 +154,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened thermoregulator mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>The hardened thermoregulator mechadendrite is capable of sensing the outside temperature and then pumping additives into the user's bloodstream to either help dissipate or retain heat. However, the body will attempt to filter these out weakening the blood filtration of whomever gets this mechadendrite.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedTemperatureMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
