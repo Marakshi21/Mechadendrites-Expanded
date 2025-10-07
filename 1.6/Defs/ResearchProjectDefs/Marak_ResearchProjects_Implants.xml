@@ -255,8 +255,8 @@
         <prerequisites>
             <li>Marak_HardenedMechadendrites</li>
         </prerequisites>
-        <researchViewX>12</researchViewX>
-        <researchViewY>2.25</researchViewY>
+        <researchViewX>9</researchViewX>
+        <researchViewY>1.40</researchViewY>
     </ResearchProjectDef>
 
     <!-- Cognitive Mechadendrite -->
@@ -274,7 +274,7 @@
         <prerequisites>
             <li>Marak_HardenedMechadendrites</li>
         </prerequisites>
-        <researchViewX>15</researchViewX>
+        <researchViewX>9</researchViewX>
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
@@ -293,8 +293,8 @@
         <prerequisites>
             <li>Marak_HardenedMechadendrites</li>
         </prerequisites>
-        <researchViewX>15</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewX>9</researchViewX>
+        <researchViewY>3.10</researchViewY>
     </ResearchProjectDef>
     
     <!-- WEAPON ASSISTANT MECHADENDRITES; HYBRID OF COGNITION AND OPTICAL -->
@@ -312,8 +312,9 @@
         <prerequisites>
             <li>Marak_CognitionMechadendrites</li>
             <li>Marak_AuxiliarySensorMechadendrites</li>
+            <li>Marak_IntellectualMechadendrites</li>
         </prerequisites>
-        <researchViewX>15</researchViewX>
-        <researchViewY>6</researchViewY>
+        <researchViewX>10.50</researchViewX>
+        <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 </Defs>

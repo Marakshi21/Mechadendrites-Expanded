@@ -63,7 +63,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedOpticalMechadendrite</defName>
         <label>hardened optical mechadendrite</label>
-        <description>A hardened optical mechadendrite hosts a suite of auxiliary sensors able to see in various spectrums of electromagnetic radiation. It's able to send visual information to its user without overloading the brain, but the strain put on the wielder's processing can lead to more mental breakdowns from being overwhelmed.</description>
+        <description>Host to a suite of visual sensors capable of seeing into both visible light and infrared spectrum, the hardened optical mechadendrite can swap at will what it sees to provide useful data. However, due to the unique nature of having a moving eye, it puts strain on the wielder as they adjust to the effects of it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
