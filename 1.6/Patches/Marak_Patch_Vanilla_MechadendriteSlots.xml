@@ -7,7 +7,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>first mechadendrite</customLabel>
+                <customLabel>mechadendrite one</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
@@ -23,7 +23,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>second mechadendrite</customLabel>
+                <customLabel>mechadendrite two</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
@@ -39,7 +39,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>third mechadendrite</customLabel>
+                <customLabel>mechadendrite three</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
@@ -55,7 +55,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>fourth mechadendrite</customLabel>
+                <customLabel>mechadendrite four</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
@@ -71,7 +71,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>fifth mechadendrite</customLabel>
+                <customLabel>mechadendrite five</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
@@ -87,7 +87,7 @@
         <value>
             <li>
                 <def>Mechadendrite_Slot</def>
-                <customLabel>sixth mechadendrite</customLabel>
+                <customLabel>mechadendrite six</customLabel>
                 <coverage>0.000</coverage>
                 <depth>Outside</depth>
                 <groups>
