@@ -124,7 +124,6 @@
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Temperature Mechadendrite --> <!-- Improve comfortable temperatures while lowering blood filtration to represent additives -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened thermoregulator mechadendrite</label>
@@ -303,7 +302,6 @@
     </RecipeDef>
     
     <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>
@@ -388,7 +386,6 @@
     </RecipeDef>
     
     <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth at cost of increase rest need -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedHackingMechadendrite</defName>
         <label>hardened hacking mechadendrite</label>
@@ -501,7 +498,7 @@
         <defName>Marak_HardenedRAssistantMechadendrite</defName>
         <label>hardened range-assistant mechadendrite</label>
         <labelNoun>a hardened range-assistant mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>An installed hardened range-assistant mechadendrite. Acting as a hybrid between the cognition and optical mechadendrite, it assists its wielder in combat by taking in visual data then guides where to aim and fire to maximise combat efficiency.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedRAssistantMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedRAssistantMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -531,7 +528,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedRAssistantMechadendrite</defName>
         <label>hardened range-assistant mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A hybrid between two existing mechadendrites, it combines both the cognition and sensors from other mechadendrites to design a mechadendrite capable of quickly taking in sensor readings then subtly suggesting where to aim and fire via a HUD. To do this, it saps on the wielder's processing power diverting some of it away for its own usage lowering costs. It also runs into many of the same pitfalls as the mechadendrites it is hybridised from.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedRAssistantMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>25</Plasteel>
@@ -593,7 +590,7 @@
         <defName>Marak_HardenedMAssistantMechadendrite</defName>
         <label>hardened melee-assistant mechadendrite</label>
         <labelNoun>a hardened melee-assistant mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>An installed hardened melee-assistant mechadendrite. Acting as a hybrid between the cognition and optical mechadendrite, it assists its wielder in combat by taking in visual data then guides where to strike to maximise damage. All while also encouraging the release of adrenaline.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedMAssistantMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedMAssistantMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -624,7 +621,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedMAssistantMechadendrite</defName>
         <label>hardened melee-assistant mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Born as a hybrid from two distinct types of mechadendrites, the hardened melee-assistant mechadendrite combines features from both to create a mechadendrite capable of quickly taking in data and computing an optimal outcome. By diverting some processing power from its wielder, it is capable of quickly deciding where its wielder should strike, how fast, and for how long. Due to its hybridised nature, it suffers the pitfalls of the mechadendrites used to create this one.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedMAssistantMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>25</Plasteel>
