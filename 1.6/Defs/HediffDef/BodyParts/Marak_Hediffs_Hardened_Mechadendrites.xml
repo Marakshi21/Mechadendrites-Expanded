@@ -505,6 +505,7 @@
         <stages>
             <li>
                 <statOffsets>
+                    <MentalBreakThreshold>0.04</MentalBreakThreshold>
                     <ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.1</AimingDelayFactor>
                     <MortarMissRadiusFactor>-0.1</MortarMissRadiusFactor>
@@ -594,6 +595,7 @@
         <stages>
             <li>
                 <statOffsets>
+                    <MentalBreakThreshold>0.04</MentalBreakThreshold>
                     <MeleeCooldownFactor>-0.1</MeleeCooldownFactor>
                     <MeleeHitChance>2.5</MeleeHitChance>
                     <MeleeDodgeChance>2.5</MeleeDodgeChance>
