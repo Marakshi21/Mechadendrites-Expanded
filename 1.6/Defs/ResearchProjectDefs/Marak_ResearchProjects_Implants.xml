@@ -195,7 +195,6 @@
     </ResearchProjectDef>
 
     <!-- Culinary Mechadendrites: Chef, Butchers' -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardCulinaryMechadendrites</defName>
         <label>Culinary Mechadendrites</label>
@@ -217,14 +216,14 @@
     
     <!-- Hardened Mechadendrites Gateway -->
     <!-- TEMPORARY DESCRIPTION: MAY POSTPONE -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_HardenedMechadendrites</defName>
         <label>Ultratech Mechadendrites</label>
-        <!-- <description>This is it. The pinnacle of mechadendrite engineering. Innovating upon all other previous mechadendrite designs has lead to the advent of a new tier of mechadendrites that go beyond standard. Hardened Mechadendrites. By pushing the very bounds of mechadendrite engineering to its limits, and making sacrifices, create powerful mechadendrites capable of feats never before seen with mechadendrites. All at a cost to the individual implanted.</description> -->
         <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Ultra</techLevel>
-        <baseCost>4000</baseCost>
+        <baseCost>3000</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>

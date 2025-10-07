@@ -127,7 +127,6 @@
     
     <!-- Temperature Mechadendrite --> <!-- Improve comfortable temperatures while lowering blood filtration to represent additives -->
     <!-- DESCRIPTION NEEDED -->
-
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened thermoregulator mechadendrite</label>
@@ -319,11 +318,11 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ResearchSpeed>0.15</ResearchSpeed>
-                    <ReadingSpeed>0.15</ReadingSpeed>
+                    <ResearchSpeed>0.1</ResearchSpeed>
+                    <ReadingSpeed>0.1</ReadingSpeed>
                     <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
                 </statOffsets>
-                <hungerRateFactorOffset>0.125</hungerRateFactorOffset>
+                <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
             </li>
         </stages>
     </HediffDef>
