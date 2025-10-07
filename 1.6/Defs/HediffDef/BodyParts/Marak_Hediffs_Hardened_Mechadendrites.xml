@@ -594,7 +594,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MeleeCooldownFactor>-0.025</MeleeCooldownFactor>
+                    <MeleeCooldownFactor>-0.1</MeleeCooldownFactor>
                     <MeleeHitChance>2.5</MeleeHitChance>
                     <MeleeDodgeChance>2.5</MeleeDodgeChance>
                     <MeleeDamageFactor>0.1</MeleeDamageFactor>
