@@ -52,8 +52,6 @@
                 <statOffsets>
                     [STATS_GO_HERE]
                 </statOffsets>
-            </li>
-            <li>
                 <capMods>
                     <li>
                         <capacity>[CAPABILITY]</capacity>
@@ -138,8 +136,6 @@
                 <statOffsets>
                     [STATS_GO_HERE]
                 </statOffsets>
-            </li>
-            <li>
                 <capMods>
                     <li>
                         <capacity>[CAPABILITY]</capacity>
