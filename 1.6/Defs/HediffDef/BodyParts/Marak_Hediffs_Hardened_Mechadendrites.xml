@@ -493,7 +493,6 @@
     
     <!-- WEAPONS GROUP -->
     <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedRAssistantMechadendrite</defName>
         <label>hardened range-assistant mechadendrite</label>
@@ -585,7 +584,6 @@
     </RecipeDef>
     
     <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedMAssistantMechadendrite</defName>
         <label>hardened melee-assistant mechadendrite</label>
