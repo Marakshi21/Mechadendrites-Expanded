@@ -214,12 +214,11 @@
     
     <!-- INTELLECTUAL SUBGROUP -->
     <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate and/or sleep fall rate -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedCogitatorMechadendrite</defName>
         <label>hardened cognition mechadendrite</label>
         <labelNoun>a hardened cognition mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed hardened cognition mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedCogitatorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedCogitatorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -229,6 +228,9 @@
             <li>
                 <statOffsets>
                     <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</SubcoreEncodingSpeed>
+                    <PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyGain>
+                    <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-0.1</PsychicEntropyRecoveryRateOffset>
+                    <RestFallRateFactor>0.05</RestFallRateFactor>
                 </statOffsets>
                 <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
                 <capMods>
@@ -244,7 +246,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedCogitatorMechadendrite</defName>
         <label>hardened cognition mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A hardened mechadendrite that pushes the limit of what counts as a mechadendrite. Wiring itself directly into the wielder's brain, and infused with various processor units within its shortened chassis, it both overclocks the user's neural activity and uses its own processing units to improve processing power at the cost of hunger, sleep, and weakened psychic abilities.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedCogitatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
@@ -306,7 +308,7 @@
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>
         <labelNoun>a hardened data analysis mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>An installed data analysis mechadendrite. Able to crunch numbers and stats at a speed far beyond humans, it assists in many fields where data crunching is a big part.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedResearchMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedResearchMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -318,6 +320,8 @@
                     <ResearchSpeed>0.1</ResearchSpeed>
                     <ReadingSpeed>0.1</ReadingSpeed>
                     <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
+                    <PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyGain>
+                    <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-0.1</PsychicEntropyRecoveryRateOffset>
                 </statOffsets>
                 <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
             </li>
@@ -327,7 +331,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>A mechadendrite designed to act as a mini-computer attached onto someone, the hardened data analysis is an expert at crunching away on numbers. Using a tighter link than most mechadendrites, it scans the individual's brain to see what needs to be done then performs the actions spitting it back out into the person's mind. Due to this, it generates heat lowering the effectiveness of any would-be psychics.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedResearchMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
@@ -389,7 +393,7 @@
         <defName>Marak_HardenedHackingMechadendrite</defName>
         <label>hardened hacking mechadendrite</label>
         <labelNoun>a hardened hacking mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed hardened hacking mechadendrite. It assists in cracking networks and keeping the intrusion hidden.</description>
         <descriptionHyperlinks><ThingDef>Marak_HardenedHackingMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_HardenedHackingMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -401,6 +405,8 @@
                     <HackingSpeed>0.25</HackingSpeed>
                     <HackingStealth>10</HackingStealth>
                     <RestFallRateFactor>0.1</RestFallRateFactor>
+                    <PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyGain>
+                    <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-0.1</PsychicEntropyRecoveryRateOffset>
                 </statOffsets>
             </li>
         </stages>
@@ -409,7 +415,7 @@
     <ThingDef ParentName="BodyPartHardenedMechadendriteBase">
         <defName>Marak_HardenedHackingMechadendrite</defName>
         <label>hardened hacking mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Embedded with some self-cognition, it is capable of assisting hackers crack into a foreign network while hiding its tracks to provide stealth. Similar to other more neural mechadendrites, it causes an increased sense of sleepiness and lowers psychic potential. Caution is advised to not accidentally fry one's brain from over use.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallHardenedHackingMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>20</Plasteel>
@@ -509,6 +515,8 @@
                     <AimingDelayFactor>-0.1</AimingDelayFactor>
                     <MortarMissRadiusFactor>-0.1</MortarMissRadiusFactor>
                     <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+                    <PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.05</PsychicEntropyGain>
+                    <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-0.1</PsychicEntropyRecoveryRateOffset>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -599,6 +607,8 @@
                     <MeleeHitChance>2.5</MeleeHitChance>
                     <MeleeDodgeChance>2.5</MeleeDodgeChance>
                     <MeleeDamageFactor>0.1</MeleeDamageFactor>
+                    <PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.05</PsychicEntropyGain>
+                    <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-0.1</PsychicEntropyRecoveryRateOffset>
                 </statOffsets>
             
                 <capMods>
@@ -676,5 +686,10 @@
 
     <!-- POSTPONED INDEFINITELY -->
     <!-- Melee Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate or greatly lower move speed -->
+    <!-- DESCRIPTION NEEDED -->
+
+    <!-- POSTPONED INDEFINITELY -->
+    <!-- PSYKER SUBGROUP? -->
+    <!-- Psyker Mechadendrite: Psychic bonuses at cost of [STATS] -->
     <!-- DESCRIPTION NEEDED -->
 </Defs>
