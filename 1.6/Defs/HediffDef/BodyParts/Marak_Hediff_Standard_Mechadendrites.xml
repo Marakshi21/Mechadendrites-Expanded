@@ -150,7 +150,6 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
-            <researchPrerequisite>DeepDrilling</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>

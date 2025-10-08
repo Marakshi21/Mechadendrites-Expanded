@@ -19,7 +19,7 @@
             <li>Machining</li>
             <li>Prosthetics</li>
         </prerequisites>
-        <researchViewX>0.2</researchViewX>
+        <researchViewX>0.25</researchViewX>
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
@@ -35,7 +35,7 @@
         <prerequisites>
             <li>Marak_BasicMechadendrites</li>
         </prerequisites>
-        <researchViewX>1.5</researchViewX>
+        <researchViewX>1.75</researchViewX>
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
@@ -51,7 +51,7 @@
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
         </prerequisites>
-        <researchViewX>2.5</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
 
@@ -67,7 +67,7 @@
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
         </prerequisites>
-        <researchViewX>2.5</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
 </Defs>
