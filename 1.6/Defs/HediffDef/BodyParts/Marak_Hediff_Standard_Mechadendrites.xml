@@ -535,7 +535,7 @@
 
     <!-- COOKING SUBGROUP -->
     <!-- Chef Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCookingMechadendrite</defName>
         <label>standard chef mechadendrite</label>
         <labelNoun>a standard chef mechadendrite</labelNoun>
@@ -616,7 +616,7 @@
         </descriptionHyperlinks>
         <jobString>Removing standard chef mechadendrite.</jobString>
         <removesHediff>Marak_StandardCookingMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- Butchers' Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
