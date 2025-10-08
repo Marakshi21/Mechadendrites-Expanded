@@ -234,6 +234,9 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Steel>12</Steel>
         </costList>
+        <recipeMaker>
+            <researchPrerequisite></researchPrerequisite>
+        </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>

@@ -83,7 +83,7 @@
         <researchViewY>1.60</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum -->
+    <!-- Standardized Tooling Research - Artisan, Vacuum -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Mechadendrites</label>
