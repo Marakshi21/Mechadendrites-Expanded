@@ -43,7 +43,7 @@
         <researchViewY>0.80</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Agriculture: Rancher, Agrarian -->
+    <!-- Agriculture: Agrarian -->
     <ResearchProjectDef>
         <defName>Marak_StandardFloraFaunaMechadendrites</defName>
         <label>Agriculture Mechadendrites</label>
@@ -63,7 +63,7 @@
         <researchViewY>1.60</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Medicinal Mechadendrites: Doctor and Surgeon -->
+    <!-- Medicinal Mechadendrite: Doctor -->
     <ResearchProjectDef>
         <defName>Marak_StandardMedicalMechadendrites</defName>
         <label>Medical Mechadendrites</label>
@@ -103,8 +103,10 @@
         <researchViewX>4.50</researchViewX>
         <researchViewY>2.70</researchViewY>
     </ResearchProjectDef>
+    
+    <!-- Vacuum Mechadendrite -->
 
-    <!-- Culinary Mechadendrites: Chef, Butchers' -->
+    <!-- Culinary Mechadendrites: Butchers' -->
     <ResearchProjectDef>
         <defName>Marak_StandardCulinaryMechadendrites</defName>
         <label>Culinary Mechadendrites</label>

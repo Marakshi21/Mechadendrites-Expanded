@@ -4,7 +4,7 @@
     <BodyPartDef>
          <defName>Mechadendrite_Slot</defName>
          <label>mechadendrite slot</label>
-         <hitPoints>10</hitPoints>
+         <hitPoints>16</hitPoints>
          <skinCovered>false</skinCovered>
          <canScarify>false</canScarify>
          <canBeVacuumBurnt>false</canBeVacuumBurnt>
