@@ -149,7 +149,8 @@
             <Steel>8</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_StandardDrillerMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
+            <researchPrerequisite>DeepDrilling</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
@@ -321,7 +322,7 @@
             <Steel>12</Steel>
         </costList>
         <recipeMaker>
-             <researchPrerequisite>Marak_StandardFloraFaunaMechadendrites</researchPrerequisite> 
+             <researchPrerequisite>Marak_StandardBladedMechadendrites</researchPrerequisite> 
         </recipeMaker>
         <statBases>
             <Mass>3</Mass>
@@ -412,7 +413,7 @@
             <Steel>6</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_StandardMedicalMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_StandardBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
@@ -497,7 +498,7 @@
             <Steel>6</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Marak_StandardCulinaryMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Marak_StandardBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
@@ -635,6 +636,7 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
+    <!-- CURSED DESCRIPTION WANTED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>

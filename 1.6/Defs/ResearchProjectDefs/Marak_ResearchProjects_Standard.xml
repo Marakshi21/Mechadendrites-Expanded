@@ -23,72 +23,14 @@
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Driller -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardDrillerMechadendrites</defName>
-        <label>Drilling Mechadendrites</label>
-        <description>Slap a drill onto the end of a standard mechadendrite chassis to create a tool that can chew through most mining jobs given to it.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>DeepDrilling</li>
-        </prerequisites>
-        <researchViewX>5.00</researchViewX>
-        <researchViewY>0.80</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Agriculture: Agrarian -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardFloraFaunaMechadendrites</defName>
-        <label>Agriculture Mechadendrites</label>
-        <description>Devise a class of mechadendrites designed with the purpose of assisting in the fields of plant work and ranching.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedBladedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>4.50</researchViewX>
-        <researchViewY>1.60</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Medicinal Mechadendrite: Doctor -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardMedicalMechadendrites</defName>
-        <label>Medical Mechadendrites</label>
-        <description>Modify existing Refined Striker Mechadendrite templates to create medicinal versions suited for either general medical work or operational work.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedBladedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>5.50</researchViewX>
-        <researchViewY>1.60</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Standardized Tooling Research - Artisan, Vacuum -->
+    <!-- Standardized Tooling Research - Artisan, Vacuum, Builder, Drill -->
+    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Mechadendrites</label>
-        <description>By taking advantage of the opportunities granted with new standard tier mechadendrite chassis and lessons from older refined iterations. Draft up templates for new standard-tier variants of older refined tooling mechadendrite patterns and subdivide some for greater efficiency</description>
-        <description>Apply lessons gained from refined-tier tooling mechadendrites to create standard tier improvements upon each of them. Including the subdivision of the fabled multitool into two separate mechadendrites for greater efficiency.</description>
+        <!-- <description>By taking advantage of the opportunities granted with new standard tier mechadendrite chassis and lessons from older refined iterations. Draft up templates for new standard-tier variants of older refined tooling mechadendrite patterns and subdivide some for greater efficiency</description>
+        <description>Apply lessons gained from refined-tier tooling mechadendrites to create standard tier improvements upon each of them. Including the subdivision of the fabled multitool into two separate mechadendrites for greater efficiency.</description> -->
+        <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -101,16 +43,16 @@
             <li>Marak_RefinedToolsMechadendrites</li>
         </prerequisites>
         <researchViewX>4.50</researchViewX>
-        <researchViewY>2.70</researchViewY>
+        <researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
     
     <!-- Vacuum Mechadendrite -->
 
-    <!-- Culinary Mechadendrites: Butchers' -->
+    <!-- Standard Bladed Mechadendrites: Butchers', Doctor, Agrarian -->
     <ResearchProjectDef>
-        <defName>Marak_StandardCulinaryMechadendrites</defName>
-        <label>Culinary Mechadendrites</label>
-        <description>Create a class of mechadendrites designed to assist with chefs and butchers alike improve workflow and efficiency.</description>
+        <defName>Marak_StandardBladedMechadendrites</defName>
+        <label>Standardized Bladed Mechadendrites</label>
+        <description>REPLACE_ME</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1000</baseCost>
@@ -120,9 +62,10 @@
         </requiredResearchFacilities>
         <prerequisites>
             <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedToolsMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
         </prerequisites>
-        <researchViewX>5.50</researchViewX>
-        <researchViewY>2.70</researchViewY>
+        <researchViewX>4.50</researchViewX>
+        <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
+    
 </Defs>
