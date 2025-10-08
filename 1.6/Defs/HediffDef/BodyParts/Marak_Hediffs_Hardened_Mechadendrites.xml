@@ -35,7 +35,7 @@
     
     <!-- SENSOR GROUP -->
     <!-- Optical Mechadendrite --> <!-- Further Improve sight at cost of mood or mental break threshold -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedOpticalMechadendrite</defName>
         <label>hardened optical mechadendrite</label>
         <labelNoun>a hardened optical mechadendrite</labelNoun>
@@ -117,14 +117,14 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened optical mechadendrite.</jobString>
         <removesHediff>Marak_HardenedOpticalMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- POSTPONED -->
     <!-- Acoustic Mechadendrite --> <!-- Further Improve hearing at cost of mood/sight/sleep fall rate -->
     <!-- DESCRIPTION NEEDED -->
     
     <!-- Temperature Mechadendrite --> <!-- Improve comfortable temperatures while lowering blood filtration to represent additives -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedTemperatureMechadendrite</defName>
         <label>hardened thermoregulator mechadendrite</label>
         <labelNoun>a hardened thermoregulator mechadendrite</labelNoun>
@@ -207,13 +207,13 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened thermoregulator mechadendrite.</jobString>
         <removesHediff>Marak_HardenedTemperatureMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- SKILLED LABOUR GROUP -->
     
     <!-- INTELLECTUAL SUBGROUP -->
     <!-- Cognition Mechadendrite --> <!-- Increase consciousness - and maybe pilot with odyssey loaded - at the cost of hunger rate and/or sleep fall rate -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedCogitatorMechadendrite</defName>
         <label>hardened cognition mechadendrite</label>
         <labelNoun>a hardened cognition mechadendrite</labelNoun>
@@ -299,10 +299,10 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened cognition mechadendrite.</jobString>
         <removesHediff>Marak_HardenedCogitatorMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- Data Analysis Mechadendrite --> <!-- Increase research speed, scanner speed and piloting if odyssey is installed at cost of hunger rate and/or sleep fall rate -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedResearchMechadendrite</defName>
         <label>hardened data analysis mechadendrite</label>
         <labelNoun>a hardened data analysis mechadendrite</labelNoun>
@@ -383,10 +383,10 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened data analysis mechadendrite.</jobString>
         <removesHediff>Marak_HardenedResearchMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- Hacking Mechadendrite --> <!-- Increases hacking speed and stealth at cost of increase rest need -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedHackingMechadendrite</defName>
         <label>hardened hacking mechadendrite</label>
         <labelNoun>a hardened hacking mechadendrite</labelNoun>
@@ -466,7 +466,7 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened hacking mechadendrite.</jobString>
         <removesHediff>Marak_HardenedHackingMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- POSTPONED -->
     <!-- Genetics Mechadendrite-->
@@ -493,7 +493,7 @@
     
     <!-- WEAPONS GROUP -->
     <!-- Ranged Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedRAssistantMechadendrite</defName>
         <label>hardened range-assistant mechadendrite</label>
         <labelNoun>a hardened range-assistant mechadendrite</labelNoun>
@@ -581,10 +581,10 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened range-assistant mechadendrite.</jobString>
         <removesHediff>Marak_HardenedRAssistantMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
     
     <!-- Melee Assistant Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed; Hybridization of Cognition & Optical -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    <!-- <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_HardenedMAssistantMechadendrite</defName>
         <label>hardened melee-assistant mechadendrite</label>
         <labelNoun>a hardened melee-assistant mechadendrite</labelNoun>
@@ -673,7 +673,7 @@
         </descriptionHyperlinks>
         <jobString>Removing hardened melee-assistant mechadendrite.</jobString>
         <removesHediff>Marak_HardenedMAssistantMechadendrite</removesHediff>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- POSTPONED INDEFINITELY -->
     <!-- Ranged Mechadendrite --> <!-- Lower consciousness to represent diverting brain power or increase hunger rate and lower move speed -->
