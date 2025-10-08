@@ -115,91 +115,6 @@
     </RecipeDef>
     
     <!-- SKILLED LABOUR GROUP -->
-    <!-- Engineer Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardEngineeringMechadendrite</defName>
-        <label>standard engineer mechadendrite</label>
-        <labelNoun>a standard engineer mechadendrite</labelNoun>
-        <description>An installed engineer mechadendrite. Improvements to fundamental designs compared to its precursor heighten its utility in mechanical engineering-related tasks.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardEngineeringMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <ConstructionSpeed>.075</ConstructionSpeed>
-                    <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
-                    <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.05</MechRepairSpeed>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardEngineeringMechadendrite</defName>
-        <label>standard engineer mechadendrite</label>
-        <description>Building upon the refined multitool mechadendrite, the standard engineer mechadendrite aids in many mechanical engineering tasks forsaking other tasks to streamline its design. With better tools and improvements in the fundamentals, it proves invaluable for engineers across the rim.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardEngineeringMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>6</Steel>
-        </costList>
-        <recipeMaker>
-            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
-        </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
-        <statBases>
-            <Mass>3</Mass>
-        </statBases>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardEngineeringMechadendrite</defName>
-        <label>install standard engineer mechadendrite</label>
-        <description>Install a standard engineer mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardEngineeringMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard engineer mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardEngineeringMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardEngineeringMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardEngineeringMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardEngineeringMechadendrite</defName>
-        <label>remove standard engineer Mechadendrite</label>
-        <description>Remove a standard engineer Mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardEngineeringMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardEngineeringMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard engineer mechadendrite.</jobString>
-        <removesHediff>Marak_StandardEngineeringMechadendrite</removesHediff>
-    </RecipeDef>
-
     <!-- Drill Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
@@ -370,11 +285,14 @@
     <!-- MEDICAL SUBGROUP -->
     <!-- MERGE INTO ONE -->
     <!-- Doctor Mechadendrite -->
+    <!-- NEW DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
         <labelNoun>a standard doctor mechadendrite</labelNoun>
-        <description>an installed standard doctor mechadendrite. Equipped with various medicinal tools including disinfectants and a coagulating agent, it can help doctors quickly and responsibly tend patients.</description>
+        <!-- <description>an installed standard doctor mechadendrite. Equipped with various medicinal tools including disinfectants and a coagulating agent, it can help doctors quickly and responsibly tend patients.</description>
+        <description>an installed standard surgeon mechadendrite. With a sharp, but small, blade and ability to cauterize at the same time, it is an effective tool for surgeons across the rim.</description> -->
+        <description>an installed standard doctor mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -385,6 +303,8 @@
                 <statOffsets>
                     <MedicalTendSpeed>0.075</MedicalTendSpeed>
                     <MedicalTendQuality>0.05</MedicalTendQuality>
+                    <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
+                    <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
                 </statOffsets>
             </li>
         </stages>
@@ -393,7 +313,9 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
-        <description>Equipped with a variety of medical tools and compounds designed to aim with tending a patient quickly and with quality, this mechadendrite can release a coagulating compound and disinfectants while small blades help remove debris that may prevent sutures from being made.</description>
+        <!-- <description>Equipped with a variety of medical tools and compounds designed to aim with tending a patient quickly and with quality, this mechadendrite can release a coagulating compound and disinfectants while small blades help remove debris that may prevent sutures from being made.</description> 
+        <description>Based on the Refined Striker Mechadendrite, the Standard Surgeon Mechadendrite uses a blade similar to the striker but smaller and more precise. Able to slice cleanly and cauterize at the same time, it can assist in various medical procedures making them go by faster and more safely.</description> -->
+        <description>REPLACE_ME</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDoctorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -450,88 +372,6 @@
         </descriptionHyperlinks>
         <jobString>Removing standard doctor mechadendrite.</jobString>
         <removesHediff>Marak_StandardDoctorMechadendrite</removesHediff>
-    </RecipeDef>
-    
-    <!-- Surgeon Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Marak_StandardOperatorMechadendrite</defName>
-        <label>standard surgeon mechadendrite</label>
-        <labelNoun>a standard surgeon mechadendrite</labelNoun>
-        <description>an installed standard surgeon mechadendrite. With a sharp, but small, blade and ability to cauterize at the same time, it is an effective tool for surgeons across the rim.</description>
-        <descriptionHyperlinks><ThingDef>Marak_StandardOperatorMechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Marak_StandardOperatorMechadendrite</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-        </addedPartProps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
-                    <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
-                </statOffsets>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
-        <defName>Marak_StandardOperatorMechadendrite</defName>
-        <label>standard surgeon mechadendrite</label>
-        <description>Based on the Refined Striker Mechadendrite, the Standard Surgeon Mechadendrite uses a blade similar to the striker but smaller and more precise. Able to slice cleanly and cauterize at the same time, it can assist in various medical procedures making them go by faster and more safely.</description>
-        <descriptionHyperlinks><RecipeDef>Marak_InstallStandardOperatorMechadendrite</RecipeDef></descriptionHyperlinks>
-        <costList>
-            <Plasteel>8</Plasteel>
-            <ComponentSpacer>1</ComponentSpacer>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>6</Steel>
-        </costList>
-        <recipeMaker>
-            <researchPrerequisite>Marak_StandardMedicalMechadendrites</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
-            <Mass>5</Mass>
-        </statBases>
-    </ThingDef>
-
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
-        <defName>Marak_InstallStandardOperatorMechadendrite</defName>
-        <label>install standard surgeon mechadendrite</label>
-        <description>Install a standard surgeon mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardOperatorMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardOperatorMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Installing a standard surgeon mechadendrite.</jobString>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Marak_StandardOperatorMechadendrite</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Marak_StandardOperatorMechadendrite</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
-        </appliedOnFixedBodyParts>
-        <addsHediff>Marak_StandardOperatorMechadendrite</addsHediff>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Marak_RemoveStandardOperatorMechadendrite</defName>
-        <label>remove standard surgeon mechadendrite</label>
-        <description>Remove standard surgeon mechadendrite.</description>
-        <descriptionHyperlinks>
-            <ThingDef>Marak_StandardOperatorMechadendrite</ThingDef>
-            <HediffDef>Marak_StandardOperatorMechadendrite</HediffDef>
-        </descriptionHyperlinks>
-        <jobString>Removing standard surgeon mechadendrite.</jobString>
-        <removesHediff>Marak_StandardOperatorMechadendrite</removesHediff>
     </RecipeDef>
 
     <!-- COOKING SUBGROUP -->
@@ -635,8 +475,10 @@
             <li>
                 <statOffsets>
                     <GeneralLaborSpeed>.075</GeneralLaborSpeed>
-                    <SmoothingSpeed>.075</SmoothingSpeed>
+                    <SmoothingSpeed>.075</SmoothingSpeed> <!-- CONSTRUCTION -->
                     <SmeltingSpeed>.075</SmeltingSpeed>
+                    <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
+                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
                 </statOffsets>
             </li>
         </stages>
