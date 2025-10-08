@@ -19,8 +19,8 @@
             <li>Machining</li>
             <li>Prosthetics</li>
         </prerequisites>
-        <researchViewX>0.25</researchViewX>
-        <researchViewY>1.75</researchViewY>
+        <researchViewX>0.2</researchViewX>
+        <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
     <!-- Refined Mechadendrites -->
@@ -42,7 +42,7 @@
     <!-- Striker, Excavator, Field -->
     <ResearchProjectDef>
         <defName>Marak_RefinedBladedMechadendrites</defName>
-        <label>Bladed Mechadendrites</label>
+        <label>Refined Bladed Mechadendrites</label>
         <description>Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
@@ -58,7 +58,7 @@
     <!-- Multitool, Sweeper, Flashlight -->
     <ResearchProjectDef>
         <defName>Marak_RefinedToolsMechadendrites</defName>
-        <label>Refined Tooling Patterns</label>
+        <label>Refined Tooling Mechadendrites</label>
         <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
@@ -69,252 +69,5 @@
         </prerequisites>
         <researchViewX>2.5</researchViewX>
         <researchViewY>2.75</researchViewY>
-    </ResearchProjectDef>
-    
-    <!-- Standard Mechadendrites -->
-     <ResearchProjectDef>
-         <defName>Marak_StandardMechadendrites</defName>
-         <label>Standard Mechadendrites</label>
-         <description>Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
-         <tab>Marak_MechadendritesExpanded</tab>
-         <techLevel>Spacer</techLevel>
-         <baseCost>1250</baseCost>
-         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-         <requiredResearchFacilities>
-             <li>MultiAnalyzer</li>
-         </requiredResearchFacilities>
-         <prerequisites>
-             <li>Marak_RefinedMechadendrites</li>
-             <li>Bionics</li>
-             <li>Fabrication</li>
-         </prerequisites>
-         <researchViewX>3.5</researchViewX>
-         <researchViewY>2.25</researchViewY>
-     </ResearchProjectDef>
-
-    <!-- Driller -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardDrillerMechadendrites</defName>
-        <label>Drilling Mechadendrites</label>
-        <description>Slap a drill onto the end of a standard mechadendrite chassis to create a tool that can chew through most mining jobs given to it.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedBladedMechadendrites</li>
-            <li>DeepDrilling</li>
-        </prerequisites>
-        <researchViewX>5.00</researchViewX>
-        <researchViewY>0.80</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Agriculture: Rancher, Agrarian -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardFloraFaunaMechadendrites</defName>
-        <label>Agriculture Mechadendrites</label>
-        <description>Devise a class of mechadendrites designed with the purpose of assisting in the fields of plant work and ranching.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedBladedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>4.50</researchViewX>
-        <researchViewY>1.60</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Medicinal Mechadendrites: Doctor and Surgeon -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardMedicalMechadendrites</defName>
-        <label>Medicinal Mechadendrite Chassis</label>
-        <description>Modify existing Refined Striker Mechadendrite templates to create medicinal versions suited for either general medical work or operational work.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedBladedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>5.50</researchViewX>
-        <researchViewY>1.60</researchViewY>
-    </ResearchProjectDef>
-    
-    <!-- Standardized Tooling Research - Engineering, Artisan, Vacuum -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardToolingMechadendrites</defName>
-        <label>Standardized Tooling Patterns</label>
-        <description>By taking advantage of the opportunities granted with new standard tier mechadendrite chassis and lessons from older refined iterations. Draft up templates for new standard-tier variants of older refined tooling mechadendrite patterns and subdivide some for greater efficiency</description>
-        <description>Apply lessons gained from refined-tier tooling mechadendrites to create standard tier improvements upon each of them. Including the subdivision of the fabled multitool into two separate mechadendrites for greater efficiency.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedToolsMechadendrites</li>
-        </prerequisites>
-        <researchViewX>4.50</researchViewX>
-        <researchViewY>2.70</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Cracker Mechadendrite -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardHackingMechadendrites</defName>
-        <label>Network cracking mechadendrites</label>
-        <description>Devise a mechadendrite capable of assisting hackers crack into a network by brute-forcing entries. Effective, but can often lead to pre-mature lock-outs.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedToolsMechadendrites</li>
-        </prerequisites>
-        <researchViewX>5.00</researchViewX>
-        <researchViewY>3.50</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Culinary Mechadendrites: Chef, Butchers' -->
-    <ResearchProjectDef>
-        <defName>Marak_StandardCulinaryMechadendrites</defName>
-        <label>Culinary Mechadendrite Templates</label>
-        <description>Create a class of mechadendrites designed to assist with chefs and butchers alike improve workflow and efficiency.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>Marak_RefinedToolsMechadendrites</li>
-        </prerequisites>
-        <researchViewX>5.50</researchViewX>
-        <researchViewY>2.70</researchViewY>
-    </ResearchProjectDef>
-    
-    <!-- Hardened Mechadendrites Gateway -->
-    <ResearchProjectDef>
-        <defName>Marak_HardenedMechadendrites</defName>
-        <label>Hardened Mechadendrites</label>
-        <description>Evolving from standard mechadendrites, by definition, hardened mechadendrites are standard mechadendrites. In reality, these new types of mechadendrites are nothing like their standard cousins, forsaking lesser materials and caution. Risks are a plenty. Progress is inevitable. Side effects are not only expected, they are encouraged.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>2500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>AdvancedFabrication</li>
-            <li>Marak_StandardHackingMechadendrites</li>
-            <li>Marak_StandardDrillerMechadendrites</li>
-            <li>Marak_StandardCulinaryMechadendrites</li>
-            <li>Marak_StandardToolingMechadendrites</li>
-            <li>Marak_StandardMedicalMechadendrites</li>
-            <li>Marak_StandardFloraFaunaMechadendrites</li>
-        </prerequisites>
-        <researchViewX>7.5</researchViewX>
-        <researchViewY>2.25</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Sensor/Thermoregulator Mechadendrites -->
-    <ResearchProjectDef>
-        <defName>Marak_AuxiliarySensorMechadendrites</defName>
-        <label>Auxiliary Sensor Mechadendrites</label>
-        <description>Embed various sensors into hardened mechadendrite chassis to create a new suite of auxiliary sensor-based mechadendrites.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>1500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_HardenedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>9</researchViewX>
-        <researchViewY>1.40</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Cognitive Mechadendrite -->
-    <ResearchProjectDef>
-        <defName>Marak_CognitionMechadendrites</defName>
-        <label>Additional cognition units</label>
-        <description>Push the limits of what makes a mechadendrite a mechadendrite by wiring it directly into the brain and use the chassis as a host for a coprocessor. The goal being to improve processing power by both adding processor units and overclocking the brain. Serious side-effects are expected, but manageable.</description> <!-- Borders the line of a mechadendrite and not mechadendrite -->
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>1500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_HardenedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>9</researchViewX>
-        <researchViewY>2.25</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Data Analysis/Hacking Mechadendrite -->
-    <ResearchProjectDef>
-        <defName>Marak_IntellectualMechadendrites</defName>
-        <label>Auxiliary computational mechadendrites</label>
-        <description>Insert a slim yet powerful processor within a hardened mechadendrite chassis for the purpose of either data analysis or cracking into foreign networks.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>1500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_HardenedMechadendrites</li>
-        </prerequisites>
-        <researchViewX>9</researchViewX>
-        <researchViewY>3.10</researchViewY>
-    </ResearchProjectDef>
-    
-    <!-- WEAPON ASSISTANT MECHADENDRITES; HYBRID OF COGNITION AND OPTICAL -->
-    <ResearchProjectDef>
-        <defName>Marak_WeaponsAssistantsMechadendrites</defName>
-        <label>Weapon assistant mechadendrites</label>
-        <description>Design a set of hardened mechadendrites that are capable of assisting a user in combat. By taking sensor designs from previous mechadendrites and using the technology cognition mechadendrites use, these new class of mechadendrites can interact directly with the user aiding combat but coming with serious downsides.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>2000</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_CognitionMechadendrites</li>
-            <li>Marak_AuxiliarySensorMechadendrites</li>
-            <li>Marak_IntellectualMechadendrites</li>
-        </prerequisites>
-        <researchViewX>10.50</researchViewX>
-        <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 </Defs>
