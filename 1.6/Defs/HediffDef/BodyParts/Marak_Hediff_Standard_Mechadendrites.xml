@@ -223,7 +223,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
         <label>standard builder mechadendrite</label>
         <description>REPLACE_ME</description>
@@ -235,7 +235,7 @@
             <Steel>12</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite></researchPrerequisite>
+            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
         </recipeMaker>
         <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
