@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-
     <BodyPartDef>
          <defName>Mechadendrite_Slot</defName>
          <label>mechadendrite slot</label>
@@ -9,6 +8,6 @@
          <skinCovered>false</skinCovered>
          <canScarify>false</canScarify>
          <canBeVacuumBurnt>false</canBeVacuumBurnt>
-         <canSuggestAmputation>false</canSuggestAmputation>
+         <canSuggestAmputation>true</canSuggestAmputation>
      </BodyPartDef>
  </Defs> 

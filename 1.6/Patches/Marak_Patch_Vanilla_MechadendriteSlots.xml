@@ -8,7 +8,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite one</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -24,7 +24,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite two</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -40,7 +40,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite three</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -56,7 +56,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite four</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -72,7 +72,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite five</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -88,7 +88,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite six</customLabel>
-                <coverage>0.000</coverage>
+                <coverage>0.015</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>

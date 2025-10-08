@@ -4,7 +4,7 @@
     <BodyPartGroupDef>
         <defName>Marak_Mechadendrites</defName>
         <label>mechadendrites</label>
-        <listOrder>80</listOrder>
+        <listOrder>85</listOrder>
     </BodyPartGroupDef>
 </Defs>
 
