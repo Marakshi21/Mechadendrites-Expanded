@@ -704,6 +704,7 @@
     <!-- INTELLECTUAL SUBGROUP -->
     
     <!-- Cracking Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardHackingMechadendrite</defName>
         <label>standard cracking mechadendrite</label>
@@ -784,6 +785,7 @@
         <jobString>Removing standard cracking mechadendrite.</jobString>
         <removesHediff>Marak_StandardHackingMechadendrite</removesHediff>
     </RecipeDef>
+    -->
     
     <!-- GENERAL LABOUR GROUP -->
     <!-- Artisan Mechadendrite -->
