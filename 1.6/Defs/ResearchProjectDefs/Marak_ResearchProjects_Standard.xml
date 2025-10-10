@@ -9,7 +9,7 @@
         <description>Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>1250</baseCost>
+        <baseCost>1500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -30,7 +30,7 @@
         <description>Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>1500</baseCost>
+        <baseCost>800</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -51,7 +51,7 @@
         <description>What have we done?</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>750</baseCost>
+        <baseCost>500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -70,7 +70,7 @@
         <description>Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>1000</baseCost>
+        <baseCost>800</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
