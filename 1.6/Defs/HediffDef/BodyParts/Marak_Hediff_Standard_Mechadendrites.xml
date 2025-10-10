@@ -204,7 +204,7 @@
         <defName>Marak_StandardConstructionMechadendrite</defName>
         <label>standard builder mechadendrite</label>
         <labelNoun>a standard builder mechadendrite</labelNoun>
-        <description>an installed standard builder mechadendrite. Specially made for construction, this mechadendrite assists in the most menial and intensive parts of construction.</description>
+        <description>An installed standard builder mechadendrite. Specially made for construction, this mechadendrite assists in the most menial and intensive parts of construction.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardConstructionMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardConstructionMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -290,7 +290,7 @@
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>standard agrarian mechadendrite</label>
         <labelNoun>a standard agrarian mechadendrite</labelNoun>
-        <description>an installed standard agrarian mechadendrite. Better tools and a direct neural-link help the agrarian mechadendrite both work faster and semi-autonomously.</description>
+        <description>An installed standard agrarian mechadendrite. Better tools and a direct neural-link help the agrarian mechadendrite both work faster and semi-autonomously.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -377,7 +377,7 @@
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
         <labelNoun>a standard doctor mechadendrite</labelNoun>
-        <description>an installed standard doctor mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
+        <description>An installed standard doctor mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -463,7 +463,7 @@
         <defName>Marak_StandardButcherMechadendrite</defName>
         <label>standard butchers' mechadendrite</label>
         <labelNoun>a standard butchers' mechadendrite</labelNoun>
-        <description>an installed butchers' mechadendrite. Equipped with a sharp, strong blade and cleaning agent, it helps butcher apart animals while cleaning them too preserving more meat from their corpse.</description>
+        <description>An installed butchers' mechadendrite. Equipped with a sharp, strong blade and cleaning agent, it helps butcher apart animals while cleaning them too preserving more meat from their corpse.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardButcherMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardButcherMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -633,7 +633,7 @@
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
         <labelNoun>a standard vacuum mechadendrite</labelNoun>
-        <!-- <description>a standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> Normie Description -->
+        <!-- <description>A standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> Normie Description -->
         <description>An affront to all that is holy. With a tube connected directly into the stomach, any dirt, dust, mites, grum, and other particulate sucked up get pumped into the user's stomach to be digested and stored within their body. God Help Us.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>

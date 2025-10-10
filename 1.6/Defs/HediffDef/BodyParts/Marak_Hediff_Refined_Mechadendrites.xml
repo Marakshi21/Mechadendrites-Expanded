@@ -34,8 +34,8 @@
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
-        <labelNoun>a refined mechadendrite</labelNoun>
-        <description>An installed refined mechadendrite. Refined machining techniques and a flexible chassis allow for fluid movement while better connections grant stronger control.</description>
+        <labelNoun>a refined general mechadendrite</labelNoun>
+        <description>An installed refined general mechadendrite. Refined machining techniques and a flexible chassis allow for fluid movement while better connections grant stronger control.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -72,8 +72,8 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallRefinedMechadendrite</defName>
-        <label>install refined mechadendrite</label>
-        <description>Install a refined mechadendrite.</description>
+        <label>install refined general mechadendrite</label>
+        <description>Install a refined general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedMechadendrite</HediffDef>
@@ -102,13 +102,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveRefinedMechadendrite</defName>
-        <label>remove refined mechadendrite</label>
-        <description>Remove a refined mechadendrite.</description>
+        <label>remove refined general mechadendrite</label>
+        <description>Remove a refined general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_RefinedMechadendrite</ThingDef>
             <HediffDef>Marak_RefinedMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing refined mechadendrite.</jobString>
+        <jobString>Removing refined general mechadendrite.</jobString>
         <removesHediff>Marak_RefinedMechadendrite</removesHediff>
     </RecipeDef>
 
