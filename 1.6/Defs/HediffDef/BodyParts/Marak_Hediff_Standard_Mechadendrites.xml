@@ -36,9 +36,9 @@
     <!-- Standard Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
-        <label>standard mechadendrite</label>
-        <labelNoun>a standard mechadendrite</labelNoun>
-        <description>An installed standard mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
+        <label>standard general mechadendrite</label>
+        <labelNoun>a standard general mechadendrite</labelNoun>
+        <description>An installed standard general mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -58,8 +58,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
-        <label>standard mechadendrite</label>
-        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the standard mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
+        <label>standard general mechadendrite</label>
+        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the standard general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>5</Plasteel>
@@ -74,13 +74,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardMechadendrite</defName>
-        <label>install standard mechadendrite</label>
-        <description>Install a standard mechadendrite.</description>
+        <label>install standard general mechadendrite</label>
+        <description>Install a standard general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard mechadendrite.</jobString>
+        <jobString>Installing a standard general mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -104,13 +104,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardMechadendrite</defName>
-        <label>remove standard mechadendrite</label>
-        <description>Remove standard mechadendrite.</description>
+        <label>remove standard general mechadendrite</label>
+        <description>Remove standard general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard mechadendrite.</jobString>
+        <jobString>Removing standard general mechadendrite.</jobString>
         <removesHediff>Marak_StandardMechadendrite</removesHediff>
     </RecipeDef>
     
@@ -200,12 +200,11 @@
     </RecipeDef>
 
     <!-- Construction Mechadendrite -->
-    <!-- DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
         <label>standard builder mechadendrite</label>
         <labelNoun>a standard builder mechadendrite</labelNoun>
-        <description>REPLACE_ME</description>
+        <description>an installed standard builder mechadendrite. Specially made for construction, this mechadendrite assists in the most menial and intensive parts of construction.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardConstructionMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardConstructionMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -226,7 +225,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
         <label>standard builder mechadendrite</label>
-        <description>REPLACE_ME</description>
+        <description>Designed with one goal in mind, the standard builder mechadendrite aims to make short work of any construction project put in front of it. Lined with various tools and programming on how to use said tools, the standard builder mechadendrite is a construction worker's best friend.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardConstructionMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -378,9 +377,7 @@
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
         <labelNoun>a standard doctor mechadendrite</labelNoun>
-        <!-- <description>an installed standard doctor mechadendrite. Equipped with various medicinal tools including disinfectants and a coagulating agent, it can help doctors quickly and responsibly tend patients.</description>
-        <description>an installed standard surgeon mechadendrite. With a sharp, but small, blade and ability to cauterize at the same time, it is an effective tool for surgeons across the rim.</description> -->
-        <description>an installed standard doctor mechadendrite.</description>
+        <description>an installed standard doctor mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -401,9 +398,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
-        <!-- <description>Equipped with a variety of medical tools and compounds designed to aim with tending a patient quickly and with quality, this mechadendrite can release a coagulating compound and disinfectants while small blades help remove debris that may prevent sutures from being made.</description> 
-        <description>Based on the Refined Striker Mechadendrite, the Standard Surgeon Mechadendrite uses a blade similar to the striker but smaller and more precise. Able to slice cleanly and cauterize at the same time, it can assist in various medical procedures making them go by faster and more safely.</description> -->
-        <description>REPLACE_ME</description>
+        <description>Carrying an array of medical tools meant to both assist in the tending speed and quality of a patient, and surgical tools in the case of operation. The standard doctor mechadendrite is a preferred tool medical personnel working on the rim due to its nature to quickly clean debris, disinfect wounds, coagulate injuries, and more.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDoctorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -563,7 +558,6 @@
             <li>
                 <statOffsets>
                     <GeneralLaborSpeed>.075</GeneralLaborSpeed>
-                    <SmoothingSpeed>.075</SmoothingSpeed> <!-- CONSTRUCTION -->
                     <SmeltingSpeed>.075</SmeltingSpeed>
                     <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
                     <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
@@ -635,12 +629,12 @@
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
-    <!-- CURSED DESCRIPTION WANTED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
         <labelNoun>a standard vacuum mechadendrite</labelNoun>
-        <description>a standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description>
+        <!-- <description>a standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> Normie Description -->
+        <description>An affront to all that is holy. With a tube connected directly into the stomach, any dirt, dust, mites, grum, and other particulate sucked up get pumped into the user's stomach to be digested and stored within their body. God Help Us.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -658,7 +652,8 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
-        <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description>
+        <!-- <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description> Normie Description -->
+        <description>We have created an affront to God. Our scientists and engineers have designed a mechadendrite capable of sucking up dirt, dust, mites and other particulates that then pump it directly into the user's stomach where it'll be digested and stored among the body. May God have mercy on us.</description>  <!-- Spooky Season Description -->
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -667,7 +662,8 @@
             <Steel>6</Steel>
         </costList>
         <recipeMaker>
-             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite> 
+             <!-- <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite> Normie -->
+            <researchPrerequisite>Marak_AnAffrontToGod</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>2.5</Mass>

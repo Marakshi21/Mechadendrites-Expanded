@@ -24,13 +24,10 @@
     </ResearchProjectDef>
 
     <!-- Standardized Tooling Research - Artisan, Vacuum, Builder, Drill -->
-    <!-- DESCRIPTION NEEDED -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Mechadendrites</label>
-        <!-- <description>By taking advantage of the opportunities granted with new standard tier mechadendrite chassis and lessons from older refined iterations. Draft up templates for new standard-tier variants of older refined tooling mechadendrite patterns and subdivide some for greater efficiency</description>
-        <description>Apply lessons gained from refined-tier tooling mechadendrites to create standard tier improvements upon each of them. Including the subdivision of the fabled multitool into two separate mechadendrites for greater efficiency.</description> -->
-        <description>REPLACE_ME</description>
+        <description>Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1500</baseCost>
@@ -46,13 +43,31 @@
         <researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
     
-    <!-- Vacuum Mechadendrite -->
+    <!-- Vacuum: Spooky Season -->
+
+    <ResearchProjectDef>
+        <defName>Marak_AnAffrontToGod</defName>
+        <label>Vacuum Mechadendrite</label>
+        <description>What have we done?</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>750</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.75</researchViewX>
+        <researchViewY>4.75</researchViewY>
+    </ResearchProjectDef>
 
     <!-- Standard Bladed Mechadendrites: Butchers', Doctor, Agrarian -->
     <ResearchProjectDef>
         <defName>Marak_StandardBladedMechadendrites</defName>
         <label>Standardized Bladed Mechadendrites</label>
-        <description>REPLACE_ME</description>
+        <description>Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
         <baseCost>1000</baseCost>
