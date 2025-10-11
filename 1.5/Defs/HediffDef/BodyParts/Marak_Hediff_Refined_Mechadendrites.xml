@@ -33,7 +33,7 @@
     <!-- Refined Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMechadendrite</defName>
-        <label>refined mechadendrite</label>
+        <label>refined general mechadendrite</label>
         <labelNoun>a refined general mechadendrite</labelNoun>
         <description>An installed refined general mechadendrite. Refined machining techniques and a flexible chassis allow for fluid movement while better connections grant stronger control.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMechadendrite</ThingDef></descriptionHyperlinks>
@@ -55,7 +55,7 @@
 
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedMechadendrite</defName>
-        <label>refined mechadendrite</label>
+        <label>refined general mechadendrite</label>
         <description>A refinement upon the basic mechadendrite, this mechadendrite uses improved methods of machining leading to more fluid movements thanks to a flexible chassis. Its control is improved as well thanks to refined connections into muscles and the spinal cord allowing some minor control using impulses alone.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
