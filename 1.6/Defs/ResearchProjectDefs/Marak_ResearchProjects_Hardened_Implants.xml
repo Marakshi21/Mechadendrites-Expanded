@@ -1,30 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Hardened Mechadendrite Research Tree -->
-    
-    <!-- Hardened Mechadendrites Gateway -->
-    <!-- <ResearchProjectDef>
-        <defName>Marak_HardenedMechadendrites</defName>
-        <label>Hardened Mechadendrites</label>
-        <description>Evolving from standard mechadendrites, by definition, hardened mechadendrites are standard mechadendrites. In reality, these new types of mechadendrites are nothing like their standard cousins, forsaking lesser materials and caution. Risks are a plenty. Progress is inevitable. Side effects are not only expected, they are encouraged.</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Ultra</techLevel>
-        <baseCost>2500</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-            <li>AdvancedFabrication</li>
-            <li>Marak_StandardHackingMechadendrites</li>
-            <li>Marak_StandardDrillerMechadendrites</li>
-            <li>Marak_StandardCulinaryMechadendrites</li>
-            <li>Marak_StandardToolingMechadendrites</li>
-            <li>Marak_StandardMedicalMechadendrites</li>
-            <li>Marak_StandardFloraFaunaMechadendrites</li>
-        </prerequisites>
-        <researchViewX>7.5</researchViewX>
-        <researchViewY>2.25</researchViewY>
-    </ResearchProjectDef> -->
 </Defs>
