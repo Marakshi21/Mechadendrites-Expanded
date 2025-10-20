@@ -7,7 +7,8 @@
     Mechadendrites Expanded is a mod that seeks to add in a new set of implants aptly named Mechadendrites. Although inspired by the Warhammer 40k universe, this mod does not directly add in mechadendrites from the WH40k universe and instead shares the terminology. A mechadendrite is defined as a tendril-like limb specialized with a task in mind. In RimWorld terms, you have generic mechadendrites that boost manipulation and later specialized mechadendrites that boost other stats more than generic mechadendrites but only influence the stats listed. Each human pawn can install up to six mechadendrites onto themselves before running out of slots to use.
     </description>
     <supportedVersions>
-        <li>1.6</li>
+	    <li>1.6</li>
+	    <li>1.5</li>
     </supportedVersions>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
@@ -19,7 +20,4 @@
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
         <li>imranfish.xmlextensions</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>Marak.Mechandendrites.Expanded.Unstable</li>
-    </incompatibleWith>
 </ModMetaData>
