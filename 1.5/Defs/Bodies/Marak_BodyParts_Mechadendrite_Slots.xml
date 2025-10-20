@@ -3,12 +3,11 @@
     <BodyPartDef>
         <defName>Mechadendrite_Slot</defName>
         <label>mechadendrite slot</label>
-        <hitPoints>16</hitPoints>
+        <hitPoints>7</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <skinCovered>false</skinCovered>
         <canScarify>false</canScarify>
-        <bleedRate>0.35</bleedRate>
-        <canBeVacuumBurnt>false</canBeVacuumBurnt>
+        <bleedRate>0.55</bleedRate>
         <canSuggestAmputation>true</canSuggestAmputation>
     </BodyPartDef>
 </Defs> 
