@@ -20,8 +20,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Mechadendrites-Expanded-Unstable\\Source\\Mechadendrites_Expanded\\Mechadendrites\\Loading.cs",
+              "RelativeDocumentMoniker": "Mechadendrites\\Loading.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Mechadendrites-Expanded-Unstable\\Source\\Mechadendrites_Expanded\\Mechadendrites\\Loading.cs",
+              "RelativeToolTip": "Mechadendrites\\Loading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:43:45.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,19 +49,6 @@
               "RelativeToolTip": "Mechadendrites\\Mechadendrites.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-10-20T16:44:07.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Loading.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Mechadendrites-Expanded-Unstable\\Source\\Mechadendrites_Expanded\\Mechadendrites\\Loading.cs",
-              "RelativeDocumentMoniker": "Mechadendrites\\Loading.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Mechadendrites-Expanded-Unstable\\Source\\Mechadendrites_Expanded\\Mechadendrites\\Loading.cs",
-              "RelativeToolTip": "Mechadendrites\\Loading.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:43:45.546Z",
               "EditorCaption": ""
             }
           ]

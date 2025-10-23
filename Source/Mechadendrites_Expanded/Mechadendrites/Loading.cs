@@ -13,7 +13,7 @@ namespace Marak.Mechadendrites.Bootstrap
     {
         static MechadendritesExpandedLoader()
         {
-            Log.Message("[Mechadendrites Expanded] Loaded");
+            Log.Message("[Mechadendrites Expanded] Revision: Zagreus Kane Loaded");
         }
     }
 }
