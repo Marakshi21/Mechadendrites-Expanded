@@ -7,7 +7,7 @@
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <skinCovered>false</skinCovered>
         <canScarify>false</canScarify>
-        <bleedRate>0.55</bleedRate>
+        <bleedRate>0.45</bleedRate>
         <canBeVacuumBurnt>false</canBeVacuumBurnt>
         <canSuggestAmputation>true</canSuggestAmputation>
     </BodyPartDef>
