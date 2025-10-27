@@ -1,4 +1,8 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mechadendrites-Expanded-Unstable\1.6\Assemblies\MechadendritesExpanded.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mechadendrites-Expanded-Unstable\Source\Mechadendrites_Expanded\Mechadendrites\obj\Debug\Mechadendrites.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mechadendrites-Expanded-Unstable\Source\Mechadendrites_Expanded\Mechadendrites\obj\Debug\Mechadendrites.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Mechadendrites-Expanded-Unstable\Source\Mechadendrites_Expanded\Mechadendrites\obj\Debug\MechadendritesExpanded.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/1.6/Assemblies/MechadendritesExpanded.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/Mechadendrites.csproj.AssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/Mechadendrites.csproj.CoreCompileInputs.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/MechadendritesExpanded.dll
+/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/1.6/Assemblies/MechadendritesExpanded.dll
+/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/Mechadendrites.csproj.AssemblyReference.cache
+/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/Mechadendrites.csproj.CoreCompileInputs.cache
+/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Debug/MechadendritesExpanded.dll

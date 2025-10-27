@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hQYDfwXHrCE=",
+  "dgSpecHash": "RMW2b1MuPRY=",
   "success": true,
-  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Mechadendrites-Expanded-Unstable\\Source\\Mechadendrites_Expanded\\Mechadendrites\\Mechadendrites.csproj",
+  "projectFilePath": "/home/madeline/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/Mechadendrites.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Developer\\.nuget\\packages\\krafs.rimworld.ref\\1.6.4566\\krafs.rimworld.ref.1.6.4566.nupkg.sha512",
-    "C:\\Users\\Developer\\.nuget\\packages\\lib.harmony\\2.4.1\\lib.harmony.2.4.1.nupkg.sha512"
+    "/home/madeline/.nuget/packages/krafs.rimworld.ref/1.6.4566/krafs.rimworld.ref.1.6.4566.nupkg.sha512",
+    "/home/madeline/.nuget/packages/lib.harmony/2.4.1/lib.harmony.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
