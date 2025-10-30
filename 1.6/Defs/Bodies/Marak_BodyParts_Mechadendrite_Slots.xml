@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Defs>
     <BodyPartDef>
-         <defName>Mechadendrite_Slot</defName>
-         <label>mechadendrite slot</label>
-         <hitPoints>16</hitPoints>
-         <skinCovered>false</skinCovered>
-         <canScarify>false</canScarify>
-         <canBeVacuumBurnt>false</canBeVacuumBurnt>
-         <canSuggestAmputation>true</canSuggestAmputation>
-     </BodyPartDef>
- </Defs> 
+        <defName>Mechadendrite_Slot</defName>
+        <label>mechadendrite slot</label>
+        <hitPoints>7</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <canScarify>false</canScarify>
+        <bleedRate>0.45</bleedRate>
+        <canBeVacuumBurnt>false</canBeVacuumBurnt>
+        <canSuggestAmputation>true</canSuggestAmputation>
+    </BodyPartDef>
+</Defs> 
