@@ -1,6 +1,0 @@
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/bin/Release/MechadendritesExpanded.dll
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/bin/Release/MechadendritesExpanded.pdb
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Release/Mechadendrites.csproj.AssemblyReference.cache
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Release/Mechadendrites.csproj.CoreCompileInputs.cache
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Release/MechadendritesExpanded.dll
-/home/madeline/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Unstable/Source/Mechadendrites_Expanded/Mechadendrites/obj/Release/MechadendritesExpanded.pdb
