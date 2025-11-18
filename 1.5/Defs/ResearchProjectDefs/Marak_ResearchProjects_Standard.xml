@@ -51,7 +51,7 @@
         <description>What have we done?</description>
         <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Spacer</techLevel>
-        <baseCost>500</baseCost>
+        <baseCost>400</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
