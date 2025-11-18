@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <!-- All Anomaly Related Content goes here -->
+    <!-- NOTE TO SELF: Anomaly Research is radically different from base-game research. It is highly likely that only one or two research projects total will be required for all potential anomaly mechadendrites. -->
+    
+    <!-- Gateway/Base Research -->
+    <ResearchProjectDef>
+        <defName>Marak_BioferriteShaping_Mechadendrites</defName>
+        <label>Bioferrite Mechadendrites</label>
+        <description>REPLACE_ME</description>
+        <tab>Anomaly</tab>
+        <prerequisites>
+            <li>BioferriteExtraction</li>
+            <li>Electricity</li>
+            <li>Marak_BasicMechadendrites</li>
+        </prerequisites>
+        <knowledgeCost>30</knowledgeCost>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <researchViewX>4.50</researchViewX>
+        <researchViewY>4.70</researchViewY>
+        <generalRules>
+            <rulesStrings>
+                <li>subject->bioferrite shaping</li>
+
+                <li>subject_story->learned unique techniques for molding and sculpting</li>
+                <li>subject_story->trained in heat-shaping</li>
+                <li>subject_story->worked in an exotic materials foundry</li>
+                <li>subject_story->aided an archotech materials scientist </li>
+                <li>subject_story->studied the formation of archotech artefacts</li>
+
+                <li>subject_gerund->shaping bioferrite</li>
+            </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+    
+</Defs>
