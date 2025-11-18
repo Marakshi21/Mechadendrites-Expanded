@@ -62,7 +62,7 @@
         </stages>
     </HediffDef>
     
-    <ThingDef ParentName="BodyPartMechadendriteBase">
+    <ThingDef ParentName="BodyPartMechadendrite[TIER]Base">
         <defName>Marak_[TIER][TYPE-OPTIONAL]Mechadendrite</defName>
         <label>[TIER] [TYPE-OPTIONAL] mechadendrite</label>
         <description>REPLACE_ME</description>
