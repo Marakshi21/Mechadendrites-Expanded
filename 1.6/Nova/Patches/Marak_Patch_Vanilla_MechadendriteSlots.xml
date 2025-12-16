@@ -64,37 +64,4 @@
             </li>
         </value>
     </Operation>
-    <!--
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
-        <order>Append</order>
-        <value>
-            <li>
-                <def>Mechadendrite_Slot</def>
-                <customLabel>mechadendrite five</customLabel>
-                <coverage>0.005</coverage>
-                <depth>Outside</depth>
-                <groups>
-                    <li>Marak_Mechadendrites</li>
-                </groups>
-            </li>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
-        <order>Append</order>
-        <value>
-            <li>
-                <def>Mechadendrite_Slot</def>
-                <customLabel>mechadendrite six</customLabel>
-                <coverage>0.005</coverage>
-                <depth>Outside</depth>
-                <groups>
-                    <li>Marak_Mechadendrites</li>
-                </groups>
-            </li>
-        </value>
-	    </Operation>
-    -->
 </Patch> 
