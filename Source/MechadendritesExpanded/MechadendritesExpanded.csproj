@@ -39,9 +39,8 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BootupLog.cs" />
         <Compile Include="MechadendritesExpanded.cs" />
-        <Compile Include="ModSettings.cs" />
+        <Compile Include="MechadendritesExpanded_Settings.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
