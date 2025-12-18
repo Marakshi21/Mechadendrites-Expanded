@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Mechadendrite Research Tab; only use if there are more than four projects total, Otherwise this would be unecessary Research Tab bloat for little gain. -->
+    <ResearchTabDef>
+        <defName>Dusk_Mechadendrites</defName>
+        <label>Mechadendrites</label>
+        <generalTitle>Mechadendrite Research Projects</generalTitle>
+        <generalDescription>Unlock Mechadendrite Researches</generalDescription>
+    </ResearchTabDef>
+</Defs>

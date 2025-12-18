@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Base Mechadendrite Research Project; Points to the new Tab. May not use.-->
+    <ResearchProjectDef Name="MechadendritesResearchBase" Abstract="True">
+        <tab>Dusk_Mechadendrites</tab>
+    </ResearchProjectDef>
+</Defs>
