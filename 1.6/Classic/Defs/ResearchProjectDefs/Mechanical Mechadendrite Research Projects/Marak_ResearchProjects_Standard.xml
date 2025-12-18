@@ -3,6 +3,7 @@
     <!-- Standard Mechadendrite Research Tree -->
     
     <!-- Standard Mechadendrites -->
+    <!--
     <ResearchProjectDef>
         <defName>Marak_StandardMechadendrites</defName>
         <label>Standard Mechadendrites</label>
@@ -23,7 +24,6 @@
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Standardized Tooling Research - Artisan, Vacuum, Builder, Drill -->
     <ResearchProjectDef>
         <defName>Marak_StandardToolingMechadendrites</defName>
         <label>Standardized Tooling Mechadendrites</label>
@@ -42,28 +42,7 @@
         <researchViewX>5.25</researchViewX>
         <researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
-    
-    <!-- Vacuum: Spooky Season -->
 
-    <ResearchProjectDef>
-        <defName>Marak_AnAffrontToGod</defName>
-        <label>Vacuum Mechadendrite</label>
-        <description>What have we done?</description>
-        <tab>Marak_MechadendritesExpanded</tab>
-        <techLevel>Spacer</techLevel>
-        <baseCost>400</baseCost>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <prerequisites>
-            <li>Marak_StandardMechadendrites</li>
-        </prerequisites>
-        <researchViewX>5.75</researchViewX>
-        <researchViewY>4.75</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Standard Bladed Mechadendrites: Butchers', Doctor, Agrarian -->
     <ResearchProjectDef>
         <defName>Marak_StandardBladedMechadendrites</defName>
         <label>Standardized Bladed Mechadendrites</label>
@@ -82,5 +61,5 @@
         <researchViewX>5.25</researchViewX>
         <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
-    
+    -->
 </Defs>

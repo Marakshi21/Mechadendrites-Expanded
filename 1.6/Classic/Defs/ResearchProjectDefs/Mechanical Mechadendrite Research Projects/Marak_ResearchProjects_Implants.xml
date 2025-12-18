@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- Research Tab -->
+    <!-- 
     <ResearchTabDef>
         <defName>Marak_MechadendritesExpanded</defName>
         <label>Mechadendrites Research</label>
         <generalTitle>Mechadendrites Research</generalTitle>
     </ResearchTabDef>
 
-    <!-- Basic Mechadendrites -->
+    
     <ResearchProjectDef>
         <defName>Marak_BasicMechadendrites</defName>
         <label>Basic Mechadendrite Prototypes</label>
@@ -23,7 +23,7 @@
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Refined Mechadendrites -->
+    
     <ResearchProjectDef>
         <defName>Marak_RefinedMechadendrites</defName>
         <label>Refined Mechadendrite Machining</label>
@@ -39,7 +39,7 @@
         <researchViewY>2.25</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Striker, Excavator, Field -->
+    
     <ResearchProjectDef>
         <defName>Marak_RefinedBladedMechadendrites</defName>
         <label>Refined Bladed Mechadendrites</label>
@@ -55,7 +55,7 @@
         <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
 
-    <!-- Multitool, Sweeper, Flashlight -->
+    
     <ResearchProjectDef>
         <defName>Marak_RefinedToolsMechadendrites</defName>
         <label>Refined Tooling Mechadendrites</label>
@@ -70,4 +70,5 @@
         <researchViewX>3</researchViewX>
         <researchViewY>2.75</researchViewY>
     </ResearchProjectDef>
+    -->
 </Defs>
