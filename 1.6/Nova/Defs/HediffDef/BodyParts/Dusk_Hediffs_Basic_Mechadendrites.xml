@@ -64,7 +64,7 @@
         <description>|BASIC_GENERAL_MECHADENDRITE|</description>
         <descriptionHyperlinks><RecipeDef>Dusk_InstallBasicGeneralMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>40</Steel>
+            <Steel>30</Steel>
         </costList>
         <statBases>
             <Mass>2</Mass>
