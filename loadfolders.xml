@@ -4,6 +4,5 @@
 	<li>1.6</li>
 	<li>1.6/Classic</li>
 	<li>1.6/Nova</li>
-        <li IfModActive="Ludeon.RimWorld.Biotech">1.6/Classic/Mods/Biotech</li>
     </v1.6>
 </loadFolders>
