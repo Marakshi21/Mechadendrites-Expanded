@@ -12,7 +12,7 @@
         <defName>Marak_BasicMechadendrites</defName>
         <label>Basic Mechadendrite Prototypes</label>
         <description>Establish the foundation for a new class of versatile tendril-like implants called mechadendrites, and create basic proof of concepts to show off their potential. Rigid and firm, these basic constructs are limited but grant invaluable insight into future refinements.</description>
-        <tab>Marak_MechadendritesExpanded_Hide</tab>
+        <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>300</baseCost>
         <prerequisites>
@@ -28,7 +28,7 @@
         <defName>Marak_RefinedMechadendrites</defName>
         <label>Refined Mechadendrite Machining</label>
         <description>Refinements into the basic mechadendrite prototypes have yielded various improvements into the original designs. Smoother, better control, and stronger, these new chassis open the potential for significant specialization with additional research.</description>
-        <tab>Marak_MechadendritesExpanded_Hide</tab>
+        <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>600</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -44,7 +44,7 @@
         <defName>Marak_RefinedBladedMechadendrites</defName>
         <label>Refined Bladed Mechadendrites</label>
         <description>Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
-        <tab>Marak_MechadendritesExpanded_Hide</tab>
+        <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>450</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -60,7 +60,7 @@
         <defName>Marak_RefinedToolsMechadendrites</defName>
         <label>Refined Tooling Mechadendrites</label>
         <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
-        <tab>Marak_MechadendritesExpanded_Hide</tab>
+        <tab>Marak_MechadendritesExpanded</tab>
         <techLevel>Industrial</techLevel>
         <baseCost>450</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
