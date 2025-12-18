@@ -9,6 +9,9 @@
         </thingCategories>
         <graphicData>
             <color>(154,124,104)</color>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.8</drawSize>
         </graphicData>
         <techHediffsTags>
             <li>Simple</li>
