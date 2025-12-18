@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Crude Tier (0): Theoretical only. Perhaps some kind of neolithic/medieval addition that mainly serve a cosmetic purpose vs functional -->
+    <!--
+    <ThingDef Name="Dusk.BodyPartCrudeMechadendriteBase" Abstract = "True">
+        <techLevel>Neolithic/Medieval</techLevel>
+        <thingCategories>
+            <li>BodyPartsProsthetic</li>
+        </thingCategories>
+        <graphicData>
+            <color>(154,124,104)</color>
+        </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>null</researchPrerequisite>
+            <recipeUsers>
+                <li>null</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+    -->
+</Defs>

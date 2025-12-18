@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Basic Tier (1): Entry into /Mechanical/ Mechadendrites, crude and primitive, small gains yet very cheap -->
+    <ThingDef Name="Dusk.BodypartBasicMechadendriteBase" Abstract="True">
+        <techLevel>Industrial</techLevel>
+        <thingCategories>
+            <li>BodyPartsProsthetic</li>
+        </thingCategories>
+        <graphicData>
+            <color>(154,124,104)</color>
+        </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>7500</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <!-- <researchPrerequisite>null</researchPrerequisite> -->
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+</Defs>
