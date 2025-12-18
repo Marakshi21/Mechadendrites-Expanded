@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- Basic Tier (1): Entry into /Mechanical/ Mechadendrites, crude and primitive, small gains yet very cheap -->
-    <ThingDef Name="Dusk.BodypartBasicMechadendriteBase" Abstract="True">
+    <ThingDef Name="Dusk_BodypartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
         </thingCategories>
         <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.8</drawSize>
             <color>(154,124,104)</color>
         </graphicData>
         <techHediffsTags>
@@ -16,14 +19,99 @@
             <WorkToMake>7500</WorkToMake>
         </statBases>
         <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <!-- <researchPrerequisite>null</researchPrerequisite> -->
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <displayPriority>600</displayPriority>
+            <researchPrerequisite>Dusk_BasicMechadendrites</researchPrerequisite>
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
         </recipeMaker>
     </ThingDef>
+    
+    <!-- Basic General Mechadendrite -->
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Dusk_BasicGeneralMechadendrite</defName>
+        <label>basic general mechadendrite</label>
+        <labelNoun>a basic general mechadendrite</labelNoun>
+        <description>|BASIC_GENERAL_MECHADENDRITE|</description> <!-- Replace -->
+        <descriptionHyperlinks><ThingDef>Dusk_BasicGeneralMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Dusk_BasicGeneralMechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.015</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+    
+    <ThingDef ParentName="Dusk_BodypartBasicMechadendriteBase">
+        <defName>Dusk_BasicGeneralMechadendrite</defName>
+        <label>basic general mechadendrite</label>
+        <description>|BASIC_GENERAL_MECHADENDRITE|</description>
+        <descriptionHyperlinks><RecipeDef>Dusk_InstallBasicGeneralMechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>40</Steel>
+        </costList>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+    
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Dusk_InstallBasicGeneralMechadendrite</defName>
+        <label>Install basic general mechadendrite</label>
+        <description>Install a basic general mechadendrite</description>
+        <descriptionHyperlinks>
+            <ThingDef>Dusk_BasicGeneralMechadendrite</ThingDef>
+            <HediffDef>Dusk_BasicGeneralMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing basic general mechadendrite</jobString>
+        <skillRequirements>
+            <Medicine>6</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Dusk_BasicGeneralMechadendrite</li>
+                    </thingDefs>
+                </filter>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Dusk_BasicGeneralMechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Mechadendrite_Slot</li> <!-- Temporary until new slot is designed -->
+        </appliedOnFixedBodyParts>
+        <addsHediff>Dusk_BasicGeneralMechadendrite</addsHediff>
+    </RecipeDef>
+    
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Dusk_RemoveBasicGeneralMechadendrite</defName>
+        <label>remove basic general mechadendrite</label>
+        <description>remove basic general mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Dusk_BasicGeneralMechadendrite</ThingDef>
+            <HediffDef>Dusk_BasicGeneralMechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing basic general mechadendrite</jobString>
+        <removesHediff>Dusk_BasicGeneralMechadendrite</removesHediff>
+    </RecipeDef>
 </Defs>

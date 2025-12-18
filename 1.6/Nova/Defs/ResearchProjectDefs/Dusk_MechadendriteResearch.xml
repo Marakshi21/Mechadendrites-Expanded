@@ -4,4 +4,37 @@
     <ResearchProjectDef Name="MechadendritesResearchBase" Abstract="True">
         <tab>Dusk_Mechadendrites</tab>
     </ResearchProjectDef>
+    
+    <!-- Tier 1 Mechadendrites -->
+    <ResearchProjectDef ParentName="MechadendritesResearchBase">
+        <defName>Dusk_BasicMechadendrites</defName>
+        <label>|BASIC MECHADENDRITES|</label> <!-- Replace -->
+        <description>|BASIC_MECHADENDRITES_DESCRIPTION|</description> <!-- Replace -->
+        <techLevel>Industrial</techLevel>
+        <baseCost>250</baseCost>
+        <prerequisites>
+            <li>Machining</li>
+            <li>Prosthetics</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Tier 2 Mechadendrites -->
+    <ResearchProjectDef ParentName="MechadendritesResearchBase">
+        <defName>Dusk_StandardMechadendrites</defName>
+        <label>|STANDARD MECHADENDRITES|</label> <!-- Replace -->
+        <description>|STANDARD_MECHADENDRITE_DESCRIPTION|</description> <!-- Replace -->
+        <techLevel>Industrial</techLevel>
+        <baseCost>500</baseCost>
+        <prerequisites>
+            <li>Dusk_BasicMechadendrites</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Tier 3 Mechadendrites -->
+
+    <!-- Tier 4 Mechadendrites -->
 </Defs>

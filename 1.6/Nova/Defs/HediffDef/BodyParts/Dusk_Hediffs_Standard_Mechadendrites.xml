@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <!-- Standard Tier (2): -->
-    <ThingDef Name="Dusk.BodypartStandardMechadendriteBase" Abstract="True">
+    <!-- Standard Tier (2): An improvement over basic mechadendrites but still limited in some ways. Slightly above old refined but below old standard. Late-Industrial/Early-Spacer tier-->
+    <ThingDef Name="Dusk_BodypartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
         </thingCategories>
         <graphicData>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.8</drawSize>
             <color>(154,124,104)</color>
         </graphicData>
         <techHediffsTags>
@@ -16,11 +19,16 @@
             <WorkToMake>12000</WorkToMake>
         </statBases>
         <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <!-- <researchPrerequisite>null</researchPrerequisite> -->
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <displayPriority>600</displayPriority>
+            <researchPrerequisite>Dusk_StandardMechadendrites</researchPrerequisite>
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>

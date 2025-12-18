@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- Base outline for all Mechadendrites -->
+    <!-- DEPRECATED -->
     <ThingDef Name="BodyPartMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
     <graphicData>
         <texPath>Things/Item/Health/HealthItem</texPath>
@@ -21,6 +22,7 @@
     </ThingDef>
 
     <!-- Base Surgery for all Mechadendrites -->
+    <!-- DEPRECATED -->
     <RecipeDef Name="SurgeryInstallBodyPartMechadendriteBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
         <skillRequirements>
             <Medicine>8</Medicine>
