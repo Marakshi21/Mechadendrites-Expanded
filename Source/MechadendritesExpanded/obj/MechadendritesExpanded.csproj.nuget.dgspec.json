@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.csproj": {}
+  },
+  "projects": {
+    "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.csproj",
+        "projectName": "MechadendritesExpanded",
+        "projectPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.csproj",
+        "packagesPath": "/home/Nico/.nuget/packages/",
+        "outputPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/Nico/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.6.4633, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

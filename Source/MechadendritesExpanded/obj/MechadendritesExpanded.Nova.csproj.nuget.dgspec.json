@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.Nova.csproj": {}
+  },
+  "projects": {
+    "/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.Nova.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.Nova.csproj",
+        "projectName": "MechadendritesExpanded.Nova",
+        "projectPath": "/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/MechadendritesExpanded.Nova.csproj",
+        "packagesPath": "/home/Nico/.nuget/packages/",
+        "outputPath": "/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/MechadendritesExpanded/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/Nico/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.6.4633, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
