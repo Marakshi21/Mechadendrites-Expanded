@@ -30,7 +30,7 @@
         <prerequisites>
             <li>Dusk_BasicMechadendrites</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
