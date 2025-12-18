@@ -2,7 +2,7 @@
 <Defs>
     <!-- Basic Tier: Entry into all other mechadendrites, quite useless, requires only steel to make -->
     <!-- Base for Basic Mechadendrites -->
-    <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
@@ -64,7 +64,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallBasicMechadendrite</defName>
         <label>install basic mechadendrite</label>
         <description>Install a basic mechadendrite.</description>

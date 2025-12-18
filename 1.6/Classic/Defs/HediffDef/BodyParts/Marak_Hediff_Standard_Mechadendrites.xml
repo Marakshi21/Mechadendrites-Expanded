@@ -3,7 +3,7 @@
     <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
     <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, GENERAL, OPPRESSIVE, FLORA, COOKING, INTELLECTUAL, MEDICAL -->
     <!-- Base for Standard Mechadendrites -->
-    <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories>
             <li>BodyPartsBionic</li>
@@ -71,7 +71,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardMechadendrite</defName>
         <label>install standard general mechadendrite</label>
         <description>Install a standard general mechadendrite.</description>
@@ -155,7 +155,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardDrillMechadendrite</defName>
         <label>install standard drill mechadendrite</label>
         <description>Install a standard drill mechadendrite.</description>
@@ -239,7 +239,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardConstructionMechadendrite</defName>
         <label>install standard builder mechadendrite</label>
         <description>Install a standard builder mechadendrite.</description>
@@ -324,7 +324,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardPlantsMechadendrite</defName>
         <label>install standard agrarian mechadendrite</label>
         <description>Install a standard agrarian mechadendrite.</description>
@@ -411,7 +411,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardDoctorMechadendrite</defName>
         <label>install standard doctor mechadendrite</label>
         <description>Install a standard doctor mechadendrite.</description>
@@ -495,7 +495,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardButcherMechadendrite</defName>
         <label>install standard butchers' mechadendrite</label>
         <description>Install a standard butchers' mechadendrite.</description>
@@ -580,7 +580,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardArtisanMechadendrite</defName>
         <label>install standard artisan mechadendrite</label>
         <description>Install a standard artisan mechadendrite.</description>
@@ -661,7 +661,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardCleaningMechadendrite</defName>
         <label>install standard vacuum mechadendrite</label>
         <description>Install a standard vacuum mechadendrite.</description>
