@@ -633,8 +633,7 @@
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
         <labelNoun>a standard vacuum mechadendrite</labelNoun>
-        <!-- <description>A standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> Normie Description -->
-        <description>An affront to all that is holy. With a tube connected directly into the stomach, any dirt, dust, mites, grum, and other particulate sucked up get pumped into the user's stomach to be digested and stored within their body. God Help Us.</description>
+        <description>A standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -652,8 +651,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
-        <!-- <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description> Normie Description -->
-        <description>We have created an affront to God. Our scientists and engineers have designed a mechadendrite capable of sucking up dirt, dust, mites and other particulates that then pump it directly into the user's stomach where it'll be digested and stored among the body. May God have mercy on us.</description>  <!-- Spooky Season Description -->
+        <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>8</Plasteel>
@@ -662,8 +660,7 @@
             <Steel>6</Steel>
         </costList>
         <recipeMaker>
-             <!-- <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite> Normie -->
-            <researchPrerequisite>Marak_AnAffrontToGod</researchPrerequisite>
+            <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>2.5</Mass>

@@ -3,7 +3,6 @@
     <!-- Standard Mechadendrite Research Tree -->
     
     <!-- Standard Mechadendrites -->
-    <!--
     <ResearchProjectDef>
         <defName>Marak_StandardMechadendrites</defName>
         <label>Standard Mechadendrites</label>
@@ -61,5 +60,4 @@
         <researchViewX>5.25</researchViewX>
         <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
-    -->
 </Defs>
