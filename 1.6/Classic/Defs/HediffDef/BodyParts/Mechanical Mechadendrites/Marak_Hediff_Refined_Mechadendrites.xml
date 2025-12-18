@@ -394,7 +394,6 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedToolsMechadendrites</researchPrerequisite>
         </recipeMaker>
@@ -568,9 +567,6 @@
             <Steel>25</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-        </thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
