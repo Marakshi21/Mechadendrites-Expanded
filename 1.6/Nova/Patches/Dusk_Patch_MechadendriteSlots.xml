@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
- <Patch>
-    <!-- These add the mechadendrite slots onto humanoid pawns -->
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <!-- Add Mechadendrite Slots onto Humanoid Pawns -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
         <order>Append</order>
@@ -9,9 +10,9 @@
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite one</customLabel>
                 <coverage>0.0025</coverage>
-                <depth>Outside</depth>
+                <depth>Inside</depth>
                 <groups>
-                    <li>Marak_Mechadendrites</li>
+                    <li>Dusk_MechadendriteSlot</li>
                 </groups>
             </li>
         </value>
@@ -25,9 +26,9 @@
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite two</customLabel>
                 <coverage>0.0025</coverage>
-                <depth>Outside</depth>
+                <depth>Inside</depth>
                 <groups>
-                    <li>Marak_Mechadendrites</li>
+                    <li>Dusk_MechadendriteSlot</li>
                 </groups>
             </li>
         </value>
@@ -41,9 +42,9 @@
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite three</customLabel>
                 <coverage>0.0025</coverage>
-                <depth>Outside</depth>
+                <depth>Inside</depth>
                 <groups>
-                    <li>Marak_Mechadendrites</li>
+                    <li>Dusk_MechadendriteSlot</li>
                 </groups>
             </li>
         </value>
@@ -57,11 +58,11 @@
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite four</customLabel>
                 <coverage>0.0025</coverage>
-                <depth>Outside</depth>
+                <depth>Inside</depth>
                 <groups>
-                    <li>Marak_Mechadendrites</li>
+                    <li>Dusk_MechadendriteSlot</li>
                 </groups>
             </li>
         </value>
     </Operation>
-</Patch> 
+</Patch>

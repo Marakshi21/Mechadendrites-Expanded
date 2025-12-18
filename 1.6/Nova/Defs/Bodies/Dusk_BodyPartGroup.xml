@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <BodyPartGroupDef>
+        <defName>Dusk_MechadendriteSlot</defName>
+        <label>Mechadendrite</label>
+        <listOrder>110</listOrder>
+    </BodyPartGroupDef>
+</Defs>
