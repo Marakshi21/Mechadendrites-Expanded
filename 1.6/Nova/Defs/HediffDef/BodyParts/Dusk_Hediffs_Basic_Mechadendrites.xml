@@ -98,7 +98,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li> <!-- Temporary until new slot is designed -->
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Dusk_BasicGeneralMechadendrite</addsHediff>
     </RecipeDef>

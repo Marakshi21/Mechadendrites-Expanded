@@ -99,7 +99,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardMechadendrite</addsHediff>
     </RecipeDef>
@@ -183,7 +183,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardDrillMechadendrite</addsHediff>
     </RecipeDef>
@@ -267,7 +267,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardConstructionMechadendrite</addsHediff>
     </RecipeDef>
@@ -352,7 +352,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardPlantsMechadendrite</addsHediff>
     </RecipeDef>
@@ -439,7 +439,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardDoctorMechadendrite</addsHediff>
     </RecipeDef>
@@ -523,7 +523,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardButcherMechadendrite</addsHediff>
     </RecipeDef>
@@ -608,7 +608,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardArtisanMechadendrite</addsHediff>
     </RecipeDef>
@@ -689,7 +689,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardCleaningMechadendrite</addsHediff>
     </RecipeDef>

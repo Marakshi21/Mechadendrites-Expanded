@@ -92,7 +92,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_BasicMechadendrite</addsHediff>
     </RecipeDef>

@@ -98,7 +98,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedMechadendrite</addsHediff>
     </RecipeDef>
@@ -184,7 +184,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedOpticalMechadendrite</addsHediff>
     </RecipeDef>
@@ -267,7 +267,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedExcavatorMechadendrite</addsHediff>
     </RecipeDef>
@@ -347,7 +347,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedPlantsMechadendrite</addsHediff>
     </RecipeDef>
@@ -433,7 +433,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedMultitoolMechadendrite</addsHediff>
     </RecipeDef>
@@ -512,7 +512,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedCleaningMechadendrite</addsHediff>
     </RecipeDef>
@@ -607,7 +607,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
-            <li>Mechadendrite_Slot</li>
+            <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_RefinedCombatMechadendrite</addsHediff>
     </RecipeDef>
