@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<CustomDamage>Custom Damage Worker</CustomDamage>
+<Dusk.CustomDamage>Custom Damage Worker</Dusk.CustomDamage>
+<Dusk.CustomDamageTooltip>Enable a custom damage worker that prevents damage being applied to mechadendrite slots if there's no implant in them.</Dusk.CustomDamageTooltip>
 
-<EnableNegatives>Enable Mechadendrite Drawbacks</EnableNegatives>
-
+<Dusk.EnableNegatives>Enable Mechadendrite Drawbacks</Dusk.EnableNegatives>
+<Dusk.EnableNegativesTooltip>Enable negative side effects on mechadendrites.</Dusk.EnableNegativesTooltip>
 </LanguageData>

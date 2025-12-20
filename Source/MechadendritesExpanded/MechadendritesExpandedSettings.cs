@@ -21,9 +21,9 @@ namespace MechadendritesExpanded
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
             listingStandard.Gap();
-            listingStandard.CheckboxLabeled((string) "CustomDamage".Translate(), ref MechadendritesExpandedSettings.CustomDamage, "Enable a custom damage worker that prevents damage being applied to mechadendrite slots if there's no implant in them.");
+            listingStandard.CheckboxLabeled((string) "Dusk.CustomDamage".Translate(), ref MechadendritesExpandedSettings.CustomDamage, (string)"Dusk.CustomDamageTooltip".Translate());
             listingStandard.Gap();
-            listingStandard.CheckboxLabeled((string) "EnableNegatives".Translate(), ref MechadendritesExpandedSettings.EnableNegatives, "Enable negative side effects on mechadendrites.");
+            listingStandard.CheckboxLabeled((string) "Dusk.EnableNegatives".Translate(), ref MechadendritesExpandedSettings.EnableNegatives, (string)"Dusk.EnableNegativesTooltip".Translate());
             listingStandard.End();
         }
     }
