@@ -8,6 +8,7 @@
     <!-- MECHANICAL MECHADENDRITES! -->
     
     <!-- Tier 1 Mechadendrites -->
+    <!-- Basic Mechadendrites -->
     <ResearchProjectDef ParentName="MechadendritesResearchBase">
         <defName>Dusk_BasicMechadendrites</defName>
         <label>Early day prototyping</label> <!-- Replace -->
@@ -23,6 +24,7 @@
     </ResearchProjectDef>
 
     <!-- Tier 2 Mechadendrites -->
+    <!-- Standard Mechadendrites -->
     <ResearchProjectDef ParentName="MechadendritesResearchBase">
         <defName>Dusk_StandardMechadendrites</defName>
         <label>|STANDARD MECHADENDRITES|</label> <!-- Replace -->
@@ -37,6 +39,8 @@
     </ResearchProjectDef>
 
     <!-- Tier 3 Mechadendrites -->
+    <!-- High Mechadendrites -->
 
     <!-- Tier 4 Mechadendrites -->
+    <!-- Ultra Mechadendrites -->
 </Defs>
