@@ -1,0 +1,28 @@
+# ChangeLog
+
+## Revision: Nova Mechanicus
+
+## Overview:
+Reworked the Mod
+Deprecated all "classic"/old system content
+Redesigned the progression tree
+Added the MPL license for all C# code
+
+### General Changes
+- Redesigned the foundations of the mod
+- Remade the Mechadendrite Slot 
+- Lowered the amount of Mechadendrite Slots to 4 instead of 6
+- Added in a new Basic General Mechadendrite to replace the old Basic
+Mechadendrite
+- Marked all old research and research tab as deprecated
+- Moved all old files into Classic Folder
+- Moved all new files into Nova Folder
+- Added Mod Settings Page (Experimental)
+- Added in a new template file
+- Removed 1.5 support (Sorry but maintaining 1.5 would be too much effort)
+- Removed old mechadendrite slots. You may have to reinstall mechadendrites
+that were on old slots but otherwise nothing should break.
+
+
+### Fixes
+- Deleted base mechadendrite xml file
