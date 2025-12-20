@@ -22,6 +22,7 @@ namespace MechadendritesExpanded
             listingStandard.Begin(inRect);
             listingStandard.Gap();
             listingStandard.Label((string)"Dusk.Experimental".Translate()); // Flag the settings below as experimental
+            listingStandard.Gap();
             listingStandard.CheckboxLabeled((string) "Dusk.CustomDamage".Translate(), ref MechadendritesExpandedSettings.CustomDamage, (string)"Dusk.CustomDamageTooltip".Translate());
             listingStandard.Gap();
             listingStandard.CheckboxLabeled((string) "Dusk.EnableNegatives".Translate(), ref MechadendritesExpandedSettings.EnableNegatives, (string)"Dusk.EnableNegativesTooltip".Translate());
