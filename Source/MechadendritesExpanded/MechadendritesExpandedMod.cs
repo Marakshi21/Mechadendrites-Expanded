@@ -3,6 +3,7 @@ using Verse;
 
 namespace MechadendritesExpanded
 {
+    // Instintiate mod settings
     public class MechadendritesExpandedMod : Mod
     {
         public MechadendritesExpandedMod(ModContentPack content)

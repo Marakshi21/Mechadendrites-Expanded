@@ -1,5 +1,4 @@
 using Verse;
-using RimWorld;
 
 namespace MechadendritesExpanded
 {
@@ -9,6 +8,7 @@ namespace MechadendritesExpanded
         static MechadendritesExpandedLogging()
         {
             Log.Message("[Mechadendrites Expanded] Revision: Nova loaded");
+            Log.Warning("You are running the Nova Branch of Mechadendrites Expanded. This branch is experimental and unstable. Proceed with caution."); // Remove for main release
         }
     }
 }

@@ -1,9 +1,9 @@
 using Verse;
-using System.Reflection;
 using HarmonyLib;
 
 namespace MechadendritesExpanded
 {
+    // Instantiate Harmony
     public class MechadendritesExpanded : Mod
     {
         public MechadendritesExpanded(ModContentPack content)

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+<Dusk.Experimental>[Experimental Settings]</Dusk.Experimental>
+
 <Dusk.CustomDamage>Custom Damage Worker</Dusk.CustomDamage>
 <Dusk.CustomDamageTooltip>Enable a custom damage worker that prevents damage being applied to mechadendrite slots if there's no implant in them.</Dusk.CustomDamageTooltip>
 
