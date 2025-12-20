@@ -42,6 +42,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MechadendritesExpanded.cs" />
+        <Compile Include="MechadendritesExpandedDamageWorkerPatch.cs" />
         <Compile Include="MechadendritesExpandedLog.cs" />
         <Compile Include="MechadendritesExpandedMod.cs" />
         <Compile Include="MechadendritesExpandedSettings.cs" />
