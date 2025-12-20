@@ -42,7 +42,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MechadendritesExpanded.cs" />
-        <Compile Include="MechadendritesExpandedLogging.cs" />
+        <Compile Include="MechadendritesExpandedLog.cs" />
         <Compile Include="MechadendritesExpandedMod.cs" />
         <Compile Include="MechadendritesExpandedSettings.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
