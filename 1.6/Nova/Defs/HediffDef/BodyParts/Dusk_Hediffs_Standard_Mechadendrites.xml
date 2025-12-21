@@ -28,7 +28,7 @@
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
             <displayPriority>600</displayPriority>
-            <researchPrerequisite>Dusk_StandardMechadendrites</researchPrerequisite>
+            <researchPrerequisite>Dusk_StandardMechadendritesResearch</researchPrerequisite>
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
