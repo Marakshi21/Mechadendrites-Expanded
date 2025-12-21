@@ -40,10 +40,11 @@
 
     <!-- Tier 3 Mechadendrites -->
     <!-- High Mechadendrites -->
+    <!--
     <ResearchProjectDef ParentName="MechadendritesResearchBase">
         <defName>Dusk_HighMechadendritesResearch</defName>
-        <label>|High MECHADENDRITES|</label> <!-- Replace -->
-        <description>|High_MECHADENDRITE_DESCRIPTION|</description> <!-- Replace -->
+        <label>|High MECHADENDRITES|</label> 
+        <description>|High_MECHADENDRITE_DESCRIPTION|</description> 
         <techLevel>Spacer</techLevel>
         <baseCost>500</baseCost>
         <prerequisites>
@@ -53,14 +54,15 @@
         <researchViewX>5</researchViewX>
         <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
-
+    -->
 
     <!-- Tier 4 Mechadendrites -->
     <!-- Ultra Mechadendrites -->
+    <!--
     <ResearchProjectDef ParentName="MechadendritesResearchBase">
         <defName>Dusk_UltraMechadendritesResearch</defName>
-        <label>|Ultra MECHADENDRITES|</label> <!-- Replace -->
-        <description>|Ultra_MECHADENDRITE_DESCRIPTION|</description> <!-- Replace -->
+        <label>|Ultra MECHADENDRITES|</label> 
+        <description>|Ultra_MECHADENDRITE_DESCRIPTION|</description> 
         <techLevel>Ultra</techLevel>
         <baseCost>500</baseCost>
         <prerequisites>
@@ -69,5 +71,6 @@
         <researchViewX>7</researchViewX>
         <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
-
+    -->
+    
 </Defs>
