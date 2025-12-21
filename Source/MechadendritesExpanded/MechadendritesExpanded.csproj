@@ -41,10 +41,11 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="MechadendritesExpanded.cs" />
-        <Compile Include="MechadendritesExpandedLog.cs" />
-        <Compile Include="MechadendritesExpandedMod.cs" />
-        <Compile Include="MechadendritesExpandedSettings.cs" />
+        <Compile Include="MechadendritesExpanded_DamageWorker_AddInjury_Patch.cs" />
+        <Compile Include="MechadendritesExpanded_Harmony.cs" />
+        <Compile Include="MechadendritesExpanded_Log.cs" />
+        <Compile Include="MechadendritesExpanded_Mod.cs" />
+        <Compile Include="MechadendritesExpanded_Settings.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>

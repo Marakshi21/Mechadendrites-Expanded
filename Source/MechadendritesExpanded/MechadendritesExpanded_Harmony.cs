@@ -4,9 +4,9 @@ using HarmonyLib;
 namespace MechadendritesExpanded
 {
     // Instantiate Harmony
-    public class MechadendritesExpanded : Mod
+    public class MechadendritesExpanded_Harmony : Mod
     {
-        public MechadendritesExpanded(ModContentPack content)
+        public MechadendritesExpanded_Harmony(ModContentPack content)
             : base(content)
         {
             new Harmony("dusk.mechadendritesexpanded").PatchAll();

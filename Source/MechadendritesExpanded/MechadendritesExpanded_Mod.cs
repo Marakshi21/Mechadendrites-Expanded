@@ -3,20 +3,20 @@ using Verse;
 
 namespace MechadendritesExpanded
 {
-    // Instintiate mod settings
-    public class MechadendritesExpandedMod : Mod
+    // Instantiate mod settings
+    public class MechadendritesExpanded_Mod : Mod
     {
-        public MechadendritesExpandedMod(ModContentPack content)
+        public MechadendritesExpanded_Mod(ModContentPack content)
             : base(content)
         {
-            this.GetSettings<MechadendritesExpandedSettings>();
+            this.GetSettings<MechadendritesExpanded_Settings>();
         }
 
         public override string SettingsCategory() => "Mechadendrites Expanded";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            MechadendritesExpandedSettings.DoSettingsWindowContents(inRect);
+            MechadendritesExpanded_Settings.DoSettingsWindowContents(inRect);
         }
     }
 }

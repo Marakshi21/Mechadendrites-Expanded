@@ -3,7 +3,7 @@ using Verse;
 
 namespace MechadendritesExpanded
 {
-    public class MechadendritesExpandedSettings : ModSettings
+    public class MechadendritesExpanded_Settings : ModSettings
     {
         public static bool CustomDamage = false; // Enables a custom damage worker that will prevent mechadendrite slots from taking damage without an implant installed
         
@@ -12,8 +12,8 @@ namespace MechadendritesExpanded
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look<bool>(ref MechadendritesExpandedSettings.CustomDamage, "CustomDamage", false);
-            Scribe_Values.Look<bool>(ref MechadendritesExpandedSettings.EnableNegatives, "EnableNegatives", false);
+            Scribe_Values.Look<bool>(ref MechadendritesExpanded_Settings.CustomDamage, "CustomDamage", false);
+            Scribe_Values.Look<bool>(ref MechadendritesExpanded_Settings.EnableNegatives, "EnableNegatives", false);
         }
 
         public static void DoSettingsWindowContents(Rect inRect)
@@ -23,9 +23,9 @@ namespace MechadendritesExpanded
             listingStandard.Gap();
             listingStandard.Label((string)"Dusk.Experimental".Translate()); // Flag the settings below as experimental
             listingStandard.Gap();
-            listingStandard.CheckboxLabeled((string) "Dusk.CustomDamage".Translate(), ref MechadendritesExpandedSettings.CustomDamage, (string)"Dusk.CustomDamageTooltip".Translate());
+            listingStandard.CheckboxLabeled((string) "Dusk.CustomDamage".Translate(), ref MechadendritesExpanded_Settings.CustomDamage, (string)"Dusk.CustomDamageTooltip".Translate());
             listingStandard.Gap();
-            listingStandard.CheckboxLabeled((string) "Dusk.EnableNegatives".Translate(), ref MechadendritesExpandedSettings.EnableNegatives, (string)"Dusk.EnableNegativesTooltip".Translate());
+            listingStandard.CheckboxLabeled((string) "Dusk.EnableNegatives".Translate(), ref MechadendritesExpanded_Settings.EnableNegatives, (string)"Dusk.EnableNegativesTooltip".Translate());
             listingStandard.End();
         }
     }
