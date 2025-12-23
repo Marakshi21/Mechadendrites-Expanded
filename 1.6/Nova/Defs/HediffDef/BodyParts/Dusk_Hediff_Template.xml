@@ -76,7 +76,7 @@
             <[RESOURCE]></[RESOURCE]>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Dusk_[TIER][SUBPROJECT]Mechadendrites</researchPrerequisite>
+            <researchPrerequisite>Dusk_[TIER][SUBPROJECT]MechadendritesResearch</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>[MASS]</Mass>
