@@ -47,7 +47,7 @@
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
         <label>[tierl] [specialtyl] mechadendrite</label>
         <labelNoun>a [tierl] [specialtyl] mechadendrite</labelNoun>
-        <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>
+        <dsecription>MECHADENDRITE_DESCRIPTION</dsecription>
         <descriptionHyperlinks><ThingDef>Dusk_[TIER][SPECIALTY]Mechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Dusk_[TIER][SPECIALTY]Mechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -72,7 +72,7 @@
     <ThingDef ParentName="Dusk_BodyPart[TIER]MechadendriteBase">
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
         <label>[tierl] [specialtyl] mechadendrite</label>
-        <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>
+        <dsecription>MECHADENDRITE_DESCRIPTION</dsecription>
         <descriptionHyperlinks><RecipeDef>Dusk_Install[TIER][SPECIALTY]Mechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <[RESOURCE]></[RESOURCE]>
