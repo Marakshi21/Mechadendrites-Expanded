@@ -129,19 +129,24 @@
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
-        <stages>
-            <li>
-                <capMods>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
                     <li>
-                        <capacity>[CAPACITY]</capacity>
-                        <offset>[OFFSET]</offset>
+                        <label>[WEAPONTYPE]</label>
+                        <capacities>
+                            <li>[stab/cut]</li>
+                        </capacities>
+                        <power>[VALUE]</power>
+                        <armorPenetration>[VALUE]</armorPenetration>
+                        <cooldownTime>[VALUE]</cooldownTime>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                        <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
                     </li>
-                </capMods>
-                <statOffsets>
-                    <[STATS]></[STATS]>
-                </statOffsets>
+                </tools>
             </li>
-        </stages>
+        </comps>
     </HediffDef>
     
 
