@@ -41,7 +41,7 @@
         <defName>Dusk_StandardGeneralMechadendrite</defName>
         <label>standard general mechadendrite</label>
         <labelNoun>a standard general mechadendrite</labelNoun>
-        <dsecription>MECHADENDRITE_DESCRIPTION</dsecription>
+        <description>MECHADENDRITE_DESCRIPTION</description>
         <descriptionHyperlinks><ThingDef>Dusk_StandardGeneralMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Dusk_StandardGeneralMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -63,7 +63,7 @@
     <ThingDef ParentName="Dusk_BodypartStandardMechadendriteBase">
         <defName>Dusk_StandardGeneralMechadendrite</defName>
         <label>standard general mechadendrite</label>
-        <dsecription>MECHADENDRITE_DESCRIPTION</dsecription>
+        <description>MECHADENDRITE_DESCRIPTION</description>
         <descriptionHyperlinks><RecipeDef>Dusk_InstallStandardGeneralMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>20</Steel>
