@@ -118,13 +118,14 @@
     </RecipeDef>
 
     <!-- Basic Melee Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
-        <defName>Dusk_Basic[SPECIALTY]Mechadendrite</defName>
-        <label>basic [specialtyl] mechadendrite</label>
-        <labelNoun>a basic [specialtyl] mechadendrite</labelNoun>
+        <defName>Dusk_BasicStrikerMechadendrite</defName>
+        <label>basic striker mechadendrite</label>
+        <labelNoun>a basic striker mechadendrite</labelNoun>
         <description>MECHADENDRITE_DESCRIPTION</description>
-        <descriptionHyperlinks><ThingDef>Dusk_Basic[SPECIALTY]Mechadendrite</ThingDef></descriptionHyperlinks>
-        <spawnThingOnRemoved>Dusk_Basic[SPECIALTY]Mechadendrite</spawnThingOnRemoved>
+        <descriptionHyperlinks><ThingDef>Dusk_BasicStrikerMechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Dusk_BasicStrikerMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -145,10 +146,10 @@
     
 
     <ThingDef ParentName="Dusk_BodyPartBasicMechadendriteBase">
-        <defName>Dusk_Basic[SPECIALTY]Mechadendrite</defName>
-        <label>basic [specialtyl] mechadendrite</label>
+        <defName>Dusk_BasicStrikerMechadendrite</defName>
+        <label>basic striker mechadendrite</label>
         <description>MECHADENDRITE_DESCRIPTION</description>
-        <descriptionHyperlinks><RecipeDef>Dusk_InstallBasic[SPECIALTY]Mechadendrite</RecipeDef></descriptionHyperlinks>
+        <descriptionHyperlinks><RecipeDef>Dusk_InstallBasicStrikerMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <[RESOURCE]></[RESOURCE]>
         </costList>
@@ -161,43 +162,44 @@
     </ThingDef>
     
     <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-        <defName>Dusk_InstallBasic[SPECIALTY]Mechadendrite</defName>
-        <label>install basic [specialtyl] mechadendrite</label>
-        <description>install a basic [specialtyl] mechadendrite</description>
+        <defName>Dusk_InstallBasicStrikerMechadendrite</defName>
+        <label>install basic striker mechadendrite</label>
+        <description>install a basic striker mechadendrite</description>
         <descriptionHyperlinks>
-            <ThingDef>Dusk_Basic[SPECIALTY]Mechadendrite</ThingDef>
-            <HediffDef>Dusk_Basic[SPECIALTY]Mechadendrite</HediffDef>
+            <ThingDef>Dusk_BasicStrikerMechadendrite</ThingDef>
+            <HediffDef>Dusk_BasicStrikerMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a basic [specialtyl] mechadendrite</jobString>
+        <jobString>Installing a basic striker mechadendrite</jobString>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Dusk_Basic[SPECIALTY]Mechadendrite</li>
+                        <li>Dusk_BasicStrikerMechadendrite</li>
                     </thingDefs>
                 </filter>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Dusk_Basic[SPECIALTY]Mechadendrite</li>
+                <li>Dusk_BasicStrikerMechadendrite</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Dusk_Mechadendrites</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>Dusk_Basic[SPECIALTY]Mechadendrite</addsHediff>
+        <addsHediff>Dusk_BasicStrikerMechadendrite</addsHediff>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
-        <defName>Dusk_RemoveBasic[SPECIALTY]Mechadendrite</defName>
-        <label>remove basic [specialtyl] mechadendrite</label>
-        <description>Remove a basic [specialtyl] mechadendrite.</description>
+        <defName>Dusk_RemoveBasicStrikerMechadendrite</defName>
+        <label>remove basic striker mechadendrite</label>
+        <description>Remove a basic striker mechadendrite.</description>
         <descriptionHyperlinks>
-            <ThingDef>Dusk_Basic[SPECIALTY]Mechadendrite</ThingDef>
-            <HediffDef>Dusk_Basic[SPECIALTY]Mechadendrite</HediffDef>
+            <ThingDef>Dusk_BasicStrikerMechadendrite</ThingDef>
+            <HediffDef>Dusk_BasicStrikerMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing basic [SPECIALTY] mechadendrite.</jobString>
-        <removesHediff>Dusk_Basic[SPECIALTY]Mechadendrite</removesHediff>
+        <jobString>Removing basic Striker mechadendrite.</jobString>
+        <removesHediff>Dusk_BasicStrikerMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 </Defs>

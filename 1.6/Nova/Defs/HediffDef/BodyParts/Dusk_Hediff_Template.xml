@@ -66,6 +66,24 @@
                 </statOffsets>
             </li>
         </stages>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>blade</label>
+                        <capacities>
+                            <li>Stab</li>
+                        </capacities>
+                        <power>12</power>
+                        <armorPenetration>0.15</armorPenetration>
+                        <cooldownTime>2.5</cooldownTime>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                        <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+                    </li>
+                </tools>
+            </li>
+        </comps>
     </HediffDef>
     
 
