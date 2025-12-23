@@ -45,8 +45,8 @@
     <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
-        <label>[TIER] [SPECIALTY] mechadendrite</label>
-        <labelNoun>a [TIER] [SPECIALTY] mechadendrite</labelNoun>
+        <label>[tier] [specialty] mechadendrite</label>
+        <labelNoun>a [tier] [specialty] mechadendrite</labelNoun>
         <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>
         <descriptionHyperlinks><ThingDef>Dusk_[TIER][SPECIALTY]Mechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Dusk_[TIER][SPECIALTY]Mechadendrite</spawnThingOnRemoved>
@@ -69,7 +69,7 @@
 
     <ThingDef ParentName="BodyPart[TIER]MechadendriteBase">
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
-        <label>[TIER] [SPECIALTY] mechadendrite</label>
+        <label>[tier] [specialty] mechadendrite</label>
         <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>
         <descriptionHyperlinks><RecipeDef>Dusk_Install[TIER][SPECIALTY]Mechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -85,13 +85,13 @@
     
     <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Dusk_Install[TIER][SPECIALTY]Mechadendrite</defName>
-        <label>install [TIER] [SPECIALTY] mechadendrite</label>
-        <description>install a [TIER] [SPECIALTY] mechadendrite</description>
+        <label>install [tier] [specialty] mechadendrite</label>
+        <description>install a [tier] [specialty] mechadendrite</description>
         <descriptionHyperlinks>
             <ThingDef>Dusk_[TIER][SPECIALTY]Mechadendrite</ThingDef>
             <HediffDef>Dusk_[TIER][SPECIALTY]Mechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a [TIER] [SPECIALTY] mechadendrite</jobString>
+        <jobString>Installing a [tier] [specialty] mechadendrite</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -114,8 +114,8 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Dusk_Remove[TIER][SPECIALTY]Mechadendrite</defName>
-        <label>remove [TIER] [SPECIALTY] mechadendrite</label>
-        <description>Remove a [TIER] [SPECIALTY] mechadendrite.</description>
+        <label>remove [tier] [specialty] mechadendrite</label>
+        <description>Remove a [tier] [specialty] mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Dusk_[TIER][SPECIALTY]Mechadendrite</ThingDef>
             <HediffDef>Dusk_[TIER][SPECIALTY]Mechadendrite</HediffDef>
