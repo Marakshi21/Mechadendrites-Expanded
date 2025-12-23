@@ -56,8 +56,10 @@
         <stages>
             <li>
                 <capMods>
-                    <capacity>[CAPACITY]</capacity>
-                    <offset>[OFFSET]</offset>
+                    <li>
+                        <capacity>[CAPACITY]</capacity>
+                        <offset>[OFFSET]</offset>
+                    </li>
                 </capMods>
                 <statOffsets>
                     <[STATS]></[STATS]>

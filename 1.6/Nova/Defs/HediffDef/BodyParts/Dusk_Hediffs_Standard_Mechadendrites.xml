@@ -50,8 +50,10 @@
         <stages>
             <li>
                 <capMods>
-                    <capacity>Manipulation</capacity>
-                    <offset>0.04</offset>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.04</offset>
+                    </li>
                 </capMods>
             </li>
         </stages>
