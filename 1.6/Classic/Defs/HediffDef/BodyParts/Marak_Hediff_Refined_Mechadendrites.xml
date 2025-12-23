@@ -3,6 +3,7 @@
     <!-- Refined Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
     <!-- CATALOGUE FOR QUICK SEARCH: SENSOR, SKILLED, GENERAL, WEAPONS -->
     <!-- Base for Refined Mechadendrites -->
+    <!--
     <ThingDef Name="BodyPartRefinedMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -31,9 +32,10 @@
             </recipeUsers>
         </recipeMaker>
     </ThingDef>
-    
+    -->
 
     <!-- Refined Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMechadendrite</defName>
         <label>refined mechadendrite</label>
@@ -114,9 +116,11 @@
         <jobString>Removing refined general mechadendrite.</jobString>
         <removesHediff>Marak_RefinedMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 
     <!-- SENSOR GROUP -->
     <!-- Flashlight Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedOpticalMechadendrite</defName>
         <label>refined flashlight mechadendrite</label>
@@ -200,9 +204,11 @@
         <jobString>Removing refined flashlight mechadendrite.</jobString>
         <removesHediff>Marak_RefinedOpticalMechadendrite</removesHediff>
     </RecipeDef>
-    
+    -->
+
     <!-- SKILLED LABOUR GROUP -->
     <!-- Excavator Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedExcavatorMechadendrite</defName>
         <label>refined excavator mechadendrite</label>
@@ -283,8 +289,10 @@
         <jobString>Removing refined excavator mechadendrite.</jobString>
         <removesHediff>Marak_RefinedExcavatorMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 
     <!-- Field Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedPlantsMechadendrite</defName>
         <label>refined field mechadendrite</label>
@@ -363,9 +371,10 @@
         <jobString>Removing refined field mechadendrite.</jobString>
         <removesHediff>Marak_RefinedPlantsMechadendrite</removesHediff>
     </RecipeDef>
-    
+    -->
     <!-- GENERAL LABOUR GROUP -->
     <!-- Multitool Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedMultitoolMechadendrite</defName>
         <label>refined multitool mechadendrite</label>
@@ -450,7 +459,10 @@
         <removesHediff>Marak_RefinedMultitoolMechadendrite</removesHediff>
     </RecipeDef>
 
+    -->
+
     <!-- Cleaning Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCleaningMechadendrite</defName>
         <label>refined sweeper mechadendrite</label>
@@ -528,9 +540,11 @@
         <jobString>Removing refined sweeper mechadendrite.</jobString>
         <removesHediff>Marak_RefinedCleaningMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 
     <!-- WEAPONS GROUP -->
     <!-- Melee/Striker Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
         <label>refined striker mechadendrite</label>
@@ -623,4 +637,5 @@
         <jobString>Removing refined striker mechadendrite.</jobString>
         <removesHediff>Marak_RefinedCombatMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 </Defs>

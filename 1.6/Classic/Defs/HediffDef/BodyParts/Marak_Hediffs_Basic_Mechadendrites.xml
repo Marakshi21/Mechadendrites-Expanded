@@ -2,6 +2,7 @@
 <Defs>
     <!-- Basic Tier: Entry into all other mechadendrites, quite useless, requires only steel to make -->
     <!-- Base for Basic Mechadendrites -->
+    <!--
     <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -30,8 +31,9 @@
             </recipeUsers>
         </recipeMaker>
     </ThingDef>
-    
+    -->
     <!-- Basic Mechadendrite -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
@@ -108,4 +110,5 @@
         <jobString>Removing basic mechadendrite.</jobString>
         <removesHediff>Marak_BasicMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 </Defs>

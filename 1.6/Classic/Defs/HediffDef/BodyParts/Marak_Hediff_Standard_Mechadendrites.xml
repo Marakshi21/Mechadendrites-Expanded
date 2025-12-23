@@ -3,6 +3,7 @@
     <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
     <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, WEAPONS, SKILLED, GENERAL, OPPRESSIVE, FLORA, COOKING, INTELLECTUAL, MEDICAL -->
     <!-- Base for Standard Mechadendrites -->
+    <!--
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories>
@@ -36,7 +37,7 @@
         </recipeMaker>
     </ThingDef>
 
-    <!-- Standard Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>standard general mechadendrite</label>
@@ -116,8 +117,7 @@
         <removesHediff>Marak_StandardMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- SKILLED LABOUR GROUP -->
-    <!-- Drill Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
         <label>standard drill mechadendrite</label>
@@ -200,7 +200,7 @@
         <removesHediff>Marak_StandardDrillMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- Construction Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
         <label>standard builder mechadendrite</label>
@@ -284,8 +284,7 @@
         <removesHediff>Marak_StandardConstructionMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- FLORA SUBGROUP -->
-    <!-- Agrarian Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>standard agrarian mechadendrite</label>
@@ -369,10 +368,7 @@
         <removesHediff>Marak_StandardPlantsMechadendrite</removesHediff>
     </RecipeDef>
     
-    <!-- MEDICAL SUBGROUP -->
-    <!-- MERGE INTO ONE -->
-    <!-- Doctor Mechadendrite -->
-    <!-- NEW DESCRIPTION NEEDED -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
         <label>standard doctor mechadendrite</label>
@@ -456,8 +452,7 @@
         <removesHediff>Marak_StandardDoctorMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- COOKING SUBGROUP -->
-    <!-- Butchers' Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardButcherMechadendrite</defName>
         <label>standard butchers' mechadendrite</label>
@@ -540,8 +535,7 @@
         <removesHediff>Marak_StandardButcherMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- GENERAL LABOUR GROUP -->
-    <!-- Artisan Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
         <label>standard artisan mechadendrite</label>
@@ -625,7 +619,7 @@
         <removesHediff>Marak_StandardArtisanMechadendrite</removesHediff>
     </RecipeDef>
 
-    <!-- Cleaning Mechadendrite -->
+    
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
@@ -705,4 +699,5 @@
         <jobString>Removing standard vacuum mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
+    -->
 </Defs>
