@@ -7,7 +7,7 @@
         <order>Append</order>
         <value>
             <li>
-                <def>Mechadendrite_Slot</def>
+                <def>Dusk_Mechadendrites</def>
                 <customLabel>mechadendrite one</customLabel>
                 <coverage>0.0025</coverage>
                 <depth>Inside</depth>
@@ -23,7 +23,7 @@
         <order>Append</order>
         <value>
             <li>
-                <def>Mechadendrite_Slot</def>
+                <def>Dusk_Mechadendrites</def>
                 <customLabel>mechadendrite two</customLabel>
                 <coverage>0.0025</coverage>
                 <depth>Inside</depth>
@@ -39,7 +39,7 @@
         <order>Append</order>
         <value>
             <li>
-                <def>Mechadendrite_Slot</def>
+                <def>Dusk_Mechadendrites</def>
                 <customLabel>mechadendrite three</customLabel>
                 <coverage>0.0025</coverage>
                 <depth>Inside</depth>
@@ -55,7 +55,7 @@
         <order>Append</order>
         <value>
             <li>
-                <def>Mechadendrite_Slot</def>
+                <def>Dusk_Mechadendrites</def>
                 <customLabel>mechadendrite four</customLabel>
                 <coverage>0.0025</coverage>
                 <depth>Inside</depth>

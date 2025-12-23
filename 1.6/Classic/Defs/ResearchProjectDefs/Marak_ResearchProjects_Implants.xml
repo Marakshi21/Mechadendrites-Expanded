@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!--
     <ResearchTabDef>
         <defName>Marak_MechadendritesExpanded</defName>
         <label>(DEPRECATED!)</label>
@@ -130,4 +131,5 @@
         <researchViewX>5.25</researchViewX>
         <researchViewY>1.75</researchViewY>
     </ResearchProjectDef>
+    -->
 </Defs>
