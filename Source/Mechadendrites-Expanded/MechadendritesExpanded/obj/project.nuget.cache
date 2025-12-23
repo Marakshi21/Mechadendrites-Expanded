@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "J7RVoC9aSWw=",
+  "dgSpecHash": "5zVcK0a4ETw=",
   "success": true,
   "projectFilePath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
   "expectedPackageFiles": [
+    "/home/Nico/.nuget/packages/krafs.rimworld.ref/1.6.4633/krafs.rimworld.ref.1.6.4633.nupkg.sha512",
+    "/home/Nico/.nuget/packages/lib.harmony/2.4.2/lib.harmony.2.4.2.nupkg.sha512",
     "/home/Nico/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "/home/Nico/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+    "/home/Nico/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/home/Nico/.nuget/packages/zetrith.prepatcher/1.2.0/zetrith.prepatcher.1.2.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -44,11 +44,23 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.6.4633, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.3, )",
               "autoReferenced": true
+            },
+            "Zetrith.Prepatcher": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.112/RuntimeIdentifierGraph.json"
