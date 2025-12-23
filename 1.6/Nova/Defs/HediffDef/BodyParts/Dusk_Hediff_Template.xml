@@ -122,7 +122,7 @@
             <ThingDef>Dusk_[TIER][SPECIALTY]Mechadendrite</ThingDef>
             <HediffDef>Dusk_[TIER][SPECIALTY]Mechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing [TIER] [SPECIALTY] mechadendrite.</jobString>
+        <jobString>Removing [tierl] [specialtyl] mechadendrite.</jobString>
         <removesHediff>Dusk_[TIER][SPECIALTY]Mechadendrite</removesHediff>
     </RecipeDef>
     -->

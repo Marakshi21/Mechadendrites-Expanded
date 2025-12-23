@@ -117,4 +117,91 @@
         <jobString>Removing standard general mechadendrite.</jobString>
         <removesHediff>Dusk_StandardGeneralMechadendrite</removesHediff>
     </RecipeDef>
+
+    <!-- Standard Melee Mechadendrite(s?)-->
+    <!--
+        <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Dusk_Standard[SPECIALTY]Mechadendrite</defName>
+        <label>standard [specialtyl] mechadendrite</label>
+        <labelNoun>a standard [specialtyl] mechadendrite</labelNoun>
+        <description>MECHADENDRITE_DESCRIPTION</description>
+        <descriptionHyperlinks><ThingDef>Dusk_Standard[SPECIALTY]Mechadendrite</ThingDef></descriptionHyperlinks>
+        <spawnThingOnRemoved>Dusk_Standard[SPECIALTY]Mechadendrite</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>[CAPACITY]</capacity>
+                        <offset>[OFFSET]</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+                    <[STATS]></[STATS]>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    
+
+    <ThingDef ParentName="Dusk_BodyPartStandardMechadendriteBase">
+        <defName>Dusk_Standard[SPECIALTY]Mechadendrite</defName>
+        <label>standard [specialtyl] mechadendrite</label>
+        <description>MECHADENDRITE_DESCRIPTION</description>
+        <descriptionHyperlinks><RecipeDef>Dusk_InstallStandard[SPECIALTY]Mechadendrite</RecipeDef></descriptionHyperlinks>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Dusk_Standard[SUBPROJECT]MechadendritesResearch</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <Mass>[MASS]</Mass>
+        </statBases>
+    </ThingDef>
+    
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Dusk_InstallStandard[SPECIALTY]Mechadendrite</defName>
+        <label>install standard [specialtyl] mechadendrite</label>
+        <description>install a standard [specialtyl] mechadendrite</description>
+        <descriptionHyperlinks>
+            <ThingDef>Dusk_Standard[SPECIALTY]Mechadendrite</ThingDef>
+            <HediffDef>Dusk_Standard[SPECIALTY]Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing a standard [specialtyl] mechadendrite</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Dusk_Standard[SPECIALTY]Mechadendrite</li>
+                    </thingDefs>
+                </filter>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Dusk_Standard[SPECIALTY]Mechadendrite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Dusk_Mechadendrites</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Dusk_Standard[SPECIALTY]Mechadendrite</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>Dusk_RemoveStandard[SPECIALTY]Mechadendrite</defName>
+        <label>remove standard [specialtyl] mechadendrite</label>
+        <description>Remove a standard [specialtyl] mechadendrite.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Dusk_Standard[SPECIALTY]Mechadendrite</ThingDef>
+            <HediffDef>Dusk_Standard[SPECIALTY]Mechadendrite</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Removing standard [specialtyl] mechadendrite.</jobString>
+        <removesHediff>Dusk_Standard[SPECIALTY]Mechadendrite</removesHediff>
+    </RecipeDef>
+    -->
 </Defs>
