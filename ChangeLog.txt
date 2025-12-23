@@ -19,7 +19,7 @@ Mechadendrite
 - Moved all new files into Nova Folder
 - Added Mod Settings Page (Experimental)
 - Added in a new template file
-- Removed 1.5 support (Sorry but maintaining 1.5 would be too much effort)
+- Removed 1.5 support
 - Removed old mechadendrite slots. You may have to reinstall mechadendrites
 that were on old slots but otherwise nothing should break.
 - Added new Research Projects for Basic, Standard, High, and Ultra tier
@@ -27,6 +27,9 @@ Mechanical Mechadendrites
 - Added a Log Message to notify the user that the mod has been loaded
 - Added a Log Warning to notify the user that they are on the Nova branch
 which is experimental and may have issues
+- Removed the old Mechadendrite slot
+- Removed old mechadendrite slot patch
+- Removed old mechadendrite body part group and mechadendrite slot in favour of newer ones
 
 ### Fixes
 - Deleted base mechadendrite xml file
