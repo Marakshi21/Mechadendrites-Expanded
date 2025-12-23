@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+<Dusk.MechadendritesExpanded>Mechadendrites Expanded</Dusk.MechadendritesExpanded>
 
 <Dusk.Experimental>[Experimental Settings]</Dusk.Experimental>
 
 <Dusk.CustomDamage>Custom Damage Worker</Dusk.CustomDamage>
 <Dusk.CustomDamageTooltip>Enable a custom damage worker that prevents damage being applied to mechadendrite slots if there's no implant in them.</Dusk.CustomDamageTooltip>
 
-<Dusk.EnableNegatives>Enable Mechadendrite Drawbacks</Dusk.EnableNegatives>
-<Dusk.EnableNegativesTooltip>Enable negative side effects on mechadendrites.</Dusk.EnableNegativesTooltip>
+<Dusk.OldSlots>Old Slot Format</Dusk.OldSlots>
+<Dusk.OldSlotsTooltip>Enables the old style of mechadendrite slots mostly for legacy reasons. WARNING: HEDIFFS ARE PERFORMANCE-HEAVY AND ADDING ON MORE SLOTS WILL EXASPERATE IT!</Dusk.OldSlotsTooltip>
+
+<Dusk.HardMode>Hard Mode</Dusk.HardMode>
+<Dusk.HardModeTooltip>Adds on drawbacks to mechadendrites, makes them harder to research, craft, find, and more. This is not recommended unless you want a more hardcore experience.</Dusk.HardModeTooltip>
 </LanguageData>
