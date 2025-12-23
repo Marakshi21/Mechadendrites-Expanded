@@ -58,7 +58,7 @@
     </HediffDef>
     
 
-    <ThingDef ParentName="BodyPartStandardMechadendriteBase">
+    <ThingDef ParentName="Dusk_BodypartStandardMechadendriteBase">
         <defName>Dusk_StandardGeneralMechadendrite</defName>
         <label>standard general mechadendrite</label>
         <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>

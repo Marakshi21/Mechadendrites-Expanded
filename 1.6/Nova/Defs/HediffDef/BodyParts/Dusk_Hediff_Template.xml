@@ -67,7 +67,7 @@
     </HediffDef>
     
 
-    <ThingDef ParentName="BodyPart[TIER]MechadendriteBase">
+    <ThingDef ParentName="Dusk_BodyPart[TIER]MechadendriteBase">
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
         <label>[tierl] [specialtyl] mechadendrite</label>
         <dsecription>[MECHADENDRITE_DESCRIPTION]</dsecription>
