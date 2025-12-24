@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Judo1U9TBGk=",
+  "dgSpecHash": "snMdwpugV3w=",
   "success": true,
-  "projectFilePath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
+  "projectFilePath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/Ryza/Ryza.csproj",
   "expectedPackageFiles": [
     "/home/Madeline/.nuget/packages/krafs.rimworld.ref/1.6.4633/krafs.rimworld.ref.1.6.4633.nupkg.sha512",
     "/home/Madeline/.nuget/packages/lib.harmony/2.4.2/lib.harmony.2.4.2.nupkg.sha512",

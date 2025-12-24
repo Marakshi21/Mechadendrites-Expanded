@@ -744,11 +744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
-      "projectName": "MechadendritesExpanded",
-      "projectPath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
+      "projectUniqueName": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/Ryza/Ryza.csproj",
+      "projectName": "Ryza",
+      "projectPath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/Ryza/Ryza.csproj",
       "packagesPath": "/home/Madeline/.nuget/packages/",
-      "outputPath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/",
+      "outputPath": "/mnt/aux/games/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded/Source/Mechadendrites-Expanded/Ryza/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/Madeline/.nuget/NuGet/NuGet.Config"
