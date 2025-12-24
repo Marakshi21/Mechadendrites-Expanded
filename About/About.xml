@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Mechadendrites Expanded - Nova</name>
-    <packageId>Marak.Mechandendrites.Expanded.Nova</packageId>
+    <packageId>Marak.Mechandendrites.Expanded</packageId>
     <author>Marakshi21</author>
     <description> Revision: Nova
     Mechadendrites Expanded: Nova is a revision/rework/overhaul of the original Mechadendrites Expanded mod that seeks to fix a variety of flaws found within the original mod that I found took away from gameplay more than helped. A primary example of this is how the amount of mechadendrite slots is planned to be reduced to 4 instead of 6 and progression is being reworked entirely. The old system of basic -> refined -> standard -> hardened is being dropped too in favour of a more vanilla style progression of basic -> standard -> high -> ultra or a different system that has less ambiguity on what tier is when. Specializations are being changed too to be less hyper-specific and more appropiate to what each Mechadendrite is called to further reduce ambiguity and improve the flow of progression.
@@ -15,6 +15,7 @@
         <li>Ludeon.RimWorld.Ideology</li>
         <li>Ludeon.RimWorld.Biotech</li>
         <li>Ludeon.RimWorld.Anomaly</li>
-        <li>Ludeon.RimWorld.Odyssey</li>
+	<li>Ludeon.RimWorld.Odyssey</li>
+	<li>Dusk21.RyzaFramework</li>
     </loadAfter>
 </ModMetaData>
