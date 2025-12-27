@@ -7,13 +7,12 @@ using Verse;
 // Going dark for now, will return later
 
 namespace MechadendritesExpanded;
-/*
-[HarmonyPatch(typeof(DamageWorker.DamageResult) , "ApplyToPawn")]
+
+[HarmonyPatch(typeof(DamageWorker.DamageResult) , "Apply")]
 public class MechadendritesExpanded_DamageWorker_AddInjury_Patch
 {
-    public static void Prefix(DamageWorker __instance, DamageInfo dinfo)
+    static bool prefix(DamageWorker __instance, DamageInfo __result) // I am bashing my head into a brick wall
     {
-        bool pawn;
+        
     }
 }
-*/
