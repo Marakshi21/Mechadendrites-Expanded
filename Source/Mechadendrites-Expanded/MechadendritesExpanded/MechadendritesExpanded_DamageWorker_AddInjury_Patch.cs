@@ -7,7 +7,7 @@ using RimWorld;
 // Let alone in a performant manner
 
 namespace MechadendritesExpanded;
-
+/*
 [HarmonyPatch(typeof(DamageWorker.DamageResult) , "ApplyToPawn")]
 public class MechadendritesExpanded_DamageWorker_AddInjury_Patch {
     static void prefix(DamageWorker __instance, DamageInfo __result) // I am bashing my head into a brick wall
@@ -18,3 +18,4 @@ public class MechadendritesExpanded_DamageWorker_AddInjury_Patch {
             return false;
     } 
 }
+*/
