@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using Verse;
 
+#nullable disable
 namespace MechadendritesExpanded;
 
 // Instantiate Harmony

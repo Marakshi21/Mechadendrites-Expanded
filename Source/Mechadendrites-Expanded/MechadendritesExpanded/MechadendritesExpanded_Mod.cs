@@ -1,6 +1,7 @@
 using UnityEngine;
 using Verse;
 
+#nullable disable
 namespace MechadendritesExpanded;
 
 public class MechadendritesExpanded_Mod : Mod

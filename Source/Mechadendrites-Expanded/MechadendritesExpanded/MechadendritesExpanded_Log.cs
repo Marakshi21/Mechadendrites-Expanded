@@ -1,5 +1,6 @@
 using Verse;
 
+#nullable disable
 namespace MechadendritesExpanded;
 
 [StaticConstructorOnStartup]

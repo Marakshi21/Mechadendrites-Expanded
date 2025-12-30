@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2025 Dusk21")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27edabfb3aadc551fd56263dde5ca24c5f6dd109")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e7de33aafef2859a20900fa02d7d65263b206c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MechadendritesExpanded")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MechadendritesExpanded")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
