@@ -1,5 +1,6 @@
 using RimWorld;
 using Verse;
+// ReSharper disable All
 
 #nullable disable
 namespace MechadendritesExpanded;

@@ -1,16 +1,17 @@
 using UnityEngine;
 using Verse;
+// Resharper disable all
 
 #nullable disable
 namespace MechadendritesExpanded;
 
 public class MechadendritesExpanded_Settings : ModSettings
 {
-    public static bool CustomDamage; // Enable a harmony patch that prevents mechadendrite slots from taking damage
+    private static bool CustomDamage; // Enable a harmony patch that prevents mechadendrite slots from taking damage
 
-    public static bool OldSlots; //Re-enables the two missing slots for legacy compat reasons
+    private static bool OldSlots; //Re-enables the two missing slots for legacy compat reasons
 
-    public static bool HardMode; // Adds on drawbacks to mechadendrites and makes them harder to make and use
+    private static bool HardMode; // Adds on drawbacks to mechadendrites and makes them harder to make and use
 
     public override void ExposeData()
     {

@@ -1,4 +1,5 @@
 using Verse;
+// Resharper disable all
 
 #nullable disable
 namespace MechadendritesExpanded;
