@@ -3,7 +3,7 @@ using Verse;
 // ReSharper disable All
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Core;
 
 [DefOf]
 public static class MechadendritesExpanded_BodyPartDefOf

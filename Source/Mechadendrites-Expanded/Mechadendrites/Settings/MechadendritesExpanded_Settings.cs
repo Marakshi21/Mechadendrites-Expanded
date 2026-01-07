@@ -3,7 +3,7 @@ using Verse;
 // Resharper disable all
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Settings;
 
 public class MechadendritesExpanded_Settings : ModSettings
 {

@@ -8,7 +8,7 @@ using RimWorld;
 // Let alone in a performant manner
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Patches;
 
 [HarmonyPatch(typeof(DamageWorker.DamageResult) , "ApplyToPawn")]
 public class MechadendritesExpanded_DamageWorker_AddInjury_Patch {

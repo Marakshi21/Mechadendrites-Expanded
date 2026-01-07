@@ -3,7 +3,7 @@ using Verse;
 // Resharper disable all
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Patches;
 
 // Instantiate Harmony
 public class MechadendritesExpanded_Harmony : Mod

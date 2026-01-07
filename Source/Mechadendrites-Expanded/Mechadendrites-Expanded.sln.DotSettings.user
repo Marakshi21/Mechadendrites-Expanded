@@ -43,4 +43,5 @@
   &lt;Assembly Path="/home/Nico/.local/share/Steam/steamapps/common/RimWorld/RimWorldLinux_Data/Managed/Assembly-CSharp.dll" /&gt;
   &lt;Assembly Path="/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/1.6/Assemblies/MechadendritesExpanded.dll" /&gt;
   &lt;Assembly Path="/home/Nico/.local/share/Steam/steamapps/workshop/content/294100/2226330302/1.6/Assemblies/PocketSand.dll" /&gt;
+  &lt;Assembly Path="/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Ryza-Framework/1.6/Assemblies/RyzaFramework.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

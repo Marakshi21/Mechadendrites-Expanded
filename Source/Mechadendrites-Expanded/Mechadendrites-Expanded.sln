@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechadendritesExpanded", "MechadendritesExpanded\MechadendritesExpanded.csproj", "{1458E310-B21A-4A1A-BC07-227F212C2DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mechadendrites", "Mechadendrites\Mechadendrites.csproj", "{1458E310-B21A-4A1A-BC07-227F212C2DE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

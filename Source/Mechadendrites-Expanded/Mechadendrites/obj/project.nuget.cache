@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6wShCt3gGVg=",
+  "dgSpecHash": "H1lvmqNWhcI=",
   "success": true,
-  "projectFilePath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
+  "projectFilePath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/Mechadendrites/Mechadendrites.csproj",
   "expectedPackageFiles": [
     "/home/Nico/.nuget/packages/krafs.rimworld.ref/1.6.4633/krafs.rimworld.ref.1.6.4633.nupkg.sha512",
     "/home/Nico/.nuget/packages/lib.harmony/2.4.2/lib.harmony.2.4.2.nupkg.sha512",

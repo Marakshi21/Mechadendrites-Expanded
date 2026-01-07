@@ -3,7 +3,7 @@ using Verse;
 // Resharper disable all
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Settings;
 
 public class MechadendritesExpanded_Mod : Mod
 {
@@ -13,7 +13,7 @@ public class MechadendritesExpanded_Mod : Mod
         this.GetSettings<MechadendritesExpanded_Settings>();
     }
     
-    public override string SettingsCategory() => "Dusk.MechadendritesExpanded".Translate();
+    public override string SettingsCategory() => "Dusk.Mechadendrites".Translate();
 
     public override void DoSettingsWindowContents(Rect inRect)
     {

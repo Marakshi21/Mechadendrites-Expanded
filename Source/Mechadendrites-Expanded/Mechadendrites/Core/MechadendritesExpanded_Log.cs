@@ -2,7 +2,7 @@ using Verse;
 // Resharper disable all
 
 #nullable disable
-namespace MechadendritesExpanded;
+namespace Mechadendrites.Core;
 
 [StaticConstructorOnStartup]
 public static class MechadendritesExpanded_Log

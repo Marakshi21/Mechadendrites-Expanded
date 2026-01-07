@@ -744,11 +744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
-      "projectName": "MechadendritesExpanded",
-      "projectPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/MechadendritesExpanded.csproj",
+      "projectUniqueName": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/Mechadendrites/Mechadendrites.csproj",
+      "projectName": "Mechadendrites",
+      "projectPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/Mechadendrites/Mechadendrites.csproj",
       "packagesPath": "/home/Nico/.nuget/packages/",
-      "outputPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/",
+      "outputPath": "/home/Nico/.steam/steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/Mechadendrites/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/Nico/.nuget/NuGet/NuGet.Config"
