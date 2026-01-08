@@ -10,7 +10,7 @@ using RimWorld;
 #nullable disable
 namespace Mechadendrites.Patches;
 
-[HarmonyPatch(typeof(DamageWorker.DamageResult) , "ApplyToPawn")]
+[HarmonyPatch(typeof(DamageWorker) , "ApplyToPawn")]
 public class MechadendritesExpanded_DamageWorker_AddInjury_Patch {
     void prefix(DamageWorker __instance, DamageInfo __result) // I give up
     {
