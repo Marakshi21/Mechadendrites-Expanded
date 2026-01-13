@@ -47,7 +47,7 @@
         <label>Standard Bladed Mechadendrites</label>
         <description>Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>500</baseCost>
+        <baseCost>250</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -62,7 +62,7 @@
         <label>Standard Tooling Mechadendrites</label>
         <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>500</baseCost>
+        <baseCost>250</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -98,7 +98,7 @@
         <label>High Tooling Mechadendrites</label>
         <description>Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>750</baseCost>
+        <baseCost>375</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -117,7 +117,7 @@
         <label>High Bladed Mechadendrites</label>
         <description>Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>750</baseCost>
+        <baseCost>375</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
