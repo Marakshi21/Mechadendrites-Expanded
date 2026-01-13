@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Standard Mechadendrite Research Tree -->
+    
+    <!-- Standard Mechadendrites -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardMechadendrites</defName>
+        <label>Standard Mechadendrites</label>
+        <description>Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+            <li>Bionics</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- Standardized Tooling Research - Artisan, Vacuum, Builder, Drill -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardToolingMechadendrites</defName>
+        <label>Standardized Tooling Mechadendrites</label>
+        <description>Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedToolsMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>2.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Vacuum: Spooky Season -->
+    <!--
+    <ResearchProjectDef>
+        <defName>Marak_AnAffrontToGod</defName>
+        <label>Vacuum Mechadendrite</label>
+        <description>What have we done?</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>400</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.75</researchViewX>
+        <researchViewY>4.75</researchViewY>
+    </ResearchProjectDef>
+    -->
+
+    <!-- Standard Bladed Mechadendrites: Butchers', Doctor, Agrarian -->
+    <ResearchProjectDef>
+        <defName>Marak_StandardBladedMechadendrites</defName>
+        <label>Standardized Bladed Mechadendrites</label>
+        <description>Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>1.75</researchViewY>
+    </ResearchProjectDef>
+    
+</Defs>
