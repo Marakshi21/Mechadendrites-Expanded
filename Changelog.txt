@@ -1,0 +1,11 @@
+Mechadendrites Expanded: Revision TBD
+
+### General
+- Renamed Refined Mechadendrites to Standard Mechadendrites
+- Renamed Standard Mechadendrites to High Mechadendrites
+- Reorganized the physical research layout to better fit vanilla style
+
+### Balance
+- Reblanced Research to be much less costly for simple implants
+
+### Mod Compat
