@@ -3,6 +3,9 @@
     <!-- Basic Tier (1): Entry into /Mechanical/ Mechadendrites, crude and primitive, small gains yet very cheap -->
     <!-- May introduce new Mechadendrites into basic to make it feel more like an actual tier vs a stepping stone -->
     <!-- Steel is the name of the game here, lots and lots of steel -->
+
+    <!-- PLANNED: GENERAL, MELEE, PLANTS/MINING, COOKING/CLEANING -->
+
     <ThingDef Name="Dusk_BodypartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -119,6 +122,7 @@
 
 
     <!-- Mining? Plants? -->
+    <!--
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Dusk_[TIER][SPECIALTY]Mechadendrite</defName>
         <label>[tierl] [specialtyl] mechadendrite</label>
@@ -201,4 +205,5 @@
         <jobString>Removing [tierl] [specialtyl] mechadendrite.</jobString>
         <removesHediff>Dusk_[TIER][SPECIALTY]Mechadendrite</removesHediff>
     </RecipeDef>
+    -->
 </Defs>

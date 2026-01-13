@@ -2,6 +2,9 @@
 <Defs>
     <!-- Standard Tier (2): An improvement over basic mechadendrites but still limited in some ways. Slightly above old refined but below old standard. Late-Industrial/Early-Spacer tier-->
     <!-- Steel and Components are the name of the game here -->
+
+    <!-- PLANNED: GENERAL, MELEE, PLANTS, MINING, COOKING, CLEANING, CRAFTING -->
+
     <ThingDef Name="Dusk_BodypartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
@@ -69,9 +72,6 @@
             <Steel>20</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
-        <recipeMaker>
-            <researchPrerequisite>Dusk_StandardMechadendritesResearch</researchPrerequisite>
-        </recipeMaker>
         <statBases>
             <Mass>3</Mass>
         </statBases>
