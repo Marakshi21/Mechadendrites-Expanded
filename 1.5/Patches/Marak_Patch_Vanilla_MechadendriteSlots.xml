@@ -8,7 +8,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite one</customLabel>
-                <coverage>0.005</coverage>
+                <coverage>0.0025</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -24,7 +24,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite two</customLabel>
-                <coverage>0.005</coverage>
+                <coverage>0.0025</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -40,7 +40,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite three</customLabel>
-                <coverage>0.005</coverage>
+                <coverage>0.0025</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -56,7 +56,7 @@
             <li>
                 <def>Mechadendrite_Slot</def>
                 <customLabel>mechadendrite four</customLabel>
-                <coverage>0.005</coverage>
+                <coverage>0.0025</coverage>
                 <depth>Outside</depth>
                 <groups>
                     <li>Marak_Mechadendrites</li>
@@ -64,7 +64,7 @@
             </li>
         </value>
     </Operation>
-
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
         <order>Append</order>
@@ -96,4 +96,5 @@
             </li>
         </value>
     </Operation>
+    -->
 </Patch> 
