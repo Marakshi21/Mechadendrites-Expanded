@@ -7,5 +7,13 @@ Mechadendrites Expanded: Revision TBD
 
 ### Balance
 - Reblanced Research to be much less costly for simple implants
+- Reduced number of slots down to 4 for balance, tedium, and performance
+- Buffed Basic General Mechadendrite Manipulation stat to 2% per mechadendrite
+- Buffed Standard/Refined General Mechadendrite Manipulation stat to 4% per mechadendrite
+- Buffed Most Standard/Refined Specialized Mechadendrite stat offsets to 7.5% per mechadendrite
+- Buffed Standard/Refined Cleaning Mechadendrite to 25% cleaning speed per mechadendrite (Why else use it?)
+- Buffed Standard/Refined Striker Mechadendrite to 20% AP
+- Buffed High/Standard General Mechadendrite to 7.5% Manipulation per mechadendrite
+- Buffed Most High/Standard Specialized Mechadendrite stat offsets to 12.5% per mechadendrite
 
 ### Mod Compat

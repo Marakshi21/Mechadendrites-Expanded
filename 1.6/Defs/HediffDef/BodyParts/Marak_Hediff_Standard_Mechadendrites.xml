@@ -129,9 +129,9 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>0.1</MiningSpeed>
-                    <DeepDrillingSpeed>0.05</DeepDrillingSpeed>
-                    <MiningYield>0.025</MiningYield>
+                    <MiningSpeed>0.125</MiningSpeed>
+                    <MiningSpeed>0.125</MiningSpeed>
+                    <MiningYield>0.05</MiningYield>
                 </statOffsets>
             </li>
         </stages>
@@ -213,10 +213,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <SmoothingSpeed>.075</SmoothingSpeed>
-                    <ConstructionSpeed>0.075</ConstructionSpeed>
-                    <ConstructSuccessChance>0.025</ConstructSuccessChance>
-                    <FixBrokenDownBuildingSuccessChance>0.025</FixBrokenDownBuildingSuccessChance>
+                    <SmoothingSpeed>0.125</SmoothingSpeed>
+                    <ConstructionSpeed>0.125</ConstructionSpeed>
+                    <ConstructSuccessChance>0.075</ConstructSuccessChance>
+                    <FixBrokenDownBuildingSuccessChance>0.075</FixBrokenDownBuildingSuccessChance>
                 </statOffsets>
             </li>
         </stages>
@@ -299,10 +299,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <PlantWorkSpeed>.1</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.1</PruningSpeed>
-                    <PlantHarvestYield>0.05</PlantHarvestYield>
-                    <DrugHarvestYield>0.05</DrugHarvestYield>
+                    <PlantWorkSpeed>0.125</PlantWorkSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.0.125</PruningSpeed>
+                    <PlantHarvestYield>0.075</PlantHarvestYield>
+                    <DrugHarvestYield>0.075</DrugHarvestYield>
                 </statOffsets>
             </li>
         </stages>
@@ -386,10 +386,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MedicalTendSpeed>0.075</MedicalTendSpeed>
-                    <MedicalTendQuality>0.05</MedicalTendQuality>
-                    <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
-                    <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+                    <MedicalTendSpeed>0.125</MedicalTendSpeed>
+                    <MedicalTendQuality>0.075</MedicalTendQuality>
+                    <MedicalOperationSpeed>0.125</MedicalOperationSpeed>
+                    <MedicalSurgerySuccessChance>0.075</MedicalSurgerySuccessChance>
                 </statOffsets>
             </li>
         </stages>
@@ -472,9 +472,9 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ButcheryFleshSpeed>0.075</ButcheryFleshSpeed>
-                    <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
-                    <FoodPoisonChance>-0.025</FoodPoisonChance>
+                    <ButcheryFleshSpeed>0.125</ButcheryFleshSpeed>
+                    <ButcheryFleshEfficiency>0.075</ButcheryFleshEfficiency>
+                    <FoodPoisonChance>-0.05</FoodPoisonChance>
                 </statOffsets>
             </li>
         </stages>
@@ -557,10 +557,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <GeneralLaborSpeed>.075</GeneralLaborSpeed>
-                    <SmeltingSpeed>.075</SmeltingSpeed>
-                    <ButcheryMechanoidSpeed>.075</ButcheryMechanoidSpeed>
-                    <ButcheryMechanoidEfficiency>.05</ButcheryMechanoidEfficiency>
+                    <GeneralLaborSpeed>0.125</GeneralLaborSpeed>
+                    <SmeltingSpeed>0.125</SmeltingSpeed>
+                    <ButcheryMechanoidSpeed>0.125</ButcheryMechanoidSpeed>
+                    <ButcheryMechanoidEfficiency>.075</ButcheryMechanoidEfficiency>
                 </statOffsets>
             </li>
         </stages>
@@ -642,7 +642,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <CleaningSpeed>0.25</CleaningSpeed>
+                    <CleaningSpeed>0.50</CleaningSpeed>
                 </statOffsets>
             </li>
         </stages>
