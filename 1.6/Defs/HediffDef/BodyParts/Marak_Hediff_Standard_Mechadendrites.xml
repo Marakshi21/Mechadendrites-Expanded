@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- Standard Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
+    <!-- high Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
     <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, SKILLED, GENERAL, OPPRESSIVE, FLORA, COOKING, INTELLECTUAL, MEDICAL -->
-    <!-- Base for Standard Mechadendrites -->
+    <!-- Base for high Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories>
@@ -33,12 +33,12 @@
         </recipeMaker>
     </ThingDef>
 
-    <!-- Standard Mechadendrite -->
+    <!-- high Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardMechadendrite</defName>
-        <label>standard general mechadendrite</label>
-        <labelNoun>a standard general mechadendrite</labelNoun>
-        <description>An installed standard general mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
+        <label>high general mechadendrite</label>
+        <labelNoun>a high general mechadendrite</labelNoun>
+        <description>An installed high general mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -58,8 +58,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
-        <label>standard general mechadendrite</label>
-        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the standard general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
+        <label>high general mechadendrite</label>
+        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the high general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
@@ -74,13 +74,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardMechadendrite</defName>
-        <label>install standard general mechadendrite</label>
-        <description>Install a standard general mechadendrite.</description>
+        <label>install high general mechadendrite</label>
+        <description>Install a high general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard general mechadendrite.</jobString>
+        <jobString>Installing a high general mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -104,13 +104,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardMechadendrite</defName>
-        <label>remove standard general mechadendrite</label>
-        <description>Remove standard general mechadendrite.</description>
+        <label>remove high general mechadendrite</label>
+        <description>Remove high general mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardMechadendrite</ThingDef>
             <HediffDef>Marak_StandardMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard general mechadendrite.</jobString>
+        <jobString>Removing high general mechadendrite.</jobString>
         <removesHediff>Marak_StandardMechadendrite</removesHediff>
     </RecipeDef>
     
@@ -118,9 +118,9 @@
     <!-- Drill Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
-        <label>standard drill mechadendrite</label>
-        <labelNoun>a standard drill mechadendrite</labelNoun>
-        <description>A standard drill mechadendrite. With a drill at the tip of it and a tough plasteel exterior, it can make short of any mining job given to it.</description>
+        <label>high drill mechadendrite</label>
+        <labelNoun>a high drill mechadendrite</labelNoun>
+        <description>A high drill mechadendrite. With a drill at the tip of it and a tough plasteel exterior, it can make short of any mining job given to it.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDrillMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDrillMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -139,8 +139,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDrillMechadendrite</defName>
-        <label>standard drill mechadendrite</label>
-        <description>Created by slapping a specialised drill onto its end, the standard drill mechadendrite can make short work of any collection of rocks it encounters. Designed with a reinforced plasteel shell and a steel drill head, it's able to burrow deep and drill away exposing valuable minerals to be gathered by the miner using it.</description>
+        <label>high drill mechadendrite</label>
+        <description>Created by slapping a specialised drill onto its end, the high drill mechadendrite can make short work of any collection of rocks it encounters. Designed with a reinforced plasteel shell and a steel drill head, it's able to burrow deep and drill away exposing valuable minerals to be gathered by the miner using it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDrillMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
@@ -159,13 +159,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardDrillMechadendrite</defName>
-        <label>install standard drill mechadendrite</label>
-        <description>Install a standard drill mechadendrite.</description>
+        <label>install high drill mechadendrite</label>
+        <description>Install a high drill mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardDrillMechadendrite</ThingDef>
             <HediffDef>Marak_StandardDrillMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard drill mechadendrite.</jobString>
+        <jobString>Installing a high drill mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -189,22 +189,22 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardDrillMechadendrite</defName>
-        <label>remove standard drill mechadendrite</label>
-        <description>Remove standard drill mechadendrite.</description>
+        <label>remove high drill mechadendrite</label>
+        <description>Remove high drill mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardDrillMechadendrite</ThingDef>
             <HediffDef>Marak_StandardDrillMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard drill mechadendrite.</jobString>
+        <jobString>Removing high drill mechadendrite.</jobString>
         <removesHediff>Marak_StandardDrillMechadendrite</removesHediff>
     </RecipeDef>
 
     <!-- Construction Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
-        <label>standard builder mechadendrite</label>
-        <labelNoun>a standard builder mechadendrite</labelNoun>
-        <description>An installed standard builder mechadendrite. Specially made for construction, this mechadendrite assists in the most menial and intensive parts of construction.</description>
+        <label>high builder mechadendrite</label>
+        <labelNoun>a high builder mechadendrite</labelNoun>
+        <description>An installed high builder mechadendrite. Specially made for construction, this mechadendrite assists in the most menial and intensive parts of construction.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardConstructionMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardConstructionMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -224,8 +224,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardConstructionMechadendrite</defName>
-        <label>standard builder mechadendrite</label>
-        <description>Designed with one goal in mind, the standard builder mechadendrite aims to make short work of any construction project put in front of it. Lined with various tools and programming on how to use said tools, the standard builder mechadendrite is a construction worker's best friend.</description>
+        <label>high builder mechadendrite</label>
+        <description>Designed with one goal in mind, the high builder mechadendrite aims to make short work of any construction project put in front of it. Lined with various tools and programming on how to use said tools, the high builder mechadendrite is a construction worker's best friend.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardConstructionMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
@@ -244,13 +244,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardConstructionMechadendrite</defName>
-        <label>install standard builder mechadendrite</label>
-        <description>Install a standard builder mechadendrite.</description>
+        <label>install high builder mechadendrite</label>
+        <description>Install a high builder mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardConstructionMechadendrite</ThingDef>
             <HediffDef>Marak_StandardConstructionMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard builder mechadendrite.</jobString>
+        <jobString>Installing a high builder mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -274,13 +274,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardConstructionMechadendrite</defName>
-        <label>remove standard builder mechadendrite</label>
-        <description>Remove standard builder mechadendrite.</description>
+        <label>remove high builder mechadendrite</label>
+        <description>Remove high builder mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardConstructionMechadendrite</ThingDef>
             <HediffDef>Marak_StandardConstructionMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard builder mechadendrite.</jobString>
+        <jobString>Removing high builder mechadendrite.</jobString>
         <removesHediff>Marak_StandardConstructionMechadendrite</removesHediff>
     </RecipeDef>
     
@@ -288,9 +288,9 @@
     <!-- Agrarian Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard agrarian mechadendrite</label>
-        <labelNoun>a standard agrarian mechadendrite</labelNoun>
-        <description>An installed standard agrarian mechadendrite. Better tools and a direct neural-link help the agrarian mechadendrite both work faster and semi-autonomously.</description>
+        <label>high agrarian mechadendrite</label>
+        <labelNoun>a high agrarian mechadendrite</labelNoun>
+        <description>An installed high agrarian mechadendrite. Better tools and a direct neural-link help the agrarian mechadendrite both work faster and semi-autonomously.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -310,7 +310,7 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
-        <label>standard agrarian mechadendrite</label>
+        <label>high agrarian mechadendrite</label>
         <description>Designed with the ideal of assisting in field work, the agrarian mechadendrite moves faster and works faster compared to its predecessor while a direct neural link grants it the ability to perform tasks on its own improving the efficiency of any farmers using it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
@@ -329,13 +329,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardPlantsMechadendrite</defName>
-        <label>install standard agrarian mechadendrite</label>
-        <description>Install a standard agrarian mechadendrite.</description>
+        <label>install high agrarian mechadendrite</label>
+        <description>Install a high agrarian mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard agrarian mechadendrite.</jobString>
+        <jobString>Installing a high agrarian mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -359,13 +359,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardPlantsMechadendrite</defName>
-        <label>remove standard agrarian mechadendrite</label>
-        <description>Remove standard agrarian mechadendrite.</description>
+        <label>remove high agrarian mechadendrite</label>
+        <description>Remove high agrarian mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardPlantsMechadendrite</ThingDef>
             <HediffDef>Marak_StandardPlantsMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard agrarian mechadendrite.</jobString>
+        <jobString>Removing high agrarian mechadendrite.</jobString>
         <removesHediff>Marak_StandardPlantsMechadendrite</removesHediff>
     </RecipeDef>
     
@@ -375,9 +375,9 @@
     <!-- NEW DESCRIPTION NEEDED -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
-        <label>standard doctor mechadendrite</label>
-        <labelNoun>a standard doctor mechadendrite</labelNoun>
-        <description>An installed standard doctor mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
+        <label>high doctor mechadendrite</label>
+        <labelNoun>a high doctor mechadendrite</labelNoun>
+        <description>An installed high doctor mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -397,8 +397,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
-        <label>standard doctor mechadendrite</label>
-        <description>Carrying an array of medical tools meant to both assist in the tending speed and quality of a patient, and surgical tools in the case of operation. The standard doctor mechadendrite is a preferred tool medical personnel working on the rim due to its nature to quickly clean debris, disinfect wounds, coagulate injuries, and more.</description>
+        <label>high doctor mechadendrite</label>
+        <description>Carrying an array of medical tools meant to both assist in the tending speed and quality of a patient, and surgical tools in the case of operation. The high doctor mechadendrite is a preferred tool medical personnel working on the rim due to its nature to quickly clean debris, disinfect wounds, coagulate injuries, and more.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardDoctorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
@@ -417,13 +417,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardDoctorMechadendrite</defName>
-        <label>install standard doctor mechadendrite</label>
-        <description>Install a standard doctor mechadendrite.</description>
+        <label>install high doctor mechadendrite</label>
+        <description>Install a high doctor mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardDoctorMechadendrite</ThingDef>
             <HediffDef>Marak_StandardDoctorMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard doctor mechadendrite.</jobString>
+        <jobString>Installing a high doctor mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -447,13 +447,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardDoctorMechadendrite</defName>
-        <label>remove standard doctor mechadendrite</label>
+        <label>remove high doctor mechadendrite</label>
         <description>Remove standard doctor mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardDoctorMechadendrite</ThingDef>
             <HediffDef>Marak_StandardDoctorMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard doctor mechadendrite.</jobString>
+        <jobString>Removing high doctor mechadendrite.</jobString>
         <removesHediff>Marak_StandardDoctorMechadendrite</removesHediff>
     </RecipeDef>
 
@@ -461,8 +461,8 @@
     <!-- Butchers' Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardButcherMechadendrite</defName>
-        <label>standard butchers' mechadendrite</label>
-        <labelNoun>a standard butchers' mechadendrite</labelNoun>
+        <label>high butchers' mechadendrite</label>
+        <labelNoun>a high butchers' mechadendrite</labelNoun>
         <description>An installed butchers' mechadendrite. Equipped with a sharp, strong blade and cleaning agent, it helps butcher apart animals while cleaning them too preserving more meat from their corpse.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardButcherMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardButcherMechadendrite</spawnThingOnRemoved>
@@ -482,8 +482,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardButcherMechadendrite</defName>
-        <label>standard butchers' mechadendrite</label>
-        <description>Installed with a sharp and powerful blade on its tip and pumps that push out water to clean as it goes, the standard butchers' mechadendrite helps make short work of animal corpses while preserving their meat for later consumption.</description>
+        <label>high butchers' mechadendrite</label>
+        <description>Installed with a sharp and powerful blade on its tip and pumps that push out water to clean as it goes, the high butchers' mechadendrite helps make short work of animal corpses while preserving their meat for later consumption.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardButcherMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
@@ -502,13 +502,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardButcherMechadendrite</defName>
-        <label>install standard butchers' mechadendrite</label>
-        <description>Install a standard butchers' mechadendrite.</description>
+        <label>install high butchers' mechadendrite</label>
+        <description>Install a high butchers' mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardButcherMechadendrite</ThingDef>
             <HediffDef>Marak_StandardButcherMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard butchers' mechadendrite.</jobString>
+        <jobString>Installing a high butchers' mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -532,13 +532,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardButcherMechadendrite</defName>
-        <label>remove standard butchers' mechadendrite</label>
-        <description>Remove standard butchers' mechadendrite.</description>
+        <label>remove high butchers' mechadendrite</label>
+        <description>Remove high butchers' mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardButcherMechadendrite</ThingDef>
             <HediffDef>Marak_StandardButcherMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard butchers' mechadendrite.</jobString>
+        <jobString>Removing high butchers' mechadendrite.</jobString>
         <removesHediff>Marak_StandardButcherMechadendrite</removesHediff>
     </RecipeDef>
 
@@ -546,9 +546,9 @@
     <!-- Artisan Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
-        <label>standard artisan mechadendrite</label>
-        <labelNoun>a standard artisan mechadendrite</labelNoun>
-        <description>An installed standard artisan mechadendrite. Designed to aid with artisanry, its shape and form highlight this in both tool selection and general design.</description>
+        <label>high artisan mechadendrite</label>
+        <labelNoun>a high artisan mechadendrite</labelNoun>
+        <description>An installed high artisan mechadendrite. Designed to aid with artisanry, its shape and form highlight this in both tool selection and general design.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -568,8 +568,8 @@
 
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardArtisanMechadendrite</defName>
-        <label>standard artisan mechadendrite</label>
-        <description>Designed with the intent of assisting in artistic and unskilled labour, the standard artisan mechadendrite is elegantly designed with both shape and form highlighting its artisanal ancestry. Whatever the task may be, it is likely this mechadendrite can assist. One way or another.</description>
+        <label>high artisan mechadendrite</label>
+        <description>Designed with the intent of assisting in artistic and unskilled labour, the high artisan mechadendrite is elegantly designed with both shape and form highlighting its artisanal ancestry. Whatever the task may be, it is likely this mechadendrite can assist. One way or another.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardArtisanMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
@@ -588,13 +588,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardArtisanMechadendrite</defName>
-        <label>install standard artisan mechadendrite</label>
-        <description>Install a standard artisan mechadendrite.</description>
+        <label>install high artisan mechadendrite</label>
+        <description>Install a high artisan mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
             <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard artisan mechadendrite.</jobString>
+        <jobString>Installing a high artisan mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -618,23 +618,22 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardArtisanMechadendrite</defName>
-        <label>remove standard artisan mechadendrite</label>
-        <description>Remove a standard artisan mechadendrite.</description>
+        <label>remove high artisan mechadendrite</label>
+        <description>Remove a high artisan mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardArtisanMechadendrite</ThingDef>
             <HediffDef>Marak_StandardArtisanMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard artisan mechadendrite.</jobString>
+        <jobString>Removing high artisan mechadendrite.</jobString>
         <removesHediff>Marak_StandardArtisanMechadendrite</removesHediff>
     </RecipeDef>
 
     <!-- Cleaning Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
-        <label>standard vacuum mechadendrite</label>
-        <labelNoun>a standard vacuum mechadendrite</labelNoun>
-        <description>A standard vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> <!-- Normie Description -->
-        <!-- <description>An affront to all that is holy. With a tube connected directly into the stomach, any dirt, dust, mites, grum, and other particulate sucked up get pumped into the user's stomach to be digested and stored within their body. God Help Us.</description> -->
+        <label>high vacuum mechadendrite</label>
+        <labelNoun>a high vacuum mechadendrite</labelNoun>
+        <description>A high vacuum mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> <!-- Normie Description -->
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -652,8 +651,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardCleaningMechadendrite</defName>
         <label>standard vacuum mechadendrite</label>
-        <description>A highly peculiar mechadendrite designed in an unorthodox manner. The standard vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description> <!-- Normie Description -->
-        <!-- <description>We have created an affront to God. Our scientists and engineers have designed a mechadendrite capable of sucking up dirt, dust, mites and other particulates that then pump it directly into the user's stomach where it'll be digested and stored among the body. May God have mercy on us.</description> -->  <!-- Spooky Season Description -->
+        <description>A highly peculiar mechadendrite designed in an unorthodox manner. The high vacuum mechadendrite acts like a vacuum cleaner able to suck up dust and other particulates while storing them in a chamber attached onto the mechadendrite chassis.</description> <!-- Normie Description -->
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>
@@ -663,7 +661,6 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
-            <!-- <researchPrerequisite>Marak_AnAffrontToGod</researchPrerequisite> -->
         </recipeMaker>
         <statBases>
             <Mass>2.5</Mass>
@@ -672,13 +669,13 @@
 
     <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
         <defName>Marak_InstallStandardCleaningMechadendrite</defName>
-        <label>install standard vacuum mechadendrite</label>
-        <description>Install a standard vacuum mechadendrite.</description>
+        <label>install high vacuum mechadendrite</label>
+        <description>Install a high vacuum mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Installing a standard vacuum mechadendrite.</jobString>
+        <jobString>Installing a high vacuum mechadendrite.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -702,13 +699,13 @@
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
         <defName>Marak_RemoveStandardCleaningMechadendrite</defName>
-        <label>remove standard vacuum Mechadendrite</label>
-        <description>Remove standard vacuum Mechadendrite.</description>
+        <label>remove high vacuum Mechadendrite</label>
+        <description>Remove high vacuum Mechadendrite.</description>
         <descriptionHyperlinks>
             <ThingDef>Marak_StandardCleaningMechadendrite</ThingDef>
             <HediffDef>Marak_StandardCleaningMechadendrite</HediffDef>
         </descriptionHyperlinks>
-        <jobString>Removing standard vacuum mechadendrite.</jobString>
+        <jobString>Removing high vacuum mechadendrite.</jobString>
         <removesHediff>Marak_StandardCleaningMechadendrite</removesHediff>
     </RecipeDef>
 </Defs>
