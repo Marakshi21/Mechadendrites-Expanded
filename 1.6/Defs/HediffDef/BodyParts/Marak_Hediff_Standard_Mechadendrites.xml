@@ -18,7 +18,7 @@
             <li>Advanced</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
         </statBases>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
@@ -62,7 +62,7 @@
         <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the high general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>10</Plasteel>
+            <Plasteel>15</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
             <Steel>5</Steel>
         </costList>
