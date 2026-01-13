@@ -17,7 +17,7 @@
         <label>Basic Mechadendrite Prototypes</label>
         <description>Establish the foundation for a new class of versatile tendril-like implants called mechadendrites, and create basic proof of concepts to show off their potential. Rigid and firm, these basic constructs are limited but grant invaluable insight into future refinements.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>300</baseCost>
+        <baseCost>250</baseCost>
         <prerequisites>
             <li>Machining</li>
             <li>Prosthetics</li>
@@ -32,7 +32,7 @@
         <label>Standard Mechadendrite Machining</label>
         <description>Refinements into the basic mechadendrite prototypes have yielded various improvements into the original designs. Smoother, better control, and stronger, these new chassis open the potential for significant specialization with additional research.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>600</baseCost>
+        <baseCost>500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_BasicMechadendrites</li>
@@ -47,7 +47,7 @@
         <label>Standard Bladed Mechadendrites</label>
         <description>Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>450</baseCost>
+        <baseCost>500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -62,7 +62,7 @@
         <label>Standard Tooling Mechadendrites</label>
         <description>Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
         <techLevel>Industrial</techLevel>
-        <baseCost>450</baseCost>
+        <baseCost>500</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <prerequisites>
             <li>Marak_RefinedMechadendrites</li>
@@ -78,7 +78,7 @@
         <label>High Mechadendrites</label>
         <description>Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>1500</baseCost>
+        <baseCost>750</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -98,7 +98,7 @@
         <label>High Tooling Mechadendrites</label>
         <description>Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>800</baseCost>
+        <baseCost>750</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -117,7 +117,7 @@
         <label>High Bladed Mechadendrites</label>
         <description>Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>800</baseCost>
+        <baseCost>750</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
