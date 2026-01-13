@@ -64,7 +64,7 @@
             </li>
         </value>
     </Operation>
-
+    <!--
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BodyDef[defName="Human"]/corePart/parts</xpath>
         <order>Append</order>
@@ -96,4 +96,5 @@
             </li>
         </value>
     </Operation>
+    -->
 </Patch> 
