@@ -4,7 +4,7 @@
     <!-- May introduce new Mechadendrites into basic to make it feel more like an actual tier vs a stepping stone -->
     <!-- Steel is the name of the game here, lots and lots of steel -->
 
-    <!-- PLANNED: GENERAL, MELEE, PLANTS/MINING, COOKING/CLEANING -->
+    <!-- PLANNED: GENERAL, MELEE, MINING -->
 
     <ThingDef Name="Dusk_BodypartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
@@ -145,7 +145,25 @@
                     <[STATS]></[STATS]>
                 </statOffsets>
             </li>
-        </stages> 
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>[WEAPONTYPE]</label>
+                        <capacities>
+                            <li>[stab/cut]</li>
+                        </capacities>
+                        <power>[VALUE]</power>
+                        <armorPenetration>[VALUE]</armorPenetration>
+                        <cooldownTime>[VALUE]</cooldownTime>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                        <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+                    </li>
+                </tools>
+            </li>
+        </comps>
     </HediffDef>
     
 

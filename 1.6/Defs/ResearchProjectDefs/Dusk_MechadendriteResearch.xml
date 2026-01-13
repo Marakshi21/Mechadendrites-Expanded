@@ -11,8 +11,8 @@
     <!-- Basic Mechadendrites -->
     <ResearchProjectDef ParentName="MechadendritesResearchBase">
         <defName>Dusk_BasicMechadendritesResearch</defName>
-        <label>Early day prototyping</label> <!-- Replace -->
-        <description>Develop early day prototypes for a new class of prosthetic implants known as "Mechadendrites".</description> <!-- Replace -->
+        <label>BASIC_MECHADENDRITES</label> <!-- Replace -->
+        <description>BASIC_MECHADENDRITES_DESC</description> <!-- Replace -->
         <techLevel>Industrial</techLevel>
         <baseCost>250</baseCost>
         <prerequisites>
@@ -21,6 +21,19 @@
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+        <ResearchProjectDef ParentName="MechadendritesResearchBase">
+        <defName>Dusk_BasicSpecializedMechadendritesResearch</defName>
+        <label>BASIC_SPECIALISED_MECHADENDRITES</label> <!-- Replace -->
+        <description>BASIC_SPECIALISED_MECHADENDRITES_DESC</description> <!-- Replace -->
+        <techLevel>Industrial</techLevel>
+        <baseCost>250</baseCost>
+        <prerequisites>
+            <li>Dusk_BasicMechadendritesResearch</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <!-- Tier 2 Mechadendrites -->
