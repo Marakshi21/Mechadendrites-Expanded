@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Mechadendrite_Slot"]/bleedRate</xpath>
+    <value>
+      <bleedRate>0.5</bleedRate>
+    </value>
+  </Operation>
+</Patch>
