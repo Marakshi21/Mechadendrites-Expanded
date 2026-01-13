@@ -2,7 +2,7 @@
     <v1.6>
         <li>/</li>
 	    <li>1.6</li>
-        <li IfModNotActive="ceteam.combatextended">1.6/Mods</li>
+        <li IfModNotActive="ceteam.combatextended">1.6/Mods/Weaponized/Core</li>
         <li IfModActive="ceteam.combatextended,donald.vcr">1.6/Mods/Combat</li>
     </v1.6>
 </loadFolders>
