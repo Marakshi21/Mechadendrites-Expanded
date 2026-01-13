@@ -15,7 +15,7 @@
             <li>Simple</li>
         </techHediffsTags>
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
@@ -46,7 +46,7 @@
                 <capMods>
                     <li>
                         <capacity>Manipulation</capacity>
-                        <offset>0.025</offset>
+                        <offset>0.04</offset>
                     </li>
                 </capMods>
             </li>
@@ -129,7 +129,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>0.025</offset>
+                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>
@@ -213,7 +213,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <MiningSpeed>.05</MiningSpeed>
+                    <MiningSpeed>0.075</MiningSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -295,8 +295,8 @@
         <stages>
             <li>
                 <statOffsets>
-                    <PlantWorkSpeed>.05</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.025</PruningSpeed>
+                    <PlantWorkSpeed>0.075</PlantWorkSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.075</PruningSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -376,10 +376,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <GeneralLaborSpeed>.05</GeneralLaborSpeed>
-                    <SmeltingSpeed>.05</SmeltingSpeed>
-                    <SmoothingSpeed>.05</SmoothingSpeed>
-                    <ConstructionSpeed>.025</ConstructionSpeed>
+                    <GeneralLaborSpeed>0.075</GeneralLaborSpeed>
+                    <SmeltingSpeed>0.075</SmeltingSpeed>
+                    <SmoothingSpeed>0.075</SmoothingSpeed>
+                    <ConstructionSpeed>0.075</ConstructionSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -462,7 +462,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <CleaningSpeed>0.1</CleaningSpeed>
+                    <CleaningSpeed>0.25</CleaningSpeed>
                 </statOffsets>
             </li>
         </stages>
@@ -548,7 +548,7 @@
                             <li>Stab</li>
                         </capacities>
                         <power>18</power>
-                        <armorPenetration>0.15</armorPenetration>
+                        <armorPenetration>0.2</armorPenetration>
                         <cooldownTime>2.5</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
