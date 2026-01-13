@@ -3,39 +3,6 @@
     <!-- Basic Tier (1): Entry into /Mechanical/ Mechadendrites, crude and primitive, small gains yet very cheap -->
     <!-- May introduce new Mechadendrites into basic to make it feel more like an actual tier vs a stepping stone -->
     <!-- Steel is the name of the game here, lots and lots of steel -->
-    <ThingDef Name="Dusk_BodypartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
-        <techLevel>Industrial</techLevel>
-        <thingCategories>
-            <li>BodyPartsProsthetic</li>
-        </thingCategories>
-        <graphicData>
-            <texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.8</drawSize>
-            <color>(154,124,104)</color>
-        </graphicData>
-        <techHediffsTags>
-            <li>Simple</li>
-        </techHediffsTags>
-        <statBases>
-            <WorkToMake>7500</WorkToMake>
-        </statBases>
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <displayPriority>600</displayPriority>
-            <researchPrerequisite>Dusk_BasicMechadendritesResearch</researchPrerequisite>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-        </recipeMaker>
-    </ThingDef>
 
     <!-- Basic Melee Mechadendrite -->
     <!--
