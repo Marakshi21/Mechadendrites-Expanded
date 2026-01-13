@@ -1,0 +1,10 @@
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/1.6/Assemblies/MechadendritesExpanded.dll
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/1.6/Assemblies/MechadendritesExpanded.pdb
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.csproj.AssemblyReference.cache
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.GeneratedMSBuildEditorConfig.editorconfig
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.AssemblyInfoInputs.cache
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.AssemblyInfo.cs
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.csproj.CoreCompileInputs.cache
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.sourcelink.json
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.dll
+/home/Nico/.local/share/Steam/steamapps/common/RimWorld/Mods/Mechadendrites-Expanded-Nova/Source/Mechadendrites-Expanded/MechadendritesExpanded/obj/Release/net48/MechadendritesExpanded.pdb

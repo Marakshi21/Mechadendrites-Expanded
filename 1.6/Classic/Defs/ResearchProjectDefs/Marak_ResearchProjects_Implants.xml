@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--
+    <ResearchTabDef>
+        <defName>Marak_MechadendritesExpanded</defName>
+        <label>(DEPRECATED!)</label>
+        <generalTitle>Mechadendrites Research</generalTitle>
+    </ResearchTabDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_BasicMechadendrites</defName>
+        <label>Basic Mechadendrite Prototypes (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Establish the foundation for a new class of versatile tendril-like implants called mechadendrites, and create basic proof of concepts to show off their potential. Rigid and firm, these basic constructs are limited but grant invaluable insight into future refinements.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>300</baseCost>
+        <prerequisites>
+            <li>Machining</li>
+            <li>Prosthetics</li>
+        </prerequisites>
+        <researchViewX>0.25</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_RefinedMechadendrites</defName>
+        <label>Refined Mechadendrite Machining (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Refinements into the basic mechadendrite prototypes have yielded various improvements into the original designs. Smoother, better control, and stronger, these new chassis open the potential for significant specialization with additional research.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>600</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_BasicMechadendrites</li>
+        </prerequisites>
+        <researchViewX>1.75</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_RefinedBladedMechadendrites</defName>
+        <label>Refined Bladed Mechadendrites (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Integrating a blade into the refined chassis has proven to be more advantageous than expected. While these bladed mechadendrites give up general usability, they more than make up in their prowess in mining, field work, or CQC.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>450</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_RefinedToolsMechadendrites</defName>
+        <label>Refined Tooling Mechadendrites (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Through slight modifications to the refined chassis, it is possible to attach various tools onto or into the chassis. These tools could then be used to help in various fields including fields of cleaning, construction, and aiding visibility in the darkness.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Industrial</techLevel>
+        <baseCost>450</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>Marak_StandardMechadendrites</defName>
+        <label>Standard Mechadendrites (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Through creating a unique blend of plasteel and steel and precision manufacturing granted by fabrication technologies, it is now possible to design a new tier of mechadendrites that surpass anything from before by a great margin. Stronger, faster, agile, standard-tier mechadendrite chassis beat anything from before.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>1500</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_RefinedMechadendrites</li>
+            <li>Bionics</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_StandardToolingMechadendrites</defName>
+        <label>Standardized Tooling Mechadendrites (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Iterate upon older tooling mechadendrites to create a stronger suite of tools to be used in a variety of applications, utilizing both Standard-tier chassis and lessons taken from older refined mechadendrites.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedToolsMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>2.75</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Marak_StandardBladedMechadendrites</defName>
+        <label>Standardized Bladed Mechadendrites (Deprecated)</label>
+        <description>(This Research is deprecated, please do not use it)
+            Expand upon the foundational work from refined-tier bladed mechadendrites to design more advantageous mechadendrites that assist in various fields not covered before.</description>
+        <tab>Marak_MechadendritesExpanded</tab>
+        <techLevel>Spacer</techLevel>
+        <baseCost>800</baseCost>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <prerequisites>
+            <li>Marak_StandardMechadendrites</li>
+            <li>Marak_RefinedBladedMechadendrites</li>
+        </prerequisites>
+        <researchViewX>5.25</researchViewX>
+        <researchViewY>1.75</researchViewY>
+    </ResearchProjectDef>
+    -->
+</Defs>
