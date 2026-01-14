@@ -59,7 +59,7 @@
     <ThingDef ParentName="BodyPartStandardMechadendriteBase">
         <defName>Marak_StandardMechadendrite</defName>
         <label>high general mechadendrite</label>
-        <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the high general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
+        <description>Forged with a unique blend of plasteel and steel to reduce costs and precision fabrication, the high general mechadendrite surpasses all that comes before it.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>10</Plasteel>

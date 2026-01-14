@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- Standard Tier: Equiv to prosthetic tier in vanilla, requires steel and components to craft -->
     <!-- CATALOGUE FOR QUICK SEARCH: SENSOR, SKILLED, GENERAL, WEAPONS -->
@@ -526,7 +526,7 @@
         <removesHediff>Marak_RefinedCleaningMechadendrite</removesHediff>
     </RecipeDef>
 
-        <!-- WEAPONS GROUP -->
+    <!-- WEAPONS GROUP -->
     <!-- Melee/Striker Mechadendrite -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
@@ -560,7 +560,7 @@
 
     <ThingDef ParentName="BodyPartRefinedMechadendriteBase">
         <defName>Marak_RefinedCombatMechadendrite</defName>
-        <label>standard striker mechadendrite</label>.
+        <label>standard striker mechadendrite</label>
         <description>Designed by slapping an extremely sharp and heavy blade onto its end, the standard striker mechadendrite pierces through flesh like it is nothing. Heavy Armour can prove troublesome though.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCombatMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
