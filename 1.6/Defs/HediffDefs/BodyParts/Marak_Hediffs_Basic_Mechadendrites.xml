@@ -33,7 +33,7 @@
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
         <labelNoun>a basic mechadendrite</labelNoun>
-        <description>An installed basic mechadendrite. Its rigid tendril-like form and primitive connection into the user's spine limits both movements and control.</description>
+        <description>An installed early day basic mechadendrite. It serves more as a proof of concept than anything useful.</description>
         <descriptionHyperlinks><ThingDef>Marak_BasicMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_BasicMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
@@ -54,7 +54,7 @@
     <ThingDef ParentName="BodyPartBasicMechadendriteBase">
         <defName>Marak_BasicMechadendrite</defName>
         <label>basic mechadendrite</label>
-        <description>A basic mechadendrite crafted from crude methods. Its rigid form restricts movements leading to most of its utility to grabbing and holding various items without having to exert excess energy. The wielder has some innate control thanks to primitive wiring into the surrounding muscles and spinal cord, but manual intervention can be required.</description>
+        <description>An early day basic general mechadendrite. Poor flexibility and limited movement holds back the design while a clunky grappler can at times get in the way of its user.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallBasicMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
             <Steel>30</Steel>
