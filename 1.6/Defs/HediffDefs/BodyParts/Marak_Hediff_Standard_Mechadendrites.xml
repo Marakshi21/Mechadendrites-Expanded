@@ -62,11 +62,11 @@
         <description>Fabricated using precision manufacturing, a unique blend of plasteel and steel give ample protection and agility while keeping costs down. While internal circuitry and nerve-link gels grant direct control over the high general mechadendrite. All while mini-servos provide fine motor function. It is superior to any previous mechadendrite in every way.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallStandardMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Plasteel>15</Plasteel>
+            <Plasteel>25</Plasteel>
             <ComponentSpacer>1</ComponentSpacer>
-            <Steel>5</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>10</Steel>
         </costList>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>2.5</Mass>
         </statBases>
@@ -151,7 +151,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
         </statBases>
@@ -236,7 +235,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -409,7 +407,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_StandardBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>5</Mass>
         </statBases>
@@ -494,7 +491,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_StandardBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>6</Mass>
         </statBases>
@@ -580,7 +576,6 @@
         <recipeMaker>
             <researchPrerequisite>Marak_StandardToolingMechadendrites</researchPrerequisite>
         </recipeMaker>
-        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
         <statBases>
             <Mass>3</Mass>
         </statBases>

@@ -59,7 +59,7 @@
         <description>A refinement upon the basic mechadendrite, this mechadendrite uses improved methods of machining leading to more fluid movements thanks to a flexible chassis. Its control is improved as well thanks to refined connections into muscles and the spinal cord allowing some minor control using impulses alone.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>15</Steel>
+            <Steel>30</Steel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <statBases>
@@ -142,7 +142,7 @@
         <description>A standard mechadendrite chassis that has a flashlight bolted into it. Despite its janky appearance, the flashlight was custom-made with the intent of being compact and long-living by sacrificing some brightness.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedOpticalMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
@@ -225,7 +225,7 @@
         <description>Rock and stone. This mechadendrite sports a modified pickaxe head and reinforced chassis to make it suitable for excavation operations. Able to strike deep and hard, it is an invaluable tool for any would-be miners.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedExcavatorMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
@@ -308,7 +308,7 @@
         <description>Ordained with a blade on its tip, this mechadendrite has been machined with the purpose of plant work in mind. Not only does its bladed tip assist in the cutting of plants, it can also be used to help dig a hole in a pinch.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedPlantsMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
@@ -391,10 +391,9 @@
         <description>Crafted with a variety of tools embedded across its chassis, this mechadendrite aims to help out in many more unskilled fields of labour. With a hot-swappable tip, tools can be swapped in and out as required by its wielder albeit manually.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedMultitoolMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedToolsMechadendrites</researchPrerequisite>
         </recipeMaker>
@@ -474,7 +473,7 @@
         <description>A peculiar mechadendrite that attaches a broom onto its edge at an angle with the sole intent of helping clean spaces up. Cheaper than most mechadendrites, this one seeks to help bring about a cleaner environment.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCleaningMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
@@ -565,12 +564,9 @@
         <description>Designed with similar principles to its bladed brethren, the striker mechadendrite forsakes its worker-based heritage to focus on melee combat. Able to strike hard, but slow, it can punch deep through flesh while struggling with armoured foes.</description>
         <descriptionHyperlinks><RecipeDef>Marak_InstallRefinedCombatMechadendrite</RecipeDef></descriptionHyperlinks>
         <costList>
-            <Steel>20</Steel>
+            <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-        </thingSetMakerTags>
         <recipeMaker>
             <researchPrerequisite>Marak_RefinedBladedMechadendrites</researchPrerequisite>
         </recipeMaker>
