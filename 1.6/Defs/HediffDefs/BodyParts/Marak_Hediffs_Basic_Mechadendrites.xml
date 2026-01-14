@@ -19,7 +19,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>5</Crafting>
+                <Crafting>6</Crafting>
             </skillRequirements>
             <researchPrerequisite>Marak_BasicMechadendrites</researchPrerequisite>
             <recipeUsers>
