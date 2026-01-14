@@ -471,8 +471,8 @@
                 <statOffsets>
                     <ButcheryFleshSpeed>0.125</ButcheryFleshSpeed>
                     <ButcheryFleshEfficiency>0.075</ButcheryFleshEfficiency>
-                    <FoodPoisonChance>-0.05</FoodPoisonChance>
-                    <CookSpeed>2</CookSpeed>
+                    <FoodPoisonChance>-0.075</FoodPoisonChance>
+                    <CookSpeed>2.5</CookSpeed>
                 </statOffsets>
             </li>
         </stages>
