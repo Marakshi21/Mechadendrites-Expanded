@@ -4,6 +4,8 @@ Mechadendrites Expanded: Revision TBD
 - Renamed Refined Mechadendrites to Standard Mechadendrites
 - Renamed Standard Mechadendrites to High Mechadendrites
 - Reorganized the physical research layout to better fit vanilla style
+- Redid most descriptions and touched up others to make things less verbose and more in-line with vanilla descriptions
+- Appeased The Holy Omnissiah
 
 ### Balance
 - Reblanced Research to be much less costly for simple implants
@@ -15,5 +17,6 @@ Mechadendrites Expanded: Revision TBD
 - Buffed Standard/Refined Striker Mechadendrite to 20% AP
 - Buffed High/Standard General Mechadendrite to 7.5% Manipulation per mechadendrite
 - Buffed Most High/Standard Specialized Mechadendrite stat offsets to 12.5% per mechadendrite
+- Increased the resource cost of all mechadendrites to balance the increased stats and fewer slots needed to reach max potential
 
 ### Mod Compat
