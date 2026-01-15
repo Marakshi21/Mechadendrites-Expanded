@@ -298,7 +298,7 @@
             <li>
                 <statOffsets>
                     <PlantWorkSpeed>0.125</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.0.125</PruningSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.125</PruningSpeed>
                     <PlantHarvestYield>0.075</PlantHarvestYield>
                     <DrugHarvestYield>0.075</DrugHarvestYield>
                 </statOffsets>
