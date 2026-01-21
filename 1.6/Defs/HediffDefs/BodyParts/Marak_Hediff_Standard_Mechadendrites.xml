@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- high Tier: Recipes generally include Components, Adv. Components, Plasteel, and Steel -->
+
     <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, SKILLED, GENERAL, OPPRESSIVE, FLORA, COOKING, INTELLECTUAL, MEDICAL -->
+
     <!-- Base for high Mechadendrites -->
     <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
         <techLevel>Spacer</techLevel>
@@ -41,6 +43,8 @@
         <description>An installed high general mechadendrite. A unique plasteel-steel blend and advanced circuitry grant it exceptional agility and utility.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -123,6 +127,8 @@
         <description>An installed high mining mechadendrite. Equipped with a drill on its end, it makes short of any mining job given to it.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDrillMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDrillMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -206,6 +212,8 @@
         <description>An installed high construction mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardConstructionMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardConstructionMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -284,13 +292,16 @@
     
     <!-- FLORA SUBGROUP -->
     <!-- field Mechadendrite -->
-    <HediffDef ParentName="AddedBodyPartBase">
+    
+    <HediffDef ParantName="AddedBodyPartBase">
         <defName>Marak_StandardPlantsMechadendrite</defName>
         <label>high field mechadendrite</label>
         <labelNoun>a high field mechadendrite</labelNoun>
         <description>An installed high field mechadendrite. An improvement over the standard field mechadendrite, it more efficiently helps in field work.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardPlantsMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -298,7 +309,7 @@
             <li>
                 <statOffsets>
                     <PlantWorkSpeed>0.125</PlantWorkSpeed>
-                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">.0.125</PruningSpeed>
+                    <PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.125</PruningSpeed>
                     <PlantHarvestYield>0.075</PlantHarvestYield>
                     <DrugHarvestYield>0.075</DrugHarvestYield>
                 </statOffsets>
@@ -367,6 +378,7 @@
         <removesHediff>Marak_StandardPlantsMechadendrite</removesHediff>
     </RecipeDef>
     
+    
     <!-- MEDICAL SUBGROUP -->
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>Marak_StandardDoctorMechadendrite</defName>
@@ -375,6 +387,8 @@
         <description>An installed high medical mechadendrite. Equipped with various treatment tools, it is capable of assisting in both tending people and performing operations.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardDoctorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardDoctorMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -460,6 +474,8 @@
         <description>An installed high butchers' mechadendrite. Despite its name, it helps in both butchering and cooking acting more as a culinary mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardButcherMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardButcherMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -545,6 +561,8 @@
         <description>An installed high multitool mechadendrite.</description>
         <descriptionHyperlinks><ThingDef>Marak_StandardArtisanMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardArtisanMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -629,6 +647,8 @@
         <description>A high cleaning mechadendrite. With an unorthodox design and vacuum cleaner on its end, it helps clean.</description> <!-- Normie Description -->
         <descriptionHyperlinks><ThingDef>Marak_StandardCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_StandardCleaningMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>

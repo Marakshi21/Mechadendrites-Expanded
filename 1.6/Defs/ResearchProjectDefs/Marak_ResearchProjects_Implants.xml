@@ -97,7 +97,7 @@
         <label>High Tooling Mechadendrites</label>
         <description>Combine lessons from standard tooling mechadendrites and modern techniques to improve existing tooling mechadendrites and create newer ones to boost fields that were previously not covered.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>375</baseCost>
+        <baseCost>350</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
@@ -116,7 +116,7 @@
         <label>High Bladed Mechadendrites</label>
         <description>Improve upon standard-tier bladed mechadendrites expanding on their ability to aid in jobs and cover more fields than before.</description>
         <techLevel>Spacer</techLevel>
-        <baseCost>375</baseCost>
+        <baseCost>350</baseCost>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>

@@ -38,6 +38,8 @@
         <description>An installed standard general mechadendrite. Various improvements over its predecessor has yielded a significant boost to productivity.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -121,6 +123,8 @@
         <description>An installed standard flashlight mechadendrite. Embedded with a flashlight, it provides a boost to sight thanks to more light.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedOpticalMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedOpticalMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -207,6 +211,8 @@
         <description>An installed standard mining mechadendrite. It assists its user in mining away rocks.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedExcavatorMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedExcavatorMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -289,6 +295,8 @@
         <description>An installed standard field mechadendrite. A curved blade on its tip helps slice up plants while a second head helps with digging up ground to plant seeds in.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedPlantsMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedPlantsMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -370,6 +378,8 @@
         <description>An installed standard multitool mechadendrite. Equipped with a variety of tools, it is the swiss army knife of mechadendrites.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedMultitoolMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedMultitoolMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -455,6 +465,8 @@
         <description>A standard sweeper mechadendrite. With an angled broom attached on its tip, the sweeper helps sweep up any messes that may exist.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedCleaningMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedCleaningMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>
@@ -535,6 +547,8 @@
         <description>An installed standard striker mechadendrite. Its sharp blade allows it to strike through flesh with ease while armoured foes prove a challenge.</description>
         <descriptionHyperlinks><ThingDef>Marak_RefinedCombatMechadendrite</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>Marak_RefinedCombatMechadendrite</spawnThingOnRemoved>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <addedPartProps>
             <solid>true</solid>
         </addedPartProps>

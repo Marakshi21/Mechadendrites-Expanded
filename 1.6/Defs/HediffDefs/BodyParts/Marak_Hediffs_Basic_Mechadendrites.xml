@@ -35,6 +35,8 @@
         <labelNoun>a basic mechadendrite</labelNoun>
         <description>An installed early day basic mechadendrite. It serves more as a proof of concept than anything useful.</description>
         <descriptionHyperlinks><ThingDef>Marak_BasicMechadendrite</ThingDef></descriptionHyperlinks>
+        <alwaysAllowMothball>True</alwaysAllowMothball>
+        <alwaysAllowMothballCached>True</alwaysAllowMothballCached>
         <spawnThingOnRemoved>Marak_BasicMechadendrite</spawnThingOnRemoved>
         <addedPartProps>
             <solid>true</solid>
