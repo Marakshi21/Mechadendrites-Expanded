@@ -5,13 +5,16 @@
     <!-- CATALOGUE FOR QUICK SEARCH: BASE, SENSOR, SKILLED, GENERAL, OPPRESSIVE, FLORA, COOKING, INTELLECTUAL, MEDICAL -->
 
     <!-- Base for high Mechadendrites -->
-    <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartStandardMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories>
             <li>BodyPartsBionic</li>
         </thingCategories>
         <graphicData>
             <color>(189,169,118)</color>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.8</drawSize>
         </graphicData>
         <tradeTags>
             <li>Bionic</li>
@@ -21,6 +24,7 @@
         </techHediffsTags>
         <statBases>
             <WorkToMake>15000</WorkToMake>
+            <Mass>2.5</Mass>
         </statBases>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
@@ -32,6 +36,10 @@
                 <li>FabricationBench</li>
             </recipeUsers>
             <displayPriority>300</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
         </recipeMaker>
     </ThingDef>
 
@@ -76,7 +84,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardMechadendrite</defName>
         <label>install high general mechadendrite</label>
         <description>Install a high general mechadendrite.</description>
@@ -104,6 +112,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -162,7 +173,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardDrillMechadendrite</defName>
         <label>install high mining mechadendrite</label>
         <description>Install a high mining mechadendrite.</description>
@@ -190,6 +201,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardDrillMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -248,7 +262,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardConstructionMechadendrite</defName>
         <label>install high construction mechadendrite</label>
         <description>Install a high construction mechadendrite.</description>
@@ -276,6 +290,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardConstructionMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -336,7 +353,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardPlantsMechadendrite</defName>
         <label>install high field mechadendrite</label>
         <description>Install a high field mechadendrite.</description>
@@ -364,6 +381,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardPlantsMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -423,7 +443,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardDoctorMechadendrite</defName>
         <label>install high medical mechadendrite</label>
         <description>Install a high medical mechadendrite.</description>
@@ -451,6 +471,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardDoctorMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -510,7 +533,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardButcherMechadendrite</defName>
         <label>install high butchers' mechadendrite</label>
         <description>Install a high butchers' mechadendrite.</description>
@@ -538,6 +561,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardButcherMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -597,7 +623,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardArtisanMechadendrite</defName>
         <label>install high multitool mechadendrite</label>
         <description>Install a high multitool mechadendrite.</description>
@@ -625,6 +651,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardArtisanMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -680,7 +709,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallStandardCleaningMechadendrite</defName>
         <label>install high cleaning mechadendrite</label>
         <description>Install a high cleaning mechadendrite.</description>
@@ -708,6 +737,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_StandardCleaningMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>12</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">

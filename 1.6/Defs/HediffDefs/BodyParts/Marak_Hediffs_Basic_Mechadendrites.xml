@@ -2,21 +2,30 @@
 <Defs>
     <!-- Basic Tier: Entry into all other mechadendrites, quite useless, requires only steel to make -->
     <!-- Base for Basic Mechadendrites -->
-    <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartMechadendriteBase" Abstract="True">
+    <ThingDef Name="BodyPartBasicMechadendriteBase" ParentName="BodyPartBase" Abstract="True">
         <techLevel>Industrial</techLevel>
         <thingCategories>
             <li>BodyPartsProsthetic</li>
         </thingCategories>
         <graphicData>
             <color>(154,124,104)</color>
+            <texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.8</drawSize>
         </graphicData>
         <techHediffsTags>
             <li>Simple</li>
         </techHediffsTags>
         <statBases>
             <WorkToMake>7500</WorkToMake>
+            <Mass>2.5</Mass>
         </statBases>
         <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <displayPriority>600</displayPriority>
             <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -66,7 +75,7 @@
         </statBases>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartMechadendriteBase">
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>Marak_InstallBasicMechadendrite</defName>
         <label>install basic mechadendrite</label>
         <description>Install a basic mechadendrite.</description>
@@ -94,6 +103,9 @@
             <li>Mechadendrite_Slot</li>
         </appliedOnFixedBodyParts>
         <addsHediff>Marak_BasicMechadendrite</addsHediff>
+        <skillRequirements>
+            <Medicine>6</Medicine>
+        </skillRequirements>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryRemoveImplantBase">
