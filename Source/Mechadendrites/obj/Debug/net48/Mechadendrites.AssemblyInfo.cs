@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Dusk")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Dusk21")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2025 Dusk")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+5aa615c9850f4fbe0744a0f84b6c332141ea0aef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+1bc247cee4db1a0ff63b686c3d3828c5da76987f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mechadendrites")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mechadendrites")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

@@ -1,0 +1,12 @@
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Assemblies/Mechadendrites.dll
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Assemblies/Mechadendrites.pdb
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.csproj.AssemblyReference.cache
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.AssemblyInfoInputs.cache
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.AssemblyInfo.cs
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.csproj.CoreCompileInputs.cache
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.sourcelink.json
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.dll
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/Source/Mechadendrites/obj/Debug/net48/Mechadendrites.pdb
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/1.6/Assemblies/Mechadendrites.dll
+/mnt/aux/projects/RimWorld/Mechadendrites-Expanded-Devel/1.6/Assemblies/Mechadendrites.pdb
